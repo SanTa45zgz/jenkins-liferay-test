@@ -11,7 +11,7 @@ pipeline {
         expression {params.DES == true}
       }
       steps {
-        sh 'dos2unix gradlew && sudo --preserve-env=PATH env gradle deploy'
+        sh 'dos2unix gradlew && gradle deploy'
       }
     }
     stage('build DES') {
