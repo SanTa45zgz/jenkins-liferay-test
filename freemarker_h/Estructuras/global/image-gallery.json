@@ -1,0 +1,278 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "en_GB",
+        "de_DE"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " No se puede poner más de un contenido de este tipo con visualización completa en una página. ",
+                "eu_ES": " Ezin da mota honetako eduki bat baino gehiago jarri orrialde batean bistaratze osoarekin. ",
+                "pt_PT": "Você não pode colocar mais de um conteúdo deste tipo com exibição total em uma página.",
+                "fr_FR": " Vous ne pouvez pas mettre plus d'un contenu de ce type avec un affichage complet sur une page. ",
+                "en_GB": " You must not put more than one content of this type with full display on a page. ",
+                "de_DE": "Sie können nicht mehr als einen Inhalt dieses Typs mit voller Anzeige auf einer Seite platzieren."
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuimagegallerywarning",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": " Título ",
+                "eu_ES": " Izenburua ",
+                "pt_PT": "Título",
+                "fr_FR": " Titre ",
+                "en_GB": " Title ",
+                "de_DE": "Titel"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehuimagegallerytitle",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": " Diapositiva ",
+                "eu_ES": " Diapositiba ",
+                "pt_PT": "Slide",
+                "fr_FR": " Diapositive ",
+                "en_GB": " Slide ",
+                "de_DE": "Bild"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuslide",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Imagen ",
+                        "eu_ES": " Irudia ",
+                        "pt_PT": "Imagem",
+                        "fr_FR": " Image ",
+                        "en_GB": " Image ",
+                        "de_DE": "Bild"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "document-library",
+                    "fieldNamespace": "ddm",
+                    "indexType": "",
+                    "localizable": true,
+                    "name": "ehuimagegalleryimage",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "ddm-documentlibrary",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Texto alternativo de la imagen ",
+                                "eu_ES": " Irudiaren ordezko testua ",
+                                "pt_PT": "Texto alternativo da imagem",
+                                "fr_FR": " Texte alternatif de l’image ",
+                                "en_GB": " Image’s alternative text ",
+                                "de_DE": "Alternativer Text des Bildes"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": " Descripción de la imagen para que cuando ésta no se vea no se pierda información ",
+                                "eu_ES": " Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin ",
+                                "pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas",
+                                "fr_FR": " Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu ",
+                                "en_GB": " Description of the image not to lose information when it is not seen ",
+                                "de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird"
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehuimagegalleryimagealttext",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Pie de imagen ",
+                        "eu_ES": " Irudiaren oina ",
+                        "pt_PT": "Legenda da imagem",
+                        "fr_FR": " Légende ",
+                        "en_GB": " Image’s foot ",
+                        "de_DE": "Bildunterschrift"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehuimagegalleryimagefoottext",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        }
+    ]
+}

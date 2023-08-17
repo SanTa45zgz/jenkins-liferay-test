@@ -1,0 +1,847 @@
+{
+    "availableLanguageIds": ["es_ES", "eu_ES", "pt_PT", "fr_FR", "de_DE", "en_GB"],
+    "contentType": "journal",
+    "dataDefinitionFields": [{
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "alphabeticalOrder": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "options": {
+                    "en_GB": [{
+                            "reference": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web",
+                            "label": "School of Architecture",
+                            "value": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web"
+                        }, {
+                            "reference": "Arte-Ederren-Fakultatea_cabecera_web",
+                            "label": "Faculty of Fine Arts",
+                            "value": "Arte-Ederren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Hezkuntza-Fakultatea_cabecera_web",
+                            "label": "Faculty of Education - Bilbao",
+                            "value": "Bilboko-Hezkuntza-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web",
+                            "label": "Faculty of Engineering -  Bilbao - Building I",
+                            "value": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web",
+                            "label": "Faculty of Engineering -  Bilbao - Building II",
+                            "value": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web",
+                            "label": "Faculty of Engineering -  Bilbao - Portugalete",
+                            "value": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web",
+                            "label": "Faculty of Economics and Business - Donostia",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web",
+                            "label": "Faculty of Economics and Business - Elkano",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web",
+                            "label": "Faculty of Economics and Business - Gasteiz",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web",
+                            "label": "Faculty of Economics and Business - Sarriko",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web"
+                        }, {
+                            "reference": "Farmazia-Fakultatea_cabecera_web",
+                            "label": "Faculty of Pharmacy",
+                            "value": "Farmazia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web",
+                            "label": "Faculty of Engineering - Gipuzkoa - Donostia",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web",
+                            "label": "Faculty of Engineering - Gipuzkoa - Eibar",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web"
+                        }, {
+                            "reference": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web",
+                            "label": "Faculty of Social and Communication Sciences",
+                            "value": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web",
+                            "label": "Faculty of Education and Sport - Education",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web",
+                            "label": "Faculty of Education and Sport - Sport",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web",
+                            "label": "Faculty of Education, Philosophy and Anthropology - Building I",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web",
+                            "label": "Faculty of Education, Philosophy and Anthropology - Building II",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Informatika-Fakultatea_cabecera_web",
+                            "label": "Faculty of Informatics",
+                            "value": "Informatika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Kimika-Fakultatea_cabecera_web",
+                            "label": "Faculty of Chemistry",
+                            "value": "Kimika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web",
+                            "label": "Faculty of Labour Relations and Social Work - Vitoria-Gasteiz",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web",
+                            "label": "Faculty of Labour Relations and Social Work - Leioa",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Letren-Fakultatea_cabecera_web",
+                            "label": "Faculty of Arts",
+                            "value": "Letren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web",
+                            "label": "Faculty of Medicine and Nursing - Donostia",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web",
+                            "label": "Faculty of Medicine and Nursing - Leioa",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web"
+                        }, {
+                            "reference": "Psikologia-Fakultatea_cabecera_web",
+                            "label": "Faculty of Psychology",
+                            "value": "Psikologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web",
+                            "label": "Faculty of Engineering - Vitoria-Gasteiz",
+                            "value": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web"
+                        }, {
+                            "reference": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web",
+                            "label": "Faculty of Science and Technology",
+                            "value": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Donostia_cabecera_web",
+                            "label": "Faculty of Law - Donostia",
+                            "value": "Zuzenbide-Fakultatea_Donostia_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Leioa_cabecera_web",
+                            "label": "Faculty of Law - Leioa",
+                            "value": "Zuzenbide-Fakultatea_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Doktorego-Eskola_cabecera_web",
+                            "label": "Doctoral School",
+                            "value": "Doktorego-Eskola_cabecera_web"
+                        }
+                    ],
+                    "eu_ES": [{
+                            "reference": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web",
+                            "label": "Arkitektura Goi Eskola Teknikoa",
+                            "value": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web"
+                        }, {
+                            "reference": "Arte-Ederren-Fakultatea_cabecera_web",
+                            "label": "Arte Ederren Fakultatea",
+                            "value": "Arte-Ederren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Hezkuntza-Fakultatea_cabecera_web",
+                            "label": "Bilboko Hezkuntza Fakultatea",
+                            "value": "Bilboko-Hezkuntza-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web",
+                            "label": "Bilboko Ingeniaritza Eskola - I Eraikina",
+                            "value": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web",
+                            "label": "Bilboko Ingeniaritza Eskola - II Eraikina",
+                            "value": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web",
+                            "label": "Bilboko Ingeniaritza Eskola - Portugalete",
+                            "value": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web",
+                            "label": "Ekonomia eta Enpresa Fakultatea - Donostia",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web",
+                            "label": "Ekonomia eta Enpresa Fakultatea - Elkano",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web",
+                            "label": "Ekonomia eta Enpresa Fakultatea - Gasteiz",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web",
+                            "label": "Ekonomia eta Enpresa Fakultatea - Sarriko",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web"
+                        }, {
+                            "reference": "Farmazia-Fakultatea_cabecera_web",
+                            "label": "Farmazia Fakultatea",
+                            "value": "Farmazia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web",
+                            "label": "Gipuzkoako Ingeniaritza Eskola - Donostia",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web",
+                            "label": "Gipuzkoako Ingeniaritza Eskola - Eibar",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web"
+                        }, {
+                            "reference": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web",
+                            "label": "Gizarte eta Komunikazio Zientzien Fakultatea",
+                            "value": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web",
+                            "label": "Hezkuntza eta Kirol Fakultatea - Hezkuntza",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web",
+                            "label": "Hezkuntza eta Kirol Fakultatea - Kirola",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web",
+                            "label": "Hezkuntza, Filosofia eta Antropologia Fakultatea - I Eraikina",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web",
+                            "label": "Hezkuntza, Filosofia eta Antropologia Fakultatea - II Eraikina",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Informatika-Fakultatea_cabecera_web",
+                            "label": "Informatika Fakultatea",
+                            "value": "Informatika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Kimika-Fakultatea_cabecera_web",
+                            "label": "Kimika Fakultatea",
+                            "value": "Kimika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web",
+                            "label": "Lan Harreman eta Gizarte Langintza Fakultatea - Gasteiz",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web",
+                            "label": "Lan Harreman eta Gizarte Langintza Fakultatea - Leioa",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Letren-Fakultatea_cabecera_web",
+                            "label": "Letren Fakultatea",
+                            "value": "Letren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web",
+                            "label": "Medikuntza eta Erizaintza Fakultatea - Donostia",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web",
+                            "label": "Medikuntza eta Erizaintza Fakultatea - Leioa",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web"
+                        }, {
+                            "reference": "Psikologia-Fakultatea_cabecera_web",
+                            "label": "Psikologia Fakultatea",
+                            "value": "Psikologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web",
+                            "label": "Vitoria-Gasteizko Ingeniaritza Eskola",
+                            "value": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web"
+                        }, {
+                            "reference": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web",
+                            "label": "Zientzia eta Teknologia Fakultatea",
+                            "value": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Donostia_cabecera_web",
+                            "label": "Zuzenbide Fakultatea - Donostia",
+                            "value": "Zuzenbide-Fakultatea_Donostia_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Leioa_cabecera_web",
+                            "label": "Zuzenbide Fakultatea - Leioa",
+                            "value": "Zuzenbide-Fakultatea_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Doktorego-Eskola_cabecera_web",
+                            "label": "Doktorego Eskola",
+                            "value": "Doktorego-Eskola_cabecera_web"
+                        }
+                    ],
+                    "es_ES": [{
+                            "reference": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web",
+                            "label": "Escuela Técnica Superior de Arquitectura",
+                            "value": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web"
+                        }, {
+                            "reference": "Arte-Ederren-Fakultatea_cabecera_web",
+                            "label": "Facultad de Bellas Artes",
+                            "value": "Arte-Ederren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Hezkuntza-Fakultatea_cabecera_web",
+                            "label": "Facultad de Educación de Bilbao",
+                            "value": "Bilboko-Hezkuntza-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web",
+                            "label": "Escuela de Ingeniería de Bilbao - Edificio I",
+                            "value": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web",
+                            "label": "Escuela de Ingeniería de Bilbao - Edificio II",
+                            "value": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web",
+                            "label": "Escuela de Ingeniería de Bilbao - Portugalete",
+                            "value": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web",
+                            "label": "Facultad de Economía y Empresa - Donostia",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web",
+                            "label": "Facultad de Economía y Empresa - Elkano",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web",
+                            "label": "Facultad de Economía y Empresa - Gasteiz",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web",
+                            "label": "Facultad de Economía y Empresa - Sarriko",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web"
+                        }, {
+                            "reference": "Farmazia-Fakultatea_cabecera_web",
+                            "label": "Facultad de Farmacia",
+                            "value": "Farmazia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web",
+                            "label": "Escuela de Ingeniería de Gipuzkoa - Donostia",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web",
+                            "label": "Escuela de Ingeniería de Gipuzkoa - Eibar",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web"
+                        }, {
+                            "reference": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web",
+                            "label": "Facultad de Ciencias Sociales y de la Comunicación",
+                            "value": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web",
+                            "label": "Facultad de Educación y Deporte - Educación",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web",
+                            "label": "Facultad de Educación y Deporte - Deporte",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web",
+                            "label": "Facultad de Educación, Filosofía y Antropología - Edificio I",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web",
+                            "label": "Facultad de Educación, Filosofía y Antropología - Edificio II",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Informatika-Fakultatea_cabecera_web",
+                            "label": "Facultad de Informática",
+                            "value": "Informatika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Kimika-Fakultatea_cabecera_web",
+                            "label": "Facultad de Química",
+                            "value": "Kimika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web",
+                            "label": "Relaciones Laborales y Trabajo Social - Vitoria-Gasteiz",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web",
+                            "label": "Relaciones Laborales y Trabajo Social - Leioa",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Letren-Fakultatea_cabecera_web",
+                            "label": "Facultad de Letras",
+                            "value": "Letren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web",
+                            "label": "Facultad de Medicina y Enfermería - Donostia",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web",
+                            "label": "Facultad de Medicina y Enfermería - Leioa",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web"
+                        }, {
+                            "reference": "Psikologia-Fakultatea_cabecera_web",
+                            "label": "Facultad de Psicología",
+                            "value": "Psikologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web",
+                            "label": "Escuela de Ingeniería de Vitoria-Gasteiz",
+                            "value": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web"
+                        }, {
+                            "reference": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web",
+                            "label": "Facultad de Ciencia y Tecnología",
+                            "value": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Donostia_cabecera_web",
+                            "label": "Facultad de Derecho - Donostia",
+                            "value": "Zuzenbide-Fakultatea_Donostia_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Leioa_cabecera_web",
+                            "label": "Facultad de Derecho - Leioa",
+                            "value": "Zuzenbide-Fakultatea_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Doktorego-Eskola_cabecera_web",
+                            "label": "Escuela de Doctorado",
+                            "value": "Doktorego-Eskola_cabecera_web"
+                        }
+                    ],
+                    "fr_FR": [{
+                            "reference": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web",
+                            "label": "École d'Architecture",
+                            "value": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web"
+                        }, {
+                            "reference": "Arte-Ederren-Fakultatea_cabecera_web",
+                            "label": "Faculté des Beaux-Arts",
+                            "value": "Arte-Ederren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Hezkuntza-Fakultatea_cabecera_web",
+                            "label": "Faculté d'éducation de Bilbao",
+                            "value": "Bilboko-Hezkuntza-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web",
+                            "label": "Faculté d'Ingénierie - Bilbao - Bâtiment I",
+                            "value": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web",
+                            "label": "Faculté d'Ingénierie - Bilbao - Bâtiment II",
+                            "value": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web",
+                            "label": "Faculté d'Ingénierie - Bilbao - Bâtiment II",
+                            "value": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web",
+                            "label": "Faculté d'Économie et de Commerce - Donostia",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web",
+                            "label": "Faculté d'Économie et de Commerce - Elkano",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web",
+                            "label": "Faculté d'Économie et de Commerce - Gasteiz",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web",
+                            "label": "Faculté d'Économie et de Commerce - Sarriko",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web"
+                        }, {
+                            "reference": "Farmazia-Fakultatea_cabecera_web",
+                            "label": "Faculté de Pharmacie",
+                            "value": "Farmazia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web",
+                            "label": "École d'ingénierie de Gipuzkoa - Donostia",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web",
+                            "label": "École d'ingénierie de Gipuzkoa - Eibar",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web"
+                        }, {
+                            "reference": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web",
+                            "label": "Faculté des sciences sociales et de la communication",
+                            "value": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web",
+                            "label": "Faculté d'Éducation et de Sport - Éducation",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web",
+                            "label": "Faculté d'Éducation et de Sport - Sport",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web",
+                            "label": "Faculté d'Éducation, de Philosophie et d'Anthropologie - Bâtiment I",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web",
+                            "label": "Faculté d'Éducation, de Philosophie et d'Anthropologie - Bâtiment II",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Informatika-Fakultatea_cabecera_web",
+                            "label": "Faculté d'Informatique",
+                            "value": "Informatika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Kimika-Fakultatea_cabecera_web",
+                            "label": "Faculté de Chimie",
+                            "value": "Kimika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web",
+                            "label": "Faculté des relations de travail et du travail social - Vitoria-Gasteiz",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web",
+                            "label": "Faculté des relations de travail et du travail social - Leioa",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Letren-Fakultatea_cabecera_web",
+                            "label": "Faculté d'Arts",
+                            "value": "Letren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web",
+                            "label": "Faculté de Médecine et d'Infirmières - Donostia",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web",
+                            "label": "Faculté de Médecine et d'Infirmières - Leioa",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web"
+                        }, {
+                            "reference": "Psikologia-Fakultatea_cabecera_web",
+                            "label": "Faculté de Psychologie",
+                            "value": "Psikologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web",
+                            "label": "École d'Ingénierie de Vitoria-Gasteiz",
+                            "value": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web"
+                        }, {
+                            "reference": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web",
+                            "label": "Faculté des Sciences et de la Technologie",
+                            "value": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Donostia_cabecera_web",
+                            "label": "Faculté de Droit - Donostia",
+                            "value": "Zuzenbide-Fakultatea_Donostia_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Leioa_cabecera_web",
+                            "label": "Faculté de Droit - Leioa",
+                            "value": "Zuzenbide-Fakultatea_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Doktorego-Eskola_cabecera_web",
+                            "label": "Ecole Doctorale",
+                            "value": "Doktorego-Eskola_cabecera_web"
+                        }
+                    ],
+                    "pt_PT": [{
+                            "reference": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web",
+                            "label": "Escola Técnica Superior de Arquitetura",
+                            "value": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web"
+                        }, {
+                            "reference": "Arte-Ederren-Fakultatea_cabecera_web",
+                            "label": "Faculdade de Artes Plásticas",
+                            "value": "Arte-Ederren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Hezkuntza-Fakultatea_cabecera_web",
+                            "label": "Faculdade de Educação de Bilbao",
+                            "value": "Bilboko-Hezkuntza-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web",
+                            "label": "Escola de Engenharia de Bilbao - Edifício I",
+                            "value": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web",
+                            "label": "Escola de Engenharia de Bilbao - Edifício II",
+                            "value": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web",
+                            "label": "Escola de Engenharia de Bilbao - Portugalete",
+                            "value": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web",
+                            "label": "Faculdade de Economia e Negócios - Donostia",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web",
+                            "label": "Faculdade de Economia e Negócios - Elkano",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web",
+                            "label": "Faculdade de Economia e Negócios - Gasteiz",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web",
+                            "label": "Faculdade de Economia e Negócios - Sarriko",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web"
+                        }, {
+                            "reference": "Farmazia-Fakultatea_cabecera_web",
+                            "label": "Faculdade de Farmácia",
+                            "value": "Farmazia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web",
+                            "label": "Escola de Engenharia de Gipuzkoa - Donostia",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web",
+                            "label": "Escola de Engenharia de Gipuzkoa - Eibar",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web"
+                        }, {
+                            "reference": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web",
+                            "label": "Faculdade de Ciências Sociais e Comunicação",
+                            "value": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web",
+                            "label": "Faculdade de Educação e Esporte - Educação",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web",
+                            "label": "Faculdade de Educação e Esporte - Esporte",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web",
+                            "label": "Faculdade de Educação, Filosofia e Antropologia - Edifício I",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web",
+                            "label": "Faculdade de Educação, Filosofia e Antropologia - Edifício II",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Informatika-Fakultatea_cabecera_web",
+                            "label": "Faculdade de Informática",
+                            "value": "Informatika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Kimika-Fakultatea_cabecera_web",
+                            "label": "Faculdade de Química",
+                            "value": "Kimika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web",
+                            "label": "Relações Trabalhistas e Serviço Social - Vitoria-Gasteiz",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web",
+                            "label": "Relações Trabalhistas e Serviço Social - Leioa",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Letren-Fakultatea_cabecera_web",
+                            "label": "Faculdade de Letras",
+                            "value": "Letren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web",
+                            "label": "Faculdade de Medicina e Enfermagem - Donostia",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web",
+                            "label": "Faculdade de Medicina e Enfermagem - Leioa",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web"
+                        }, {
+                            "reference": "Psikologia-Fakultatea_cabecera_web",
+                            "label": "Faculdade de Psicologia",
+                            "value": "Psikologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web",
+                            "label": "Escola de Engenharia de Vitoria-Gasteiz",
+                            "value": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web"
+                        }, {
+                            "reference": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web",
+                            "label": "Faculdade de Ciências e Tecnologia",
+                            "value": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Donostia_cabecera_web",
+                            "label": "Faculdade de Direito - Donostia",
+                            "value": "Zuzenbide-Fakultatea_Donostia_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Leioa_cabecera_web",
+                            "label": "Faculdade de Direito - Leioa",
+                            "value": "Zuzenbide-Fakultatea_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Doktorego-Eskola_cabecera_web",
+                            "label": "Escola de Doutorado",
+                            "value": "Doktorego-Eskola_cabecera_web"
+                        }
+                    ],
+                    "de_DE": [{
+                            "reference": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web",
+                            "label": "Schule für Architektur",
+                            "value": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web"
+                        }, {
+                            "reference": "Arte-Ederren-Fakultatea_cabecera_web",
+                            "label": "Fakultät der Schönen Künste",
+                            "value": "Arte-Ederren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Hezkuntza-Fakultatea_cabecera_web",
+                            "label": "Fakultät für Bildungswissenschaften - Bilbao",
+                            "value": "Bilboko-Hezkuntza-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web",
+                            "label": "Fakultät für Ingenieurwissenschaften - Bilbao - Gebäude I.",
+                            "value": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web",
+                            "label": "Fakultät für Ingenieurwissenschaften - Bilbao - Gebäude II.",
+                            "value": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web",
+                            "label": "Fakultät für Ingenieurwissenschaften - Bilbao - Portugalete",
+                            "value": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web",
+                            "label": "Wirtschaftswissenschaftliche Fakultät - Donostia",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web",
+                            "label": "Wirtschaftswissenschaftliche Fakultät - Elkano",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web",
+                            "label": "Wirtschaftswissenschaftliche Fakultät - Gasteiz",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web",
+                            "label": "Wirtschaftswissenschaftliche Fakultät - Sarriko",
+                            "value": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web"
+                        }, {
+                            "reference": "Farmazia-Fakultatea_cabecera_web",
+                            "label": "Fakultät für Pharmazie",
+                            "value": "Farmazia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web",
+                            "label": "Fakultät für Ingenieurwissenschaften - Gipuzkoa - Donostia",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web",
+                            "label": "Fakultät für Ingenieurwissenschaften - Gipuzkoa - Eibar",
+                            "value": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web"
+                        }, {
+                            "reference": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web",
+                            "label": "Fakultät für Sozial- und Kommunikationswissenschaften",
+                            "value": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web",
+                            "label": "Fakultät für Bildung und Sport - Bildung",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web",
+                            "label": "Fakultät für Bildung und Sport - Sport",
+                            "value": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web",
+                            "label": "Fakultät für Pädagogik, Philosophie und Anthropologie - Gebäude I.",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web",
+                            "label": "Fakultät für Pädagogik, Philosophie und Anthropologie - Gebäude II.",
+                            "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web"
+                        }, {
+                            "reference": "Informatika-Fakultatea_cabecera_web",
+                            "label": "Fakultät für Informatik",
+                            "value": "Informatika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Kimika-Fakultatea_cabecera_web",
+                            "label": "Fakultät für Chemie",
+                            "value": "Kimika-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web",
+                            "label": "Fakultät für Arbeitsbeziehungen und Sozialarbeit - Vitoria-Gasteiz",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web"
+                        }, {
+                            "reference": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web",
+                            "label": "Fakultät für Arbeitsbeziehungen und Sozialarbeit - Leioa",
+                            "value": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Letren-Fakultatea_cabecera_web",
+                            "label": "Kunstschule",
+                            "value": "Letren-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web",
+                            "label": "Fakultät für Medizin und Pflege - Donostia",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web"
+                        }, {
+                            "reference": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web",
+                            "label": "Fakultät für Medizin und Pflege - Leioa",
+                            "value": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web"
+                        }, {
+                            "reference": "Psikologia-Fakultatea_cabecera_web",
+                            "label": "Fakultät für Psychologie",
+                            "value": "Psikologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web",
+                            "label": "Fakultät für Ingenieurwissenschaften - Vitoria-Gasteiz",
+                            "value": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web"
+                        }, {
+                            "reference": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web",
+                            "label": "Fakultät für Wissenschaft und Technologie",
+                            "value": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Donostia_cabecera_web",
+                            "label": "Rechtswissenschaftliche Fakultät - Donostia",
+                            "value": "Zuzenbide-Fakultatea_Donostia_cabecera_web"
+                        }, {
+                            "reference": "Zuzenbide-Fakultatea_Leioa_cabecera_web",
+                            "label": "Rechtswissenschaftliche Fakultät - Leioa",
+                            "value": "Zuzenbide-Fakultatea_Leioa_cabecera_web"
+                        }, {
+                            "reference": "Doktorego-Eskola_cabecera_web",
+                            "label": "Doktoratsschule",
+                            "value": "Doktorego-Eskola_cabecera_web"
+                        }
+                    ]
+                },
+                "multiple": false,
+                "nativeField": false,
+                "fieldReference": "Imagen",
+                "dataSourceType": ["manual"]
+            },
+            "defaultValue": {},
+            "fieldType": "select",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": "Header Image",
+                "eu_ES": "Goiburuko irudia",
+                "es_ES": "Imagen de la cabecera",
+                "fr_FR": "Image d'en-tête",
+                "de_DE": "Header-Bild",
+                "pt_PT": "Imagem de cabeçalho"
+            },
+            "localizable": true,
+            "name": "Imagen",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "pt_PT": ""
+            }
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [{
+                "dataLayoutRows": [{
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["Imagen"]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "eu_ES": "Deskribapena"
+                },
+                "title": {
+                    "eu_ES": "Orrialdea"
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "en_GB": "Header",
+            "eu_ES": "Goiburua",
+            "es_ES": "Cabecera",
+            "fr_FR": "Tête",
+            "pt_PT": "Cabeçalho",
+            "de_DE": "Header"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "eu_ES",
+    "description": {},
+    "name": {
+        "en_GB": "Header",
+        "eu_ES": "Goiburua",
+        "es_ES": "Cabecera",
+        "fr_FR": "Tête",
+        "pt_PT": "Cabeçalho",
+        "de_DE": "Header"
+    },
+    "storageType": "default"
+}

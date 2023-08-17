@@ -1,0 +1,1398 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "en_GB",
+        "de_DE"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "Nota para Centros: Este contenido (con visualización de Imagen, Trama o Vídeo) debe ser siempre el primer elemento de la página principal y no se debe utilizar más de un contenido de este tipo con alguna de esas visualizaciones.",
+                "eu_ES": "Ikastegientzako oharra: eduki hau (Irudi, Bilbe edo Bideo bistaratzeekin) orri nagusiko lehen elementua izan behar da beti eta ez da mota honetako eduki bat baino gehiago erabili behar bistaratze horietako batekin.",
+                "pt_PT": "Nota para Centros: Este conteúdo (com exibição de Imagem, Raster ou Vídeo) deve ser sempre o primeiro item na página principal e não mais de um conteúdo deste tipo deve ser usado com qualquer uma dessas visualizações.",
+                "fr_FR": "Remarque pour les Centres: Ce contenu (avec affichage Image, Raster ou Vidéo) doit toujours être le premier élément de la page principale et pas plus d'un contenu de ce type ne doit être utilisé avec l'un de ces affichages.",
+                "en_GB": "Note for Centres: This content (with Image, Pattern or Video display) must always be the first element of the main page and no more than one content of this type should be used with any of these displays.",
+                "de_DE": "Hinweis für Zentren: Dieser Inhalt (mit Bild-, Muster- oder Videoanzeige) muss immer das erste Element der Hauptseite sein, und mit keiner dieser Anzeigen darf mehr als ein Inhalt dieses Typs verwendet werden."
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "IkastegientzakoOharraEdukiHauIrudiBilbeEdoBideoBistaratzeekinOrriNagusikoLehenElementuaIzanBeharDaBetiEtaEzDaMotaHonetakoEdukiBatBainoGehiagoErabiliBeharBistaratzeHorietakoBatekin",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": "Datos generales",
+                "eu_ES": "Datu orokorrak",
+                "pt_PT": "Dados gerais",
+                "fr_FR": "Données générales",
+                "en_GB": "General data",
+                "de_DE": "Allgemeine Daten"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "DatosGenerales",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Título",
+                        "eu_ES": "Izenburua",
+                        "pt_PT": "Título",
+                        "fr_FR": "Titre",
+                        "en_GB": "Title",
+                        "de_DE": "Titel"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "titulo",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": "Subtítulo / Texto de la pestaña (solo para Centros)",
+                        "eu_ES": "Azpititulua / Erlaitzaren testua (Ikastegientzat soilik)",
+                        "pt_PT": "Subtítulo / Texto de tabulação (apenas para Centros)",
+                        "fr_FR": "Sous-titre / Texte de l'onglet (uniquement pour les Centres)",
+                        "en_GB": "Subtitle / Tab text (only for Centers)",
+                        "de_DE": "Untertitel / Tabulatortext (nur für Zentren)"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "subtitulo",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": "Fecha (solo para Centros)",
+                        "eu_ES": "Data (Ikastegientzat soilik)",
+                        "pt_PT": "Data (apenas para Centros)",
+                        "fr_FR": "Date (uniquement pour les Centres)",
+                        "en_GB": "Date (only for Centers)",
+                        "de_DE": "Datum (nur für Zentren)"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "date",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "fecha",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-date"
+                },
+                {
+                    "label": {
+                        "es_ES": "Descripción",
+                        "eu_ES": "Deskribapena",
+                        "pt_PT": "Descrição",
+                        "fr_FR": "Description",
+                        "en_GB": "Description",
+                        "de_DE": "Beschreibung"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "descripcion",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "textarea"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": "Galería de imágenes (solo para Centros)",
+                "eu_ES": "Irudi galeria (Ikastegientzat soilik)",
+                "pt_PT": "Galeria de imagens (apenas para Centros)",
+                "fr_FR": "Galerie d'images (uniquement pour les Centres)",
+                "en_GB": "Image gallery (only for Centers)",
+                "de_DE": "Bildergalerie (nur für Zentren)"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "GaleriaImagenes",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Dispone de galería de imágenes",
+                        "eu_ES": "Argazki galeria du",
+                        "pt_PT": "Possui galeria de imagens",
+                        "fr_FR": "Contenu avec galerie de photos",
+                        "en_GB": "Content with photo gallery",
+                        "de_DE": "Inhalt mit Fotogalerie"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "false",
+                        "eu_ES": false,
+                        "pt_PT": "false",
+                        "fr_FR": "false",
+                        "en_GB": "false",
+                        "de_DE": "false"
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "Si se selecciona, mostrará el icono de la galería",
+                        "eu_ES": "Hau aukeratzen bada, galeriaren ikonoa bistaratuko da",
+                        "pt_PT": "Se selecionado, ele exibirá o ícone da galeria",
+                        "fr_FR": "Si sélectionné, l'icône de la galerie sera affichée",
+                        "en_GB": "If selected, the gallery icon will be displayed",
+                        "de_DE": "Wenn ausgewählt, wird das Galeriesymbol angezeigt"
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "Galeria",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": "Enlaces",
+                "eu_ES": "Estekak",
+                "pt_PT": "Links",
+                "fr_FR": "Liens",
+                "en_GB": "Links",
+                "de_DE": "Links"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Enlaces",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Texto del enlace principal",
+                        "eu_ES": "Esteka nagusiaren testua",
+                        "pt_PT": "Texto do link principal",
+                        "fr_FR": "Texte du lien principal",
+                        "en_GB": "Main link text",
+                        "de_DE": "Hauptlinktext"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "EnlacePrincipal",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": "Dirección web principal",
+                                "eu_ES": "Web helbide nagusia",
+                                "pt_PT": "Endereço web principal",
+                                "fr_FR": "Adresse web principale",
+                                "en_GB": "Main web address",
+                                "de_DE": "Hauptwebadresse"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "https://www.ejemplo.com",
+                                "eu_ES": "https://www.adibide.com",
+                                "pt_PT": "https://www.exemplo.com",
+                                "fr_FR": "https://www.exemple.com",
+                                "en_GB": "https://www.example.com",
+                                "de_DE": "https://www.beispiel.com"
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "UrlPrincipal",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": true,
+                            "showLabel": true,
+                            "type": "text",
+                            "nestedFields": [
+                                {
+                                    "label": {
+                                        "es_ES": "Externo",
+                                        "eu_ES": "Kanpokoa",
+                                        "pt_PT": "Externo",
+                                        "fr_FR": "Externe",
+                                        "en_GB": "External",
+                                        "de_DE": "Extern"
+                                    },
+                                    "options": [
+                                        {
+                                            "value": "Si",
+                                            "label": {
+                                                "es_ES": "Sí",
+                                                "eu_ES": "Bai",
+                                                "pt_PT": "Sim",
+                                                "fr_FR": "Oui",
+                                                "en_GB": "Yes",
+                                                "de_DE": "Ja"
+                                            }
+                                        },
+                                        {
+                                            "value": "No",
+                                            "label": {
+                                                "es_ES": "No",
+                                                "eu_ES": "Ez",
+                                                "pt_PT": "Não",
+                                                "fr_FR": "Non",
+                                                "en_GB": "No",
+                                                "de_DE": "Nein"
+                                            }
+                                        }
+                                    ],
+                                    "predefinedValue": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "style": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "tip": {
+                                        "es_ES": "Si se marca como externo se abrirá en una nueva pestaña",
+                                        "eu_ES": "Kanpoko gisa markatuta badago fitxa berri batean irekiko da",
+                                        "pt_PT": "Se estiver marcado como externo irá abrir em uma nova aba",
+                                        "fr_FR": "S'il est marqué comme externe, il s'ouvrira dans un nouvel onglet",
+                                        "en_GB": "If it is marked as external it will open in a new tab",
+                                        "de_DE": "Wenn es als extern markiert ist, wird es in einer neuen Registerkarte geöffnet"
+                                    },
+                                    "dataType": "radio",
+                                    "indexType": "keyword",
+                                    "localizable": true,
+                                    "name": "Externo",
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "type": "radio"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": "Texto del enlace secundario",
+                        "eu_ES": "Bigarren mailako estekaren testua",
+                        "pt_PT": "Texto do link secundário",
+                        "fr_FR": "Texte du lien secondaire",
+                        "en_GB": "Secondary link text",
+                        "de_DE": "Sekundärer Linktext"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "EnlaceSecundario",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": "Dirección web secundaria",
+                                "eu_ES": "Bigarren mailako web helbidea",
+                                "pt_PT": "Endereço da web secundário",
+                                "fr_FR": "Adresse web secondaire",
+                                "en_GB": "Secondary web address",
+                                "de_DE": "Sekundäre Webadresse"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "https://www.ejemplo.com",
+                                "eu_ES": "https://www.adibide.com",
+                                "pt_PT": "https://www.exemplo.com",
+                                "fr_FR": "https://www.exemple.com",
+                                "en_GB": "https://www.example.com",
+                                "de_DE": "https://www.beispiel.com"
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "UrlSecundaria",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text",
+                            "nestedFields": [
+                                {
+                                    "label": {
+                                        "es_ES": "Externo",
+                                        "eu_ES": "Kanpokoa",
+                                        "pt_PT": "Externo",
+                                        "fr_FR": "Externe",
+                                        "en_GB": "External",
+                                        "de_DE": "Extern"
+                                    },
+                                    "options": [
+                                        {
+                                            "value": "Si",
+                                            "label": {
+                                                "es_ES": "Sí",
+                                                "eu_ES": "Bai",
+                                                "pt_PT": "Sim",
+                                                "fr_FR": "Oui",
+                                                "en_GB": "Yes",
+                                                "de_DE": "Ja"
+                                            }
+                                        },
+                                        {
+                                            "value": "No",
+                                            "label": {
+                                                "es_ES": "No",
+                                                "eu_ES": "Ez",
+                                                "pt_PT": "Não",
+                                                "fr_FR": "Non",
+                                                "en_GB": "No",
+                                                "de_DE": "Nein"
+                                            }
+                                        }
+                                    ],
+                                    "predefinedValue": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "style": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "tip": {
+                                        "es_ES": "Si se marca como externo se abrirá en una nueva pestaña",
+                                        "eu_ES": "Kanpoko gisa markatuta badago fitxa berri batean irekiko da",
+                                        "pt_PT": "Se estiver marcado como externo irá abrir em uma nova aba",
+                                        "fr_FR": "S'il est marqué comme externe, il s'ouvrira dans un nouvel onglet",
+                                        "en_GB": "If it is marked as external it will open in a new tab",
+                                        "de_DE": "Wenn es als extern markiert ist, wird es in einer neuen Registerkarte geöffnet"
+                                    },
+                                    "dataType": "radio",
+                                    "indexType": "keyword",
+                                    "localizable": true,
+                                    "name": "ExternoSecundario",
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "type": "radio"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": "Texto del enlace terciario",
+                        "eu_ES": "Hirugarren mailako estekaren testua", 
+                        "pt_PT": "Texto do link terciário",
+                        "fr_FR": "Texte du lien tertiaire",
+                        "en_GB": "Tertiary link text",
+                        "de_DE": "Tertiärer Linktext"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "EnlaceTerciario",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": "Dirección web terciaria",
+                                "eu_ES": "Hirugarren mailako web helbidea",
+                                "pt_PT": "Endereço web terciário",
+                                "fr_FR": "Adresse Web tertiaire",
+                                "en_GB": "Tertiary web address",
+                                "de_DE": "Tertiäre Webadresse"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "https://www.ejemplo.com",
+                                "eu_ES": "https://www.adibide.com",
+                                "pt_PT": "https://www.exemplo.com",
+                                "fr_FR": "https://www.exemple.com",
+                                "en_GB": "https://www.example.com",
+                                "de_DE": "https://www.beispiel.com"
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "UrlTerciaria",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text",
+                            "nestedFields": [
+                                {
+                                    "label": {
+                                        "es_ES": "Externo",
+                                        "eu_ES": "Kanpokoa",
+                                        "pt_PT": "Externo",
+                                        "fr_FR": "Externe",
+                                        "en_GB": "External",
+                                        "de_DE": "Extern"
+                                    },
+                                    "options": [
+                                        {
+                                            "value": "Si",
+                                            "label": {
+                                                "es_ES": "Sí",
+                                                "eu_ES": "Bai",
+                                                "pt_PT": "Sim",
+                                                "fr_FR": "Oui",
+                                                "en_GB": "Yes",
+                                                "de_DE": "Ja"
+                                            }
+                                        },
+                                        {
+                                            "value": "No",
+                                            "label": {
+                                                "es_ES": "No",
+                                                "eu_ES": "Ez",
+                                                "pt_PT": "Não",
+                                                "fr_FR": "Non",
+                                                "en_GB": "No",
+                                                "de_DE": "Nein"
+                                            }
+                                        }
+                                    ],
+                                    "predefinedValue": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "style": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "tip": {
+                                        "es_ES": "Si se marca como externo se abrirá en una nueva pestaña",
+                                        "eu_ES": "Kanpoko gisa markatuta badago fitxa berri batean irekiko da",
+                                        "pt_PT": "Se estiver marcado como externo irá abrir em uma nova aba",
+                                        "fr_FR": "S'il est marqué comme externe, il s'ouvrira dans un nouvel onglet",
+                                        "en_GB": "If it is marked as external it will open in a new tab",
+                                        "de_DE": "Wenn es als extern markiert ist, wird es in einer neuen Registerkarte geöffnet"
+                                    },
+                                    "dataType": "radio",
+                                    "indexType": "keyword",
+                                    "localizable": true,
+                                    "name": "ExternoTerciario",
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "type": "radio"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": "Imagen",
+                "eu_ES": "Irudia",
+                "pt_PT": "Imagem",
+                "fr_FR": "Image",
+                "en_GB": "Image",
+                "de_DE": "Bild"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Imagen",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Imagen del artículo",
+                        "eu_ES": "Artikuluaren irudia",
+                        "pt_PT": "Imagem del artigo",
+                        "fr_FR": "Image de l'article",
+                        "en_GB": "Article image",
+                        "de_DE": "Artikelbild"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "document-library",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ImagenDelFondo",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-documentlibrary",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": "Texto alternativo de la imagen",
+                                "eu_ES": "Irudiaren ordezko testua",
+                                "pt_PT": "Texto alternativo da imagem",
+                                "fr_FR": "Texte alternatif de l’image",
+                                "en_GB": "Image’s alternative text",
+                                "de_DE": "Alternativer Bildtext"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "Descripción de la imagen para que cuando ésta no se vea no se pierda información",
+                                "eu_ES": "Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin",
+                                "pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas",
+                                "fr_FR": "Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu",
+                                "en_GB": "Description of the image not to lose information when it is not seen",
+                                "de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird"
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "alt_fondo",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": "Trama (solo para Centros)",
+                "eu_ES": "Bilbea (Ikastegientzat soilik)",
+                "pt_PT": "Trama (apenas para Centros)",
+                "fr_FR": "Raster (uniquement pour les Centres)",
+                "en_GB": "Pattern (only for Centers)",
+                "de_DE": "Muster (nur für Zentren)"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Trama",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Tipo de trama",
+                        "eu_ES": "Bilbe mota",
+                        "pt_PT": "Tipo de trama",
+                        "fr_FR": "Type de motif",
+                        "en_GB": "Pattern type",
+                        "de_DE": "Muster-Art"
+                    },
+                    "options": [
+                        {
+                            "value": "ojo",
+                            "label": {
+                                "es_ES": "Ojo",
+                                "eu_ES": "Begia",
+                                "pt_PT": "Olho",
+                                "fr_FR": "Oeil",
+                                "en_GB": "Eye",
+                                "de_DE": "Auge"
+                            }
+                        },
+                        {
+                            "value": "cruz",
+                            "label": {
+                                "es_ES": "Cruz",
+                                "eu_ES": "Gurutzea",
+                                "pt_PT": "Cruz",
+                                "fr_FR": "Croix",
+                                "en_GB": "Cross",
+                                "de_DE": "Kreuz"
+                            }
+                        },
+                        {
+                            "value": "trebol",
+                            "label": {
+                                "es_ES": "Trébol",
+                                "eu_ES": "Hirusta",
+                                "pt_PT": "Trevo",
+                                "fr_FR": "Trèfle",
+                                "en_GB": "Clover",
+                                "de_DE": "Kleeblatt"
+                            }
+                        },
+                        {
+                            "value": "cuadrado",
+                            "label": {
+                                "es_ES": "Cuadrado",
+                                "eu_ES": "Karratua",
+                                "pt_PT": "Quadrado",
+                                "fr_FR": "Carré",
+                                "en_GB": "Square",
+                                "de_DE": "Quadratisch"
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [],
+                        "eu_ES": [],
+                        "pt_PT": [],
+                        "fr_FR": [],
+                        "en_GB": [],
+                        "de_DE": []
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "multiple": false,
+                    "name": "TipoTrama",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "select"
+                },
+                {
+                    "label": {
+                        "es_ES": "Color de la trama",
+                        "eu_ES": "Bilbearen kolorea",
+                        "pt_PT": "Cor da trama",
+                        "fr_FR": "Couleur du raster",
+                        "en_GB": "Pattern color",
+                        "de_DE": "Musterfarbe"
+                    },
+                    "options": [
+                        {
+                            "value": "rosa",
+                            "label": {
+                                "es_ES": "Rosa",
+                                "eu_ES": "Arrosa",
+                                "pt_PT": "Rosa",
+                                "fr_FR": "Rose",
+                                "en_GB": "Pink",
+                                "de_DE": "Rosafarben"
+                            }
+                        },
+                        {
+                            "value": "verde",
+                            "label": {
+                                "es_ES": "Verde",
+                                "eu_ES": "Berdea",
+                                "pt_PT": "Verde",
+                                "fr_FR": "Vert",
+                                "en_GB": "Green",
+                                "de_DE": "Grün"
+                            }
+                        },
+                        {
+                            "value": "morada",
+                            "label": {
+                                "es_ES": "Morado",
+                                "eu_ES": "Morea",
+                                "pt_PT": "Roxo",
+                                "fr_FR": "Violet",
+                                "en_GB": "Purple",
+                                "de_DE": "Lila"
+                            }
+                        },
+                        {
+                            "value": "roja",
+                            "label": {
+                                "es_ES": "Rojo",
+                                "eu_ES": "Gorria",
+                                "pt_PT": "Vermelho",
+                                "fr_FR": "Rouge",
+                                "en_GB": "Red",
+                                "de_DE": "Rot"
+                            }
+                        },
+                        {
+                            "value": "amarillo",
+                            "label": {
+                                "es_ES": "Amarillo",
+                                "eu_ES": "Horia",
+                                "pt_PT": "Amarelo",
+                                "fr_FR": "Jaune",
+                                "en_GB": "Yellow",
+                                "de_DE": "Gelb"
+                            }
+                        },
+                        {
+                            "value": "naranja",
+                            "label": {
+                                "es_ES": "Naranja",
+                                "eu_ES": "Laranja",
+                                "pt_PT": "Laranja",
+                                "fr_FR": "Orange",
+                                "en_GB": "Orange",
+                                "de_DE": "Orangefarben"
+                            }
+                        },
+                        {
+                            "value": "marron",
+                            "label": {
+                                "es_ES": "Marrón",
+                                "eu_ES": "Marroia",
+                                "pt_PT": "Marrom",
+                                "fr_FR": "Marron",
+                                "en_GB": "Brown",
+                                "de_DE": "Braun"
+                            }
+                        },
+                        {
+                            "value": "turquesa",
+                            "label": {
+                                "es_ES": "Turquesa",
+                                "eu_ES": "Turkesa",
+                                "pt_PT": "Turquesa",
+                                "fr_FR": "Turquoise",
+                                "en_GB": "Turquoise",
+                                "de_DE": "Türkis"
+                            }
+                        },
+                        {
+                            "value": "azul",
+                            "label": {
+                                "es_ES": "Azul",
+                                "eu_ES": "Urdina",
+                                "pt_PT": "Azul",
+                                "fr_FR": "Bleu",
+                                "en_GB": "Blue",
+                                "de_DE": "Blau"
+                            }
+                        },
+                        {
+                            "value": "azul oscuro",
+                            "label": {
+                                "es_ES": "Azul oscuro",
+                                "eu_ES": "Urdin iluna",
+                                "pt_PT": "Azul escuro",
+                                "fr_FR": "Bleu foncé",
+                                "en_GB": "Dark blue",
+                                "de_DE": "Dunkelblau"
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [],
+                        "eu_ES": [],
+                        "pt_PT": [],
+                        "fr_FR": [],
+                        "en_GB": [],
+                        "de_DE": []
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "multiple": false,
+                    "name": "ColorTrama",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "select"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": "Vídeo",
+                "eu_ES": "Bideoa",
+                "pt_PT": "Vídeo",
+                "fr_FR": "Vidéo",
+                "en_GB": "Video",
+                "de_DE": "Video"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Video",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "URL del vídeo",
+                        "eu_ES": "Bideoaren URLa",
+                        "pt_PT": "URL do vídeo",
+                        "fr_FR": "URL de la vidéo",
+                        "en_GB": "Video URL",
+                        "de_DE": "Video-URL"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "La URL del vídeo se debe obtener del código iframe del vídeo en cada plataforma, y el vídeo debe ser accesible.",
+                        "eu_ES": "Bideoaren URLa plataforma bakoitzeko bideoaren iframe kodetik eskuratu behar da eta bideoa irisgarria izan behar da.",
+                        "pt_PT": "O URL do vídeo deve ser obtido a partir do código iframe do vídeo em cada plataforma, e o vídeo deve estar acessível.",
+                        "fr_FR": "L'URL de la vidéo doit être obtenue à partir du code iframe de la vidéo sur chaque plateforme, et la vidéo doit être accessible.",
+                        "en_GB": "The url of the video must be obtained from the iframe code of the video on each platform, and the video must be accessible.",
+                        "de_DE": "Die URL des Videos muss aus dem Iframe-Code des Videos auf jeder Plattform abgerufen werden, und das Video muss zugänglich sein."
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "UrlVideo",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        }
+    ]
+}

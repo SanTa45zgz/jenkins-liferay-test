@@ -1,0 +1,4361 @@
+{
+	"availableLanguageIds": [
+		"es_ES",
+		"eu_ES",
+		"pt_PT",
+		"fr_FR",
+		"en_GB",
+		"de_DE"
+	],
+	"contentType": "journal",
+	"dataDefinitionFields": [
+		{
+			"customProperties": {
+				"ddmStructureLayoutId": "",
+				"ddmStructureId": "",
+				"upgradedStructure": false,
+				"fieldReference": "ehuresearchcontracttitleFieldSet",
+				"rows": [
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"ehuresearchcontracttitle"
+								]
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"ehuresearchcontracttitleFieldSetFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"collapsible": false
+			},
+			"defaultValue": {
+				
+			},
+			"fieldType": "fieldset",
+			"indexable": false,
+			"label": {
+				"eu_ES": ""
+			},
+			"localizable": false,
+			"name": "ehuresearchcontracttitleFieldSet",
+			"nestedDataDefinitionFields": [
+				{
+					"customProperties": {
+						"displayStyle": "singleline",
+						"fieldNamespace": "",
+						"visibilityExpression": "",
+						"ddmDataProviderInstanceOutput": [],
+						"autocomplete": false,
+						"ddmDataProviderInstanceId": [],
+						"dataType": "string",
+						"options": {
+							"eu_ES": [
+								{
+									"reference": "",
+									"label": "Option",
+									"value": "Option"
+								}
+							]
+						},
+						"tooltip": {
+							"eu_ES": ""
+						},
+						"fieldReference": "ehuresearchcontracttitle",
+						"placeholder": {
+							"eu_ES": ""
+						},
+						"dataSourceType": "manual"
+					},
+					"defaultValue": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					},
+					"fieldType": "text",
+					"indexType": "text",
+					"indexable": true,
+					"label": {
+						"en_GB": "Title",
+						"eu_ES": "Izenburua",
+						"es_ES": "Título",
+						"fr_FR": "Titre",
+						"de_DE": "Titel",
+						"pt_PT": "Título"
+					},
+					"localizable": true,
+					"name": "ehuresearchcontracttitle",
+					"nestedDataDefinitionFields": [],
+					"readOnly": false,
+					"repeatable": false,
+					"required": true,
+					"showLabel": true,
+					"tip": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					}
+				},
+				{
+					"customProperties": {
+						"ddmStructureLayoutId": "",
+						"ddmStructureId": "",
+						"upgradedStructure": false,
+						"fieldReference": "ehuresearchcontracttitleFieldSetFieldSet",
+						"rows": [
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"ehuresearchcontracttitlelang"
+										]
+									}
+								]
+							}
+						],
+						"collapsible": false
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "fieldset",
+					"indexable": false,
+					"label": {
+						"eu_ES": ""
+					},
+					"localizable": false,
+					"name": "ehuresearchcontracttitleFieldSetFieldSet",
+					"nestedDataDefinitionFields": [
+						{
+							"customProperties": {
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"en_GB": [
+										{
+											"reference": "upv-ehu-blank",
+											"label": "Select a language",
+											"value": "upv-ehu-blank"
+										},
+										{
+											"reference": "eu",
+											"label": "Euskara",
+											"value": "eu"
+										},
+										{
+											"reference": "es",
+											"label": "Spanish",
+											"value": "es"
+										},
+										{
+											"reference": "en",
+											"label": "English",
+											"value": "en"
+										},
+										{
+											"reference": "fr",
+											"label": "French",
+											"value": "fr"
+										},
+										{
+											"reference": "ca",
+											"label": "Catalá",
+											"value": "ca"
+										}
+									],
+									"eu_ES": [
+										{
+											"reference": "upv-ehu-blank",
+											"label": "Hautatu hizkuntza bat",
+											"value": "upv-ehu-blank"
+										},
+										{
+											"reference": "eu",
+											"label": "Euskara",
+											"value": "eu"
+										},
+										{
+											"reference": "es",
+											"label": "Espainiera",
+											"value": "es"
+										},
+										{
+											"reference": "en",
+											"label": "Ingelesa",
+											"value": "en"
+										},
+										{
+											"reference": "fr",
+											"label": "Frantsesa",
+											"value": "fr"
+										},
+										{
+											"reference": "ca",
+											"label": "Catalá",
+											"value": "ca"
+										}
+									],
+									"es_ES": [
+										{
+											"reference": "upv-ehu-blank",
+											"label": "Selecciona un idioma",
+											"value": "upv-ehu-blank"
+										},
+										{
+											"reference": "eu",
+											"label": "Euskara",
+											"value": "eu"
+										},
+										{
+											"reference": "es",
+											"label": "Español",
+											"value": "es"
+										},
+										{
+											"reference": "en",
+											"label": "Inglés",
+											"value": "en"
+										},
+										{
+											"reference": "fr",
+											"label": "Francés",
+											"value": "fr"
+										},
+										{
+											"reference": "ca",
+											"label": "Catalá",
+											"value": "ca"
+										}
+									],
+									"fr_FR": [
+										{
+											"reference": "upv-ehu-blank",
+											"label": "Sélectionnez une langue",
+											"value": "upv-ehu-blank"
+										},
+										{
+											"reference": "eu",
+											"label": "Euskara",
+											"value": "eu"
+										},
+										{
+											"reference": "es",
+											"label": "Espagnol",
+											"value": "es"
+										},
+										{
+											"reference": "en",
+											"label": "Anglais",
+											"value": "en"
+										},
+										{
+											"reference": "fr",
+											"label": "Français",
+											"value": "fr"
+										},
+										{
+											"reference": "ca",
+											"label": "Catalá",
+											"value": "ca"
+										}
+									],
+									"pt_PT": [
+										{
+											"reference": "upv-ehu-blank",
+											"label": "Selecione um idioma",
+											"value": "upv-ehu-blank"
+										},
+										{
+											"reference": "eu",
+											"label": "Euskara",
+											"value": "eu"
+										},
+										{
+											"reference": "es",
+											"label": "Espanhol",
+											"value": "es"
+										},
+										{
+											"reference": "en",
+											"label": "Inglês",
+											"value": "en"
+										},
+										{
+											"reference": "fr",
+											"label": "Francês",
+											"value": "fr"
+										},
+										{
+											"reference": "ca",
+											"label": "Catalá",
+											"value": "ca"
+										}
+									],
+									"de_DE": [
+										{
+											"reference": "upv-ehu-blank",
+											"label": "Wählen Sie eine Sprache aus",
+											"value": "upv-ehu-blank"
+										},
+										{
+											"reference": "eu",
+											"label": "Euskara",
+											"value": "eu"
+										},
+										{
+											"reference": "es",
+											"label": "Spanisch",
+											"value": "es"
+										},
+										{
+											"reference": "en",
+											"label": "Englisch",
+											"value": "en"
+										},
+										{
+											"reference": "fr",
+											"label": "Französisch",
+											"value": "fr"
+										},
+										{
+											"reference": "ca",
+											"label": "Catalá",
+											"value": "ca"
+										}
+									]
+								},
+								"multiple": false,
+								"fieldReference": "ehuresearchcontracttitlelang",
+								"dataSourceType": [
+									"manual"
+								]
+							},
+							"defaultValue": {
+								"en_GB": [],
+								"eu_ES": [],
+								"es_ES": [],
+								"fr_FR": [],
+								"de_DE": [],
+								"pt_PT": []
+							},
+							"fieldType": "select",
+							"indexType": "none",
+							"indexable": true,
+							"label": {
+								"en_GB": "Language",
+								"eu_ES": "Hizkuntza",
+								"es_ES": "Idioma",
+								"fr_FR": "Langue",
+								"de_DE": "Sprache",
+								"pt_PT": "Idioma"
+							},
+							"localizable": true,
+							"name": "ehuresearchcontracttitlelang",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "If the title cannot be translated, choose the language in which it is written.",
+								"eu_ES": "Izenburua itzuli ezin bada, hautatu behar da idatzita dagoen hizkuntzatan.",
+								"es_ES": "Si el título no se puede traducir, se ha de seleccionar el idioma en el que está escrito.",
+								"fr_FR": "Si le titre ne peut pas traduire, vous devez sélectionner la langue dans laquelle il est écrit.",
+								"de_DE": "Wenn der Titel nicht übersetzt werden kann, muss die Sprache ausgewählt werden, in der er geschrieben ist.",
+								"pt_PT": "Se o título não puder ser traduzido, o idioma em que está escrito deve ser selecionado."
+							}
+						}
+					],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": false,
+					"tip": {
+						
+					}
+				}
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": false,
+			"tip": {
+				
+			}
+		},
+		{
+			"customProperties": {
+				"displayStyle": "singleline",
+				"fieldNamespace": "",
+				"visibilityExpression": "",
+				"ddmDataProviderInstanceOutput": [],
+				"autocomplete": false,
+				"ddmDataProviderInstanceId": [],
+				"dataType": "string",
+				"options": {
+					"eu_ES": [
+						{
+							"reference": "",
+							"label": "Option",
+							"value": "Option"
+						}
+					]
+				},
+				"tooltip": {
+					"eu_ES": ""
+				},
+				"fieldReference": "ehuresearchcontractcompany",
+				"placeholder": {
+					"eu_ES": ""
+				},
+				"dataSourceType": "manual"
+			},
+			"defaultValue": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			},
+			"fieldType": "text",
+			"indexType": "text",
+			"indexable": true,
+			"label": {
+				"en_GB": "Company",
+				"eu_ES": "Enpresa",
+				"es_ES": "Empresa",
+				"fr_FR": "Enterprise",
+				"de_DE": "Gesellschaft",
+				"pt_PT": "Empresa"
+			},
+			"localizable": true,
+			"name": "ehuresearchcontractcompany",
+			"nestedDataDefinitionFields": [],
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			}
+		},
+		{
+			"customProperties": {
+				"displayStyle": "singleline",
+				"fieldNamespace": "",
+				"visibilityExpression": "",
+				"ddmDataProviderInstanceOutput": [],
+				"autocomplete": false,
+				"ddmDataProviderInstanceId": [],
+				"dataType": "string",
+				"options": {
+					"eu_ES": [
+						{
+							"reference": "",
+							"label": "Option",
+							"value": "Option"
+						}
+					]
+				},
+				"tooltip": {
+					"eu_ES": ""
+				},
+				"fieldReference": "ehuresearchcontractresearcher",
+				"placeholder": {
+					"eu_ES": ""
+				},
+				"dataSourceType": "manual"
+			},
+			"defaultValue": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			},
+			"fieldType": "text",
+			"indexType": "text",
+			"indexable": true,
+			"label": {
+				"en_GB": "Researcher(s)",
+				"eu_ES": "Ikertzailea(k)",
+				"es_ES": "Personal investigador",
+				"fr_FR": "Le personnel de recherche",
+				"de_DE": "Forschungspersonal",
+				"pt_PT": "Equipe de pesquisa"
+			},
+			"localizable": true,
+			"name": "ehuresearchcontractresearcher",
+			"nestedDataDefinitionFields": [],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"tip": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			}
+		},
+		{
+			"customProperties": {
+				"fieldNamespace": "",
+				"visibilityExpression": "",
+				"ddmDataProviderInstanceOutput": [],
+				"ddmDataProviderInstanceId": [],
+				"dataType": "string",
+				"options": {
+					"en_GB": [
+						{
+							"reference": "1970",
+							"label": "1970",
+							"value": "1970"
+						},
+						{
+							"reference": "1971",
+							"label": "1971",
+							"value": "1971"
+						},
+						{
+							"reference": "1972",
+							"label": "1972",
+							"value": "1972"
+						},
+						{
+							"reference": "1973",
+							"label": "1973",
+							"value": "1973"
+						},
+						{
+							"reference": "1974",
+							"label": "1974",
+							"value": "1974"
+						},
+						{
+							"reference": "1975",
+							"label": "1975",
+							"value": "1975"
+						},
+						{
+							"reference": "1976",
+							"label": "1976",
+							"value": "1976"
+						},
+						{
+							"reference": "1977",
+							"label": "1977",
+							"value": "1977"
+						},
+						{
+							"reference": "1978",
+							"label": "1978",
+							"value": "1978"
+						},
+						{
+							"reference": "1979",
+							"label": "1979",
+							"value": "1979"
+						},
+						{
+							"reference": "1980",
+							"label": "1980",
+							"value": "1980"
+						},
+						{
+							"reference": "1981",
+							"label": "1981",
+							"value": "1981"
+						},
+						{
+							"reference": "1982",
+							"label": "1982",
+							"value": "1982"
+						},
+						{
+							"reference": "1983",
+							"label": "1983",
+							"value": "1983"
+						},
+						{
+							"reference": "1984",
+							"label": "1984",
+							"value": "1984"
+						},
+						{
+							"reference": "1985",
+							"label": "1985",
+							"value": "1985"
+						},
+						{
+							"reference": "1986",
+							"label": "1986",
+							"value": "1986"
+						},
+						{
+							"reference": "1987",
+							"label": "1987",
+							"value": "1987"
+						},
+						{
+							"reference": "1988",
+							"label": "1988",
+							"value": "1988"
+						},
+						{
+							"reference": "1989",
+							"label": "1989",
+							"value": "1989"
+						},
+						{
+							"reference": "1990",
+							"label": "1990",
+							"value": "1990"
+						},
+						{
+							"reference": "1991",
+							"label": "1991",
+							"value": "1991"
+						},
+						{
+							"reference": "1992",
+							"label": "1992",
+							"value": "1992"
+						},
+						{
+							"reference": "1993",
+							"label": "1993",
+							"value": "1993"
+						},
+						{
+							"reference": "1994",
+							"label": "1994",
+							"value": "1994"
+						},
+						{
+							"reference": "1995",
+							"label": "1995",
+							"value": "1995"
+						},
+						{
+							"reference": "1996",
+							"label": "1996",
+							"value": "1996"
+						},
+						{
+							"reference": "1997",
+							"label": "1997",
+							"value": "1997"
+						},
+						{
+							"reference": "1998",
+							"label": "1998",
+							"value": "1998"
+						},
+						{
+							"reference": "1999",
+							"label": "1999",
+							"value": "1999"
+						},
+						{
+							"reference": "2000",
+							"label": "2000",
+							"value": "2000"
+						},
+						{
+							"reference": "2001",
+							"label": "2001",
+							"value": "2001"
+						},
+						{
+							"reference": "2002",
+							"label": "2002",
+							"value": "2002"
+						},
+						{
+							"reference": "2003",
+							"label": "2003",
+							"value": "2003"
+						},
+						{
+							"reference": "2004",
+							"label": "2004",
+							"value": "2004"
+						},
+						{
+							"reference": "2005",
+							"label": "2005",
+							"value": "2005"
+						},
+						{
+							"reference": "2006",
+							"label": "2006",
+							"value": "2006"
+						},
+						{
+							"reference": "2007",
+							"label": "2007",
+							"value": "2007"
+						},
+						{
+							"reference": "2008",
+							"label": "2008",
+							"value": "2008"
+						},
+						{
+							"reference": "2009",
+							"label": "2009",
+							"value": "2009"
+						},
+						{
+							"reference": "2010",
+							"label": "2010",
+							"value": "2010"
+						},
+						{
+							"reference": "2011",
+							"label": "2011",
+							"value": "2011"
+						},
+						{
+							"reference": "2012",
+							"label": "2012",
+							"value": "2012"
+						},
+						{
+							"reference": "2013",
+							"label": "2013",
+							"value": "2013"
+						},
+						{
+							"reference": "2014",
+							"label": "2014",
+							"value": "2014"
+						},
+						{
+							"reference": "2015",
+							"label": "2015",
+							"value": "2015"
+						},
+						{
+							"reference": "2016",
+							"label": "2016",
+							"value": "2016"
+						},
+						{
+							"reference": "2017",
+							"label": "2017",
+							"value": "2017"
+						},
+						{
+							"reference": "2018",
+							"label": "2018",
+							"value": "2018"
+						},
+						{
+							"reference": "2019",
+							"label": "2019",
+							"value": "2019"
+						},
+						{
+							"reference": "2020",
+							"label": "2020",
+							"value": "2020"
+						},
+						{
+							"reference": "2021",
+							"label": "2021",
+							"value": "2021"
+						},
+						{
+							"reference": "2022",
+							"label": "2022",
+							"value": "2022"
+						},
+						{
+							"reference": "2023",
+							"label": "2023",
+							"value": "2023"
+						},
+						{
+							"reference": "2024",
+							"label": "2024",
+							"value": "2024"
+						},
+						{
+							"reference": "2025",
+							"label": "2025",
+							"value": "2025"
+						}
+					],
+					"eu_ES": [
+						{
+							"reference": "1970",
+							"label": "1970",
+							"value": "1970"
+						},
+						{
+							"reference": "1971",
+							"label": "1971",
+							"value": "1971"
+						},
+						{
+							"reference": "1972",
+							"label": "1972",
+							"value": "1972"
+						},
+						{
+							"reference": "1973",
+							"label": "1973",
+							"value": "1973"
+						},
+						{
+							"reference": "1974",
+							"label": "1974",
+							"value": "1974"
+						},
+						{
+							"reference": "1975",
+							"label": "1975",
+							"value": "1975"
+						},
+						{
+							"reference": "1976",
+							"label": "1976",
+							"value": "1976"
+						},
+						{
+							"reference": "1977",
+							"label": "1977",
+							"value": "1977"
+						},
+						{
+							"reference": "1978",
+							"label": "1978",
+							"value": "1978"
+						},
+						{
+							"reference": "1979",
+							"label": "1979",
+							"value": "1979"
+						},
+						{
+							"reference": "1980",
+							"label": "1980",
+							"value": "1980"
+						},
+						{
+							"reference": "1981",
+							"label": "1981",
+							"value": "1981"
+						},
+						{
+							"reference": "1982",
+							"label": "1982",
+							"value": "1982"
+						},
+						{
+							"reference": "1983",
+							"label": "1983",
+							"value": "1983"
+						},
+						{
+							"reference": "1984",
+							"label": "1984",
+							"value": "1984"
+						},
+						{
+							"reference": "1985",
+							"label": "1985",
+							"value": "1985"
+						},
+						{
+							"reference": "1986",
+							"label": "1986",
+							"value": "1986"
+						},
+						{
+							"reference": "1987",
+							"label": "1987",
+							"value": "1987"
+						},
+						{
+							"reference": "1988",
+							"label": "1988",
+							"value": "1988"
+						},
+						{
+							"reference": "1989",
+							"label": "1989",
+							"value": "1989"
+						},
+						{
+							"reference": "1990",
+							"label": "1990",
+							"value": "1990"
+						},
+						{
+							"reference": "1991",
+							"label": "1991",
+							"value": "1991"
+						},
+						{
+							"reference": "1992",
+							"label": "1992",
+							"value": "1992"
+						},
+						{
+							"reference": "1993",
+							"label": "1993",
+							"value": "1993"
+						},
+						{
+							"reference": "1994",
+							"label": "1994",
+							"value": "1994"
+						},
+						{
+							"reference": "1995",
+							"label": "1995",
+							"value": "1995"
+						},
+						{
+							"reference": "1996",
+							"label": "1996",
+							"value": "1996"
+						},
+						{
+							"reference": "1997",
+							"label": "1997",
+							"value": "1997"
+						},
+						{
+							"reference": "1998",
+							"label": "1998",
+							"value": "1998"
+						},
+						{
+							"reference": "1999",
+							"label": "1999",
+							"value": "1999"
+						},
+						{
+							"reference": "2000",
+							"label": "2000",
+							"value": "2000"
+						},
+						{
+							"reference": "2001",
+							"label": "2001",
+							"value": "2001"
+						},
+						{
+							"reference": "2002",
+							"label": "2002",
+							"value": "2002"
+						},
+						{
+							"reference": "2003",
+							"label": "2003",
+							"value": "2003"
+						},
+						{
+							"reference": "2004",
+							"label": "2004",
+							"value": "2004"
+						},
+						{
+							"reference": "2005",
+							"label": "2005",
+							"value": "2005"
+						},
+						{
+							"reference": "2006",
+							"label": "2006",
+							"value": "2006"
+						},
+						{
+							"reference": "2007",
+							"label": "2007",
+							"value": "2007"
+						},
+						{
+							"reference": "2008",
+							"label": "2008",
+							"value": "2008"
+						},
+						{
+							"reference": "2009",
+							"label": "2009",
+							"value": "2009"
+						},
+						{
+							"reference": "2010",
+							"label": "2010",
+							"value": "2010"
+						},
+						{
+							"reference": "2011",
+							"label": "2011",
+							"value": "2011"
+						},
+						{
+							"reference": "2012",
+							"label": "2012",
+							"value": "2012"
+						},
+						{
+							"reference": "2013",
+							"label": "2013",
+							"value": "2013"
+						},
+						{
+							"reference": "2014",
+							"label": "2014",
+							"value": "2014"
+						},
+						{
+							"reference": "2015",
+							"label": "2015",
+							"value": "2015"
+						},
+						{
+							"reference": "2016",
+							"label": "2016",
+							"value": "2016"
+						},
+						{
+							"reference": "2017",
+							"label": "2017",
+							"value": "2017"
+						},
+						{
+							"reference": "2018",
+							"label": "2018",
+							"value": "2018"
+						},
+						{
+							"reference": "2019",
+							"label": "2019",
+							"value": "2019"
+						},
+						{
+							"reference": "2020",
+							"label": "2020",
+							"value": "2020"
+						},
+						{
+							"reference": "2021",
+							"label": "2021",
+							"value": "2021"
+						},
+						{
+							"reference": "2022",
+							"label": "2022",
+							"value": "2022"
+						},
+						{
+							"reference": "2023",
+							"label": "2023",
+							"value": "2023"
+						},
+						{
+							"reference": "2024",
+							"label": "2024",
+							"value": "2024"
+						},
+						{
+							"reference": "2025",
+							"label": "2025",
+							"value": "2025"
+						}
+					],
+					"es_ES": [
+						{
+							"reference": "1970",
+							"label": "1970",
+							"value": "1970"
+						},
+						{
+							"reference": "1971",
+							"label": "1971",
+							"value": "1971"
+						},
+						{
+							"reference": "1972",
+							"label": "1972",
+							"value": "1972"
+						},
+						{
+							"reference": "1973",
+							"label": "1973",
+							"value": "1973"
+						},
+						{
+							"reference": "1974",
+							"label": "1974",
+							"value": "1974"
+						},
+						{
+							"reference": "1975",
+							"label": "1975",
+							"value": "1975"
+						},
+						{
+							"reference": "1976",
+							"label": "1976",
+							"value": "1976"
+						},
+						{
+							"reference": "1977",
+							"label": "1977",
+							"value": "1977"
+						},
+						{
+							"reference": "1978",
+							"label": "1978",
+							"value": "1978"
+						},
+						{
+							"reference": "1979",
+							"label": "1979",
+							"value": "1979"
+						},
+						{
+							"reference": "1980",
+							"label": "1980",
+							"value": "1980"
+						},
+						{
+							"reference": "1981",
+							"label": "1981",
+							"value": "1981"
+						},
+						{
+							"reference": "1982",
+							"label": "1982",
+							"value": "1982"
+						},
+						{
+							"reference": "1983",
+							"label": "1983",
+							"value": "1983"
+						},
+						{
+							"reference": "1984",
+							"label": "1984",
+							"value": "1984"
+						},
+						{
+							"reference": "1985",
+							"label": "1985",
+							"value": "1985"
+						},
+						{
+							"reference": "1986",
+							"label": "1986",
+							"value": "1986"
+						},
+						{
+							"reference": "1987",
+							"label": "1987",
+							"value": "1987"
+						},
+						{
+							"reference": "1988",
+							"label": "1988",
+							"value": "1988"
+						},
+						{
+							"reference": "1989",
+							"label": "1989",
+							"value": "1989"
+						},
+						{
+							"reference": "1990",
+							"label": "1990",
+							"value": "1990"
+						},
+						{
+							"reference": "1991",
+							"label": "1991",
+							"value": "1991"
+						},
+						{
+							"reference": "1992",
+							"label": "1992",
+							"value": "1992"
+						},
+						{
+							"reference": "1993",
+							"label": "1993",
+							"value": "1993"
+						},
+						{
+							"reference": "1994",
+							"label": "1994",
+							"value": "1994"
+						},
+						{
+							"reference": "1995",
+							"label": "1995",
+							"value": "1995"
+						},
+						{
+							"reference": "1996",
+							"label": "1996",
+							"value": "1996"
+						},
+						{
+							"reference": "1997",
+							"label": "1997",
+							"value": "1997"
+						},
+						{
+							"reference": "1998",
+							"label": "1998",
+							"value": "1998"
+						},
+						{
+							"reference": "1999",
+							"label": "1999",
+							"value": "1999"
+						},
+						{
+							"reference": "2000",
+							"label": "2000",
+							"value": "2000"
+						},
+						{
+							"reference": "2001",
+							"label": "2001",
+							"value": "2001"
+						},
+						{
+							"reference": "2002",
+							"label": "2002",
+							"value": "2002"
+						},
+						{
+							"reference": "2003",
+							"label": "2003",
+							"value": "2003"
+						},
+						{
+							"reference": "2004",
+							"label": "2004",
+							"value": "2004"
+						},
+						{
+							"reference": "2005",
+							"label": "2005",
+							"value": "2005"
+						},
+						{
+							"reference": "2006",
+							"label": "2006",
+							"value": "2006"
+						},
+						{
+							"reference": "2007",
+							"label": "2007",
+							"value": "2007"
+						},
+						{
+							"reference": "2008",
+							"label": "2008",
+							"value": "2008"
+						},
+						{
+							"reference": "2009",
+							"label": "2009",
+							"value": "2009"
+						},
+						{
+							"reference": "2010",
+							"label": "2010",
+							"value": "2010"
+						},
+						{
+							"reference": "2011",
+							"label": "2011",
+							"value": "2011"
+						},
+						{
+							"reference": "2012",
+							"label": "2012",
+							"value": "2012"
+						},
+						{
+							"reference": "2013",
+							"label": "2013",
+							"value": "2013"
+						},
+						{
+							"reference": "2014",
+							"label": "2014",
+							"value": "2014"
+						},
+						{
+							"reference": "2015",
+							"label": "2015",
+							"value": "2015"
+						},
+						{
+							"reference": "2016",
+							"label": "2016",
+							"value": "2016"
+						},
+						{
+							"reference": "2017",
+							"label": "2017",
+							"value": "2017"
+						},
+						{
+							"reference": "2018",
+							"label": "2018",
+							"value": "2018"
+						},
+						{
+							"reference": "2019",
+							"label": "2019",
+							"value": "2019"
+						},
+						{
+							"reference": "2020",
+							"label": "2020",
+							"value": "2020"
+						},
+						{
+							"reference": "2021",
+							"label": "2021",
+							"value": "2021"
+						},
+						{
+							"reference": "2022",
+							"label": "2022",
+							"value": "2022"
+						},
+						{
+							"reference": "2023",
+							"label": "2023",
+							"value": "2023"
+						},
+						{
+							"reference": "2024",
+							"label": "2024",
+							"value": "2024"
+						},
+						{
+							"reference": "2025",
+							"label": "2025",
+							"value": "2025"
+						}
+					],
+					"fr_FR": [
+						{
+							"reference": "1970",
+							"label": "1970",
+							"value": "1970"
+						},
+						{
+							"reference": "1971",
+							"label": "1971",
+							"value": "1971"
+						},
+						{
+							"reference": "1972",
+							"label": "1972",
+							"value": "1972"
+						},
+						{
+							"reference": "1973",
+							"label": "1973",
+							"value": "1973"
+						},
+						{
+							"reference": "1974",
+							"label": "1974",
+							"value": "1974"
+						},
+						{
+							"reference": "1975",
+							"label": "1975",
+							"value": "1975"
+						},
+						{
+							"reference": "1976",
+							"label": "1976",
+							"value": "1976"
+						},
+						{
+							"reference": "1977",
+							"label": "1977",
+							"value": "1977"
+						},
+						{
+							"reference": "1978",
+							"label": "1978",
+							"value": "1978"
+						},
+						{
+							"reference": "1979",
+							"label": "1979",
+							"value": "1979"
+						},
+						{
+							"reference": "1980",
+							"label": "1980",
+							"value": "1980"
+						},
+						{
+							"reference": "1981",
+							"label": "1981",
+							"value": "1981"
+						},
+						{
+							"reference": "1982",
+							"label": "1982",
+							"value": "1982"
+						},
+						{
+							"reference": "1983",
+							"label": "1983",
+							"value": "1983"
+						},
+						{
+							"reference": "1984",
+							"label": "1984",
+							"value": "1984"
+						},
+						{
+							"reference": "1985",
+							"label": "1985",
+							"value": "1985"
+						},
+						{
+							"reference": "1986",
+							"label": "1986",
+							"value": "1986"
+						},
+						{
+							"reference": "1987",
+							"label": "1987",
+							"value": "1987"
+						},
+						{
+							"reference": "1988",
+							"label": "1988",
+							"value": "1988"
+						},
+						{
+							"reference": "1989",
+							"label": "1989",
+							"value": "1989"
+						},
+						{
+							"reference": "1990",
+							"label": "1990",
+							"value": "1990"
+						},
+						{
+							"reference": "1991",
+							"label": "1991",
+							"value": "1991"
+						},
+						{
+							"reference": "1992",
+							"label": "1992",
+							"value": "1992"
+						},
+						{
+							"reference": "1993",
+							"label": "1993",
+							"value": "1993"
+						},
+						{
+							"reference": "1994",
+							"label": "1994",
+							"value": "1994"
+						},
+						{
+							"reference": "1995",
+							"label": "1995",
+							"value": "1995"
+						},
+						{
+							"reference": "1996",
+							"label": "1996",
+							"value": "1996"
+						},
+						{
+							"reference": "1997",
+							"label": "1997",
+							"value": "1997"
+						},
+						{
+							"reference": "1998",
+							"label": "1998",
+							"value": "1998"
+						},
+						{
+							"reference": "1999",
+							"label": "1999",
+							"value": "1999"
+						},
+						{
+							"reference": "2000",
+							"label": "2000",
+							"value": "2000"
+						},
+						{
+							"reference": "2001",
+							"label": "2001",
+							"value": "2001"
+						},
+						{
+							"reference": "2002",
+							"label": "2002",
+							"value": "2002"
+						},
+						{
+							"reference": "2003",
+							"label": "2003",
+							"value": "2003"
+						},
+						{
+							"reference": "2004",
+							"label": "2004",
+							"value": "2004"
+						},
+						{
+							"reference": "2005",
+							"label": "2005",
+							"value": "2005"
+						},
+						{
+							"reference": "2006",
+							"label": "2006",
+							"value": "2006"
+						},
+						{
+							"reference": "2007",
+							"label": "2007",
+							"value": "2007"
+						},
+						{
+							"reference": "2008",
+							"label": "2008",
+							"value": "2008"
+						},
+						{
+							"reference": "2009",
+							"label": "2009",
+							"value": "2009"
+						},
+						{
+							"reference": "2010",
+							"label": "2010",
+							"value": "2010"
+						},
+						{
+							"reference": "2011",
+							"label": "2011",
+							"value": "2011"
+						},
+						{
+							"reference": "2012",
+							"label": "2012",
+							"value": "2012"
+						},
+						{
+							"reference": "2013",
+							"label": "2013",
+							"value": "2013"
+						},
+						{
+							"reference": "2014",
+							"label": "2014",
+							"value": "2014"
+						},
+						{
+							"reference": "2015",
+							"label": "2015",
+							"value": "2015"
+						},
+						{
+							"reference": "2016",
+							"label": "2016",
+							"value": "2016"
+						},
+						{
+							"reference": "2017",
+							"label": "2017",
+							"value": "2017"
+						},
+						{
+							"reference": "2018",
+							"label": "2018",
+							"value": "2018"
+						},
+						{
+							"reference": "2019",
+							"label": "2019",
+							"value": "2019"
+						},
+						{
+							"reference": "2020",
+							"label": "2020",
+							"value": "2020"
+						},
+						{
+							"reference": "2021",
+							"label": "2021",
+							"value": "2021"
+						},
+						{
+							"reference": "2022",
+							"label": "2022",
+							"value": "2022"
+						},
+						{
+							"reference": "2023",
+							"label": "2023",
+							"value": "2023"
+						},
+						{
+							"reference": "2024",
+							"label": "2024",
+							"value": "2024"
+						},
+						{
+							"reference": "2025",
+							"label": "2025",
+							"value": "2025"
+						}
+					],
+					"pt_PT": [
+						{
+							"reference": "1970",
+							"label": "1970",
+							"value": "1970"
+						},
+						{
+							"reference": "1971",
+							"label": "1971",
+							"value": "1971"
+						},
+						{
+							"reference": "1972",
+							"label": "1972",
+							"value": "1972"
+						},
+						{
+							"reference": "1973",
+							"label": "1973",
+							"value": "1973"
+						},
+						{
+							"reference": "1974",
+							"label": "1974",
+							"value": "1974"
+						},
+						{
+							"reference": "1975",
+							"label": "1975",
+							"value": "1975"
+						},
+						{
+							"reference": "1976",
+							"label": "1976",
+							"value": "1976"
+						},
+						{
+							"reference": "1977",
+							"label": "1977",
+							"value": "1977"
+						},
+						{
+							"reference": "1978",
+							"label": "1978",
+							"value": "1978"
+						},
+						{
+							"reference": "1979",
+							"label": "1979",
+							"value": "1979"
+						},
+						{
+							"reference": "1980",
+							"label": "1980",
+							"value": "1980"
+						},
+						{
+							"reference": "1981",
+							"label": "1981",
+							"value": "1981"
+						},
+						{
+							"reference": "1982",
+							"label": "1982",
+							"value": "1982"
+						},
+						{
+							"reference": "1983",
+							"label": "1983",
+							"value": "1983"
+						},
+						{
+							"reference": "1984",
+							"label": "1984",
+							"value": "1984"
+						},
+						{
+							"reference": "1985",
+							"label": "1985",
+							"value": "1985"
+						},
+						{
+							"reference": "1986",
+							"label": "1986",
+							"value": "1986"
+						},
+						{
+							"reference": "1987",
+							"label": "1987",
+							"value": "1987"
+						},
+						{
+							"reference": "1988",
+							"label": "1988",
+							"value": "1988"
+						},
+						{
+							"reference": "1989",
+							"label": "1989",
+							"value": "1989"
+						},
+						{
+							"reference": "1990",
+							"label": "1990",
+							"value": "1990"
+						},
+						{
+							"reference": "1991",
+							"label": "1991",
+							"value": "1991"
+						},
+						{
+							"reference": "1992",
+							"label": "1992",
+							"value": "1992"
+						},
+						{
+							"reference": "1993",
+							"label": "1993",
+							"value": "1993"
+						},
+						{
+							"reference": "1994",
+							"label": "1994",
+							"value": "1994"
+						},
+						{
+							"reference": "1995",
+							"label": "1995",
+							"value": "1995"
+						},
+						{
+							"reference": "1996",
+							"label": "1996",
+							"value": "1996"
+						},
+						{
+							"reference": "1997",
+							"label": "1997",
+							"value": "1997"
+						},
+						{
+							"reference": "1998",
+							"label": "1998",
+							"value": "1998"
+						},
+						{
+							"reference": "1999",
+							"label": "1999",
+							"value": "1999"
+						},
+						{
+							"reference": "2000",
+							"label": "2000",
+							"value": "2000"
+						},
+						{
+							"reference": "2001",
+							"label": "2001",
+							"value": "2001"
+						},
+						{
+							"reference": "2002",
+							"label": "2002",
+							"value": "2002"
+						},
+						{
+							"reference": "2003",
+							"label": "2003",
+							"value": "2003"
+						},
+						{
+							"reference": "2004",
+							"label": "2004",
+							"value": "2004"
+						},
+						{
+							"reference": "2005",
+							"label": "2005",
+							"value": "2005"
+						},
+						{
+							"reference": "2006",
+							"label": "2006",
+							"value": "2006"
+						},
+						{
+							"reference": "2007",
+							"label": "2007",
+							"value": "2007"
+						},
+						{
+							"reference": "2008",
+							"label": "2008",
+							"value": "2008"
+						},
+						{
+							"reference": "2009",
+							"label": "2009",
+							"value": "2009"
+						},
+						{
+							"reference": "2010",
+							"label": "2010",
+							"value": "2010"
+						},
+						{
+							"reference": "2011",
+							"label": "2011",
+							"value": "2011"
+						},
+						{
+							"reference": "2012",
+							"label": "2012",
+							"value": "2012"
+						},
+						{
+							"reference": "2013",
+							"label": "2013",
+							"value": "2013"
+						},
+						{
+							"reference": "2014",
+							"label": "2014",
+							"value": "2014"
+						},
+						{
+							"reference": "2015",
+							"label": "2015",
+							"value": "2015"
+						},
+						{
+							"reference": "2016",
+							"label": "2016",
+							"value": "2016"
+						},
+						{
+							"reference": "2017",
+							"label": "2017",
+							"value": "2017"
+						},
+						{
+							"reference": "2018",
+							"label": "2018",
+							"value": "2018"
+						},
+						{
+							"reference": "2019",
+							"label": "2019",
+							"value": "2019"
+						},
+						{
+							"reference": "2020",
+							"label": "2020",
+							"value": "2020"
+						},
+						{
+							"reference": "2021",
+							"label": "2021",
+							"value": "2021"
+						},
+						{
+							"reference": "2022",
+							"label": "2022",
+							"value": "2022"
+						},
+						{
+							"reference": "2023",
+							"label": "2023",
+							"value": "2023"
+						},
+						{
+							"reference": "2024",
+							"label": "2024",
+							"value": "2024"
+						},
+						{
+							"reference": "2025",
+							"label": "2025",
+							"value": "2025"
+						}
+					],
+					"de_DE": [
+						{
+							"reference": "1970",
+							"label": "1970",
+							"value": "1970"
+						},
+						{
+							"reference": "1971",
+							"label": "1971",
+							"value": "1971"
+						},
+						{
+							"reference": "1972",
+							"label": "1972",
+							"value": "1972"
+						},
+						{
+							"reference": "1973",
+							"label": "1973",
+							"value": "1973"
+						},
+						{
+							"reference": "1974",
+							"label": "1974",
+							"value": "1974"
+						},
+						{
+							"reference": "1975",
+							"label": "1975",
+							"value": "1975"
+						},
+						{
+							"reference": "1976",
+							"label": "1976",
+							"value": "1976"
+						},
+						{
+							"reference": "1977",
+							"label": "1977",
+							"value": "1977"
+						},
+						{
+							"reference": "1978",
+							"label": "1978",
+							"value": "1978"
+						},
+						{
+							"reference": "1979",
+							"label": "1979",
+							"value": "1979"
+						},
+						{
+							"reference": "1980",
+							"label": "1980",
+							"value": "1980"
+						},
+						{
+							"reference": "1981",
+							"label": "1981",
+							"value": "1981"
+						},
+						{
+							"reference": "1982",
+							"label": "1982",
+							"value": "1982"
+						},
+						{
+							"reference": "1983",
+							"label": "1983",
+							"value": "1983"
+						},
+						{
+							"reference": "1984",
+							"label": "1984",
+							"value": "1984"
+						},
+						{
+							"reference": "1985",
+							"label": "1985",
+							"value": "1985"
+						},
+						{
+							"reference": "1986",
+							"label": "1986",
+							"value": "1986"
+						},
+						{
+							"reference": "1987",
+							"label": "1987",
+							"value": "1987"
+						},
+						{
+							"reference": "1988",
+							"label": "1988",
+							"value": "1988"
+						},
+						{
+							"reference": "1989",
+							"label": "1989",
+							"value": "1989"
+						},
+						{
+							"reference": "1990",
+							"label": "1990",
+							"value": "1990"
+						},
+						{
+							"reference": "1991",
+							"label": "1991",
+							"value": "1991"
+						},
+						{
+							"reference": "1992",
+							"label": "1992",
+							"value": "1992"
+						},
+						{
+							"reference": "1993",
+							"label": "1993",
+							"value": "1993"
+						},
+						{
+							"reference": "1994",
+							"label": "1994",
+							"value": "1994"
+						},
+						{
+							"reference": "1995",
+							"label": "1995",
+							"value": "1995"
+						},
+						{
+							"reference": "1996",
+							"label": "1996",
+							"value": "1996"
+						},
+						{
+							"reference": "1997",
+							"label": "1997",
+							"value": "1997"
+						},
+						{
+							"reference": "1998",
+							"label": "1998",
+							"value": "1998"
+						},
+						{
+							"reference": "1999",
+							"label": "1999",
+							"value": "1999"
+						},
+						{
+							"reference": "2000",
+							"label": "2000",
+							"value": "2000"
+						},
+						{
+							"reference": "2001",
+							"label": "2001",
+							"value": "2001"
+						},
+						{
+							"reference": "2002",
+							"label": "2002",
+							"value": "2002"
+						},
+						{
+							"reference": "2003",
+							"label": "2003",
+							"value": "2003"
+						},
+						{
+							"reference": "2004",
+							"label": "2004",
+							"value": "2004"
+						},
+						{
+							"reference": "2005",
+							"label": "2005",
+							"value": "2005"
+						},
+						{
+							"reference": "2006",
+							"label": "2006",
+							"value": "2006"
+						},
+						{
+							"reference": "2007",
+							"label": "2007",
+							"value": "2007"
+						},
+						{
+							"reference": "2008",
+							"label": "2008",
+							"value": "2008"
+						},
+						{
+							"reference": "2009",
+							"label": "2009",
+							"value": "2009"
+						},
+						{
+							"reference": "2010",
+							"label": "2010",
+							"value": "2010"
+						},
+						{
+							"reference": "2011",
+							"label": "2011",
+							"value": "2011"
+						},
+						{
+							"reference": "2012",
+							"label": "2012",
+							"value": "2012"
+						},
+						{
+							"reference": "2013",
+							"label": "2013",
+							"value": "2013"
+						},
+						{
+							"reference": "2014",
+							"label": "2014",
+							"value": "2014"
+						},
+						{
+							"reference": "2015",
+							"label": "2015",
+							"value": "2015"
+						},
+						{
+							"reference": "2016",
+							"label": "2016",
+							"value": "2016"
+						},
+						{
+							"reference": "2017",
+							"label": "2017",
+							"value": "2017"
+						},
+						{
+							"reference": "2018",
+							"label": "2018",
+							"value": "2018"
+						},
+						{
+							"reference": "2019",
+							"label": "2019",
+							"value": "2019"
+						},
+						{
+							"reference": "2020",
+							"label": "2020",
+							"value": "2020"
+						},
+						{
+							"reference": "2021",
+							"label": "2021",
+							"value": "2021"
+						},
+						{
+							"reference": "2022",
+							"label": "2022",
+							"value": "2022"
+						},
+						{
+							"reference": "2023",
+							"label": "2023",
+							"value": "2023"
+						},
+						{
+							"reference": "2024",
+							"label": "2024",
+							"value": "2024"
+						},
+						{
+							"reference": "2025",
+							"label": "2025",
+							"value": "2025"
+						}
+					]
+				},
+				"multiple": false,
+				"fieldReference": "ehuresearchcontractyearfrom",
+				"dataSourceType": [
+					"manual"
+				]
+			},
+			"defaultValue": {
+				"en_GB": [],
+				"eu_ES": [],
+				"es_ES": [],
+				"fr_FR": [],
+				"de_DE": [],
+				"pt_PT": []
+			},
+			"fieldType": "select",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_GB": "Year from",
+				"eu_ES": "Hasierako urtea",
+				"es_ES": "Año desde",
+				"fr_FR": "Année de",
+				"de_DE": "Jahr seit",
+				"pt_PT": "Ano desde"
+			},
+			"localizable": true,
+			"name": "ehuresearchcontractyearfrom",
+			"nestedDataDefinitionFields": [],
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			}
+		},
+		{
+			"customProperties": {
+				"ddmStructureLayoutId": "",
+				"ddmStructureId": "",
+				"upgradedStructure": false,
+				"fieldReference": "ehuresearchcontractyeartoseparatorFieldSet",
+				"rows": [
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"ehuresearchcontractyeartoseparator"
+								]
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"ehuresearchcontractyeartoseparatorFieldSetFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"collapsible": false
+			},
+			"defaultValue": {
+				
+			},
+			"fieldType": "fieldset",
+			"indexable": false,
+			"label": {
+				"eu_ES": ""
+			},
+			"localizable": false,
+			"name": "ehuresearchcontractyeartoseparatorFieldSet",
+			"nestedDataDefinitionFields": [
+				{
+					"customProperties": {
+						"fieldNamespace": "",
+						"dataType": "",
+						"fieldReference": "ehuresearchcontractyeartoseparator",
+						"style": {
+							
+						}
+					},
+					"defaultValue": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					},
+					"fieldType": "separator",
+					"indexType": "keyword",
+					"indexable": true,
+					"label": {
+						"en_GB": "Year to",
+						"eu_ES": "Amaierako urtea",
+						"es_ES": "Año hasta",
+						"fr_FR": "Année à",
+						"de_DE": "Jahr auf",
+						"pt_PT": "Ano para"
+					},
+					"localizable": true,
+					"name": "ehuresearchcontractyeartoseparator",
+					"nestedDataDefinitionFields": [],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"tip": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					}
+				},
+				{
+					"customProperties": {
+						"ddmStructureLayoutId": "",
+						"ddmStructureId": "",
+						"upgradedStructure": false,
+						"fieldReference": "ehuresearchcontractyeartoseparatorFieldSetFieldSet",
+						"rows": [
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"ehuyearunknown"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"ehuresearchcontractyearto"
+										]
+									}
+								]
+							}
+						],
+						"collapsible": false
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "fieldset",
+					"indexable": false,
+					"label": {
+						"eu_ES": ""
+					},
+					"localizable": false,
+					"name": "ehuresearchcontractyeartoseparatorFieldSetFieldSet",
+					"nestedDataDefinitionFields": [
+						{
+							"customProperties": {
+								"dataType": "boolean",
+								"options": {
+									
+								},
+								"fieldReference": "ehuyearunknown"
+							},
+							"defaultValue": {
+								"en_GB": "false",
+								"eu_ES": "false",
+								"es_ES": "false",
+								"fr_FR": "false",
+								"de_DE": "false",
+								"pt_PT": "false"
+							},
+							"fieldType": "checkbox",
+							"indexType": "none",
+							"indexable": true,
+							"label": {
+								"en_GB": "Unknown year",
+								"eu_ES": "Urte ezezaguna",
+								"es_ES": "Año desconocido",
+								"fr_FR": "Année inconnue",
+								"de_DE": "Unbekanntes Jahr",
+								"pt_PT": "Ano desconhecido"
+							},
+							"localizable": true,
+							"name": "ehuyearunknown",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						},
+						{
+							"customProperties": {
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"en_GB": [
+										{
+											"reference": "1970",
+											"label": "1970",
+											"value": "1970"
+										},
+										{
+											"reference": "1971",
+											"label": "1971",
+											"value": "1971"
+										},
+										{
+											"reference": "1972",
+											"label": "1972",
+											"value": "1972"
+										},
+										{
+											"reference": "1973",
+											"label": "1973",
+											"value": "1973"
+										},
+										{
+											"reference": "1974",
+											"label": "1974",
+											"value": "1974"
+										},
+										{
+											"reference": "1975",
+											"label": "1975",
+											"value": "1975"
+										},
+										{
+											"reference": "1976",
+											"label": "1976",
+											"value": "1976"
+										},
+										{
+											"reference": "1977",
+											"label": "1977",
+											"value": "1977"
+										},
+										{
+											"reference": "1978",
+											"label": "1978",
+											"value": "1978"
+										},
+										{
+											"reference": "1979",
+											"label": "1979",
+											"value": "1979"
+										},
+										{
+											"reference": "1980",
+											"label": "1980",
+											"value": "1980"
+										},
+										{
+											"reference": "1981",
+											"label": "1981",
+											"value": "1981"
+										},
+										{
+											"reference": "1982",
+											"label": "1982",
+											"value": "1982"
+										},
+										{
+											"reference": "1983",
+											"label": "1983",
+											"value": "1983"
+										},
+										{
+											"reference": "1984",
+											"label": "1984",
+											"value": "1984"
+										},
+										{
+											"reference": "1985",
+											"label": "1985",
+											"value": "1985"
+										},
+										{
+											"reference": "1986",
+											"label": "1986",
+											"value": "1986"
+										},
+										{
+											"reference": "1987",
+											"label": "1987",
+											"value": "1987"
+										},
+										{
+											"reference": "1988",
+											"label": "1988",
+											"value": "1988"
+										},
+										{
+											"reference": "1989",
+											"label": "1989",
+											"value": "1989"
+										},
+										{
+											"reference": "1990",
+											"label": "1990",
+											"value": "1990"
+										},
+										{
+											"reference": "1991",
+											"label": "1991",
+											"value": "1991"
+										},
+										{
+											"reference": "1992",
+											"label": "1992",
+											"value": "1992"
+										},
+										{
+											"reference": "1993",
+											"label": "1993",
+											"value": "1993"
+										},
+										{
+											"reference": "1994",
+											"label": "1994",
+											"value": "1994"
+										},
+										{
+											"reference": "1995",
+											"label": "1995",
+											"value": "1995"
+										},
+										{
+											"reference": "1996",
+											"label": "1996",
+											"value": "1996"
+										},
+										{
+											"reference": "1997",
+											"label": "1997",
+											"value": "1997"
+										},
+										{
+											"reference": "1998",
+											"label": "1998",
+											"value": "1998"
+										},
+										{
+											"reference": "1999",
+											"label": "1999",
+											"value": "1999"
+										},
+										{
+											"reference": "2000",
+											"label": "2000",
+											"value": "2000"
+										},
+										{
+											"reference": "2001",
+											"label": "2001",
+											"value": "2001"
+										},
+										{
+											"reference": "2002",
+											"label": "2002",
+											"value": "2002"
+										},
+										{
+											"reference": "2003",
+											"label": "2003",
+											"value": "2003"
+										},
+										{
+											"reference": "2004",
+											"label": "2004",
+											"value": "2004"
+										},
+										{
+											"reference": "2005",
+											"label": "2005",
+											"value": "2005"
+										},
+										{
+											"reference": "2006",
+											"label": "2006",
+											"value": "2006"
+										},
+										{
+											"reference": "2007",
+											"label": "2007",
+											"value": "2007"
+										},
+										{
+											"reference": "2008",
+											"label": "2008",
+											"value": "2008"
+										},
+										{
+											"reference": "2009",
+											"label": "2009",
+											"value": "2009"
+										},
+										{
+											"reference": "2010",
+											"label": "2010",
+											"value": "2010"
+										},
+										{
+											"reference": "2011",
+											"label": "2011",
+											"value": "2011"
+										},
+										{
+											"reference": "2012",
+											"label": "2012",
+											"value": "2012"
+										},
+										{
+											"reference": "2013",
+											"label": "2013",
+											"value": "2013"
+										},
+										{
+											"reference": "2014",
+											"label": "2014",
+											"value": "2014"
+										},
+										{
+											"reference": "2015",
+											"label": "2015",
+											"value": "2015"
+										},
+										{
+											"reference": "2016",
+											"label": "2016",
+											"value": "2016"
+										},
+										{
+											"reference": "2017",
+											"label": "2017",
+											"value": "2017"
+										},
+										{
+											"reference": "2018",
+											"label": "2018",
+											"value": "2018"
+										},
+										{
+											"reference": "2019",
+											"label": "2019",
+											"value": "2019"
+										},
+										{
+											"reference": "2020",
+											"label": "2020",
+											"value": "2020"
+										},
+										{
+											"reference": "2021",
+											"label": "2021",
+											"value": "2021"
+										},
+										{
+											"reference": "2022",
+											"label": "2022",
+											"value": "2022"
+										},
+										{
+											"reference": "2023",
+											"label": "2023",
+											"value": "2023"
+										},
+										{
+											"reference": "2024",
+											"label": "2024",
+											"value": "2024"
+										},
+										{
+											"reference": "2025",
+											"label": "2025",
+											"value": "2025"
+										}
+									],
+									"eu_ES": [
+										{
+											"reference": "1970",
+											"label": "1970",
+											"value": "1970"
+										},
+										{
+											"reference": "1971",
+											"label": "1971",
+											"value": "1971"
+										},
+										{
+											"reference": "1972",
+											"label": "1972",
+											"value": "1972"
+										},
+										{
+											"reference": "1973",
+											"label": "1973",
+											"value": "1973"
+										},
+										{
+											"reference": "1974",
+											"label": "1974",
+											"value": "1974"
+										},
+										{
+											"reference": "1975",
+											"label": "1975",
+											"value": "1975"
+										},
+										{
+											"reference": "1976",
+											"label": "1976",
+											"value": "1976"
+										},
+										{
+											"reference": "1977",
+											"label": "1977",
+											"value": "1977"
+										},
+										{
+											"reference": "1978",
+											"label": "1978",
+											"value": "1978"
+										},
+										{
+											"reference": "1979",
+											"label": "1979",
+											"value": "1979"
+										},
+										{
+											"reference": "1980",
+											"label": "1980",
+											"value": "1980"
+										},
+										{
+											"reference": "1981",
+											"label": "1981",
+											"value": "1981"
+										},
+										{
+											"reference": "1982",
+											"label": "1982",
+											"value": "1982"
+										},
+										{
+											"reference": "1983",
+											"label": "1983",
+											"value": "1983"
+										},
+										{
+											"reference": "1984",
+											"label": "1984",
+											"value": "1984"
+										},
+										{
+											"reference": "1985",
+											"label": "1985",
+											"value": "1985"
+										},
+										{
+											"reference": "1986",
+											"label": "1986",
+											"value": "1986"
+										},
+										{
+											"reference": "1987",
+											"label": "1987",
+											"value": "1987"
+										},
+										{
+											"reference": "1988",
+											"label": "1988",
+											"value": "1988"
+										},
+										{
+											"reference": "1989",
+											"label": "1989",
+											"value": "1989"
+										},
+										{
+											"reference": "1990",
+											"label": "1990",
+											"value": "1990"
+										},
+										{
+											"reference": "1991",
+											"label": "1991",
+											"value": "1991"
+										},
+										{
+											"reference": "1992",
+											"label": "1992",
+											"value": "1992"
+										},
+										{
+											"reference": "1993",
+											"label": "1993",
+											"value": "1993"
+										},
+										{
+											"reference": "1994",
+											"label": "1994",
+											"value": "1994"
+										},
+										{
+											"reference": "1995",
+											"label": "1995",
+											"value": "1995"
+										},
+										{
+											"reference": "1996",
+											"label": "1996",
+											"value": "1996"
+										},
+										{
+											"reference": "1997",
+											"label": "1997",
+											"value": "1997"
+										},
+										{
+											"reference": "1998",
+											"label": "1998",
+											"value": "1998"
+										},
+										{
+											"reference": "1999",
+											"label": "1999",
+											"value": "1999"
+										},
+										{
+											"reference": "2000",
+											"label": "2000",
+											"value": "2000"
+										},
+										{
+											"reference": "2001",
+											"label": "2001",
+											"value": "2001"
+										},
+										{
+											"reference": "2002",
+											"label": "2002",
+											"value": "2002"
+										},
+										{
+											"reference": "2003",
+											"label": "2003",
+											"value": "2003"
+										},
+										{
+											"reference": "2004",
+											"label": "2004",
+											"value": "2004"
+										},
+										{
+											"reference": "2005",
+											"label": "2005",
+											"value": "2005"
+										},
+										{
+											"reference": "2006",
+											"label": "2006",
+											"value": "2006"
+										},
+										{
+											"reference": "2007",
+											"label": "2007",
+											"value": "2007"
+										},
+										{
+											"reference": "2008",
+											"label": "2008",
+											"value": "2008"
+										},
+										{
+											"reference": "2009",
+											"label": "2009",
+											"value": "2009"
+										},
+										{
+											"reference": "2010",
+											"label": "2010",
+											"value": "2010"
+										},
+										{
+											"reference": "2011",
+											"label": "2011",
+											"value": "2011"
+										},
+										{
+											"reference": "2012",
+											"label": "2012",
+											"value": "2012"
+										},
+										{
+											"reference": "2013",
+											"label": "2013",
+											"value": "2013"
+										},
+										{
+											"reference": "2014",
+											"label": "2014",
+											"value": "2014"
+										},
+										{
+											"reference": "2015",
+											"label": "2015",
+											"value": "2015"
+										},
+										{
+											"reference": "2016",
+											"label": "2016",
+											"value": "2016"
+										},
+										{
+											"reference": "2017",
+											"label": "2017",
+											"value": "2017"
+										},
+										{
+											"reference": "2018",
+											"label": "2018",
+											"value": "2018"
+										},
+										{
+											"reference": "2019",
+											"label": "2019",
+											"value": "2019"
+										},
+										{
+											"reference": "2020",
+											"label": "2020",
+											"value": "2020"
+										},
+										{
+											"reference": "2021",
+											"label": "2021",
+											"value": "2021"
+										},
+										{
+											"reference": "2022",
+											"label": "2022",
+											"value": "2022"
+										},
+										{
+											"reference": "2023",
+											"label": "2023",
+											"value": "2023"
+										},
+										{
+											"reference": "2024",
+											"label": "2024",
+											"value": "2024"
+										},
+										{
+											"reference": "2025",
+											"label": "2025",
+											"value": "2025"
+										}
+									],
+									"es_ES": [
+										{
+											"reference": "1970",
+											"label": "1970",
+											"value": "1970"
+										},
+										{
+											"reference": "1971",
+											"label": "1971",
+											"value": "1971"
+										},
+										{
+											"reference": "1972",
+											"label": "1972",
+											"value": "1972"
+										},
+										{
+											"reference": "1973",
+											"label": "1973",
+											"value": "1973"
+										},
+										{
+											"reference": "1974",
+											"label": "1974",
+											"value": "1974"
+										},
+										{
+											"reference": "1975",
+											"label": "1975",
+											"value": "1975"
+										},
+										{
+											"reference": "1976",
+											"label": "1976",
+											"value": "1976"
+										},
+										{
+											"reference": "1977",
+											"label": "1977",
+											"value": "1977"
+										},
+										{
+											"reference": "1978",
+											"label": "1978",
+											"value": "1978"
+										},
+										{
+											"reference": "1979",
+											"label": "1979",
+											"value": "1979"
+										},
+										{
+											"reference": "1980",
+											"label": "1980",
+											"value": "1980"
+										},
+										{
+											"reference": "1981",
+											"label": "1981",
+											"value": "1981"
+										},
+										{
+											"reference": "1982",
+											"label": "1982",
+											"value": "1982"
+										},
+										{
+											"reference": "1983",
+											"label": "1983",
+											"value": "1983"
+										},
+										{
+											"reference": "1984",
+											"label": "1984",
+											"value": "1984"
+										},
+										{
+											"reference": "1985",
+											"label": "1985",
+											"value": "1985"
+										},
+										{
+											"reference": "1986",
+											"label": "1986",
+											"value": "1986"
+										},
+										{
+											"reference": "1987",
+											"label": "1987",
+											"value": "1987"
+										},
+										{
+											"reference": "1988",
+											"label": "1988",
+											"value": "1988"
+										},
+										{
+											"reference": "1989",
+											"label": "1989",
+											"value": "1989"
+										},
+										{
+											"reference": "1990",
+											"label": "1990",
+											"value": "1990"
+										},
+										{
+											"reference": "1991",
+											"label": "1991",
+											"value": "1991"
+										},
+										{
+											"reference": "1992",
+											"label": "1992",
+											"value": "1992"
+										},
+										{
+											"reference": "1993",
+											"label": "1993",
+											"value": "1993"
+										},
+										{
+											"reference": "1994",
+											"label": "1994",
+											"value": "1994"
+										},
+										{
+											"reference": "1995",
+											"label": "1995",
+											"value": "1995"
+										},
+										{
+											"reference": "1996",
+											"label": "1996",
+											"value": "1996"
+										},
+										{
+											"reference": "1997",
+											"label": "1997",
+											"value": "1997"
+										},
+										{
+											"reference": "1998",
+											"label": "1998",
+											"value": "1998"
+										},
+										{
+											"reference": "1999",
+											"label": "1999",
+											"value": "1999"
+										},
+										{
+											"reference": "2000",
+											"label": "2000",
+											"value": "2000"
+										},
+										{
+											"reference": "2001",
+											"label": "2001",
+											"value": "2001"
+										},
+										{
+											"reference": "2002",
+											"label": "2002",
+											"value": "2002"
+										},
+										{
+											"reference": "2003",
+											"label": "2003",
+											"value": "2003"
+										},
+										{
+											"reference": "2004",
+											"label": "2004",
+											"value": "2004"
+										},
+										{
+											"reference": "2005",
+											"label": "2005",
+											"value": "2005"
+										},
+										{
+											"reference": "2006",
+											"label": "2006",
+											"value": "2006"
+										},
+										{
+											"reference": "2007",
+											"label": "2007",
+											"value": "2007"
+										},
+										{
+											"reference": "2008",
+											"label": "2008",
+											"value": "2008"
+										},
+										{
+											"reference": "2009",
+											"label": "2009",
+											"value": "2009"
+										},
+										{
+											"reference": "2010",
+											"label": "2010",
+											"value": "2010"
+										},
+										{
+											"reference": "2011",
+											"label": "2011",
+											"value": "2011"
+										},
+										{
+											"reference": "2012",
+											"label": "2012",
+											"value": "2012"
+										},
+										{
+											"reference": "2013",
+											"label": "2013",
+											"value": "2013"
+										},
+										{
+											"reference": "2014",
+											"label": "2014",
+											"value": "2014"
+										},
+										{
+											"reference": "2015",
+											"label": "2015",
+											"value": "2015"
+										},
+										{
+											"reference": "2016",
+											"label": "2016",
+											"value": "2016"
+										},
+										{
+											"reference": "2017",
+											"label": "2017",
+											"value": "2017"
+										},
+										{
+											"reference": "2018",
+											"label": "2018",
+											"value": "2018"
+										},
+										{
+											"reference": "2019",
+											"label": "2019",
+											"value": "2019"
+										},
+										{
+											"reference": "2020",
+											"label": "2020",
+											"value": "2020"
+										},
+										{
+											"reference": "2021",
+											"label": "2021",
+											"value": "2021"
+										},
+										{
+											"reference": "2022",
+											"label": "2022",
+											"value": "2022"
+										},
+										{
+											"reference": "2023",
+											"label": "2023",
+											"value": "2023"
+										},
+										{
+											"reference": "2024",
+											"label": "2024",
+											"value": "2024"
+										},
+										{
+											"reference": "2025",
+											"label": "2025",
+											"value": "2025"
+										}
+									],
+									"fr_FR": [
+										{
+											"reference": "1970",
+											"label": "1970",
+											"value": "1970"
+										},
+										{
+											"reference": "1971",
+											"label": "1971",
+											"value": "1971"
+										},
+										{
+											"reference": "1972",
+											"label": "1972",
+											"value": "1972"
+										},
+										{
+											"reference": "1973",
+											"label": "1973",
+											"value": "1973"
+										},
+										{
+											"reference": "1974",
+											"label": "1974",
+											"value": "1974"
+										},
+										{
+											"reference": "1975",
+											"label": "1975",
+											"value": "1975"
+										},
+										{
+											"reference": "1976",
+											"label": "1976",
+											"value": "1976"
+										},
+										{
+											"reference": "1977",
+											"label": "1977",
+											"value": "1977"
+										},
+										{
+											"reference": "1978",
+											"label": "1978",
+											"value": "1978"
+										},
+										{
+											"reference": "1979",
+											"label": "1979",
+											"value": "1979"
+										},
+										{
+											"reference": "1980",
+											"label": "1980",
+											"value": "1980"
+										},
+										{
+											"reference": "1981",
+											"label": "1981",
+											"value": "1981"
+										},
+										{
+											"reference": "1982",
+											"label": "1982",
+											"value": "1982"
+										},
+										{
+											"reference": "1983",
+											"label": "1983",
+											"value": "1983"
+										},
+										{
+											"reference": "1984",
+											"label": "1984",
+											"value": "1984"
+										},
+										{
+											"reference": "1985",
+											"label": "1985",
+											"value": "1985"
+										},
+										{
+											"reference": "1986",
+											"label": "1986",
+											"value": "1986"
+										},
+										{
+											"reference": "1987",
+											"label": "1987",
+											"value": "1987"
+										},
+										{
+											"reference": "1988",
+											"label": "1988",
+											"value": "1988"
+										},
+										{
+											"reference": "1989",
+											"label": "1989",
+											"value": "1989"
+										},
+										{
+											"reference": "1990",
+											"label": "1990",
+											"value": "1990"
+										},
+										{
+											"reference": "1991",
+											"label": "1991",
+											"value": "1991"
+										},
+										{
+											"reference": "1992",
+											"label": "1992",
+											"value": "1992"
+										},
+										{
+											"reference": "1993",
+											"label": "1993",
+											"value": "1993"
+										},
+										{
+											"reference": "1994",
+											"label": "1994",
+											"value": "1994"
+										},
+										{
+											"reference": "1995",
+											"label": "1995",
+											"value": "1995"
+										},
+										{
+											"reference": "1996",
+											"label": "1996",
+											"value": "1996"
+										},
+										{
+											"reference": "1997",
+											"label": "1997",
+											"value": "1997"
+										},
+										{
+											"reference": "1998",
+											"label": "1998",
+											"value": "1998"
+										},
+										{
+											"reference": "1999",
+											"label": "1999",
+											"value": "1999"
+										},
+										{
+											"reference": "2000",
+											"label": "2000",
+											"value": "2000"
+										},
+										{
+											"reference": "2001",
+											"label": "2001",
+											"value": "2001"
+										},
+										{
+											"reference": "2002",
+											"label": "2002",
+											"value": "2002"
+										},
+										{
+											"reference": "2003",
+											"label": "2003",
+											"value": "2003"
+										},
+										{
+											"reference": "2004",
+											"label": "2004",
+											"value": "2004"
+										},
+										{
+											"reference": "2005",
+											"label": "2005",
+											"value": "2005"
+										},
+										{
+											"reference": "2006",
+											"label": "2006",
+											"value": "2006"
+										},
+										{
+											"reference": "2007",
+											"label": "2007",
+											"value": "2007"
+										},
+										{
+											"reference": "2008",
+											"label": "2008",
+											"value": "2008"
+										},
+										{
+											"reference": "2009",
+											"label": "2009",
+											"value": "2009"
+										},
+										{
+											"reference": "2010",
+											"label": "2010",
+											"value": "2010"
+										},
+										{
+											"reference": "2011",
+											"label": "2011",
+											"value": "2011"
+										},
+										{
+											"reference": "2012",
+											"label": "2012",
+											"value": "2012"
+										},
+										{
+											"reference": "2013",
+											"label": "2013",
+											"value": "2013"
+										},
+										{
+											"reference": "2014",
+											"label": "2014",
+											"value": "2014"
+										},
+										{
+											"reference": "2015",
+											"label": "2015",
+											"value": "2015"
+										},
+										{
+											"reference": "2016",
+											"label": "2016",
+											"value": "2016"
+										},
+										{
+											"reference": "2017",
+											"label": "2017",
+											"value": "2017"
+										},
+										{
+											"reference": "2018",
+											"label": "2018",
+											"value": "2018"
+										},
+										{
+											"reference": "2019",
+											"label": "2019",
+											"value": "2019"
+										},
+										{
+											"reference": "2020",
+											"label": "2020",
+											"value": "2020"
+										},
+										{
+											"reference": "2021",
+											"label": "2021",
+											"value": "2021"
+										},
+										{
+											"reference": "2022",
+											"label": "2022",
+											"value": "2022"
+										},
+										{
+											"reference": "2023",
+											"label": "2023",
+											"value": "2023"
+										},
+										{
+											"reference": "2024",
+											"label": "2024",
+											"value": "2024"
+										},
+										{
+											"reference": "2025",
+											"label": "2025",
+											"value": "2025"
+										}
+									],
+									"pt_PT": [
+										{
+											"reference": "1970",
+											"label": "1970",
+											"value": "1970"
+										},
+										{
+											"reference": "1971",
+											"label": "1971",
+											"value": "1971"
+										},
+										{
+											"reference": "1972",
+											"label": "1972",
+											"value": "1972"
+										},
+										{
+											"reference": "1973",
+											"label": "1973",
+											"value": "1973"
+										},
+										{
+											"reference": "1974",
+											"label": "1974",
+											"value": "1974"
+										},
+										{
+											"reference": "1975",
+											"label": "1975",
+											"value": "1975"
+										},
+										{
+											"reference": "1976",
+											"label": "1976",
+											"value": "1976"
+										},
+										{
+											"reference": "1977",
+											"label": "1977",
+											"value": "1977"
+										},
+										{
+											"reference": "1978",
+											"label": "1978",
+											"value": "1978"
+										},
+										{
+											"reference": "1979",
+											"label": "1979",
+											"value": "1979"
+										},
+										{
+											"reference": "1980",
+											"label": "1980",
+											"value": "1980"
+										},
+										{
+											"reference": "1981",
+											"label": "1981",
+											"value": "1981"
+										},
+										{
+											"reference": "1982",
+											"label": "1982",
+											"value": "1982"
+										},
+										{
+											"reference": "1983",
+											"label": "1983",
+											"value": "1983"
+										},
+										{
+											"reference": "1984",
+											"label": "1984",
+											"value": "1984"
+										},
+										{
+											"reference": "1985",
+											"label": "1985",
+											"value": "1985"
+										},
+										{
+											"reference": "1986",
+											"label": "1986",
+											"value": "1986"
+										},
+										{
+											"reference": "1987",
+											"label": "1987",
+											"value": "1987"
+										},
+										{
+											"reference": "1988",
+											"label": "1988",
+											"value": "1988"
+										},
+										{
+											"reference": "1989",
+											"label": "1989",
+											"value": "1989"
+										},
+										{
+											"reference": "1990",
+											"label": "1990",
+											"value": "1990"
+										},
+										{
+											"reference": "1991",
+											"label": "1991",
+											"value": "1991"
+										},
+										{
+											"reference": "1992",
+											"label": "1992",
+											"value": "1992"
+										},
+										{
+											"reference": "1993",
+											"label": "1993",
+											"value": "1993"
+										},
+										{
+											"reference": "1994",
+											"label": "1994",
+											"value": "1994"
+										},
+										{
+											"reference": "1995",
+											"label": "1995",
+											"value": "1995"
+										},
+										{
+											"reference": "1996",
+											"label": "1996",
+											"value": "1996"
+										},
+										{
+											"reference": "1997",
+											"label": "1997",
+											"value": "1997"
+										},
+										{
+											"reference": "1998",
+											"label": "1998",
+											"value": "1998"
+										},
+										{
+											"reference": "1999",
+											"label": "1999",
+											"value": "1999"
+										},
+										{
+											"reference": "2000",
+											"label": "2000",
+											"value": "2000"
+										},
+										{
+											"reference": "2001",
+											"label": "2001",
+											"value": "2001"
+										},
+										{
+											"reference": "2002",
+											"label": "2002",
+											"value": "2002"
+										},
+										{
+											"reference": "2003",
+											"label": "2003",
+											"value": "2003"
+										},
+										{
+											"reference": "2004",
+											"label": "2004",
+											"value": "2004"
+										},
+										{
+											"reference": "2005",
+											"label": "2005",
+											"value": "2005"
+										},
+										{
+											"reference": "2006",
+											"label": "2006",
+											"value": "2006"
+										},
+										{
+											"reference": "2007",
+											"label": "2007",
+											"value": "2007"
+										},
+										{
+											"reference": "2008",
+											"label": "2008",
+											"value": "2008"
+										},
+										{
+											"reference": "2009",
+											"label": "2009",
+											"value": "2009"
+										},
+										{
+											"reference": "2010",
+											"label": "2010",
+											"value": "2010"
+										},
+										{
+											"reference": "2011",
+											"label": "2011",
+											"value": "2011"
+										},
+										{
+											"reference": "2012",
+											"label": "2012",
+											"value": "2012"
+										},
+										{
+											"reference": "2013",
+											"label": "2013",
+											"value": "2013"
+										},
+										{
+											"reference": "2014",
+											"label": "2014",
+											"value": "2014"
+										},
+										{
+											"reference": "2015",
+											"label": "2015",
+											"value": "2015"
+										},
+										{
+											"reference": "2016",
+											"label": "2016",
+											"value": "2016"
+										},
+										{
+											"reference": "2017",
+											"label": "2017",
+											"value": "2017"
+										},
+										{
+											"reference": "2018",
+											"label": "2018",
+											"value": "2018"
+										},
+										{
+											"reference": "2019",
+											"label": "2019",
+											"value": "2019"
+										},
+										{
+											"reference": "2020",
+											"label": "2020",
+											"value": "2020"
+										},
+										{
+											"reference": "2021",
+											"label": "2021",
+											"value": "2021"
+										},
+										{
+											"reference": "2022",
+											"label": "2022",
+											"value": "2022"
+										},
+										{
+											"reference": "2023",
+											"label": "2023",
+											"value": "2023"
+										},
+										{
+											"reference": "2024",
+											"label": "2024",
+											"value": "2024"
+										},
+										{
+											"reference": "2025",
+											"label": "2025",
+											"value": "2025"
+										}
+									],
+									"de_DE": [
+										{
+											"reference": "1970",
+											"label": "1970",
+											"value": "1970"
+										},
+										{
+											"reference": "1971",
+											"label": "1971",
+											"value": "1971"
+										},
+										{
+											"reference": "1972",
+											"label": "1972",
+											"value": "1972"
+										},
+										{
+											"reference": "1973",
+											"label": "1973",
+											"value": "1973"
+										},
+										{
+											"reference": "1974",
+											"label": "1974",
+											"value": "1974"
+										},
+										{
+											"reference": "1975",
+											"label": "1975",
+											"value": "1975"
+										},
+										{
+											"reference": "1976",
+											"label": "1976",
+											"value": "1976"
+										},
+										{
+											"reference": "1977",
+											"label": "1977",
+											"value": "1977"
+										},
+										{
+											"reference": "1978",
+											"label": "1978",
+											"value": "1978"
+										},
+										{
+											"reference": "1979",
+											"label": "1979",
+											"value": "1979"
+										},
+										{
+											"reference": "1980",
+											"label": "1980",
+											"value": "1980"
+										},
+										{
+											"reference": "1981",
+											"label": "1981",
+											"value": "1981"
+										},
+										{
+											"reference": "1982",
+											"label": "1982",
+											"value": "1982"
+										},
+										{
+											"reference": "1983",
+											"label": "1983",
+											"value": "1983"
+										},
+										{
+											"reference": "1984",
+											"label": "1984",
+											"value": "1984"
+										},
+										{
+											"reference": "1985",
+											"label": "1985",
+											"value": "1985"
+										},
+										{
+											"reference": "1986",
+											"label": "1986",
+											"value": "1986"
+										},
+										{
+											"reference": "1987",
+											"label": "1987",
+											"value": "1987"
+										},
+										{
+											"reference": "1988",
+											"label": "1988",
+											"value": "1988"
+										},
+										{
+											"reference": "1989",
+											"label": "1989",
+											"value": "1989"
+										},
+										{
+											"reference": "1990",
+											"label": "1990",
+											"value": "1990"
+										},
+										{
+											"reference": "1991",
+											"label": "1991",
+											"value": "1991"
+										},
+										{
+											"reference": "1992",
+											"label": "1992",
+											"value": "1992"
+										},
+										{
+											"reference": "1993",
+											"label": "1993",
+											"value": "1993"
+										},
+										{
+											"reference": "1994",
+											"label": "1994",
+											"value": "1994"
+										},
+										{
+											"reference": "1995",
+											"label": "1995",
+											"value": "1995"
+										},
+										{
+											"reference": "1996",
+											"label": "1996",
+											"value": "1996"
+										},
+										{
+											"reference": "1997",
+											"label": "1997",
+											"value": "1997"
+										},
+										{
+											"reference": "1998",
+											"label": "1998",
+											"value": "1998"
+										},
+										{
+											"reference": "1999",
+											"label": "1999",
+											"value": "1999"
+										},
+										{
+											"reference": "2000",
+											"label": "2000",
+											"value": "2000"
+										},
+										{
+											"reference": "2001",
+											"label": "2001",
+											"value": "2001"
+										},
+										{
+											"reference": "2002",
+											"label": "2002",
+											"value": "2002"
+										},
+										{
+											"reference": "2003",
+											"label": "2003",
+											"value": "2003"
+										},
+										{
+											"reference": "2004",
+											"label": "2004",
+											"value": "2004"
+										},
+										{
+											"reference": "2005",
+											"label": "2005",
+											"value": "2005"
+										},
+										{
+											"reference": "2006",
+											"label": "2006",
+											"value": "2006"
+										},
+										{
+											"reference": "2007",
+											"label": "2007",
+											"value": "2007"
+										},
+										{
+											"reference": "2008",
+											"label": "2008",
+											"value": "2008"
+										},
+										{
+											"reference": "2009",
+											"label": "2009",
+											"value": "2009"
+										},
+										{
+											"reference": "2010",
+											"label": "2010",
+											"value": "2010"
+										},
+										{
+											"reference": "2011",
+											"label": "2011",
+											"value": "2011"
+										},
+										{
+											"reference": "2012",
+											"label": "2012",
+											"value": "2012"
+										},
+										{
+											"reference": "2013",
+											"label": "2013",
+											"value": "2013"
+										},
+										{
+											"reference": "2014",
+											"label": "2014",
+											"value": "2014"
+										},
+										{
+											"reference": "2015",
+											"label": "2015",
+											"value": "2015"
+										},
+										{
+											"reference": "2016",
+											"label": "2016",
+											"value": "2016"
+										},
+										{
+											"reference": "2017",
+											"label": "2017",
+											"value": "2017"
+										},
+										{
+											"reference": "2018",
+											"label": "2018",
+											"value": "2018"
+										},
+										{
+											"reference": "2019",
+											"label": "2019",
+											"value": "2019"
+										},
+										{
+											"reference": "2020",
+											"label": "2020",
+											"value": "2020"
+										},
+										{
+											"reference": "2021",
+											"label": "2021",
+											"value": "2021"
+										},
+										{
+											"reference": "2022",
+											"label": "2022",
+											"value": "2022"
+										},
+										{
+											"reference": "2023",
+											"label": "2023",
+											"value": "2023"
+										},
+										{
+											"reference": "2024",
+											"label": "2024",
+											"value": "2024"
+										},
+										{
+											"reference": "2025",
+											"label": "2025",
+											"value": "2025"
+										}
+									]
+								},
+								"multiple": false,
+								"fieldReference": "ehuresearchcontractyearto",
+								"dataSourceType": [
+									"manual"
+								]
+							},
+							"defaultValue": {
+								"en_GB": [],
+								"eu_ES": [],
+								"es_ES": [],
+								"fr_FR": [],
+								"de_DE": [],
+								"pt_PT": []
+							},
+							"fieldType": "select",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Research contract ending year",
+								"eu_ES": "Ikerketa kontratuaren amaierako urtea",
+								"es_ES": "Año en el que finaliza el contrato de investigación",
+								"fr_FR": "Dernière année du contrat de recherche",
+								"de_DE": "Jahr, in dem der Forschungsvertrag endet",
+								"pt_PT": "Ano em que termina o contrato de investigação"
+							},
+							"localizable": true,
+							"name": "ehuresearchcontractyearto",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						}
+					],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": false,
+					"tip": {
+						
+					}
+				}
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": false,
+			"tip": {
+				
+			}
+		},
+		{
+			"customProperties": {
+				"displayStyle": "multiline",
+				"fieldNamespace": "",
+				"visibilityExpression": "",
+				"ddmDataProviderInstanceOutput": [],
+				"autocomplete": false,
+				"ddmDataProviderInstanceId": [],
+				"dataType": "string",
+				"options": {
+					"eu_ES": [
+						{
+							"reference": "",
+							"label": "Option",
+							"value": "Option"
+						}
+					]
+				},
+				"tooltip": {
+					"eu_ES": ""
+				},
+				"fieldReference": "ehuresearchcontractdescription",
+				"placeholder": {
+					"eu_ES": ""
+				},
+				"dataSourceType": "manual"
+			},
+			"defaultValue": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			},
+			"fieldType": "text",
+			"indexType": "text",
+			"indexable": true,
+			"label": {
+				"en_GB": "Description",
+				"eu_ES": "Deskribapena",
+				"es_ES": "Descripción",
+				"fr_FR": "Description",
+				"de_DE": "Beschreibung",
+				"pt_PT": "Descrição"
+			},
+			"localizable": true,
+			"name": "ehuresearchcontractdescription",
+			"nestedDataDefinitionFields": [],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"tip": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			}
+		}
+	],
+	"defaultDataLayout": {
+		"dataLayoutFields": {
+			
+		},
+		"dataLayoutPages": [
+			{
+				"dataLayoutRows": [
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"ehuresearchcontracttitleFieldSet"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"ehuresearchcontractcompany"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"ehuresearchcontractresearcher"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"ehuresearchcontractyearfrom"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"ehuresearchcontractyeartoseparatorFieldSet"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"ehuresearchcontractdescription"
+								]
+							}
+						]
+					}
+				],
+				"description": {
+					"eu_ES": "Deskribapena"
+				},
+				"title": {
+					"eu_ES": "Orrialdea"
+				}
+			}
+		],
+		"dataRules": [],
+		"description": {
+			
+		},
+		"name": {
+			
+		},
+		"paginationMode": "single-page"
+	},
+	"defaultLanguageId": "eu_ES",
+	"description": {
+		
+	},
+	"name": {
+		"en_GB": "Research contract",
+		"eu_ES": "Ikerketa kontratua",
+		"es_ES": "Contrato de investigación",
+		"fr_FR": "Contrats de recherche",
+		"de_DE": "Forschungsvertrag"
+	},
+	"storageType": "default"
+}

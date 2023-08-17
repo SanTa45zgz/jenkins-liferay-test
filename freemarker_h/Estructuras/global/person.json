@@ -1,0 +1,764 @@
+{
+   "availableLanguageIds": [
+       "es_ES",
+       "eu_ES",
+       "fr_FR",
+       "en_GB",
+       "de_DE",
+       "pt_PT"
+    ],
+   "defaultLanguageId": "eu_ES",
+   "fields": [
+        {
+           "label": {
+               "es_ES": "No se puede poner más de un contenido de este tipo con visualización completa en una página.",
+               "eu_ES": "Ezin da mota honetako eduki bat baino gehiago jarri orrialde batean bistaratze osoarekin.",
+               "fr_FR": "Vous ne pouvez pas mettre plus d'un contenu de ce type avec un affichage complet sur une page.",
+               "en_GB": "You must not put more than one content of this type with full display on a page.",
+               "de_DE": "Sie können nicht mehr als einen Inhalt dieses Typs mit voller Anzeige auf einer Seite platzieren.",
+               "pt_PT": "Você não pode colocar mais de um conteúdo deste tipo com exibição total em uma página."
+            },
+           "predefinedValue": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "style": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "tip": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "dataType": "",
+           "fieldNamespace": "ddm",
+           "indexType": "keyword",
+           "localizable": true,
+           "name": "ehupersonwarning",
+           "readOnly": false,
+           "repeatable": false,
+           "required": false,
+           "showLabel": true,
+           "type": "ddm-separator"
+        },
+        {
+           "label": {
+               "es_ES": "Selecciona una categoría en Destinatarios por cada relación que tenga la persona con la UPV/EHU. Ten en cuenta que la inclusión de una categoría supondrá la inclusión de su categoría madre (Alumnado, Personal de Administración y Servicios o Personal de Docencia e Investigación). Si la relación que necesitas no existe, solicítala en el CAU (cau@ehu.eus).",
+               "eu_ES": "Hautatu Hartzaileak kategoria bat pertsonak UPV/EHU-rekin duen lotura bakoitzagatik. Kontuan izan, kategoria baten hautaketak suposatuko duela bere kategoria gurasoa erakustea (Ikasle, Administrazioko eta Zerbitzuetako Pertsonala edo Irakaskuntza eta Ikerkuntzako Pertsonala). Nahi duzun lotura edo lan-postua ez badago, eskatu EAZ bidez (cau@ehu.eus).",
+               "fr_FR": "Sélectionnez une catégorie dans Destinataires pour chaque relation que la personne a avec l'UPV/EHU. Gardez à l'esprit que l'inclusion d'une catégorie inclura l'inclusion de sa catégorie parente (personnel étudiant, personnel et services administratifs ou personnel enseignant et de recherche). Si la relation dont vous avez besoin n'existe pas, demandez-le dans le CAU (cau@ehu.eus).",
+               "en_GB": "Choose a Receivers category for every relation the person has with the UPV/EHU. Take into account that the selection of a category will include its parent category (Student, Personal of Administration and Services or Teaching and Research Staff). In case the relation you need does not exist, ask for it (cau@ehu.eus).",
+               "de_DE": "Wählen Sie eine Kategorie in Empfänger für jede Beziehung, die die Person mit der UPV/EHU hat. Beachten Sie, dass die Einbeziehung einer Kategorie die Einbeziehung ihrer übergeordneten Kategorie bedeutet (Studenten, Verwaltungs- und Dienstleistungspersonal oder Lehr- und Forschungspersonal). Sollte die von Ihnen benötigte Beziehung nicht bestehen, fordern Sie diese bei der CAU an (cau@ehu.eus).",
+               "pt_PT": "Selecione uma categoria em Destinatários para cada relação que a pessoa tem com a UPV/EHU. Recorde-se que a inclusão de uma categoria implicará a inclusão da sua categoria superior (Estudantes, Pessoal de Administração e Serviços ou Pessoal Docente e Investigador). Caso a relação que você precisa não exista, solicite-a no CAU (cau@ehu.eus)."
+            },
+           "predefinedValue": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "style": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "tip": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "dataType": "",
+           "fieldNamespace": "ddm",
+           "indexType": "keyword",
+           "localizable": true,
+           "name": "ehupersoncategoriesnote",
+           "readOnly": false,
+           "repeatable": false,
+           "required": false,
+           "showLabel": true,
+           "type": "ddm-separator"
+        },
+        {
+           "label": {
+               "es_ES": "Datos de contacto",
+               "eu_ES": "Harremanetarako datuak",
+               "fr_FR": "Informations de contact",
+               "en_GB": "Contact information",
+               "de_DE": "Kontaktdaten",
+               "pt_PT": "Dados de contato"
+            },
+           "predefinedValue": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "style": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "tip": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "dataType": "",
+           "fieldNamespace": "ddm",
+           "indexType": "keyword",
+           "localizable": true,
+           "name": "ehucontactdata",
+           "readOnly": false,
+           "repeatable": false,
+           "required": false,
+           "showLabel": true,
+           "type": "ddm-separator",
+           "nestedFields": [
+                {
+                   "label": {
+                       "es_ES": "Nombre completo",
+                       "eu_ES": "Izen osoa",
+                       "fr_FR": "Nom et prénoms",
+                       "en_GB": "Full name",
+                       "de_DE": "Vollständiger Name",
+                       "pt_PT": "Nome completo"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "dataType": "string",
+                   "indexType": "text",
+                   "localizable": true,
+                   "name": "ehuname",
+                   "readOnly": false,
+                   "repeatable": false,
+                   "required": true,
+                   "showLabel": true,
+                   "type": "text"
+                },
+                {
+                   "label": {
+                       "es_ES": "Información adicional",
+                       "eu_ES": "Informazio gehigarria",
+                       "fr_FR": "Information additionnelle",
+                       "en_GB": "Additional information",
+                       "de_DE": "Zusätzliche Informationen",
+                       "pt_PT": "Informação adicional"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "p.e. centro, departamento, grupo de investigación...",
+                       "eu_ES": "adb. ikastegia, saila, ikerketa taldea...",
+                       "fr_FR": "p. Ex. centre, département, groupe de recherche...",
+                       "en_GB": "f.e. centre, department, research group...",
+                       "de_DE": "z. Zentrum, Abteilung, Forschungsgruppe...",
+                       "pt_PT": "por exemplo, centro, departamento, grupo de pesquisa..."
+                    },
+                   "dataType": "string",
+                   "indexType": "text",
+                   "localizable": true,
+                   "name": "ehuotherinformation",
+                   "readOnly": false,
+                   "repeatable": false,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "text"
+                },
+                {
+                   "label": {
+                       "es_ES": "Teléfono",
+                       "eu_ES": "Telefonoa",
+                       "fr_FR": "Téléphone",
+                       "en_GB": "Phone",
+                       "de_DE": "Telefon",
+                       "pt_PT": "Telefone"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "+00 123 456 789",
+                       "eu_ES": "+00 123 456 789",
+                       "fr_FR": "+00 123 456 789",
+                       "en_GB": "+00 123 456 789",
+                       "de_DE": "+00 123 456 789",
+                       "pt_PT": "+00 123 456 789"
+                    },
+                   "dataType": "string",
+                   "indexType": "text",
+                   "localizable": true,
+                   "name": "ehuphone",
+                   "readOnly": false,
+                   "repeatable": true,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "text",
+                   "nestedFields": [
+                        {
+                           "label": {
+                               "es_ES": "Descripción del teléfono",
+                               "eu_ES": "Telefonoaren deskribapena",
+                               "fr_FR": "Description du téléphone",
+                               "en_GB": "Phone’s description",
+                               "de_DE": "Beschreibung des Telefons",
+                               "pt_PT": "Descrição do telefone"
+                            },
+                           "predefinedValue": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "style": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "tip": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "dataType": "string",
+                           "indexType": "text",
+                           "localizable": true,
+                           "name": "ehuphonetext",
+                           "readOnly": false,
+                           "repeatable": false,
+                           "required": false,
+                           "showLabel": true,
+                           "type": "text"
+                        }
+                    ]
+                },
+                {
+                   "label": {
+                       "es_ES": "Correo electrónico",
+                       "eu_ES": "Posta elektronikoa",
+                       "fr_FR": "E-mail",
+                       "en_GB": "Email-address",
+                       "de_DE": "E-Mail",
+                       "pt_PT": "EMail"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "mi-correo@ejemplo.com",
+                       "eu_ES": "nire-posta@adibide.com",
+                       "fr_FR": "mon-email@exemple.com",
+                       "en_GB": "my-email@example.com",
+                       "de_DE": "meine-email@beispiel.com",
+                       "pt_PT": "meu-correio@exemplo.com"
+                    },
+                   "dataType": "string",
+                   "indexType": "text",
+                   "localizable": true,
+                   "name": "ehumail",
+                   "readOnly": false,
+                   "repeatable": true,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "text",
+                   "nestedFields": [
+                        {
+                           "label": {
+                               "es_ES": "Descripción del correo electrónico",
+                               "eu_ES": "Posta elektronikoaren deskribapena",
+                               "fr_FR": "Description du e-mail",
+                               "en_GB": "Email’s description",
+                               "de_DE": "Beschreibung der E-Mail",
+                               "pt_PT": "Descrição do Email"
+                            },
+                           "predefinedValue": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "style": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "tip": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "dataType": "string",
+                           "indexType": "text",
+                           "localizable": true,
+                           "name": "ehumailtext",
+                           "readOnly": false,
+                           "repeatable": false,
+                           "required": false,
+                           "showLabel": true,
+                           "type": "text"
+                        }
+                    ]
+                },
+                {
+                   "label": {
+                       "es_ES": "Imagen",
+                       "eu_ES": "Irudia",
+                       "fr_FR": "Image",
+                       "en_GB": "Image",
+                       "de_DE": "Bild",
+                       "pt_PT": "Imagem"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "Para una correcta visualización se recomienda usar imágenes de 135x150 píxeles (ancho x alto)",
+                       "eu_ES": "Gomendagarria da 135 zabalerako eta 150 altuerako pixeleko irudia erabiltzea",
+                       "fr_FR": "Pour une visualisation correcte, il est recommandé d'utiliser des images de 135x150 pixels (largeur x hauteur)",
+                       "en_GB": "To show properly it is recommended to use 135x150 pixels images (width x height)",
+                       "de_DE": "Für eine korrekte Darstellung wird empfohlen, Bilder mit 135x150 Pixel (Breite x Höhe) zu verwenden",
+                       "pt_PT": "Para uma correta visualização recomenda-se a utilização de imagens de 135x150 pixels (largura x altura)"
+                    },
+                   "dataType": "document-library",
+                   "fieldNamespace": "ddm",
+                   "indexType": "",
+                   "localizable": true,
+                   "name": "ehuimage",
+                   "readOnly": false,
+                   "repeatable": false,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "ddm-documentlibrary"
+                }
+            ]
+        },
+        {
+           "label": {
+               "es_ES": "Información adicional",
+               "eu_ES": "Informazio gehigarria",
+               "fr_FR": "Information additionnelle",
+               "en_GB": "Additional information",
+               "de_DE": "Zusätzliche Informationen",
+               "pt_PT": "Informação adicional"
+            },
+           "predefinedValue": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "style": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "tip": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "dataType": "",
+           "fieldNamespace": "ddm",
+           "indexType": "keyword",
+           "localizable": true,
+           "name": "ehuaditionalinfo",
+           "readOnly": false,
+           "repeatable": false,
+           "required": false,
+           "showLabel": true,
+           "type": "ddm-separator",
+           "nestedFields": [
+                {
+                   "label": {
+                       "es_ES": "Documento",
+                       "eu_ES": "Dokumentua",
+                       "fr_FR": "Document",
+                       "en_GB": "Document",
+                       "de_DE": "Dokument",
+                       "pt_PT": "Documento"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "dataType": "document-library",
+                   "fieldNamespace": "ddm",
+                   "indexType": "keyword",
+                   "localizable": true,
+                   "name": "ehudocument",
+                   "readOnly": false,
+                   "repeatable": true,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "ddm-documentlibrary",
+                   "nestedFields": [
+                        {
+                           "label": {
+                               "es_ES": "Nombre del documento",
+                               "eu_ES": "Dokumentuaren izena",
+                               "fr_FR": "Nom du document",
+                               "en_GB": "Document name",
+                               "de_DE": "Dokumentname",
+                               "pt_PT": "Nome do Documento"
+                            },
+                           "predefinedValue": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "style": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "tip": {
+                               "es_ES": "Nombre asociado al fichero seleccionado",
+                               "eu_ES": "Aukeratutako fitxategiarekin lotutako izena",
+                               "fr_FR": "Nom associé au fichier sélectionné",
+                               "en_GB": "Name associated to the selected file",
+                               "de_DE": "Name, der der ausgewählten Datei zugeordnet ist",
+                               "pt_PT": "Nome associado ao arquivo selecionado"
+                            },
+                           "dataType": "string",
+                           "indexType": "text",
+                           "localizable": true,
+                           "name": "ehudocumentdescription",
+                           "readOnly": false,
+                           "repeatable": false,
+                           "required": false,
+                           "showLabel": true,
+                           "type": "text"
+                        }
+                    ]
+                },
+                {
+                   "label": {
+                       "es_ES": "Dirección web",
+                       "eu_ES": "Web helbidea",
+                       "fr_FR": "Adresse web",
+                       "en_GB": "Web address",
+                       "de_DE": "Webadresse",
+                       "pt_PT": "Endereço da web"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "https://www.ejemplo.com",
+                       "eu_ES": "https://www.adibide.com",
+                       "fr_FR": "https://www.exemple.com",
+                       "en_GB": "https://www.example.com",
+                       "de_DE": "https://www.beispiel.com",
+                       "pt_PT": "https://www.exemplo.com"
+                    },
+                   "dataType": "string",
+                   "indexType": "text",
+                   "localizable": true,
+                   "name": "ehuurl",
+                   "readOnly": false,
+                   "repeatable": true,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "text",
+                   "nestedFields": [
+                        {
+                           "label": {
+                               "es_ES": "Nombre de la dirección web",
+                               "eu_ES": "Web helbidearen izena",
+                               "fr_FR": "Nom de l'adresse web",
+                               "en_GB": "Name of the web address",
+                               "de_DE": "Name der Webadresse",
+                               "pt_PT": "Nome do endereço da web"
+                            },
+                           "predefinedValue": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "style": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "tip": {
+                               "es_ES": "Nombre asociado a la dirección web seleccionada",
+                               "eu_ES": "Aukeratutako web helbidearekin lotutako izena",
+                               "fr_FR": "Nom associé à l'adresse web sélectionnée",
+                               "en_GB": "Name associated to the selected web address",
+                               "de_DE": "Mit der ausgewählten Webadresse verknüpfter Text",
+                               "pt_PT": "Nome associado ao endereço da web selecionado"
+                            },
+                           "dataType": "string",
+                           "indexType": "text",
+                           "localizable": true,
+                           "name": "ehuurldescription",
+                           "readOnly": false,
+                           "repeatable": false,
+                           "required": false,
+                           "showLabel": true,
+                           "type": "text"
+                        }
+                    ]
+                },
+                {
+                   "label": {
+                       "es_ES": "Título",
+                       "eu_ES": "Izenburua",
+                       "fr_FR": "Titre",
+                       "en_GB": "Title",
+                       "de_DE": "Titel",
+                       "pt_PT": "Título"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "dataType": "string",
+                   "indexType": "text",
+                   "localizable": true,
+                   "name": "ehutitle",
+                   "readOnly": false,
+                   "repeatable": true,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "text",
+                   "nestedFields": [
+                        {
+                           "label": {
+                               "es_ES": "Descripción",
+                               "eu_ES": "Deskribapena",
+                               "fr_FR": "Description",
+                               "en_GB": "Description",
+                               "de_DE": "Beschreibung",
+                               "pt_PT": "Descrição"
+                            },
+                           "predefinedValue": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "style": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "tip": {
+                               "es_ES": "",
+                               "eu_ES": "",
+                               "fr_FR": "",
+                               "en_GB": "",
+                               "de_DE": "",
+                               "pt_PT": ""
+                            },
+                           "dataType": "string",
+                           "indexType": "text",
+                           "localizable": true,
+                           "name": "ehudescription",
+                           "readOnly": false,
+                           "repeatable": false,
+                           "required": false,
+                           "showLabel": true,
+                           "type": "textarea"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

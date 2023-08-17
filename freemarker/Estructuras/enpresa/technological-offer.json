@@ -1,0 +1,1384 @@
+{
+    "availableLanguageIds": ["es_ES", "eu_ES", "fr_FR", "en_GB"],
+    "contentType": "journal",
+    "dataDefinitionFields": [{
+            "customProperties": {
+                "rulesConditionDisabled": false,
+                "dataType": "",
+                "fieldReference": "ehuwarning",
+                "style": {}
+            },
+            "defaultValue": {},
+            "fieldType": "separator",
+            "indexable": false,
+            "label": {
+                "en_GB": " You must not put more than one content of this type with full display on a page. ",
+                "eu_ES": " Ezin da mota honetako eduki bat baino gehiago jarri orrialde batean bistaratze osoarekin. ",
+                "es_ES": " No se puede poner más de un contenido de este tipo con visualización completa en una página. ",
+                "fr_FR": " Vous ne pouvez pas mettre plus d'un contenu de ce type avec un affichage complet sur une page. "
+            },
+            "localizable": false,
+            "name": "ehuwarning",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": ""
+            }
+        }, {
+            "customProperties": {
+                "rulesConditionDisabled": false,
+                "dataType": "",
+                "fieldReference": "Hautatu_Kokapena_kategoria_bat_aurkeztu_nahi_duzun_kokapen_bakoitzagatik_",
+                "style": {}
+            },
+            "defaultValue": {},
+            "fieldType": "separator",
+            "indexable": false,
+            "label": {
+                "en_GB": " Choose a Location category for every place you would like to show. ",
+                "eu_ES": " Hautatu Kokapena kategoria bat aurkeztu nahi duzun kokapen bakoitzagatik. ",
+                "es_ES": " Selecciona una categoría Ubicación por cada lugar que desees mostrar. ",
+                "fr_FR": " Sélectionnez une catégorie de lieu pour chaque emplacement que vous souhaitez afficher. "
+            },
+            "localizable": false,
+            "name": "Hautatu_Kokapena_kategoria_bat_aurkeztu_nahi_duzun_kokapen_bakoitzagatik_",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": ""
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehumaindataFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehumaindata"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehumaindataFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehumaindataFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehumaindata",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " General data ",
+                        "eu_ES": " Datu orokorrak ",
+                        "es_ES": " Datos generales ",
+                        "fr_FR": " Données générales "
+                    },
+                    "localizable": false,
+                    "name": "ehumaindata",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }, {
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehumaindataFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehugrouptitle"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehumainresearcher"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehuphdnumber"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehumembernumber"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucontactemail"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehuwebpageurl"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehumaindataFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "dataType": "integer",
+                                "tooltip": {},
+                                "requireConfirmation": false,
+                                "inputMask": false,
+                                "characterOptions": false,
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "inputMaskFormat": {},
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehuphdnumber",
+                                "numericInputMask": {},
+                                "placeholder": {},
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "numeric",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Number of doctors ",
+                                "eu_ES": " Doktore kopurua ",
+                                "es_ES": " Número de doctores/as ",
+                                "fr_FR": " Nombre de docteurs "
+                            },
+                            "localizable": true,
+                            "name": "ehuphdnumber",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehumainresearcher",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Main researcher ",
+                                "eu_ES": " Ikertzaile nagusia ",
+                                "es_ES": " Investigador/a principal ",
+                                "fr_FR": " Investigateur principal "
+                            },
+                            "localizable": true,
+                            "name": "ehumainresearcher",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": true,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehucontactemail",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Contact Email ",
+                                "eu_ES": " Harremanetarako helbide elektronikoa ",
+                                "es_ES": " Correo electrónico de contacto ",
+                                "fr_FR": " Email de contact "
+                            },
+                            "localizable": true,
+                            "name": "ehucontactemail",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehuwebpageurl",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Group's web page ",
+                                "eu_ES": " Taldearen web orria ",
+                                "es_ES": " Página web del grupo ",
+                                "fr_FR": " Site web du groupe "
+                            },
+                            "localizable": true,
+                            "name": "ehuwebpageurl",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehugrouptitle",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Group name (acronym in parentheses behind the name) ",
+                                "eu_ES": " Ikertaldearen izena (akronimoa parentesi artean izenaren ondoren) ",
+                                "es_ES": " Nombre del grupo (acrónimo entre paréntesis detrás del nombre) ",
+                                "fr_FR": " Nom du groupe (acronyme entre parenthèses derrière le nom) "
+                            },
+                            "localizable": true,
+                            "name": "ehugrouptitle",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": true,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "dataType": "integer",
+                                "tooltip": {},
+                                "requireConfirmation": false,
+                                "inputMask": false,
+                                "characterOptions": false,
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "inputMaskFormat": {},
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehumembernumber",
+                                "numericInputMask": {},
+                                "placeholder": {},
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "numeric",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Total staff ",
+                                "eu_ES": " Osakide kopurua ",
+                                "es_ES": " Número de integrantes ",
+                                "fr_FR": " Personnel total "
+                            },
+                            "localizable": true,
+                            "name": "ehumembernumber",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehumembersFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehumembers"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehumembersFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehumembersFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehumembersFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehumembername"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehumembersFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehumembername",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Member name ",
+                                "eu_ES": " Osakidearen izen-abizenak ",
+                                "es_ES": " Nombre y apellidos de la persona integrante ",
+                                "fr_FR": " Nom du membre "
+                            },
+                            "localizable": true,
+                            "name": "ehumembername",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehumembers",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " Staff ",
+                        "eu_ES": " Osakideak ",
+                        "es_ES": " Integrantes ",
+                        "fr_FR": " Personnel "
+                    },
+                    "localizable": false,
+                    "name": "ehumembers",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehuresearchlinesFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehuresearchlines"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehuresearchlinesFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehuresearchlinesFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehuresearchlines",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " Lines of research ",
+                        "eu_ES": " Ikerketa-lerroak ",
+                        "es_ES": " Líneas de investigación ",
+                        "fr_FR": " Lignes d'investigation "
+                    },
+                    "localizable": false,
+                    "name": "ehuresearchlines",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }, {
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehuresearchlinesFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehuresearchlinesdescription"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehuresearchlinesFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "dataType": "string",
+                                "fieldReference": "ehuresearchlinesdescription"
+                            },
+                            "defaultValue": {},
+                            "fieldType": "rich_text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Description ",
+                                "eu_ES": " Deskribapena ",
+                                "es_ES": " Descripción ",
+                                "fr_FR": " Description "
+                            },
+                            "localizable": true,
+                            "name": "ehuresearchlinesdescription",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehutechnologyofferFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehutechnologyoffer"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehutechnologyofferFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehutechnologyofferFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehutechnologyofferFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehutechnologyofferdescription"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehutechnologyofferFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "dataType": "string",
+                                "fieldReference": "ehutechnologyofferdescription"
+                            },
+                            "defaultValue": {},
+                            "fieldType": "rich_text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Description ",
+                                "eu_ES": " Deskribapena ",
+                                "es_ES": " Descripción ",
+                                "fr_FR": " Description "
+                            },
+                            "localizable": true,
+                            "name": "ehutechnologyofferdescription",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehutechnologyoffer",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " Technological offer ",
+                        "eu_ES": " Eskaintza teknologikoa ",
+                        "es_ES": " Oferta tecnológica ",
+                        "fr_FR": " Offre technologique "
+                    },
+                    "localizable": false,
+                    "name": "ehutechnologyoffer",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehuequipmentFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehuequipment"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehuequipmentFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehuequipmentFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehuequipmentFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehuequipmentname"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehuequipmentFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehuequipmentname",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Equipment name ",
+                                "eu_ES": " Ekipamenduaren izena ",
+                                "es_ES": " Nombre del equipamiento ",
+                                "fr_FR": " Nom de l'équipement "
+                            },
+                            "localizable": true,
+                            "name": "ehuequipmentname",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehuequipment",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " Equipment ",
+                        "eu_ES": " Ekipamendua ",
+                        "es_ES": " Equipamiento ",
+                        "fr_FR": " Équipement "
+                    },
+                    "localizable": false,
+                    "name": "ehuequipment",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehuprojectsFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehuprojects"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehuprojectsFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehuprojectsFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehuprojectsFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehuprojectsdescription"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehuprojectsFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "dataType": "string",
+                                "fieldReference": "ehuprojectsdescription"
+                            },
+                            "defaultValue": {},
+                            "fieldType": "rich_text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Description ",
+                                "eu_ES": " Deskribapena ",
+                                "es_ES": " Descripción ",
+                                "fr_FR": " Description "
+                            },
+                            "localizable": true,
+                            "name": "ehuprojectsdescription",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehuprojects",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " Featured projects ",
+                        "eu_ES": " Proiektu nabarmenak ",
+                        "es_ES": " Proyectos destacados ",
+                        "fr_FR": " Principaux projets "
+                    },
+                    "localizable": false,
+                    "name": "ehuprojects",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [{
+                "dataLayoutRows": [{
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehuwarning"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["Hautatu_Kokapena_kategoria_bat_aurkeztu_nahi_duzun_kokapen_bakoitzagatik_"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehumaindataFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehumembersFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehuresearchlinesFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehutechnologyofferFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehuequipmentFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehuprojectsFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "eu_ES": "Deskribapena"
+                },
+                "title": {
+                    "eu_ES": "Orrialdea"
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "eu_ES": "Eskaintza teknologikoa",
+            "es_ES": "Oferta tecnológica"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "eu_ES",
+    "description": {},
+    "name": {
+        "eu_ES": "Eskaintza teknologikoa",
+        "es_ES": "Oferta tecnológica"
+    },
+    "storageType": "default"
+}

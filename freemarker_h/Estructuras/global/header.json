@@ -1,0 +1,400 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "de_DE",
+        "en_GB"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "Imagen de la cabecera",
+                "eu_ES": "Goiburuko irudia",
+                "pt_PT": "Imagem de cabeçalho",
+                "fr_FR": "Image d'en-tête",
+                "de_DE": "Header-Bild",
+                "en_GB": "Header Image"
+            },
+            "options": [
+                {
+                    "value": "Arkitektura-Goi-Eskola-Teknikoa_cabecera_web",
+                    "label": {
+                        "es_ES": "Escuela Técnica Superior de Arquitectura",
+                        "eu_ES": "Arkitektura Goi Eskola Teknikoa",
+                        "pt_PT": "Escola Técnica Superior de Arquitetura",
+                        "fr_FR": "École d'Architecture",
+                        "de_DE": "Schule für Architektur",
+                        "en_GB": "School of Architecture"
+                    }
+                },
+                {
+                    "value": "Arte-Ederren-Fakultatea_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Bellas Artes",
+                        "eu_ES": "Arte Ederren Fakultatea",
+                        "pt_PT": "Faculdade de Artes Plásticas",
+                        "fr_FR": "Faculté des Beaux-Arts",
+                        "de_DE": "Fakultät der Schönen Künste",
+                        "en_GB": "Faculty of Fine Arts"
+                    }
+                },
+                {
+                    "value": "Bilboko-Hezkuntza-Fakultatea_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Educación de Bilbao",
+                        "eu_ES": "Bilboko Hezkuntza Fakultatea",
+                        "pt_PT": "Faculdade de Educação de Bilbao",
+                        "fr_FR": "Faculté d'éducation de Bilbao",
+                        "de_DE": "Fakultät für Bildungswissenschaften - Bilbao",
+                        "en_GB": "Faculty of Education - Bilbao"
+                    }
+                },
+                {
+                    "value": "Bilboko-Ingeniaritza-Eskola-I-Eraikina_cabecera_web",
+                    "label": {
+                        "es_ES": "Escuela de Ingeniería de Bilbao - Edificio I",
+                        "eu_ES": "Bilboko Ingeniaritza Eskola - I Eraikina",
+                        "pt_PT": "Escola de Engenharia de Bilbao - Edifício I",
+                        "fr_FR": "Faculté d'Ingénierie - Bilbao - Bâtiment I",
+                        "de_DE": "Fakultät für Ingenieurwissenschaften - Bilbao - Gebäude I.",
+                        "en_GB": "Faculty of Engineering -  Bilbao - Building I"
+                    }
+                },
+                {
+                    "value": "Bilboko-Ingeniaritza-Eskola-II-Eraikina_cabecera_web",
+                    "label": {
+                        "es_ES": "Escuela de Ingeniería de Bilbao - Edificio II",
+                        "eu_ES": "Bilboko Ingeniaritza Eskola - II Eraikina",
+                        "pt_PT": "Escola de Engenharia de Bilbao - Edifício II",
+                        "fr_FR": "Faculté d'Ingénierie - Bilbao - Bâtiment II",
+                        "de_DE": "Fakultät für Ingenieurwissenschaften - Bilbao - Gebäude II.",
+                        "en_GB": "Faculty of Engineering -  Bilbao - Building II"
+                    }
+                },
+                {
+                    "value": "Bilboko-Ingeniaritza-Eskola-Portugalete_cabecera_web",
+                    "label": {
+                        "es_ES": "Escuela de Ingeniería de Bilbao - Portugalete",
+                        "eu_ES": "Bilboko Ingeniaritza Eskola - Portugalete",
+                        "pt_PT": "Escola de Engenharia de Bilbao - Portugalete",
+                        "fr_FR": "Faculté d'Ingénierie - Bilbao - Bâtiment II",
+                        "de_DE": "Fakultät für Ingenieurwissenschaften - Bilbao - Portugalete",
+                        "en_GB": "Faculty of Engineering -  Bilbao - Portugalete"
+                    }
+                },
+                {
+                    "value": "Ekonomia-eta-Enpresa-Fakultatea-Donostia_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Economía y Empresa - Donostia",
+                        "eu_ES": "Ekonomia eta Enpresa Fakultatea - Donostia",
+                        "pt_PT": "Faculdade de Economia e Negócios - Donostia",
+                        "fr_FR": "Faculté d'Économie et de Commerce - Donostia",
+                        "de_DE": "Wirtschaftswissenschaftliche Fakultät - Donostia",
+                        "en_GB": "Faculty of Economics and Business - Donostia"
+                    }
+                },
+                {
+                    "value": "Ekonomia-eta-Enpresa-Fakultatea-Elkano_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Economía y Empresa - Elkano",
+                        "eu_ES": "Ekonomia eta Enpresa Fakultatea - Elkano",
+                        "pt_PT": "Faculdade de Economia e Negócios - Elkano",
+                        "fr_FR": "Faculté d'Économie et de Commerce - Elkano",
+                        "de_DE": "Wirtschaftswissenschaftliche Fakultät - Elkano",
+                        "en_GB": "Faculty of Economics and Business - Elkano"
+                    }
+                },
+                {
+                    "value": "Ekonomia-eta-Enpresa-Fakultatea-Gasteiz_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Economía y Empresa - Gasteiz",
+                        "eu_ES": "Ekonomia eta Enpresa Fakultatea - Gasteiz",
+                        "pt_PT": "Faculdade de Economia e Negócios - Gasteiz",
+                        "fr_FR": "Faculté d'Économie et de Commerce - Gasteiz",
+                        "de_DE": "Wirtschaftswissenschaftliche Fakultät - Gasteiz",
+                        "en_GB": "Faculty of Economics and Business - Gasteiz"
+                    }
+                },
+                {
+                    "value": "Ekonomia-eta-Enpresa-Fakultatea-Sarriko_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Economía y Empresa - Sarriko",
+                        "eu_ES": "Ekonomia eta Enpresa Fakultatea - Sarriko",
+                        "pt_PT": "Faculdade de Economia e Negócios - Sarriko",
+                        "fr_FR": "Faculté d'Économie et de Commerce - Sarriko",
+                        "de_DE": "Wirtschaftswissenschaftliche Fakultät - Sarriko",
+                        "en_GB": "Faculty of Economics and Business - Sarriko"
+                    }
+                },
+                {
+                    "value": "Farmazia-Fakultatea_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Farmacia",
+                        "eu_ES": "Farmazia Fakultatea",
+                        "pt_PT": "Faculdade de Farmácia",
+                        "fr_FR": "Faculté de Pharmacie",
+                        "de_DE": "Fakultät für Pharmazie",
+                        "en_GB": "Faculty of Pharmacy"
+                    }
+                },
+                {
+                    "value": "Gipuzkoako-Ingeniaritza-Eskola-Donostia_cabecera_web",
+                    "label": {
+                        "es_ES": "Escuela de Ingeniería de Gipuzkoa - Donostia",
+                        "eu_ES": "Gipuzkoako Ingeniaritza Eskola - Donostia",
+                        "pt_PT": "Escola de Engenharia de Gipuzkoa - Donostia",
+                        "fr_FR": "École d'ingénierie de Gipuzkoa - Donostia",
+                        "de_DE": "Fakultät für Ingenieurwissenschaften - Gipuzkoa - Donostia",
+                        "en_GB": "Faculty of Engineering - Gipuzkoa - Donostia"
+                    }
+                },
+                {
+                    "value": "Gipuzkoako-Ingeniaritza-Eskola-Eibar_cabecera_web",
+                    "label": {
+                        "es_ES": "Escuela de Ingeniería de Gipuzkoa - Eibar",
+                        "eu_ES": "Gipuzkoako Ingeniaritza Eskola - Eibar",
+                        "pt_PT": "Escola de Engenharia de Gipuzkoa - Eibar",
+                        "fr_FR": "École d'ingénierie de Gipuzkoa - Eibar",
+                        "de_DE": "Fakultät für Ingenieurwissenschaften - Gipuzkoa - Eibar",
+                        "en_GB": "Faculty of Engineering - Gipuzkoa - Eibar"
+                    }
+                },
+                {
+                    "value": "Gizarte-eta-Komunikazio-Zientzien-Fakultatea_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Ciencias Sociales y de la Comunicación",
+                        "eu_ES": "Gizarte eta Komunikazio Zientzien Fakultatea",
+                        "pt_PT": "Faculdade de Ciências Sociais e Comunicação",
+                        "fr_FR": "Faculté des sciences sociales et de la communication",
+                        "de_DE": "Fakultät für Sozial- und Kommunikationswissenschaften",
+                        "en_GB": "Faculty of Social and Communication Sciences"
+                    }
+                },
+                {
+                    "value": "Hezkuntza-eta-Kirol-Fakultatea_Hezkuntza_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Educación y Deporte - Educación",
+                        "eu_ES": "Hezkuntza eta Kirol Fakultatea - Hezkuntza",
+                        "pt_PT": "Faculdade de Educação e Esporte - Educação",
+                        "fr_FR": "Faculté d'Éducation et de Sport - Éducation",
+                        "de_DE": "Fakultät für Bildung und Sport - Bildung",
+                        "en_GB": "Faculty of Education and Sport - Education"
+                    }
+                },
+                {
+                    "value": "Hezkuntza-eta-Kirol-Fakultatea_Kirola_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Educación y Deporte - Deporte",
+                        "eu_ES": "Hezkuntza eta Kirol Fakultatea - Kirola",
+                        "pt_PT": "Faculdade de Educação e Esporte - Esporte",
+                        "fr_FR": "Faculté d'Éducation et de Sport - Sport",
+                        "de_DE": "Fakultät für Bildung und Sport - Sport",
+                        "en_GB": "Faculty of Education and Sport - Sport"
+                    }
+                },
+                {
+                    "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_I-Eraikina_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Educación, Filosofía y Antropología - Edificio I",
+                        "eu_ES": "Hezkuntza, Filosofia eta Antropologia Fakultatea - I Eraikina",
+                        "pt_PT": "Faculdade de Educação, Filosofia e Antropologia - Edifício I",
+                        "fr_FR": "Faculté d'Éducation, de Philosophie et d'Anthropologie - Bâtiment I",
+                        "de_DE": "Fakultät für Pädagogik, Philosophie und Anthropologie - Gebäude I.",
+                        "en_GB": "Faculty of Education, Philosophy and Anthropology - Building I"
+                    }
+                },
+                {
+                    "value": "Hezkuntza-Filosofia-eta-Antropologia-Fakultatea_II-Eraikina_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Educación, Filosofía y Antropología - Edificio II",
+                        "eu_ES": "Hezkuntza, Filosofia eta Antropologia Fakultatea - II Eraikina",
+                        "pt_PT": "Faculdade de Educação, Filosofia e Antropologia - Edifício II",
+                        "fr_FR": "Faculté d'Éducation, de Philosophie et d'Anthropologie - Bâtiment II",
+                        "de_DE": "Fakultät für Pädagogik, Philosophie und Anthropologie - Gebäude II.",
+                        "en_GB": "Faculty of Education, Philosophy and Anthropology - Building II"
+                    }
+                },
+                {
+                    "value": "Informatika-Fakultatea_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Informática",
+                        "eu_ES": "Informatika Fakultatea",
+                        "pt_PT": "Faculdade de Informática",
+                        "fr_FR": "Faculté d'Informatique",
+                        "de_DE": "Fakultät für Informatik",
+                        "en_GB": "Faculty of Informatics"
+                    }
+                },
+                {
+                    "value": "Kimika-Fakultatea_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Química",
+                        "eu_ES": "Kimika Fakultatea",
+                        "pt_PT": "Faculdade de Química",
+                        "fr_FR": "Faculté de Chimie",
+                        "de_DE": "Fakultät für Chemie",
+                        "en_GB": "Faculty of Chemistry"
+                    }
+                },
+                {
+                    "value": "Lan-Harremanak-eta-Gizarte-Langintza_Gasteiz_cabecera_web",
+                    "label": {
+                        "es_ES": "Relaciones Laborales y Trabajo Social - Vitoria-Gasteiz",
+                        "eu_ES": "Lan Harreman eta Gizarte Langintza Fakultatea - Gasteiz",
+                        "pt_PT": "Relações Trabalhistas e Serviço Social - Vitoria-Gasteiz",
+                        "fr_FR": "Faculté des relations de travail et du travail social - Vitoria-Gasteiz",
+                        "de_DE": "Fakultät für Arbeitsbeziehungen und Sozialarbeit - Vitoria-Gasteiz",
+                        "en_GB": "Faculty of Labour Relations and Social Work - Vitoria-Gasteiz"
+                    }
+                },
+                {
+                    "value": "Lan-Harremanak-eta-Gizarte-Langintza_Leioa_cabecera_web",
+                    "label": {
+                        "es_ES": "Relaciones Laborales y Trabajo Social - Leioa",
+                        "eu_ES": "Lan Harreman eta Gizarte Langintza Fakultatea - Leioa",
+                        "pt_PT": "Relações Trabalhistas e Serviço Social - Leioa",
+                        "fr_FR": "Faculté des relations de travail et du travail social - Leioa",
+                        "de_DE": "Fakultät für Arbeitsbeziehungen und Sozialarbeit - Leioa",
+                        "en_GB": "Faculty of Labour Relations and Social Work - Leioa"
+                    }
+                },
+                {
+                    "value": "Letren-Fakultatea_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Letras",
+                        "eu_ES": "Letren Fakultatea",
+                        "pt_PT": "Faculdade de Letras",
+                        "fr_FR": "Faculté d'Arts",
+                        "de_DE": "Kunstschule",
+                        "en_GB": "Faculty of Arts"
+                    }
+                },
+                {
+                    "value": "Medikuntza-eta-Erizaintza-Fakultatea-Donostia_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Medicina y Enfermería - Donostia",
+                        "eu_ES": "Medikuntza eta Erizaintza Fakultatea - Donostia",
+                        "pt_PT": "Faculdade de Medicina e Enfermagem - Donostia",
+                        "fr_FR": "Faculté de Médecine et d'Infirmières - Donostia",
+                        "de_DE": "Fakultät für Medizin und Pflege - Donostia",
+                        "en_GB": "Faculty of Medicine and Nursing - Donostia"
+                    }
+                },
+                {
+                    "value": "Medikuntza-eta-Erizaintza-Fakultatea-Leioa_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Medicina y Enfermería - Leioa",
+                        "eu_ES": "Medikuntza eta Erizaintza Fakultatea - Leioa",
+                        "pt_PT": "Faculdade de Medicina e Enfermagem - Leioa",
+                        "fr_FR": "Faculté de Médecine et d'Infirmières - Leioa",
+                        "de_DE": "Fakultät für Medizin und Pflege - Leioa",
+                        "en_GB": "Faculty of Medicine and Nursing - Leioa"
+                    }
+                },
+                {
+                    "value": "Psikologia-Fakultatea_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Psicología",
+                        "eu_ES": "Psikologia Fakultatea",
+                        "pt_PT": "Faculdade de Psicologia",
+                        "fr_FR": "Faculté de Psychologie",
+                        "de_DE": "Fakultät für Psychologie",
+                        "en_GB": "Faculty of Psychology"
+                    }
+                },
+                {
+                    "value": "Vitoria-Gasteizko-Ingeniaritza-Eskola_cabecera_web",
+                    "label": {
+                        "es_ES": "Escuela de Ingeniería de Vitoria-Gasteiz",
+                        "eu_ES": "Vitoria-Gasteizko Ingeniaritza Eskola",
+                        "pt_PT": "Escola de Engenharia de Vitoria-Gasteiz",
+                        "fr_FR": "École d'Ingénierie de Vitoria-Gasteiz",
+                        "de_DE": "Fakultät für Ingenieurwissenschaften - Vitoria-Gasteiz",
+                        "en_GB": "Faculty of Engineering - Vitoria-Gasteiz"
+                    }
+                },
+                {
+                    "value": "Zientzia-eta-Teknologia-Fakultatea_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Ciencia y Tecnología",
+                        "eu_ES": "Zientzia eta Teknologia Fakultatea",
+                        "pt_PT": "Faculdade de Ciências e Tecnologia",
+                        "fr_FR": "Faculté des Sciences et de la Technologie",
+                        "de_DE": "Fakultät für Wissenschaft und Technologie",
+                        "en_GB": "Faculty of Science and Technology"
+                    }
+                },
+                {
+                    "value": "Zuzenbide-Fakultatea_Donostia_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Derecho - Donostia",
+                        "eu_ES": "Zuzenbide Fakultatea - Donostia",
+                        "pt_PT": "Faculdade de Direito - Donostia",
+                        "fr_FR": "Faculté de Droit - Donostia",
+                        "de_DE": "Rechtswissenschaftliche Fakultät - Donostia",
+                        "en_GB": "Faculty of Law - Donostia"
+                    }
+                },
+                {
+                    "value": "Zuzenbide-Fakultatea_Leioa_cabecera_web",
+                    "label": {
+                        "es_ES": "Facultad de Derecho - Leioa",
+                        "eu_ES": "Zuzenbide Fakultatea - Leioa",
+                        "pt_PT": "Faculdade de Direito - Leioa",
+                        "fr_FR": "Faculté de Droit - Leioa",
+                        "de_DE": "Rechtswissenschaftliche Fakultät - Leioa",
+                        "en_GB": "Faculty of Law - Leioa"
+                    }
+                },
+                {
+                    "value": "Doktorego-Eskola_cabecera_web",
+                    "label": {
+                        "es_ES": "Escuela de Doctorado",
+                        "eu_ES": "Doktorego Eskola",
+                        "pt_PT": "Escola de Doutorado",
+                        "fr_FR": "Ecole Doctorale",
+                        "de_DE": "Doktoratsschule",
+                        "en_GB": "Doctoral School"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "es_ES": [],
+                "eu_ES": [],
+                "pt_PT": [],
+                "fr_FR": [],
+                "de_DE": [],
+                "en_GB": []
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "multiple": false,
+            "name": "Imagen",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "select"
+        }
+    ]
+}

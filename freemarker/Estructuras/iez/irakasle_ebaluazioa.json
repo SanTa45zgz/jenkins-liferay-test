@@ -1,0 +1,31 @@
+{
+    "availableLanguageIds": [
+        "eu_ES"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "eu_ES": "Caja de Texto"
+            },
+            "predefinedValue": {
+                "eu_ES": ""
+            },
+            "style": {
+                "eu_ES": ""
+            },
+            "tip": {
+                "eu_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "oharra",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "textarea"
+        }
+    ]
+}

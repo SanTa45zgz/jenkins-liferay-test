@@ -1,0 +1,13 @@
+Se deben crear 3 campos personalizados de sitio web, para desde la configuración del propio sitio, indicar las páginas de visualización de noticias, eventos y home en inglés.
+
+Estos 3 campos personalizados son utilizados desde las ADTs:
+
+- ADT_MENU_IDIOMA_INGLES
+- centers-listado-de-eventos
+- centers-listado-de-noticias
+
+y los nombres de los  campos personalizados deben ser:
+
+- FriendlyPageHomeEnglish
+- FriendlyPageEvents
+- FriendlyPageNews

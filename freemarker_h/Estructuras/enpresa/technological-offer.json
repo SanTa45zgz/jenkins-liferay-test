@@ -1,0 +1,547 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " No se puede poner más de un contenido de este tipo con visualización completa en una página. ",
+                "eu_ES": " Ezin da mota honetako eduki bat baino gehiago jarri orrialde batean bistaratze osoarekin. "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuwarning",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": " Selecciona una categoría Ubicación por cada lugar que desees mostrar. ",
+                "eu_ES": " Hautatu Kokapena kategoria bat aurkeztu nahi duzun kokapen bakoitzagatik. "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Hautatu_Kokapena_kategoria_bat_aurkeztu_nahi_duzun_kokapen_bakoitzagatik_",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": " Datos generales ",
+                "eu_ES": " Datu orokorrak "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehumaindata",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Nombre del grupo (acrónimo entre paréntesis detrás del nombre) ",
+                        "eu_ES": " Ikertaldearen izena (akronimoa parentesi artean izenaren ondoren) "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehugrouptitle",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Investigador/a principal ",
+                        "eu_ES": " Ikertzaile nagusia "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehumainresearcher",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Número de doctores/as ",
+                        "eu_ES": " Doktore kopurua "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "integer",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehuphdnumber",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-integer"
+                },
+                {
+                    "label": {
+                        "es_ES": " Número de integrantes ",
+                        "eu_ES": " Osakide kopurua "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "integer",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehumembernumber",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-integer"
+                },
+                {
+                    "label": {
+                        "es_ES": " Correo electrónico de contacto ",
+                        "eu_ES": " Harremanetarako helbide elektronikoa "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehucontactemail",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Página web del grupo ",
+                        "eu_ES": " Taldearen web orria "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehuwebpageurl",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Integrantes ",
+                "eu_ES": " Osakideak "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehumembers",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Nombre y apellidos de la persona integrante ",
+                        "eu_ES": " Osakidearen izen-abizenak "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehumembername",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Líneas de investigación ",
+                "eu_ES": " Ikerketa-lerroak "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuresearchlines",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Descripción ",
+                        "eu_ES": " Deskribapena "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "html",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehuresearchlinesdescription",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-text-html"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Oferta tecnológica ",
+                "eu_ES": " Eskaintza teknologikoa "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehutechnologyoffer",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Descripción ",
+                        "eu_ES": " Deskribapena "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "html",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehutechnologyofferdescription",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-text-html"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Equipamiento ",
+                "eu_ES": " Ekipamendua "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuequipment",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Nombre del equipamiento ",
+                        "eu_ES": " Ekipamenduaren izena "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehuequipmentname",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Proyectos destacados ",
+                "eu_ES": " Proiektu nabarmenak "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuprojects",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Descripción ",
+                        "eu_ES": " Deskribapena "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "html",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehuprojectsdescription",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-text-html"
+                }
+            ]
+        }
+    ]
+}

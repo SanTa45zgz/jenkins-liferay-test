@@ -1,0 +1,36 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "Texto",
+                "eu_ES": "Texto"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "texto",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        }
+    ]
+}

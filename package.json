@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "modules\\ehu-confirmation-formfield",
+            "themes\\upv-ehu-global-theme"
+        ]
+    }
+}

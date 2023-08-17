@@ -1,0 +1,1946 @@
+{
+    "availableLanguageIds": ["es_ES", "eu_ES", "fr_FR", "en_GB"],
+    "contentType": "journal",
+    "dataDefinitionFields": [{
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehucompanygeneraldataFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehucompanygeneraldata"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehucompanygeneraldataFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehucompanygeneraldataFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehucompanygeneraldataFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanyname"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanylogo"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehucompanygeneraldataFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehucompanyname",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "text",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Name ",
+                                "eu_ES": " Izena ",
+                                "es_ES": " Nombre ",
+                                "fr_FR": " Nom "
+                            },
+                            "localizable": true,
+                            "name": "ehucompanyname",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": true,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "allowGuestUsers": false,
+                                "dataType": "document-library",
+                                "fieldReference": "ehucompanylogo"
+                            },
+                            "defaultValue": {},
+                            "fieldType": "document_library",
+                            "indexType": "none",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Logo ",
+                                "eu_ES": " Logotipoa ",
+                                "es_ES": " Logotipo ",
+                                "fr_FR": " Logo "
+                            },
+                            "localizable": true,
+                            "name": "ehucompanylogo",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehucompanygeneraldata",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " Main information ",
+                        "eu_ES": " Informazio nagusia ",
+                        "es_ES": " Información principal ",
+                        "fr_FR": " Information principale "
+                    },
+                    "localizable": false,
+                    "name": "ehucompanygeneraldata",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehucompanycontactdataFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehucompanycontactdata"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehucompanycontactdataFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehucompanycontactdataFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehucompanycontactdataFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanyphonetextFieldSet"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanyemailtextFieldSet"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanyurltextFieldSet"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehucompanycontactdataFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "ehucompanyemailtextFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanyemailtext"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanyemailtextFieldSetFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "eu_ES": ""
+                            },
+                            "localizable": false,
+                            "name": "ehucompanyemailtextFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "ehucompanyemailtextFieldSetFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["ehucompanyemail"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "eu_ES": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "ehucompanyemailtextFieldSetFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "eu_ES": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "eu_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "es_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "fr_FR": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "ehucompanyemail",
+                                                "placeholder": {
+                                                    "eu_ES": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "text",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": " Email-address ",
+                                                "eu_ES": " Posta elektronikoa ",
+                                                "es_ES": " Correo electrónico ",
+                                                "fr_FR": " E-mail "
+                                            },
+                                            "localizable": true,
+                                            "name": "ehucompanyemail",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": " my-email@example.com ",
+                                                "eu_ES": " nire-posta@adibide.com ",
+                                                "es_ES": " mi-correo@ejemplo.com ",
+                                                "fr_FR": " mon-email@exemple.com "
+                                            }
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "hideField": false,
+                                        "confirmationErrorMessage": {},
+                                        "autocomplete": false,
+                                        "ddmDataProviderInstanceId": [],
+                                        "dataType": "string",
+                                        "tooltip": {
+                                            "eu_ES": ""
+                                        },
+                                        "requireConfirmation": false,
+                                        "displayStyle": "singleline",
+                                        "fieldNamespace": "",
+                                        "visibilityExpression": "",
+                                        "ddmDataProviderInstanceOutput": [],
+                                        "options": {
+                                            "en_GB": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "eu_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "es_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "fr_FR": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ]
+                                        },
+                                        "nativeField": false,
+                                        "confirmationLabel": {},
+                                        "fieldReference": "ehucompanyemailtext",
+                                        "placeholder": {
+                                            "eu_ES": ""
+                                        },
+                                        "dataSourceType": "manual",
+                                        "direction": []
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "text",
+                                    "indexType": "text",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": " Email's description ",
+                                        "eu_ES": " Posta elektronikoaren deskribapena ",
+                                        "es_ES": " Descripción del correo electrónico ",
+                                        "fr_FR": " Description du e-mail "
+                                    },
+                                    "localizable": true,
+                                    "name": "ehucompanyemailtext",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": "",
+                                        "eu_ES": "",
+                                        "es_ES": "",
+                                        "fr_FR": ""
+                                    }
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "ehucompanyurltextFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanyurltext"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanyurltextFieldSetFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "eu_ES": ""
+                            },
+                            "localizable": false,
+                            "name": "ehucompanyurltextFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "ehucompanyurltextFieldSetFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["ehucompanyurl"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "eu_ES": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "ehucompanyurltextFieldSetFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "eu_ES": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "eu_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "es_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "fr_FR": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "ehucompanyurl",
+                                                "placeholder": {
+                                                    "eu_ES": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "none",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": " Web address ",
+                                                "eu_ES": " Web helbidea ",
+                                                "es_ES": " Dirección web ",
+                                                "fr_FR": " Adresse web "
+                                            },
+                                            "localizable": true,
+                                            "name": "ehucompanyurl",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": " https://www.example.com ",
+                                                "eu_ES": " https://www.adibide.com ",
+                                                "es_ES": " https://www.ejemplo.com ",
+                                                "fr_FR": " https://www.exemple.com "
+                                            }
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "hideField": false,
+                                        "confirmationErrorMessage": {},
+                                        "autocomplete": false,
+                                        "ddmDataProviderInstanceId": [],
+                                        "dataType": "string",
+                                        "tooltip": {
+                                            "eu_ES": ""
+                                        },
+                                        "requireConfirmation": false,
+                                        "displayStyle": "singleline",
+                                        "fieldNamespace": "",
+                                        "visibilityExpression": "",
+                                        "ddmDataProviderInstanceOutput": [],
+                                        "options": {
+                                            "en_GB": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "eu_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "es_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "fr_FR": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ]
+                                        },
+                                        "nativeField": false,
+                                        "confirmationLabel": {},
+                                        "fieldReference": "ehucompanyurltext",
+                                        "placeholder": {
+                                            "eu_ES": ""
+                                        },
+                                        "dataSourceType": "manual",
+                                        "direction": []
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "text",
+                                    "indexType": "none",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": " Name of the web address ",
+                                        "eu_ES": " Web helbidearen izena ",
+                                        "es_ES": " Nombre de la dirección web ",
+                                        "fr_FR": " Nom de l'adresse web "
+                                    },
+                                    "localizable": true,
+                                    "name": "ehucompanyurltext",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": " Name associated to the selected web address ",
+                                        "eu_ES": " Aukeratutako web helbidearekin lotutako izena ",
+                                        "es_ES": " Nombre asociado a la dirección web seleccionada ",
+                                        "fr_FR": " Nom associé à l'adresse web sélectionnée "
+                                    }
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "ehucompanyphonetextFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanyphonetext"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanyphonetextFieldSetFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "eu_ES": ""
+                            },
+                            "localizable": false,
+                            "name": "ehucompanyphonetextFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "hideField": false,
+                                        "confirmationErrorMessage": {},
+                                        "autocomplete": false,
+                                        "ddmDataProviderInstanceId": [],
+                                        "dataType": "string",
+                                        "tooltip": {
+                                            "eu_ES": ""
+                                        },
+                                        "requireConfirmation": false,
+                                        "displayStyle": "singleline",
+                                        "fieldNamespace": "",
+                                        "visibilityExpression": "",
+                                        "ddmDataProviderInstanceOutput": [],
+                                        "options": {
+                                            "en_GB": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "eu_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "es_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "fr_FR": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ]
+                                        },
+                                        "nativeField": false,
+                                        "confirmationLabel": {},
+                                        "fieldReference": "ehucompanyphonetext",
+                                        "placeholder": {
+                                            "eu_ES": ""
+                                        },
+                                        "dataSourceType": "manual",
+                                        "direction": []
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "text",
+                                    "indexType": "text",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": " Phone's description ",
+                                        "eu_ES": " Telefonoaren deskribapena ",
+                                        "es_ES": " Descripción del teléfono ",
+                                        "fr_FR": " Description du téléphone "
+                                    },
+                                    "localizable": true,
+                                    "name": "ehucompanyphonetext",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": "",
+                                        "eu_ES": "",
+                                        "es_ES": "",
+                                        "fr_FR": ""
+                                    }
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "ehucompanyphonetextFieldSetFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["ehucompanyphone"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "eu_ES": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "ehucompanyphonetextFieldSetFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "eu_ES": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "eu_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "es_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "fr_FR": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "ehucompanyphone",
+                                                "placeholder": {
+                                                    "eu_ES": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "text",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": " Phone ",
+                                                "eu_ES": " Telefonoa ",
+                                                "es_ES": " Teléfono ",
+                                                "fr_FR": " Téléphone "
+                                            },
+                                            "localizable": true,
+                                            "name": "ehucompanyphone",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": "+00 123 456 789",
+                                                "eu_ES": "+00 123 456 789",
+                                                "es_ES": "+00 123 456 789",
+                                                "fr_FR": "+00 123 456 789"
+                                            }
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehucompanycontactdata",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " Contact information ",
+                        "eu_ES": " Harremanetarako datuak ",
+                        "es_ES": " Datos de contacto ",
+                        "fr_FR": " Informations de contact "
+                    },
+                    "localizable": false,
+                    "name": "ehucompanycontactdata",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehucompanylocationdataFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehucompanylocationdata"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehucompanylocationdataFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehucompanylocationdataFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehucompanylocationdataFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanyaddressstreet"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanyaddresspostcode"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanyaddresscity"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanyaddressprovince"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehucompanylocationdataFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehucompanyaddressprovince",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "text",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Province ",
+                                "eu_ES": " Probintzia ",
+                                "es_ES": " Provincia ",
+                                "fr_FR": " Province "
+                            },
+                            "localizable": true,
+                            "name": "ehucompanyaddressprovince",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehucompanyaddresscity",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "text",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " City ",
+                                "eu_ES": " Hiria ",
+                                "es_ES": " Ciudad ",
+                                "fr_FR": " Ville "
+                            },
+                            "localizable": true,
+                            "name": "ehucompanyaddresscity",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehucompanyaddressstreet",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "text",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Address ",
+                                "eu_ES": " Helbidea ",
+                                "es_ES": " Dirección ",
+                                "fr_FR": " Adresse "
+                            },
+                            "localizable": true,
+                            "name": "ehucompanyaddressstreet",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehucompanyaddresspostcode",
+                                "placeholder": {
+                                    "eu_ES": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "text",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Postal Code ",
+                                "eu_ES": " Posta kodea ",
+                                "es_ES": " Código postal ",
+                                "fr_FR": " Code postal "
+                            },
+                            "localizable": true,
+                            "name": "ehucompanyaddresspostcode",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": ""
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehucompanylocationdata",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " Location ",
+                        "eu_ES": " Kokapena ",
+                        "es_ES": " Localización ",
+                        "fr_FR": " Emplacement "
+                    },
+                    "localizable": false,
+                    "name": "ehucompanylocationdata",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehucompanyextrainformationdataFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehucompanyextrainformationdata"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehucompanyextrainformationdataFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehucompanyextrainformationdataFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehucompanyextrainformationdataFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanydocumentFieldSet"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehucompanylinksFieldSet"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehucompanyextrainformationdataFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "ehucompanylinksFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanylinks"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanylinksFieldSetFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "eu_ES": ""
+                            },
+                            "localizable": false,
+                            "name": "ehucompanylinksFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "hideField": false,
+                                        "confirmationErrorMessage": {},
+                                        "autocomplete": false,
+                                        "ddmDataProviderInstanceId": [],
+                                        "dataType": "string",
+                                        "tooltip": {
+                                            "eu_ES": ""
+                                        },
+                                        "requireConfirmation": false,
+                                        "displayStyle": "singleline",
+                                        "fieldNamespace": "",
+                                        "visibilityExpression": "",
+                                        "ddmDataProviderInstanceOutput": [],
+                                        "options": {
+                                            "en_GB": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "eu_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "es_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "fr_FR": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ]
+                                        },
+                                        "nativeField": false,
+                                        "confirmationLabel": {},
+                                        "fieldReference": "ehucompanylinks",
+                                        "placeholder": {
+                                            "eu_ES": ""
+                                        },
+                                        "dataSourceType": "manual",
+                                        "direction": []
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "text",
+                                    "indexType": "text",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": " Web address ",
+                                        "eu_ES": " Web helbidea ",
+                                        "es_ES": " Dirección web ",
+                                        "fr_FR": " Adresse web "
+                                    },
+                                    "localizable": true,
+                                    "name": "ehucompanylinks",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": " https://www.example.com ",
+                                        "eu_ES": " https://www.adibide.com ",
+                                        "es_ES": " https://www.ejemplo.com ",
+                                        "fr_FR": " https://www.exemple.com "
+                                    }
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "ehucompanylinksFieldSetFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["ehucompanylinkstitle"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "eu_ES": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "ehucompanylinksFieldSetFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "eu_ES": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "eu_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "es_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "fr_FR": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "ehucompanylinkstitle",
+                                                "placeholder": {
+                                                    "eu_ES": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "text",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": " Name of the web address ",
+                                                "eu_ES": " Web helbidearen izena ",
+                                                "es_ES": " Nombre de la dirección web ",
+                                                "fr_FR": " Nom de l'adresse web "
+                                            },
+                                            "localizable": true,
+                                            "name": "ehucompanylinkstitle",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": " Name associated to the selected web address ",
+                                                "eu_ES": " Aukeratutako web helbidearekin lotutako izena ",
+                                                "es_ES": " Nombre asociado a la dirección web seleccionada ",
+                                                "fr_FR": " Nom associé à l'adresse web sélectionnée "
+                                            }
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "ehucompanydocumentFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanydocument"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehucompanydocumentFieldSetFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "eu_ES": ""
+                            },
+                            "localizable": false,
+                            "name": "ehucompanydocumentFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "ehucompanydocumentFieldSetFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["ehucompanydocumenttitle"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "eu_ES": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "ehucompanydocumentFieldSetFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "eu_ES": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "eu_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "es_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "fr_FR": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "ehucompanydocumenttitle",
+                                                "placeholder": {
+                                                    "eu_ES": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "text",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": " Document name ",
+                                                "eu_ES": " Dokumentuaren izena ",
+                                                "es_ES": " Nombre del documento ",
+                                                "fr_FR": " Nom du document "
+                                            },
+                                            "localizable": true,
+                                            "name": "ehucompanydocumenttitle",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": " Name associated to the selected file ",
+                                                "eu_ES": " Aukeratutako fitxategiarekin lotutako izena ",
+                                                "es_ES": " Nombre asociado al fichero seleccionado ",
+                                                "fr_FR": " Nom associé au fichier sélectionné "
+                                            }
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "fieldNamespace": "",
+                                        "visibilityExpression": "",
+                                        "allowGuestUsers": false,
+                                        "dataType": "document-library",
+                                        "fieldReference": "ehucompanydocument"
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "document_library",
+                                    "indexType": "text",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": " Document ",
+                                        "eu_ES": " Dokumentua ",
+                                        "es_ES": " Documento ",
+                                        "fr_FR": " Document "
+                                    },
+                                    "localizable": true,
+                                    "name": "ehucompanydocument",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": "",
+                                        "eu_ES": "",
+                                        "es_ES": "",
+                                        "fr_FR": ""
+                                    }
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehucompanyextrainformationdata",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": " Additional information ",
+                        "eu_ES": " Informazio gehigarria ",
+                        "es_ES": " Información adicional ",
+                        "fr_FR": " Information additionnelle "
+                    },
+                    "localizable": false,
+                    "name": "ehucompanyextrainformationdata",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [{
+                "dataLayoutRows": [{
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehucompanygeneraldataFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehucompanycontactdataFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehucompanylocationdataFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehucompanyextrainformationdataFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "eu_ES": "Deskribapena"
+                },
+                "title": {
+                    "eu_ES": "Orrialdea"
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "eu_ES": "Enpresa",
+            "es_ES": "Empresa"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "eu_ES",
+    "description": {},
+    "name": {
+        "eu_ES": "Enpresa",
+        "es_ES": "Empresa"
+    },
+    "storageType": "default"
+}

@@ -1,0 +1,1414 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "en_GB",
+        "de_DE"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " Título ",
+                "eu_ES": " Izenburua ",
+                "pt_PT": "Título",
+                "fr_FR": " Titre ",
+                "en_GB": " Title ",
+                "de_DE": "Titel"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehuthesistitle",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Idioma ",
+                        "eu_ES": " Hizkuntza ",
+                        "pt_PT": "Idioma",
+                        "fr_FR": " Langue ",
+                        "en_GB": " Language ",
+                        "de_DE": "Sprache"
+                    },
+                    "options": [
+                        {
+                            "value": "eu",
+                            "label": {
+                                "es_ES": " Euskara ",
+                                "eu_ES": " Euskara ",
+                                "pt_PT": " Euskara ",
+                                "fr_FR": " Euskara ",
+                                "en_GB": " Euskara ",
+                                "de_DE": " Euskara "
+                            }
+                        },
+                        {
+                            "value": "es",
+                            "label": {
+                                "es_ES": " Español ",
+                                "eu_ES": " Espainiera ",
+                                "pt_PT": " Espanhol",
+                                "fr_FR": " Espagnol ",
+                                "en_GB": " Spanish ",
+                                "de_DE": " Spanisch"
+                            }
+                        },
+                        {
+                            "value": "en",
+                            "label": {
+                                "es_ES": " Inglés ",
+                                "eu_ES": " Ingelesa ",
+                                "pt_PT": " Inglês",
+                                "fr_FR": " Anglais ",
+                                "en_GB": " English ",
+                                "de_DE": " Englisch"
+                            }
+                        },
+                        {
+                            "value": "fr",
+                            "label": {
+                                "es_ES": " Francés ",
+                                "eu_ES": " Frantsesa ",
+                                "pt_PT": " Francês",
+                                "fr_FR": " Français ",
+                                "en_GB": " French ",
+                                "de_DE": " Französisch"
+                            }
+                        },
+                        {
+                            "value": "ca",
+                            "label": {
+                                "es_ES": " Catalá ",
+                                "eu_ES": " Catalá ",
+                                "pt_PT": " Catalá ",
+                                "fr_FR": " Catalá ",
+                                "en_GB": " Catalá ",
+                                "de_DE": " Catalá "
+                            }
+                        },
+                        {
+                            "value": "it",
+                            "label": {
+                                "es_ES": "Italiano",
+                                "eu_ES": "Italiera",
+                                "pt_PT": "Italiano",
+                                "fr_FR": "Italien",
+                                "en_GB": "Italian",
+                                "de_DE": "Italienisch"
+                            }
+                        },
+                        {
+                            "value": "pt",
+                            "label": {
+                                "es_ES": "Portugués",
+                                "eu_ES": "Portugalera",
+                                "pt_PT": "Português",
+                                "fr_FR": "Portugais",
+                                "en_GB": "Portuguese",
+                                "de_DE": "Portugiesisch"
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [],
+                        "eu_ES": [],
+                        "pt_PT": [],
+                        "fr_FR": [],
+                        "en_GB": [],
+                        "de_DE": []
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": " Si el título no se puede traducir, se ha de seleccionar el idioma en el que está escrito. ",
+                        "eu_ES": " Izenburua itzuli ezin bada, hautatu behar da idatzita dagoen hizkuntzatan. ",
+                        "pt_PT": "Se o título não puder ser traduzido, o idioma em que está escrito deve ser selecionado.",
+                        "fr_FR": " Si le titre ne peut pas traduire, vous devez sélectionner la langue dans laquelle il est écrit. ",
+                        "en_GB": " If the title cannot be translated, choose the language in which it is written. ",
+                        "de_DE": "Wenn der Titel nicht übersetzt werden kann, muss die Sprache ausgewählt werden, in der er geschrieben ist."
+                    },
+                    "dataType": "string",
+                    "indexType": "",
+                    "localizable": true,
+                    "multiple": false,
+                    "name": "ehutitlelang",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "select"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Doctorando/a ",
+                "eu_ES": " Doktoregaia ",
+                "pt_PT": "Estudante de doutorado",
+                "fr_FR": " Doctorant ",
+                "en_GB": " Doctoral student ",
+                "de_DE": "Doktorandin"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehuthesisphd",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": " Año ",
+                "eu_ES": " Urtea ",
+                "pt_PT": "Ano",
+                "fr_FR": " Année ",
+                "en_GB": " Year ",
+                "de_DE": "Jahr"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuthesisyearseparator",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Año ",
+                        "eu_ES": " Urtea ",
+                        "pt_PT": "Ano",
+                        "fr_FR": " Année ",
+                        "en_GB": " Year ",
+                        "de_DE": "Jahr"
+                    },
+                    "options": [
+                        {
+                            "value": "unknown",
+                            "label": {
+                                "es_ES": "Año desconocido",
+                                "eu_ES": "Urte ezezaguna",
+                                "pt_PT": "Ano desconhecido",
+                                "fr_FR": "Année inconnue",
+                                "en_GB": "Unknown year",
+                                "de_DE": "Unbekanntes Jahr"
+                            }
+                        },
+                        {
+                            "value": "1970",
+                            "label": {
+                                "es_ES": " 1970 ",
+                                "eu_ES": " 1970 ",
+                                "pt_PT": " 1970 ",
+                                "fr_FR": " 1970 ",
+                                "en_GB": " 1970 ",
+                                "de_DE": " 1970 "
+                            }
+                        },
+                        {
+                            "value": "1971",
+                            "label": {
+                                "es_ES": " 1971 ",
+                                "eu_ES": " 1971 ",
+                                "pt_PT": " 1971 ",
+                                "fr_FR": " 1971 ",
+                                "en_GB": " 1971 ",
+                                "de_DE": " 1971 "
+                            }
+                        },
+                        {
+                            "value": "1972",
+                            "label": {
+                                "es_ES": " 1972 ",
+                                "eu_ES": " 1972 ",
+                                "pt_PT": " 1972 ",
+                                "fr_FR": " 1972 ",
+                                "en_GB": " 1972 ",
+                                "de_DE": " 1972 "
+                            }
+                        },
+                        {
+                            "value": "1973",
+                            "label": {
+                                "es_ES": " 1973 ",
+                                "eu_ES": " 1973 ",
+                                "pt_PT": " 1973 ",
+                                "fr_FR": " 1973 ",
+                                "en_GB": " 1973 ",
+                                "de_DE": " 1973 "
+                            }
+                        },
+                        {
+                            "value": "1974",
+                            "label": {
+                                "es_ES": " 1974 ",
+                                "eu_ES": " 1974 ",
+                                "pt_PT": " 1974 ",
+                                "fr_FR": " 1974 ",
+                                "en_GB": " 1974 ",
+                                "de_DE": " 1974 "
+                            }
+                        },
+                        {
+                            "value": "1975",
+                            "label": {
+                                "es_ES": " 1975 ",
+                                "eu_ES": " 1975 ",
+                                "pt_PT": " 1975 ",
+                                "fr_FR": " 1975 ",
+                                "en_GB": " 1975 ",
+                                "de_DE": " 1975 "
+                            }
+                        },
+                        {
+                            "value": "1976",
+                            "label": {
+                                "es_ES": " 1976 ",
+                                "eu_ES": " 1976 ",
+                                "pt_PT": " 1976 ",
+                                "fr_FR": " 1976 ",
+                                "en_GB": " 1976 ",
+                                "de_DE": " 1976 "
+                            }
+                        },
+                        {
+                            "value": "1977",
+                            "label": {
+                                "es_ES": " 1977 ",
+                                "eu_ES": " 1977 ",
+                                "pt_PT": " 1977 ",
+                                "fr_FR": " 1977 ",
+                                "en_GB": " 1977 ",
+                                "de_DE": " 1977 "
+                            }
+                        },
+                        {
+                            "value": "1978",
+                            "label": {
+                                "es_ES": " 1978 ",
+                                "eu_ES": " 1978 ",
+                                "pt_PT": " 1978 ",
+                                "fr_FR": " 1978 ",
+                                "en_GB": " 1978 ",
+                                "de_DE": " 1978 "
+                            }
+                        },
+                        {
+                            "value": "1979",
+                            "label": {
+                                "es_ES": " 1979 ",
+                                "eu_ES": " 1979 ",
+                                "pt_PT": " 1979 ",
+                                "fr_FR": " 1979 ",
+                                "en_GB": " 1979 ",
+                                "de_DE": " 1979 "
+                            }
+                        },
+                        {
+                            "value": "1980",
+                            "label": {
+                                "es_ES": " 1980 ",
+                                "eu_ES": " 1980 ",
+                                "pt_PT": " 1980 ",
+                                "fr_FR": " 1980 ",
+                                "en_GB": " 1980 ",
+                                "de_DE": " 1980 "
+                            }
+                        },
+                        {
+                            "value": "1981",
+                            "label": {
+                                "es_ES": " 1981 ",
+                                "eu_ES": " 1981 ",
+                                "pt_PT": " 1981 ",
+                                "fr_FR": " 1981 ",
+                                "en_GB": " 1981 ",
+                                "de_DE": " 1981 "
+                            }
+                        },
+                        {
+                            "value": "1982",
+                            "label": {
+                                "es_ES": " 1982 ",
+                                "eu_ES": " 1982 ",
+                                "pt_PT": " 1982 ",
+                                "fr_FR": " 1982 ",
+                                "en_GB": " 1982 ",
+                                "de_DE": " 1982 "
+                            }
+                        },
+                        {
+                            "value": "1983",
+                            "label": {
+                                "es_ES": " 1983 ",
+                                "eu_ES": " 1983 ",
+                                "pt_PT": " 1983 ",
+                                "fr_FR": " 1983 ",
+                                "en_GB": " 1983 ",
+                                "de_DE": " 1983 "
+                            }
+                        },
+                        {
+                            "value": "1984",
+                            "label": {
+                                "es_ES": " 1984 ",
+                                "eu_ES": " 1984 ",
+                                "pt_PT": " 1984 ",
+                                "fr_FR": " 1984 ",
+                                "en_GB": " 1984 ",
+                                "de_DE": " 1984 "
+                            }
+                        },
+                        {
+                            "value": "1985",
+                            "label": {
+                                "es_ES": " 1985 ",
+                                "eu_ES": " 1985 ",
+                                "pt_PT": " 1985 ",
+                                "fr_FR": " 1985 ",
+                                "en_GB": " 1985 ",
+                                "de_DE": " 1985 "
+                            }
+                        },
+                        {
+                            "value": "1986",
+                            "label": {
+                                "es_ES": " 1986 ",
+                                "eu_ES": " 1986 ",
+                                "pt_PT": " 1986 ",
+                                "fr_FR": " 1986 ",
+                                "en_GB": " 1986 ",
+                                "de_DE": " 1986 "
+                            }
+                        },
+                        {
+                            "value": "1987",
+                            "label": {
+                                "es_ES": " 1987 ",
+                                "eu_ES": " 1987 ",
+                                "pt_PT": " 1987 ",
+                                "fr_FR": " 1987 ",
+                                "en_GB": " 1987 ",
+                                "de_DE": " 1987 "
+                            }
+                        },
+                        {
+                            "value": "1988",
+                            "label": {
+                                "es_ES": " 1988 ",
+                                "eu_ES": " 1988 ",
+                                "pt_PT": " 1988 ",
+                                "fr_FR": " 1988 ",
+                                "en_GB": " 1988 ",
+                                "de_DE": " 1988 "
+                            }
+                        },
+                        {
+                            "value": "1989",
+                            "label": {
+                                "es_ES": " 1989 ",
+                                "eu_ES": " 1989 ",
+                                "pt_PT": " 1989 ",
+                                "fr_FR": " 1989 ",
+                                "en_GB": " 1989 ",
+                                "de_DE": " 1989 "
+                            }
+                        },
+                        {
+                            "value": "1990",
+                            "label": {
+                                "es_ES": " 1990 ",
+                                "eu_ES": " 1990 ",
+                                "pt_PT": " 1990 ",
+                                "fr_FR": " 1990 ",
+                                "en_GB": " 1990 ",
+                                "de_DE": " 1990 "
+                            }
+                        },
+                        {
+                            "value": "1991",
+                            "label": {
+                                "es_ES": " 1991 ",
+                                "eu_ES": " 1991 ",
+                                "pt_PT": " 1991 ",
+                                "fr_FR": " 1991 ",
+                                "en_GB": " 1991 ",
+                                "de_DE": " 1991 "
+                            }
+                        },
+                        {
+                            "value": "1992",
+                            "label": {
+                                "es_ES": " 1992 ",
+                                "eu_ES": " 1992 ",
+                                "pt_PT": " 1992 ",
+                                "fr_FR": " 1992 ",
+                                "en_GB": " 1992 ",
+                                "de_DE": " 1992 "
+                            }
+                        },
+                        {
+                            "value": "1993",
+                            "label": {
+                                "es_ES": " 1993 ",
+                                "eu_ES": " 1993 ",
+                                "pt_PT": " 1993 ",
+                                "fr_FR": " 1993 ",
+                                "en_GB": " 1993 ",
+                                "de_DE": " 1993 "
+                            }
+                        },
+                        {
+                            "value": "1994",
+                            "label": {
+                                "es_ES": " 1994 ",
+                                "eu_ES": " 1994 ",
+                                "pt_PT": " 1994 ",
+                                "fr_FR": " 1994 ",
+                                "en_GB": " 1994 ",
+                                "de_DE": " 1994 "
+                            }
+                        },
+                        {
+                            "value": "1995",
+                            "label": {
+                                "es_ES": " 1995 ",
+                                "eu_ES": " 1995 ",
+                                "pt_PT": " 1995 ",
+                                "fr_FR": " 1995 ",
+                                "en_GB": " 1995 ",
+                                "de_DE": " 1995 "
+                            }
+                        },
+                        {
+                            "value": "1996",
+                            "label": {
+                                "es_ES": " 1996 ",
+                                "eu_ES": " 1996 ",
+                                "pt_PT": " 1996 ",
+                                "fr_FR": " 1996 ",
+                                "en_GB": " 1996 ",
+                                "de_DE": " 1996 "
+                            }
+                        },
+                        {
+                            "value": "1997",
+                            "label": {
+                                "es_ES": " 1997 ",
+                                "eu_ES": " 1997 ",
+                                "pt_PT": " 1997 ",
+                                "fr_FR": " 1997 ",
+                                "en_GB": " 1997 ",
+                                "de_DE": " 1997 "
+                            }
+                        },
+                        {
+                            "value": "1998",
+                            "label": {
+                                "es_ES": " 1998 ",
+                                "eu_ES": " 1998 ",
+                                "pt_PT": " 1998 ",
+                                "fr_FR": " 1998 ",
+                                "en_GB": " 1998 ",
+                                "de_DE": " 1998 "
+                            }
+                        },
+                        {
+                            "value": "1999",
+                            "label": {
+                                "es_ES": " 1999 ",
+                                "eu_ES": " 1999 ",
+                                "pt_PT": " 1999 ",
+                                "fr_FR": " 1999 ",
+                                "en_GB": " 1999 ",
+                                "de_DE": " 1999 "
+                            }
+                        },
+                        {
+                            "value": "2000",
+                            "label": {
+                                "es_ES": " 2000 ",
+                                "eu_ES": " 2000 ",
+                                "pt_PT": " 2000 ",
+                                "fr_FR": " 2000 ",
+                                "en_GB": " 2000 ",
+                                "de_DE": " 2000 "
+                            }
+                        },
+                        {
+                            "value": "2001",
+                            "label": {
+                                "es_ES": " 2001 ",
+                                "eu_ES": " 2001 ",
+                                "pt_PT": " 2001 ",
+                                "fr_FR": " 2001 ",
+                                "en_GB": " 2001 ",
+                                "de_DE": " 2001 "
+                            }
+                        },
+                        {
+                            "value": "2002",
+                            "label": {
+                                "es_ES": " 2002 ",
+                                "eu_ES": " 2002 ",
+                                "pt_PT": " 2002 ",
+                                "fr_FR": " 2002 ",
+                                "en_GB": " 2002 ",
+                                "de_DE": " 2002 "
+                            }
+                        },
+                        {
+                            "value": "2003",
+                            "label": {
+                                "es_ES": " 2003 ",
+                                "eu_ES": " 2003 ",
+                                "pt_PT": " 2003 ",
+                                "fr_FR": " 2003 ",
+                                "en_GB": " 2003 ",
+                                "de_DE": " 2003 "
+                            }
+                        },
+                        {
+                            "value": "2004",
+                            "label": {
+                                "es_ES": " 2004 ",
+                                "eu_ES": " 2004 ",
+                                "pt_PT": " 2004 ",
+                                "fr_FR": " 2004 ",
+                                "en_GB": " 2004 ",
+                                "de_DE": " 2004 "
+                            }
+                        },
+                        {
+                            "value": "2005",
+                            "label": {
+                                "es_ES": " 2005 ",
+                                "eu_ES": " 2005 ",
+                                "pt_PT": " 2005 ",
+                                "fr_FR": " 2005 ",
+                                "en_GB": " 2005 ",
+                                "de_DE": " 2005 "
+                            }
+                        },
+                        {
+                            "value": "2006",
+                            "label": {
+                                "es_ES": " 2006 ",
+                                "eu_ES": " 2006 ",
+                                "pt_PT": " 2006 ",
+                                "fr_FR": " 2006 ",
+                                "en_GB": " 2006 ",
+                                "de_DE": " 2006 "
+                            }
+                        },
+                        {
+                            "value": "2007",
+                            "label": {
+                                "es_ES": " 2007 ",
+                                "eu_ES": " 2007 ",
+                                "pt_PT": " 2007 ",
+                                "fr_FR": " 2007 ",
+                                "en_GB": " 2007 ",
+                                "de_DE": " 2007 "
+                            }
+                        },
+                        {
+                            "value": "2008",
+                            "label": {
+                                "es_ES": " 2008 ",
+                                "eu_ES": " 2008 ",
+                                "pt_PT": " 2008 ",
+                                "fr_FR": " 2008 ",
+                                "en_GB": " 2008 ",
+                                "de_DE": " 2008 "
+                            }
+                        },
+                        {
+                            "value": "2009",
+                            "label": {
+                                "es_ES": " 2009 ",
+                                "eu_ES": " 2009 ",
+                                "pt_PT": " 2009 ",
+                                "fr_FR": " 2009 ",
+                                "en_GB": " 2009 ",
+                                "de_DE": " 2009 "
+                            }
+                        },
+                        {
+                            "value": "2010",
+                            "label": {
+                                "es_ES": " 2010 ",
+                                "eu_ES": " 2010 ",
+                                "pt_PT": " 2010 ",
+                                "fr_FR": " 2010 ",
+                                "en_GB": " 2010 ",
+                                "de_DE": " 2010 "
+                            }
+                        },
+                        {
+                            "value": "2011",
+                            "label": {
+                                "es_ES": " 2011 ",
+                                "eu_ES": " 2011 ",
+                                "pt_PT": " 2011 ",
+                                "fr_FR": " 2011 ",
+                                "en_GB": " 2011 ",
+                                "de_DE": " 2011 "
+                            }
+                        },
+                        {
+                            "value": "2012",
+                            "label": {
+                                "es_ES": " 2012 ",
+                                "eu_ES": " 2012 ",
+                                "pt_PT": " 2012 ",
+                                "fr_FR": " 2012 ",
+                                "en_GB": " 2012 ",
+                                "de_DE": " 2012 "
+                            }
+                        },
+                        {
+                            "value": "2013",
+                            "label": {
+                                "es_ES": " 2013 ",
+                                "eu_ES": " 2013 ",
+                                "pt_PT": " 2013 ",
+                                "fr_FR": " 2013 ",
+                                "en_GB": " 2013 ",
+                                "de_DE": " 2013 "
+                            }
+                        },
+                        {
+                            "value": "2014",
+                            "label": {
+                                "es_ES": " 2014 ",
+                                "eu_ES": " 2014 ",
+                                "pt_PT": " 2014 ",
+                                "fr_FR": " 2014 ",
+                                "en_GB": " 2014 ",
+                                "de_DE": " 2014 "
+                            }
+                        },
+                        {
+                            "value": "2015",
+                            "label": {
+                                "es_ES": " 2015 ",
+                                "eu_ES": " 2015 ",
+                                "pt_PT": " 2015 ",
+                                "fr_FR": " 2015 ",
+                                "en_GB": " 2015 ",
+                                "de_DE": " 2015 "
+                            }
+                        },
+                        {
+                            "value": "2016",
+                            "label": {
+                                "es_ES": " 2016 ",
+                                "eu_ES": " 2016 ",
+                                "pt_PT": " 2016 ",
+                                "fr_FR": " 2016 ",
+                                "en_GB": " 2016 ",
+                                "de_DE": " 2016 "
+                            }
+                        },
+                        {
+                            "value": "2017",
+                            "label": {
+                                "es_ES": " 2017 ",
+                                "eu_ES": " 2017 ",
+                                "pt_PT": " 2017 ",
+                                "fr_FR": " 2017 ",
+                                "en_GB": " 2017 ",
+                                "de_DE": " 2017 "
+                            }
+                        },
+                        {
+                            "value": "2018",
+                            "label": {
+                                "es_ES": " 2018 ",
+                                "eu_ES": " 2018 ",
+                                "pt_PT": " 2018 ",
+                                "fr_FR": " 2018 ",
+                                "en_GB": " 2018 ",
+                                "de_DE": " 2018 "
+                            }
+                        },
+                        {
+                            "value": "2019",
+                            "label": {
+                                "es_ES": " 2019 ",
+                                "eu_ES": " 2019 ",
+                                "pt_PT": " 2019 ",
+                                "fr_FR": " 2019 ",
+                                "en_GB": " 2019 ",
+                                "de_DE": " 2019 "
+                            }
+                        },
+                        {
+                            "value": "2020",
+                            "label": {
+                                "es_ES": " 2020 ",
+                                "eu_ES": " 2020 ",
+                                "pt_PT": " 2020 ",
+                                "fr_FR": " 2020 ",
+                                "en_GB": " 2020 ",
+                                "de_DE": " 2020 "
+                            }
+                        },
+                        {
+                            "value": "2021",
+                            "label": {
+                                "es_ES": " 2021 ",
+                                "eu_ES": " 2021 ",
+                                "pt_PT": " 2021 ",
+                                "fr_FR": " 2021 ",
+                                "en_GB": " 2021 ",
+                                "de_DE": " 2021 "
+                            }
+                        },
+                        {
+                            "value": "2022",
+                            "label": {
+                                "es_ES": " 2022 ",
+                                "eu_ES": " 2022 ",
+                                "pt_PT": " 2022 ",
+                                "fr_FR": " 2022 ",
+                                "en_GB": " 2022 ",
+                                "de_DE": " 2022 "
+                            }
+                        },
+                        {
+                            "value": "2023",
+                            "label": {
+                                "es_ES": " 2023 ",
+                                "eu_ES": " 2023 ",
+                                "pt_PT": " 2023 ",
+                                "fr_FR": " 2023 ",
+                                "en_GB": " 2023 ",
+                                "de_DE": " 2023 "
+                            }
+                        },
+                        {
+                            "value": "2024",
+                            "label": {
+                                "es_ES": " 2024 ",
+                                "eu_ES": " 2024 ",
+                                "pt_PT": " 2024 ",
+                                "fr_FR": " 2024 ",
+                                "en_GB": " 2024 ",
+                                "de_DE": " 2024 "
+                            }
+                        },
+                        {
+                            "value": "2025",
+                            "label": {
+                                "es_ES": " 2025 ",
+                                "eu_ES": " 2025 ",
+                                "pt_PT": " 2025 ",
+                                "fr_FR": " 2025 ",
+                                "en_GB": " 2025 ",
+                                "de_DE": " 2025 "
+                            }
+                        },
+                        {
+                            "value": "2026",
+                            "label": {
+                                "es_ES": " 2026 ",
+                                "eu_ES": " 2026 ",
+                                "pt_PT": " 2026 ",
+                                "fr_FR": " 2026 ",
+                                "en_GB": " 2026 ",
+                                "de_DE": " 2026 "
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [],
+                        "eu_ES": [],
+                        "pt_PT": [],
+                        "fr_FR": [],
+                        "en_GB": [],
+                        "de_DE": []
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "multiple": false,
+                    "name": "ehuthesisyear",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "select"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Universidad ",
+                "eu_ES": " Unibertsitatea ",
+                "pt_PT": "Universidade",
+                "fr_FR": " Université ",
+                "en_GB": " University ",
+                "de_DE": "Universität"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehuthesisuniversity",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": " Personas encargadas de la dirección ",
+                "eu_ES": " Zuzendaria(k) ",
+                "pt_PT": "Pessoas encarregadas da supervisão",
+                "fr_FR": " Directeur(s) ",
+                "en_GB": " Director(s) ",
+                "de_DE": "Leitung"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehuthesisdirector",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": " Descripción ",
+                "eu_ES": " Deskribapena ",
+                "pt_PT": "Descrição",
+                "fr_FR": " Description ",
+                "en_GB": " Description ",
+                "de_DE": "Beschreibung"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehuthesisdescription",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "textarea"
+        },
+        {
+            "label": {
+                "es_ES": " Dirección web con información adicional ",
+                "eu_ES": " Web helbidea informazio gehigarriarekin ",
+                "pt_PT": "Endereço da Web com informações adicionais",
+                "fr_FR": " Adresse Web avec des informations supplémentaires ",
+                "en_GB": " Web address with additional information ",
+                "de_DE": "Webadresse mit zusätzlichen Informationen"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": " https://www.ejemplo.com ",
+                "eu_ES": " https://www.adibide.com ",
+                "pt_PT": " https://www.exemplo.com ",
+                "fr_FR": " https://www.exemple.com ",
+                "en_GB": " https://www.example.com ",
+                "de_DE": " https://www.beispiel.com "
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehuthesislink",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Nombre de la dirección web ",
+                        "eu_ES": " Web helbidearen izena ",
+                        "pt_PT": "Nome do endereço da web",
+                        "fr_FR": " Nom de l'adresse web ",
+                        "en_GB": " Name of the web address ",
+                        "de_DE": "Name der Webadresse"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": " Nombre asociado a la dirección web seleccionada ",
+                        "eu_ES": " Aukeratutako web helbidearekin lotutako izena ",
+                        "pt_PT": "Nome associado ao endereço da web selecionado",
+                        "fr_FR": " Nom associé à l'adresse web sélectionnée ",
+                        "en_GB": " Name associated to the selected web address ",
+                        "de_DE": "Mit der ausgewählten Webadresse verknüpfter Text"
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehuthesislinktitle",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Abrir en nueva pestaña ",
+                        "eu_ES": " Ireki fitxa berrian ",
+                        "pt_PT": "Abrir em nova aba",
+                        "fr_FR": " Ouvrir dans un nouvel onglet ",
+                        "en_GB": " Open in new tab ",
+                        "de_DE": "In neuem Tab öffnen"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "false",
+                        "eu_ES": "false",
+                        "pt_PT": "false",
+                        "fr_FR": "false",
+                        "en_GB": "false",
+                        "de_DE": "false"
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "",
+                    "localizable": true,
+                    "name": "ehunewtab",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Documento relacionado ",
+                "eu_ES": " Lotura duen dokumentua ",
+                "pt_PT": "Documento relacionado",
+                "fr_FR": " Document connexe ",
+                "en_GB": " Related document ",
+                "de_DE": "Zugehöriges Dokument"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "document-library",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuthesisdocument",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-documentlibrary",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Nombre del documento ",
+                        "eu_ES": " Dokumentuaren izena ",
+                        "pt_PT": "Nome do Documento",
+                        "fr_FR": " Nom du document ",
+                        "en_GB": " Document name ",
+                        "de_DE": "Dokumentname"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehuthesisdocumenttitle",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Mención ",
+                "eu_ES": " Aipamena ",
+                "pt_PT": "Menção",
+                "fr_FR": " Mention ",
+                "en_GB": " Mention ",
+                "de_DE": "Erwähnung"
+            },
+            "options": [
+                {
+                    "value": "ehu-mention-international-phd",
+                    "label": {
+                        "es_ES": " Doctorado internacional ",
+                        "eu_ES": " Nazioarteko doktoretza ",
+                        "pt_PT": "Doutorado internacional",
+                        "fr_FR": " Doctorat international ",
+                        "en_GB": " International PhD ",
+                        "de_DE": "International PhD"
+                    }
+                },
+                {
+                    "value": "ehu-mention-european-phd",
+                    "label": {
+                        "es_ES": " Doctorado europeo ",
+                        "eu_ES": " Europako doktoretza ",
+                        "pt_PT": "Doutorado europeu",
+                        "fr_FR": " Doctorat européen ",
+                        "en_GB": " European PhD ",
+                        "de_DE": "European PhD"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "es_ES": [],
+                "eu_ES": [],
+                "pt_PT": [],
+                "fr_FR": [],
+                "en_GB": [],
+                "de_DE": []
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "",
+            "localizable": true,
+            "multiple": false,
+            "name": "ehumention",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "select"
+        },
+        {
+            "label": {
+                "es_ES": " Premio Extraordinario de Doctorado ",
+                "eu_ES": " Doktoretzako Aparteko Saria ",
+                "pt_PT": "Prêmio Extraordinário de Doutorado",
+                "fr_FR": " Prix extraordinaire de doctorat ",
+                "en_GB": " Phd Excellence Award ",
+                "de_DE": "Außerordentlicher Promotionspreis"
+            },
+            "predefinedValue": {
+                "es_ES": "false",
+                "eu_ES": "false",
+                "pt_PT": "false",
+                "fr_FR": "false",
+                "en_GB": "false",
+                "de_DE": "false"
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "boolean",
+            "indexType": "",
+            "localizable": true,
+            "name": "ehuphdextraaward",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "checkbox"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " Nombre de Máster ",
+                "eu_ES": " Masterraren izena "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "nombre_master",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": " Enlace a Máster ",
+                "eu_ES": " Masterrari esteka "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "link-to-page",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "enlace_master",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "ddm-link-to-page"
+        },
+        {
+            "label": {
+                "es_ES": " Tipo de Master Padre ",
+                "eu_ES": " Aita masterraren mota "
+            },
+            "options": [
+                {
+                    "value": "m1",
+                    "label": {
+                        "es_ES": " Máster ",
+                        "eu_ES": " Masterra "
+                    }
+                },
+                {
+                    "value": "m2",
+                    "label": {
+                        "es_ES": " Especialización ",
+                        "eu_ES": " Espezializazioa "
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "es_ES": [
+                    "m1"
+                ],
+                "eu_ES": [
+                    ""
+                ]
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": false,
+            "multiple": false,
+            "name": "Tipo_de_Master_Padre",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "select"
+        }
+    ]
+}

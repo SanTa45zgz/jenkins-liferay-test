@@ -1,0 +1,25 @@
+// sobrescribimos los fuentes para usar los del hotfix 
+// Antes de compilar: copiar lo que contenga inaries\MODULES_BASE_PATH\marketplace\Liferay Forms and Workflow - Liferay Dynamic Data Mapping - API.lpkg\com.liferay.dynamic.data.mapping.service-7.0.59.hotfix-2405-7413.jar
+// en ext\ehu-ddm-service-ext\build\original-module 
+
+//FIN sobrescribimos los fuentes para usar los del hotfix
+
+dependencies {
+	originalModule group: "com.liferay", name: "com.liferay.dynamic.data.mapping.service"
+	
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "com.liferay", name: "com.liferay.dynamic.data.mapping.api"
+	compileOnly group: "com.liferay", name: "com.liferay.document.library.api"
+	compileOnly group: "com.liferay", name: "com.liferay.frontend.js.loader.modules.extender.api"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.string"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.function"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.io"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.sql.dsl.api"
+	
+	compileOnly group: "javax.mail", name: "mail", version: "1.4"
+	compileOnly group: "javax.portlet", name: "portlet-api"
+	compileOnly group: "javax.servlet", name: "javax.servlet-api"
+	
+}

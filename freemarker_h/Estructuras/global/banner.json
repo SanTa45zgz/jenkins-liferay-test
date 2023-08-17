@@ -1,0 +1,399 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "en_GB",
+        "de_DE"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " Imagen ",
+                "eu_ES": " Irudia ",
+                "pt_PT": "Imagem",
+                "fr_FR": " Image ",
+                "en_GB": " Image ",
+                "de_DE": " Bild "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": " Usa imágenes de tipo PNG, de 200 píxeles de ancho y 60 píxeles de alto como mínimo ",
+                "eu_ES": " Erabili PNG motako irudiak, 200 zabalerako pixelekoa eta 60 altuerako pixelekoa gutxienez ",
+                "pt_PT": "Use imagens do tipo PNG, com pelo menos 200 pixels de largura e 60 pixels de altura",
+                "fr_FR": " Utiliser des images de type de PNG, 200 pixels de large et 60 pixels de haut au moins ",
+                "en_GB": " Use PNG type, 200 pixels width and minimum 60 pixels height ",
+                "de_DE": " Verwenden Sie PNG-Bilder mit einer Breite von 200 Pixel und einer Höhe von mindestens 60 Pixel "
+            },
+            "dataType": "document-library",
+            "fieldNamespace": "ddm",
+            "indexType": "",
+            "localizable": true,
+            "name": "ehubannerimage",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "ddm-documentlibrary",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Texto alternativo de la imagen ",
+                        "eu_ES": " Irudiaren ordezko testua ",
+                        "pt_PT": "Texto alternativo da imagem",
+                        "fr_FR": " Texte alternatif de l’image ",
+                        "en_GB": " Image’s alternative text ",
+                        "de_DE": " Alternativer Text des Bildes "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": " Descripción de la imagen para que cuando ésta no se vea no se pierda información ",
+                        "eu_ES": " Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin ",
+                        "pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas",
+                        "fr_FR": " Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu ",
+                        "en_GB": " Description of the image not to lose information when it is not seen ",
+                        "de_DE": " Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird "
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehubannerimagealttext",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Pie de imagen ",
+                "eu_ES": " Irudiaren oina ",
+                "pt_PT": "Legenda da imagem",
+                "fr_FR": " Légende ",
+                "en_GB": " Image’s foot ",
+                "de_DE": " Bildunterschrift "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": " Límite de 50 caracteres ",
+                "eu_ES": " 50 karakterera mugatuta ",
+                "pt_PT": "Limite de 50 caracteres",
+                "fr_FR": " Limite de 50 caractères ",
+                "en_GB": " 50 character limit ",
+                "de_DE": " Maximal 50 Zeichen "
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehubannertext",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": " Idioma ",
+                "eu_ES": " Hizkuntza ",
+                "pt_PT": "Idioma",
+                "fr_FR": " Langue ",
+                "en_GB": " Language ",
+                "de_DE": " Sprache "
+            },
+            "options": [
+                {
+                    "value": "eu",
+                    "label": {
+                        "es_ES": " Euskara ",
+                        "eu_ES": " Euskara ",
+                        "pt_PT": " Euskara ",
+                        "fr_FR": " Euskara ",
+                        "en_GB": " Euskara ",
+                        "de_DE": " Euskara "
+                    }
+                },
+                {
+                    "value": "es",
+                    "label": {
+                        "es_ES": " Español ",
+                        "eu_ES": " Espainiera ",
+                        "pt_PT": " Espanhol ",
+                        "fr_FR": " Espagnol ",
+                        "en_GB": " Spanish ",
+                        "de_DE": " Spanisch "
+                    }
+                },
+                {
+                    "value": "en",
+                    "label": {
+                        "es_ES": " Inglés ",
+                        "eu_ES": " Ingelesa ",
+                        "pt_PT": " Inglês ",
+                        "fr_FR": " Anglais ",
+                        "en_GB": " English ",
+                        "de_DE": " Englisch "
+                    }
+                },
+                {
+                    "value": "fr",
+                    "label": {
+                        "es_ES": " Francés ",
+                        "eu_ES": " Frantsesa ",
+                        "pt_PT": " Francês ",
+                        "fr_FR": " Français ",
+                        "en_GB": " French ",
+                        "de_DE": " Französisch "
+                    }
+                },
+                {
+                    "value": "ca",
+                    "label": {
+                        "es_ES": " Catalá ",
+                        "eu_ES": " Catalá ",
+                        "pt_PT": " Catalá ",
+                        "fr_FR": " Catalá ",
+                        "en_GB": " Catalá ",
+                        "de_DE": " Catalá "
+                    }
+                },
+                {
+                    "value": "de",
+                    "label": {
+                        "es_ES": "Alemán",
+                        "eu_ES": "Alemana",
+                        "pt_PT": "Alemão",
+                        "fr_FR": "Allemand",
+                        "en_GB": " German ",
+                        "de_DE": " Deutsch "
+                    }
+                },
+                {
+                    "value": "pt",
+                    "label": {
+                        "es_ES": "Portugués",
+                        "eu_ES": "Portugalera",
+                        "pt_PT": "Português",
+                        "fr_FR": "Portugais",
+                        "en_GB": "Portuguese",
+                        "de_DE": "Portugiesisch"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "es_ES": [],
+                "eu_ES": [],
+                "pt_PT": [],
+                "fr_FR": [],
+                "en_GB": [],
+                "de_DE": []
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": " Si el título no se puede traducir, se ha de seleccionar el idioma en el que está escrito. ",
+                "eu_ES": " Izenburua itzuli ezin bada, hautatu behar da idatzita dagoen hizkuntzatan. ",
+                "pt_PT": "Se o título não puder ser traduzido, o idioma em que está escrito deve ser selecionado.",
+                "fr_FR": " Si le titre ne peut pas traduire, vous devez sélectionner la langue dans laquelle il est écrit. ",
+                "en_GB": " If the title cannot be translated, choose the language in which it is written. ",
+                "de_DE": " Wenn der Titel nicht übersetzt werden kann, muss die Sprache ausgewählt werden, in der er geschrieben ist. "
+            },
+            "dataType": "string",
+            "indexType": "",
+            "localizable": true,
+            "multiple": false,
+            "name": "ehubannerlang",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "select"
+        },
+        {
+            "label": {
+                "es_ES": " Dirección web de la imagen ",
+                "eu_ES": " Irudiaren web helbidea ",
+                "pt_PT": "Endereço da web da imagem",
+                "fr_FR": " Adresse web de l'image ",
+                "en_GB": " Image’s web adderss ",
+                "de_DE": " Webadresse des Bildes "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": " https://www.ejemplo.com ",
+                "eu_ES": " https://www.adibide.com ",
+                "pt_PT": " https://www.exemplo.com ",
+                "fr_FR": " https://www.exemple.com ",
+                "en_GB": " https://www.example.com ",
+                "de_DE": " https://www.beispiel.com "
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehubannerurl",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Abrir en nueva pestaña ",
+                        "eu_ES": " Ireki fitxa berrian ",
+                        "pt_PT": "Abrir em nova aba",
+                        "fr_FR": " Ouvrir dans un nouvel onglet ",
+                        "en_GB": " Open in new tab ",
+                        "de_DE": " In neuem Tab öffnen "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "false",
+                        "eu_ES": "false",
+                        "pt_PT": "false",
+                        "fr_FR": "false",
+                        "en_GB": "false",
+                        "de_DE": "false"
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "",
+                    "localizable": true,
+                    "name": "ehubannerurlnewtab",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Descripción del enlace ",
+                "eu_ES": " Estekaren deskribapena ",
+                "pt_PT": "Descrição do Link",
+                "fr_FR": " Description du lien ",
+                "en_GB": " Link’s description ",
+                "de_DE": " Link Beschreibung "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": " Si el título no es lo suficientemente significativo, explica aquí dónde lleva el enlace ",
+                "eu_ES": " Izenburua ez denean oso esanguratsua, hemen zehaztu nora doan esteka ",
+                "pt_PT": "Se o título não for significativo o suficiente, explique aqui para onde o link leva",
+                "fr_FR": " Si le titre n'est pas assez clair, expliquez ici l'objectif du lien ",
+                "en_GB": " If the title is not clear enough, explain here the link’s objective ",
+                "de_DE": " Wenn der Titel nicht aussagekräftig genug ist, erläutern Sie hier, wohin der Link führt "
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehubannertitle",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        }
+    ]
+}

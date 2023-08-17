@@ -1,0 +1,1473 @@
+{
+	"availableLanguageIds": [
+		"es_ES",
+		"eu_ES",
+		"pt_PT",
+		"fr_FR",
+		"en_GB",
+		"de_DE"
+	],
+	"contentType": "journal",
+	"dataDefinitionFields": [
+		{
+			"customProperties": {
+				"displayStyle": "singleline",
+				"fieldNamespace": "",
+				"visibilityExpression": "",
+				"ddmDataProviderInstanceOutput": [],
+				"autocomplete": false,
+				"ddmDataProviderInstanceId": [],
+				"dataType": "string",
+				"options": {
+					"eu_ES": [
+						{
+							"reference": "",
+							"label": "Option",
+							"value": "Option"
+						}
+					]
+				},
+				"tooltip": {
+					"eu_ES": ""
+				},
+				"fieldReference": "ehutimelinetitle",
+				"placeholder": {
+					"eu_ES": ""
+				},
+				"dataSourceType": "manual"
+			},
+			"defaultValue": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			},
+			"fieldType": "text",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_GB": "Title",
+				"eu_ES": "Izenburua",
+				"es_ES": "Título",
+				"fr_FR": "Titre",
+				"de_DE": "Titel",
+				"pt_PT": "Título"
+			},
+			"localizable": true,
+			"name": "ehutimelinetitle",
+			"nestedDataDefinitionFields": [],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"tip": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			}
+		},
+		{
+			"customProperties": {
+				"fieldNamespace": "",
+				"visibilityExpression": "",
+				"dataType": "string",
+				"fieldReference": "ehutimelinedescription"
+			},
+			"defaultValue": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			},
+			"fieldType": "rich_text",
+			"indexType": "text",
+			"indexable": true,
+			"label": {
+				"en_GB": "Description",
+				"eu_ES": "Deskribapena",
+				"es_ES": "Descripción",
+				"fr_FR": "Description",
+				"de_DE": "Beschreibung",
+				"pt_PT": "Descrição"
+			},
+			"localizable": true,
+			"name": "ehutimelinedescription",
+			"nestedDataDefinitionFields": [],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"tip": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			}
+		},
+		{
+			"customProperties": {
+				"ddmStructureLayoutId": "",
+				"ddmStructureId": "",
+				"upgradedStructure": false,
+				"fieldReference": "ehutimelineyearFieldSet",
+				"rows": [
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"ehutimelineyear"
+								]
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"ehutimelineitemtitleFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"collapsible": false
+			},
+			"defaultValue": {
+				
+			},
+			"fieldType": "fieldset",
+			"indexable": false,
+			"label": {
+				"eu_ES": ""
+			},
+			"localizable": false,
+			"name": "ehutimelineyearFieldSet",
+			"nestedDataDefinitionFields": [
+				{
+					"customProperties": {
+						"displayStyle": "singleline",
+						"fieldNamespace": "",
+						"visibilityExpression": "",
+						"ddmDataProviderInstanceOutput": [],
+						"autocomplete": false,
+						"ddmDataProviderInstanceId": [],
+						"dataType": "string",
+						"options": {
+							"eu_ES": [
+								{
+									"reference": "",
+									"label": "Option",
+									"value": "Option"
+								}
+							]
+						},
+						"tooltip": {
+							"eu_ES": ""
+						},
+						"fieldReference": "ehutimelineyear",
+						"placeholder": {
+							"eu_ES": ""
+						},
+						"dataSourceType": "manual"
+					},
+					"defaultValue": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					},
+					"fieldType": "text",
+					"indexType": "keyword",
+					"indexable": true,
+					"label": {
+						"en_GB": "Year",
+						"eu_ES": "Urtea",
+						"es_ES": "Año",
+						"fr_FR": "Année",
+						"de_DE": "Jahr",
+						"pt_PT": "Ano"
+					},
+					"localizable": true,
+					"name": "ehutimelineyear",
+					"nestedDataDefinitionFields": [],
+					"readOnly": false,
+					"repeatable": false,
+					"required": true,
+					"showLabel": true,
+					"tip": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					}
+				},
+				{
+					"customProperties": {
+						"ddmStructureLayoutId": "",
+						"ddmStructureId": "",
+						"upgradedStructure": false,
+						"fieldReference": "ehutimelineitemtitleFieldSet",
+						"rows": [
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"ehutimelineitemtitle"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"ehutimelineitemtitleFieldSetFieldSet"
+										]
+									}
+								]
+							}
+						],
+						"collapsible": false
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "fieldset",
+					"indexable": false,
+					"label": {
+						"eu_ES": ""
+					},
+					"localizable": false,
+					"name": "ehutimelineitemtitleFieldSet",
+					"nestedDataDefinitionFields": [
+						{
+							"customProperties": {
+								"displayStyle": "singleline",
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"autocomplete": false,
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"eu_ES": [
+										{
+											"reference": "",
+											"label": "Option",
+											"value": "Option"
+										}
+									]
+								},
+								"tooltip": {
+									"eu_ES": ""
+								},
+								"fieldReference": "ehutimelineitemtitle",
+								"placeholder": {
+									"eu_ES": ""
+								},
+								"dataSourceType": "manual"
+							},
+							"defaultValue": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							},
+							"fieldType": "text",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Section title",
+								"eu_ES": "Atalaren izenburua",
+								"es_ES": "Título del apartado",
+								"fr_FR": "Titre de la section",
+								"de_DE": "Abschnittsüberschrift",
+								"pt_PT": "Título da seção"
+							},
+							"localizable": true,
+							"name": "ehutimelineitemtitle",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": true,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						},
+						{
+							"customProperties": {
+								"ddmStructureLayoutId": "",
+								"ddmStructureId": "",
+								"upgradedStructure": false,
+								"fieldReference": "ehutimelineitemtitleFieldSetFieldSet",
+								"rows": [
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ehutimelinehighlight"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ehutimelinekeepopenonstart"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ehutimelinethumbnailimageFieldSet"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ehutimelinetext"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ehutimelineimageFieldSet"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ehutimelinevideo"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ehutimelineaudio"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ehutimelinelinkFieldSet"
+												]
+											}
+										]
+									}
+								],
+								"collapsible": false
+							},
+							"defaultValue": {
+								
+							},
+							"fieldType": "fieldset",
+							"indexable": false,
+							"label": {
+								"eu_ES": ""
+							},
+							"localizable": false,
+							"name": "ehutimelineitemtitleFieldSetFieldSet",
+							"nestedDataDefinitionFields": [
+								{
+									"customProperties": {
+										"dataType": "boolean",
+										"options": {
+											
+										},
+										"fieldReference": "ehutimelinehighlight"
+									},
+									"defaultValue": {
+										"en_GB": "false",
+										"eu_ES": "false",
+										"es_ES": "false",
+										"fr_FR": "false",
+										"de_DE": "false",
+										"pt_PT": "false"
+									},
+									"fieldType": "checkbox",
+									"indexType": "keyword",
+									"indexable": true,
+									"label": {
+										"en_GB": "Outstanding",
+										"eu_ES": "Nabarmendua",
+										"es_ES": "Destacado",
+										"fr_FR": "Surligné",
+										"de_DE": "Bemerkenswert",
+										"pt_PT": "Destacado"
+									},
+									"localizable": true,
+									"name": "ehutimelinehighlight",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									}
+								},
+								{
+									"customProperties": {
+										"dataType": "boolean",
+										"options": {
+											
+										},
+										"fieldReference": "ehutimelinekeepopenonstart"
+									},
+									"defaultValue": {
+										"en_GB": "false",
+										"eu_ES": "false",
+										"es_ES": "false",
+										"fr_FR": "false",
+										"de_DE": "false",
+										"pt_PT": "false"
+									},
+									"fieldType": "checkbox",
+									"indexType": "keyword",
+									"indexable": true,
+									"label": {
+										"en_GB": "Keep open at first",
+										"eu_ES": "Hasieran zabalik erakutsi",
+										"es_ES": "Mantener abierto al iniciar",
+										"fr_FR": "Rester ouvert au démarrage",
+										"de_DE": "Beim Start offen lassen",
+										"pt_PT": "Mantenha aberto no início"
+									},
+									"localizable": true,
+									"name": "ehutimelinekeepopenonstart",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									}
+								},
+								{
+									"customProperties": {
+										"ddmStructureLayoutId": "",
+										"ddmStructureId": "",
+										"upgradedStructure": false,
+										"fieldReference": "ehutimelinethumbnailimageFieldSet",
+										"rows": [
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"ehutimelinethumbnailimage"
+														]
+													}
+												]
+											},
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"ehutimelinethumbnailimageFieldSetFieldSet"
+														]
+													}
+												]
+											}
+										],
+										"collapsible": false
+									},
+									"defaultValue": {
+										
+									},
+									"fieldType": "fieldset",
+									"indexable": false,
+									"label": {
+										"eu_ES": ""
+									},
+									"localizable": false,
+									"name": "ehutimelinethumbnailimageFieldSet",
+									"nestedDataDefinitionFields": [
+										{
+											"customProperties": {
+												"fieldNamespace": "",
+												"visibilityExpression": "",
+												"dataType": "document-library",
+												"fieldReference": "ehutimelinethumbnailimage"
+											},
+											"defaultValue": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											},
+											"fieldType": "document_library",
+											"indexType": "keyword",
+											"indexable": true,
+											"label": {
+												"en_GB": "Thumbnail Image",
+												"eu_ES": "Irudi txikia",
+												"es_ES": "Imagen miniatura",
+												"fr_FR": "Image miniature",
+												"de_DE": "Miniaturbild",
+												"pt_PT": "Imagem em miniatura"
+											},
+											"localizable": true,
+											"name": "ehutimelinethumbnailimage",
+											"nestedDataDefinitionFields": [],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": true,
+											"tip": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											}
+										},
+										{
+											"customProperties": {
+												"ddmStructureLayoutId": "",
+												"ddmStructureId": "",
+												"upgradedStructure": false,
+												"fieldReference": "ehutimelinethumbnailimageFieldSetFieldSet",
+												"rows": [
+													{
+														"columns": [
+															{
+																"size": 12,
+																"fields": [
+																	"ehutimelinethumbnailalt"
+																]
+															}
+														]
+													}
+												],
+												"collapsible": false
+											},
+											"defaultValue": {
+												
+											},
+											"fieldType": "fieldset",
+											"indexable": false,
+											"label": {
+												"eu_ES": ""
+											},
+											"localizable": false,
+											"name": "ehutimelinethumbnailimageFieldSetFieldSet",
+											"nestedDataDefinitionFields": [
+												{
+													"customProperties": {
+														"displayStyle": "singleline",
+														"fieldNamespace": "",
+														"visibilityExpression": "",
+														"ddmDataProviderInstanceOutput": [],
+														"autocomplete": false,
+														"ddmDataProviderInstanceId": [],
+														"dataType": "string",
+														"options": {
+															"eu_ES": [
+																{
+																	"reference": "",
+																	"label": "Option",
+																	"value": "Option"
+																}
+															]
+														},
+														"tooltip": {
+															"eu_ES": ""
+														},
+														"fieldReference": "ehutimelinethumbnailalt",
+														"placeholder": {
+															"eu_ES": ""
+														},
+														"dataSourceType": "manual"
+													},
+													"defaultValue": {
+														"en_GB": "",
+														"eu_ES": "",
+														"es_ES": "",
+														"fr_FR": "",
+														"de_DE": "",
+														"pt_PT": ""
+													},
+													"fieldType": "text",
+													"indexType": "keyword",
+													"indexable": true,
+													"label": {
+														"en_GB": "Thumbnail Image’s alternative text",
+														"eu_ES": "Irudi txikiaren ordezko testua",
+														"es_ES": "Texto alternativo de la imagen miniatura",
+														"fr_FR": "Texte alternatif de l’image miniature",
+														"de_DE": "Miniaturbild Alternativtext",
+														"pt_PT": "Texto alternativo da imagem em miniatura"
+													},
+													"localizable": true,
+													"name": "ehutimelinethumbnailalt",
+													"nestedDataDefinitionFields": [],
+													"readOnly": false,
+													"repeatable": false,
+													"required": false,
+													"showLabel": true,
+													"tip": {
+														"en_GB": "Description of the image not to lose information when it is not seen",
+														"eu_ES": "Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin",
+														"es_ES": "Descripción de la imagen para que cuando ésta no se vea no se pierda información",
+														"fr_FR": "Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu",
+														"de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird",
+														"pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas"
+													}
+												}
+											],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": false,
+											"tip": {
+												
+											}
+										}
+									],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": false,
+									"tip": {
+										
+									}
+								},
+								{
+									"customProperties": {
+										"fieldNamespace": "",
+										"visibilityExpression": "",
+										"dataType": "string",
+										"fieldReference": "ehutimelinetext"
+									},
+									"defaultValue": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									},
+									"fieldType": "rich_text",
+									"indexType": "text",
+									"indexable": true,
+									"label": {
+										"en_GB": "Text",
+										"eu_ES": "Testua",
+										"es_ES": "Texto",
+										"fr_FR": "Texte",
+										"de_DE": "Text",
+										"pt_PT": "Texto"
+									},
+									"localizable": true,
+									"name": "ehutimelinetext",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									}
+								},
+								{
+									"customProperties": {
+										"ddmStructureLayoutId": "",
+										"ddmStructureId": "",
+										"upgradedStructure": false,
+										"fieldReference": "ehutimelineimageFieldSet",
+										"rows": [
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"ehutimelineimage"
+														]
+													}
+												]
+											},
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"ehutimelineimageFieldSetFieldSet"
+														]
+													}
+												]
+											}
+										],
+										"collapsible": false
+									},
+									"defaultValue": {
+										
+									},
+									"fieldType": "fieldset",
+									"indexable": false,
+									"label": {
+										"eu_ES": ""
+									},
+									"localizable": false,
+									"name": "ehutimelineimageFieldSet",
+									"nestedDataDefinitionFields": [
+										{
+											"customProperties": {
+												"fieldNamespace": "",
+												"visibilityExpression": "",
+												"dataType": "document-library",
+												"fieldReference": "ehutimelineimage"
+											},
+											"defaultValue": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											},
+											"fieldType": "document_library",
+											"indexType": "keyword",
+											"indexable": true,
+											"label": {
+												"en_GB": "Image",
+												"eu_ES": "Irudia",
+												"es_ES": "Imagen",
+												"fr_FR": "Image",
+												"de_DE": "Bild",
+												"pt_PT": "Imagem"
+											},
+											"localizable": true,
+											"name": "ehutimelineimage",
+											"nestedDataDefinitionFields": [],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": true,
+											"tip": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											}
+										},
+										{
+											"customProperties": {
+												"ddmStructureLayoutId": "",
+												"ddmStructureId": "",
+												"upgradedStructure": false,
+												"fieldReference": "ehutimelineimageFieldSetFieldSet",
+												"rows": [
+													{
+														"columns": [
+															{
+																"size": 12,
+																"fields": [
+																	"ehutimelinecaption"
+																]
+															}
+														]
+													},
+													{
+														"columns": [
+															{
+																"size": 12,
+																"fields": [
+																	"ehutimelineimagealt"
+																]
+															}
+														]
+													}
+												],
+												"collapsible": false
+											},
+											"defaultValue": {
+												
+											},
+											"fieldType": "fieldset",
+											"indexable": false,
+											"label": {
+												"eu_ES": ""
+											},
+											"localizable": false,
+											"name": "ehutimelineimageFieldSetFieldSet",
+											"nestedDataDefinitionFields": [
+												{
+													"customProperties": {
+														"displayStyle": "singleline",
+														"fieldNamespace": "",
+														"visibilityExpression": "",
+														"ddmDataProviderInstanceOutput": [],
+														"autocomplete": false,
+														"ddmDataProviderInstanceId": [],
+														"dataType": "string",
+														"options": {
+															"eu_ES": [
+																{
+																	"reference": "",
+																	"label": "Option",
+																	"value": "Option"
+																}
+															]
+														},
+														"tooltip": {
+															"eu_ES": ""
+														},
+														"fieldReference": "ehutimelinecaption",
+														"placeholder": {
+															"eu_ES": ""
+														},
+														"dataSourceType": "manual"
+													},
+													"defaultValue": {
+														"en_GB": "",
+														"eu_ES": "",
+														"es_ES": "",
+														"fr_FR": "",
+														"de_DE": "",
+														"pt_PT": ""
+													},
+													"fieldType": "text",
+													"indexType": "keyword",
+													"indexable": true,
+													"label": {
+														"en_GB": "Image’s foot",
+														"eu_ES": "Irudiaren oina",
+														"es_ES": "Pie de imagen",
+														"fr_FR": "Légende",
+														"de_DE": "Bildunterschrift",
+														"pt_PT": "Legenda da imagem"
+													},
+													"localizable": true,
+													"name": "ehutimelinecaption",
+													"nestedDataDefinitionFields": [],
+													"readOnly": false,
+													"repeatable": false,
+													"required": false,
+													"showLabel": true,
+													"tip": {
+														"en_GB": "",
+														"eu_ES": "",
+														"es_ES": "",
+														"fr_FR": "",
+														"de_DE": "",
+														"pt_PT": ""
+													}
+												},
+												{
+													"customProperties": {
+														"displayStyle": "singleline",
+														"fieldNamespace": "",
+														"visibilityExpression": "",
+														"ddmDataProviderInstanceOutput": [],
+														"autocomplete": false,
+														"ddmDataProviderInstanceId": [],
+														"dataType": "string",
+														"options": {
+															"eu_ES": [
+																{
+																	"reference": "",
+																	"label": "Option",
+																	"value": "Option"
+																}
+															]
+														},
+														"tooltip": {
+															"eu_ES": ""
+														},
+														"fieldReference": "ehutimelineimagealt",
+														"placeholder": {
+															"eu_ES": ""
+														},
+														"dataSourceType": "manual"
+													},
+													"defaultValue": {
+														"en_GB": "",
+														"eu_ES": "",
+														"es_ES": "",
+														"fr_FR": "",
+														"de_DE": "",
+														"pt_PT": ""
+													},
+													"fieldType": "text",
+													"indexType": "keyword",
+													"indexable": true,
+													"label": {
+														"en_GB": "Image’s alternative text",
+														"eu_ES": "Irudiaren ordezko testua",
+														"es_ES": "Texto alternativo de la imagen",
+														"fr_FR": "Texte alternatif de l’image",
+														"de_DE": "Alternativer Text des Bildes",
+														"pt_PT": "Texto alternativo da imagem"
+													},
+													"localizable": true,
+													"name": "ehutimelineimagealt",
+													"nestedDataDefinitionFields": [],
+													"readOnly": false,
+													"repeatable": false,
+													"required": false,
+													"showLabel": true,
+													"tip": {
+														"en_GB": "Description of the image not to lose information when it is not seen",
+														"eu_ES": "Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin",
+														"es_ES": "Descripción de la imagen para que cuando ésta no se vea no se pierda información",
+														"fr_FR": "Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu",
+														"de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird",
+														"pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas"
+													}
+												}
+											],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": false,
+											"tip": {
+												
+											}
+										}
+									],
+									"readOnly": false,
+									"repeatable": true,
+									"required": false,
+									"showLabel": false,
+									"tip": {
+										
+									}
+								},
+								{
+									"customProperties": {
+										"displayStyle": "singleline",
+										"fieldNamespace": "",
+										"visibilityExpression": "",
+										"ddmDataProviderInstanceOutput": [],
+										"autocomplete": false,
+										"ddmDataProviderInstanceId": [],
+										"dataType": "string",
+										"options": {
+											"eu_ES": [
+												{
+													"reference": "",
+													"label": "Option",
+													"value": "Option"
+												}
+											]
+										},
+										"tooltip": {
+											"eu_ES": ""
+										},
+										"fieldReference": "ehutimelinevideo",
+										"placeholder": {
+											"eu_ES": ""
+										},
+										"dataSourceType": "manual"
+									},
+									"defaultValue": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									},
+									"fieldType": "text",
+									"indexType": "keyword",
+									"indexable": true,
+									"label": {
+										"en_GB": "Video URL",
+										"eu_ES": "Bideoaren URLa",
+										"es_ES": "URL del vídeo",
+										"fr_FR": "URL de la vidéo",
+										"de_DE": "Video-URL",
+										"pt_PT": "URL do vídeo"
+									},
+									"localizable": true,
+									"name": "ehutimelinevideo",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "The url of the video must be obtained from the iframe code of the video on each platform, and the video must be accessible.",
+										"eu_ES": "Bideoaren URLa plataforma bakoitzeko bideoaren iframe kodetik eskuratu behar da eta bideoa irisgarria izan behar da.",
+										"es_ES": "La URL del vídeo se debe obtener del código iframe del vídeo en cada plataforma, y el vídeo debe ser accesible.",
+										"fr_FR": "L'URL de la vidéo doit être obtenue à partir du code iframe de la vidéo sur chaque plateforme, et la vidéo doit être accessible.",
+										"de_DE": "Die URL des Videos muss aus dem Iframe-Code des Videos auf jeder Plattform abgerufen werden, und das Video muss zugänglich sein.",
+										"pt_PT": "O URL do vídeo deve ser obtido a partir do código iframe do vídeo em cada plataforma, e o vídeo deve estar acessível."
+									}
+								},
+								{
+									"customProperties": {
+										"fieldNamespace": "",
+										"visibilityExpression": "",
+										"dataType": "document-library",
+										"fieldReference": "ehutimelineaudio"
+									},
+									"defaultValue": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									},
+									"fieldType": "document_library",
+									"indexType": "keyword",
+									"indexable": true,
+									"label": {
+										"en_GB": "MP3 audio",
+										"eu_ES": "MP3 audioa",
+										"es_ES": "Audio MP3",
+										"fr_FR": "Audio MP3",
+										"de_DE": "Audio-MP3",
+										"pt_PT": "Áudio MP3"
+									},
+									"localizable": true,
+									"name": "ehutimelineaudio",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "The information in the audio must also be provided in text",
+										"eu_ES": "Audioaren informazioa testu bidez ere eman behar da",
+										"es_ES": "La información del audio se debe proporcionar también en texto",
+										"fr_FR": "Les informations contenues dans l'audio doivent également être fournies sous forme de texte",
+										"de_DE": "Die Informationen im Audio müssen auch in Textform bereitgestellt werden",
+										"pt_PT": "As informações no áudio também devem ser fornecidas em texto"
+									}
+								},
+								{
+									"customProperties": {
+										"ddmStructureLayoutId": "",
+										"ddmStructureId": "",
+										"upgradedStructure": false,
+										"fieldReference": "ehutimelinelinkFieldSet",
+										"rows": [
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"ehutimelinelink"
+														]
+													}
+												]
+											},
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"ehutimelinelinkFieldSetFieldSet"
+														]
+													}
+												]
+											}
+										],
+										"collapsible": false
+									},
+									"defaultValue": {
+										
+									},
+									"fieldType": "fieldset",
+									"indexable": false,
+									"label": {
+										"eu_ES": ""
+									},
+									"localizable": false,
+									"name": "ehutimelinelinkFieldSet",
+									"nestedDataDefinitionFields": [
+										{
+											"customProperties": {
+												"displayStyle": "singleline",
+												"fieldNamespace": "",
+												"visibilityExpression": "",
+												"ddmDataProviderInstanceOutput": [],
+												"autocomplete": false,
+												"ddmDataProviderInstanceId": [],
+												"dataType": "string",
+												"options": {
+													"eu_ES": [
+														{
+															"reference": "",
+															"label": "Option",
+															"value": "Option"
+														}
+													]
+												},
+												"tooltip": {
+													"eu_ES": ""
+												},
+												"fieldReference": "ehutimelinelink",
+												"placeholder": {
+													"eu_ES": ""
+												},
+												"dataSourceType": "manual"
+											},
+											"defaultValue": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											},
+											"fieldType": "text",
+											"indexType": "none",
+											"indexable": true,
+											"label": {
+												"en_GB": "Web address",
+												"eu_ES": "Web helbidea",
+												"es_ES": "Dirección web",
+												"fr_FR": "Adresse web",
+												"de_DE": "Webadresse",
+												"pt_PT": "Endereço da web"
+											},
+											"localizable": true,
+											"name": "ehutimelinelink",
+											"nestedDataDefinitionFields": [],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": true,
+											"tip": {
+												"en_GB": "www.example.com",
+												"eu_ES": "www.adibide.com",
+												"es_ES": "www.ejemplo.com",
+												"fr_FR": "www.exemple.com",
+												"de_DE": "www.beispiel.com",
+												"pt_PT": "www.exemplo.com"
+											}
+										},
+										{
+											"customProperties": {
+												"ddmStructureLayoutId": "",
+												"ddmStructureId": "",
+												"upgradedStructure": false,
+												"fieldReference": "ehutimelinelinkFieldSetFieldSet",
+												"rows": [
+													{
+														"columns": [
+															{
+																"size": 12,
+																"fields": [
+																	"ehutimelinelinktext"
+																]
+															}
+														]
+													},
+													{
+														"columns": [
+															{
+																"size": 12,
+																"fields": [
+																	"ehutimelinelinknewtab"
+																]
+															}
+														]
+													}
+												],
+												"collapsible": false
+											},
+											"defaultValue": {
+												
+											},
+											"fieldType": "fieldset",
+											"indexable": false,
+											"label": {
+												"eu_ES": ""
+											},
+											"localizable": false,
+											"name": "ehutimelinelinkFieldSetFieldSet",
+											"nestedDataDefinitionFields": [
+												{
+													"customProperties": {
+														"displayStyle": "singleline",
+														"fieldNamespace": "",
+														"visibilityExpression": "",
+														"ddmDataProviderInstanceOutput": [],
+														"autocomplete": false,
+														"ddmDataProviderInstanceId": [],
+														"dataType": "string",
+														"options": {
+															"eu_ES": [
+																{
+																	"reference": "",
+																	"label": "Option",
+																	"value": "Option"
+																}
+															]
+														},
+														"tooltip": {
+															"eu_ES": ""
+														},
+														"fieldReference": "ehutimelinelinktext",
+														"placeholder": {
+															"eu_ES": ""
+														},
+														"dataSourceType": "manual"
+													},
+													"defaultValue": {
+														"en_GB": "",
+														"eu_ES": "",
+														"es_ES": "",
+														"fr_FR": "",
+														"de_DE": "",
+														"pt_PT": ""
+													},
+													"fieldType": "text",
+													"indexType": "none",
+													"indexable": true,
+													"label": {
+														"en_GB": "Name of the web address",
+														"eu_ES": "Web helbidearen izena",
+														"es_ES": "Nombre de la dirección web",
+														"fr_FR": "Nom de l'adresse web",
+														"de_DE": "Name der Webadresse",
+														"pt_PT": "Nome do endereço da web"
+													},
+													"localizable": true,
+													"name": "ehutimelinelinktext",
+													"nestedDataDefinitionFields": [],
+													"readOnly": false,
+													"repeatable": false,
+													"required": false,
+													"showLabel": true,
+													"tip": {
+														"en_GB": "Name associated to the selected web address",
+														"eu_ES": "Aukeratutako web helbidearekin lotutako izena",
+														"es_ES": "Nombre asociado a la dirección web seleccionada",
+														"fr_FR": "Nom associé à l'adresse web sélectionnée",
+														"de_DE": "Mit der ausgewählten Webadresse verknüpfter Text",
+														"pt_PT": "Nome associado ao endereço da web selecionado"
+													}
+												},
+												{
+													"customProperties": {
+														"dataType": "boolean",
+														"options": {
+															
+														},
+														"fieldReference": "ehutimelinelinknewtab"
+													},
+													"defaultValue": {
+														"en_GB": "false",
+														"eu_ES": "false",
+														"es_ES": "false",
+														"fr_FR": "false",
+														"de_DE": "false",
+														"pt_PT": "false"
+													},
+													"fieldType": "checkbox",
+													"indexType": "none",
+													"indexable": true,
+													"label": {
+														"en_GB": "Open in new tab",
+														"eu_ES": "Ireki fitxa berrian",
+														"es_ES": "Abrir en nueva pestaña",
+														"fr_FR": "Ouvrir dans un nouvel onglet",
+														"de_DE": "In neuem Tab öffnen",
+														"pt_PT": "Abrir em nova aba"
+													},
+													"localizable": true,
+													"name": "ehutimelinelinknewtab",
+													"nestedDataDefinitionFields": [],
+													"readOnly": false,
+													"repeatable": false,
+													"required": false,
+													"showLabel": true,
+													"tip": {
+														"en_GB": "",
+														"eu_ES": "",
+														"es_ES": "",
+														"fr_FR": "",
+														"de_DE": "",
+														"pt_PT": ""
+													}
+												}
+											],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": false,
+											"tip": {
+												
+											}
+										}
+									],
+									"readOnly": false,
+									"repeatable": true,
+									"required": false,
+									"showLabel": false,
+									"tip": {
+										
+									}
+								}
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": false,
+							"tip": {
+								
+							}
+						}
+					],
+					"readOnly": false,
+					"repeatable": true,
+					"required": false,
+					"showLabel": false,
+					"tip": {
+						
+					}
+				}
+			],
+			"readOnly": false,
+			"repeatable": true,
+			"required": false,
+			"showLabel": false,
+			"tip": {
+				
+			}
+		}
+	],
+	"defaultDataLayout": {
+		"dataLayoutFields": {
+			
+		},
+		"dataLayoutPages": [
+			{
+				"dataLayoutRows": [
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"ehutimelinetitle"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"ehutimelinedescription"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"ehutimelineyearFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"description": {
+					"eu_ES": "Deskribapena"
+				},
+				"title": {
+					"eu_ES": "Orrialdea"
+				}
+			}
+		],
+		"dataRules": [],
+		"description": {
+			
+		},
+		"name": {
+			
+		},
+		"paginationMode": "single-page"
+	},
+	"defaultLanguageId": "eu_ES",
+	"description": {
+		
+	},
+	"name": {
+		"eu_ES": "Timeline"
+	},
+	"storageType": "default"
+}

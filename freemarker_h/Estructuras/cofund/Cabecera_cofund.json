@@ -1,0 +1,52 @@
+{
+    "availableLanguageIds": [],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {},
+            "predefinedValue": {},
+            "style": {},
+            "tip": {},
+            "dataType": "image",
+            "fieldNamespace": "ddm",
+            "indexType": "text",
+            "localizable": true,
+            "name": "Imagen9cfx",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-image"
+        },
+        {
+            "label": {},
+            "predefinedValue": {},
+            "style": {},
+            "tip": {},
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Antetitulo",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {},
+            "predefinedValue": {},
+            "style": {},
+            "tip": {},
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Titulo",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        }
+    ]
+}

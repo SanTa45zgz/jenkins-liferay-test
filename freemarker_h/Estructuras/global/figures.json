@@ -1,0 +1,275 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "de_DE",
+        "en_GB"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "Nota para Centros: Se deben informar 3 datos. Si se introducen más, no se mostrarán.",
+                "eu_ES": "Ikastegientzako oharra: 3 datu erakutsi behar dira. Gehiago sartzen badira, ez dira erakutsiko.",
+                "pt_PT": "Nota para Centros: Você deve preencher 3 dados. Se mais forem inseridos, eles não serão exibidos.",
+                "fr_FR": "Remarque pour les Centres: 3 informations doivent être signalées. Si d'autres sont saisis, ils ne seront pas affichés.",
+                "de_DE": "Hinweis für Zentren: Es müssen 3 Daten angezeigt werden. Wenn mehr eingegeben werden, werden diese nicht angezeigt.",
+                "en_GB": "Note for Centres: You must report 3 data. If you include more, they will not be displayed."
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "3DatuErakutsiBeharDiraGehiagoSartzenBadiraEzDiraErakutsiko",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": "Título",
+                "eu_ES": "Izenburua",
+                "pt_PT": "Título",
+                "fr_FR": "Titre",
+                "de_DE": "Titel",
+                "en_GB": "Title"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Titulo",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": "Imagen de fondo (no para Centros)",
+                "eu_ES": "Atzeko irudia (Ikastegientzat ez)",
+                "pt_PT": "Imagem de fundo (não para Centros)",
+                "fr_FR": "Image d'arrière-plan (pas pour les Centres)",
+                "de_DE": "Hintergrundbild (nicht für Center)",
+                "en_GB": "Background image (not for Centers)"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "dataType": "document-library",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Imagen",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-documentlibrary"
+        },
+        {
+            "label": {
+                "es_ES": "Dato",
+                "eu_ES": "Datua",
+                "pt_PT": "Dado",
+                "fr_FR": "Donée",
+                "de_DE": "Angabe",
+                "en_GB": "Datum"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "en_GB": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Dato",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "text",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Cifra",
+                        "eu_ES": "Zenbakia",
+                        "pt_PT": "Figura",
+                        "fr_FR": "Figure",
+                        "de_DE": "Zahl",
+                        "en_GB": "Figure"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "de_DE": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "de_DE": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "de_DE": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "Cantidad",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": "Dirección web",
+                        "eu_ES": "Web helbidea",
+                        "pt_PT": "Endereço da web",
+                        "fr_FR": "Adresse web",
+                        "de_DE": "Webadresse",
+                        "en_GB": "Web address"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "de_DE": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "de_DE": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "https://www.ejemplo.com",
+                        "eu_ES": "https://www.adibide.com",
+                        "pt_PT": "https://www.exemplo.com",
+                        "fr_FR": "https://www.exemple.com",
+                        "de_DE": "https://www.beispiel.com",
+                        "en_GB": "https://www.example.com"
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "Enlace",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        }
+    ]
+}

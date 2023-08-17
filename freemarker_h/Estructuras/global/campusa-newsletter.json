@@ -1,0 +1,267 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "en_GB",
+        "de_DE"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "ATENCIÓN: Este tipo de contenido es para uso exclusivo de Campusa.",
+                "eu_ES": "OHARRA: Eduki mota hau Campusan erabiltzeko da, besterik ez.",
+                "pt_PT": "ATENÇÃO: Este tipo de conteúdo é de uso exclusivo da Campusa.",
+                "fr_FR": "ATTENTION: Ce type de contenu est à l'usage exclusif de Campusa.",
+                "en_GB": "ATTENTION: This type of content is for the exclusive use of Campusa.",
+                "de_DE": "ACHTUNG: Diese Art von Inhalten ist ausschließlich für Campusa bestimmt."
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehu_content_list_oharra",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": "Número",
+                "eu_ES": "Zenbakia",
+                "pt_PT": "Número",
+                "fr_FR": "Nombre",
+                "en_GB": "Number",
+                "de_DE": "Nummer"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "number",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehu_content_list_number",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-number"
+        },
+        {
+            "label": {
+                "es_ES": "Noticia",
+                "eu_ES": "Albistea",
+                "pt_PT": "Notícia",
+                "fr_FR": "Nouvelle",
+                "en_GB": "News item",
+                "de_DE": "Nachrichten"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "Identificador de una noticia",
+                "eu_ES": "Albiste baten identifikatzailea",
+                "pt_PT": "Identificador de uma notícia",
+                "fr_FR": "Identifiant d'une nouvelle",
+                "en_GB": "Identifier of a news item",
+                "de_DE": "Nachrichten ID"
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehu_content_list_articleId",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": "Evento",
+                "eu_ES": "Ekitaldia",
+                "pt_PT": "Evento",
+                "fr_FR": "Événement",
+                "en_GB": "Event",
+                "de_DE": "Event"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "Identificador de un evento",
+                "eu_ES": "Ekitaldi baten identifikatzailea",
+                "pt_PT": "Identificador de um evento",
+                "fr_FR": "Identifiant d'un événement",
+                "en_GB": "Identifier of an event",
+                "de_DE": "Event ID"
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehu_event_list_articleId",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": "Idiomas",
+                "eu_ES": "Hizkuntzak",
+                "pt_PT": "Idiomas",
+                "fr_FR": "Langues",
+                "en_GB": "Languages",
+                "de_DE": "Sprachen"
+            },
+            "options": [
+                {
+                    "value": "eu-es",
+                    "label": {
+                        "es_ES": "Euskera y castellano",
+                        "eu_ES": "Euskaraz eta gaztelaniaz",
+                        "pt_PT": "Basco e Espanhol",
+                        "fr_FR": "Euskara - Espagnol",
+                        "en_GB": "Basque and Spanish",
+                        "de_DE": "Baskisch und Spanisch"
+                    }
+                },
+                {
+                    "value": "en",
+                    "label": {
+                        "es_ES": "Inglés",
+                        "eu_ES": "Ingelesez",
+                        "pt_PT": "Inglês",
+                        "fr_FR": "Anglais",
+                        "en_GB": "English",
+                        "de_DE": "Englisch"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "es_ES": [
+                    ""
+                ],
+                "eu_ES": [
+                    ""
+                ],
+                "pt_PT": [
+                    ""
+                ],
+                "fr_FR": [
+                    ""
+                ],
+                "en_GB": [
+                    ""
+                ],
+                "de_DE": [
+                    ""
+                ]
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "Idiomas para la newsletter",
+                "eu_ES": "Newsletterrerako hizkuntzak",
+                "pt_PT": "Idiomas para o boletim informativo",
+                "fr_FR": "Langues pour la newsletter",
+                "en_GB": "Languages for the newsletter",
+                "de_DE": "Sprachen für den Newsletter"
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "multiple": false,
+            "name": "ehu_content_list_languages",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "select"
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "en_GB"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " No se puede poner más de un contenido de este tipo con visualización completa en una página. ",
+                "eu_ES": " Ezin da mota honetako eduki bat baino gehiago jarri orrialde batean bistaratze osoarekin. ",
+                "en_GB": " You must not put more than one content of this type with full display on a page. "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuwarning",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": " Título ",
+                "eu_ES": " Izenburua ",
+                "en_GB": " Title "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "dataType": "string",
+            "indexType": "",
+            "localizable": true,
+            "name": "ehutitle",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": " Cuerpo ",
+                "eu_ES": " Testua ",
+                "en_GB": " Body "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "dataType": "html",
+            "fieldNamespace": "ddm",
+            "indexType": "",
+            "localizable": true,
+            "name": "ehubody",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-text-html"
+        },
+        {
+            "label": {
+                "es_ES": " Imagen ",
+                "eu_ES": " Irudia ",
+                "en_GB": " Image "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "en_GB": ""
+            },
+            "dataType": "document-library",
+            "fieldNamespace": "ddm",
+            "indexType": "",
+            "localizable": true,
+            "name": "ehuimage",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-documentlibrary"
+        }
+    ]
+}

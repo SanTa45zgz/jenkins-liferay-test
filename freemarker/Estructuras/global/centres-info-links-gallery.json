@@ -1,0 +1,4543 @@
+{
+	"availableLanguageIds": [
+		"es_ES",
+		"eu_ES",
+		"pt_PT",
+		"fr_FR",
+		"en_GB",
+		"de_DE"
+	],
+	"contentType": "journal",
+	"dataDefinitionFields": [
+		{
+			"customProperties": {
+				"ddmStructureLayoutId": "",
+				"ddmStructureId": "",
+				"upgradedStructure": false,
+				"fieldReference": "LogoFieldSet",
+				"rows": [
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"Logo"
+								]
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"LogoFieldSetFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"collapsible": false
+			},
+			"defaultValue": {
+				
+			},
+			"fieldType": "fieldset",
+			"indexable": false,
+			"label": {
+				"eu_ES": ""
+			},
+			"localizable": false,
+			"name": "LogoFieldSet",
+			"nestedDataDefinitionFields": [
+				{
+					"customProperties": {
+						"fieldNamespace": "",
+						"dataType": "",
+						"fieldReference": "Logo",
+						"style": {
+							
+						}
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "separator",
+					"indexType": "keyword",
+					"indexable": true,
+					"label": {
+						"en_GB": "Featured information",
+						"eu_ES": "Informazio nabarmena",
+						"es_ES": "Información destacada",
+						"fr_FR": "Informations en vedette",
+						"de_DE": "Ausgewählte Informationen",
+						"pt_PT": "Informações em destaque"
+					},
+					"localizable": true,
+					"name": "Logo",
+					"nestedDataDefinitionFields": [],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"tip": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					}
+				},
+				{
+					"customProperties": {
+						"ddmStructureLayoutId": "",
+						"ddmStructureId": "",
+						"upgradedStructure": false,
+						"fieldReference": "LogoFieldSetFieldSet",
+						"rows": [
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"TituloGeneral"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"DescripcionGeneral"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"UrlGeneralFieldSet"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"Tipo"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"ImagenLogoFieldSet"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"IconoLogo"
+										]
+									}
+								]
+							}
+						],
+						"collapsible": false
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "fieldset",
+					"indexable": false,
+					"label": {
+						"eu_ES": ""
+					},
+					"localizable": false,
+					"name": "LogoFieldSetFieldSet",
+					"nestedDataDefinitionFields": [
+						{
+							"customProperties": {
+								"displayStyle": "singleline",
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"autocomplete": false,
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"eu_ES": [
+										{
+											"reference": "",
+											"label": "Option",
+											"value": "Option"
+										}
+									]
+								},
+								"tooltip": {
+									"eu_ES": ""
+								},
+								"fieldReference": "TituloGeneral",
+								"placeholder": {
+									"eu_ES": ""
+								},
+								"dataSourceType": "manual"
+							},
+							"defaultValue": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							},
+							"fieldType": "text",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Title",
+								"eu_ES": "Izenburua",
+								"es_ES": "Título",
+								"fr_FR": "Titre",
+								"de_DE": "Titel",
+								"pt_PT": "Título"
+							},
+							"localizable": true,
+							"name": "TituloGeneral",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						},
+						{
+							"customProperties": {
+								"displayStyle": "singleline",
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"autocomplete": false,
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"eu_ES": [
+										{
+											"reference": "",
+											"label": "Option",
+											"value": "Option"
+										}
+									]
+								},
+								"tooltip": {
+									"eu_ES": ""
+								},
+								"fieldReference": "DescripcionGeneral",
+								"placeholder": {
+									"eu_ES": ""
+								},
+								"dataSourceType": "manual"
+							},
+							"defaultValue": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							},
+							"fieldType": "text",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Description",
+								"eu_ES": "Deskribapena",
+								"es_ES": "Descripción",
+								"fr_FR": "Description",
+								"de_DE": "Beschreibung",
+								"pt_PT": "Descrição"
+							},
+							"localizable": true,
+							"name": "DescripcionGeneral",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						},
+						{
+							"customProperties": {
+								"ddmStructureLayoutId": "",
+								"ddmStructureId": "",
+								"upgradedStructure": false,
+								"fieldReference": "UrlGeneralFieldSet",
+								"rows": [
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"UrlGeneral"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"UrlGeneralFieldSetFieldSet"
+												]
+											}
+										]
+									}
+								],
+								"collapsible": false
+							},
+							"defaultValue": {
+								
+							},
+							"fieldType": "fieldset",
+							"indexable": false,
+							"label": {
+								"eu_ES": ""
+							},
+							"localizable": false,
+							"name": "UrlGeneralFieldSet",
+							"nestedDataDefinitionFields": [
+								{
+									"customProperties": {
+										"displayStyle": "singleline",
+										"fieldNamespace": "",
+										"visibilityExpression": "",
+										"ddmDataProviderInstanceOutput": [],
+										"autocomplete": false,
+										"ddmDataProviderInstanceId": [],
+										"dataType": "string",
+										"options": {
+											"eu_ES": [
+												{
+													"reference": "",
+													"label": "Option",
+													"value": "Option"
+												}
+											]
+										},
+										"tooltip": {
+											"eu_ES": ""
+										},
+										"fieldReference": "UrlGeneral",
+										"placeholder": {
+											"eu_ES": ""
+										},
+										"dataSourceType": "manual"
+									},
+									"defaultValue": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									},
+									"fieldType": "text",
+									"indexType": "keyword",
+									"indexable": true,
+									"label": {
+										"en_GB": "Web address",
+										"eu_ES": "Web helbidea",
+										"es_ES": "Dirección web",
+										"fr_FR": "Adresse web",
+										"de_DE": "Webadresse",
+										"pt_PT": "Endereço da web"
+									},
+									"localizable": true,
+									"name": "UrlGeneral",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "https://www.example.com",
+										"eu_ES": "https://www.adibide.com",
+										"es_ES": "https://www.ejemplo.com",
+										"fr_FR": "https://www.exemple.com",
+										"de_DE": "https://www.beispiel.com",
+										"pt_PT": "https://www.exemplo.com"
+									}
+								},
+								{
+									"customProperties": {
+										"ddmStructureLayoutId": "",
+										"ddmStructureId": "",
+										"upgradedStructure": false,
+										"fieldReference": "UrlGeneralFieldSetFieldSet",
+										"rows": [
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"ExternoGeneral"
+														]
+													}
+												]
+											}
+										],
+										"collapsible": false
+									},
+									"defaultValue": {
+										
+									},
+									"fieldType": "fieldset",
+									"indexable": false,
+									"label": {
+										"eu_ES": ""
+									},
+									"localizable": false,
+									"name": "UrlGeneralFieldSetFieldSet",
+									"nestedDataDefinitionFields": [
+										{
+											"customProperties": {
+												"dataType": "radio",
+												"options": {
+													"en_GB": [
+														{
+															"reference": "Si",
+															"label": "Bai",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "Ez",
+															"value": "No"
+														}
+													],
+													"eu_ES": [
+														{
+															"reference": "Si",
+															"label": "Bai",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "Ez",
+															"value": "No"
+														}
+													],
+													"es_ES": [
+														{
+															"reference": "Si",
+															"label": "Sí",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "No",
+															"value": "No"
+														}
+													],
+													"fr_FR": [
+														{
+															"reference": "Si",
+															"label": "Bai",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "Ez",
+															"value": "No"
+														}
+													],
+													"pt_PT": [
+														{
+															"reference": "Si",
+															"label": "Sim",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "Não",
+															"value": "No"
+														}
+													],
+													"de_DE": [
+														{
+															"reference": "Si",
+															"label": "Bai",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "Ez",
+															"value": "No"
+														}
+													]
+												},
+												"fieldReference": "ExternoGeneral"
+											},
+											"defaultValue": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											},
+											"fieldType": "radio",
+											"indexType": "keyword",
+											"indexable": true,
+											"label": {
+												"en_GB": "External",
+												"eu_ES": "Kanpokoa",
+												"es_ES": "Externo",
+												"fr_FR": "Externe",
+												"de_DE": "Extern",
+												"pt_PT": "Externo"
+											},
+											"localizable": true,
+											"name": "ExternoGeneral",
+											"nestedDataDefinitionFields": [],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": true,
+											"tip": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											}
+										}
+									],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": false,
+									"tip": {
+										
+									}
+								}
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": false,
+							"tip": {
+								
+							}
+						},
+						{
+							"customProperties": {
+								"dataType": "radio",
+								"options": {
+									"en_GB": [
+										{
+											"reference": "0",
+											"label": "Image",
+											"value": "0"
+										},
+										{
+											"reference": "1",
+											"label": "Icon",
+											"value": "1"
+										}
+									],
+									"eu_ES": [
+										{
+											"reference": "0",
+											"label": "Irudia",
+											"value": "0"
+										},
+										{
+											"reference": "1",
+											"label": "Ikonoa",
+											"value": "1"
+										}
+									],
+									"es_ES": [
+										{
+											"reference": "0",
+											"label": "Imagen",
+											"value": "0"
+										},
+										{
+											"reference": "1",
+											"label": "Icono",
+											"value": "1"
+										}
+									],
+									"fr_FR": [
+										{
+											"reference": "0",
+											"label": "Image",
+											"value": "0"
+										},
+										{
+											"reference": "1",
+											"label": "Icône",
+											"value": "1"
+										}
+									],
+									"pt_PT": [
+										{
+											"reference": "0",
+											"label": "Imagem",
+											"value": "0"
+										},
+										{
+											"reference": "1",
+											"label": "Ícone",
+											"value": "1"
+										}
+									],
+									"de_DE": [
+										{
+											"reference": "0",
+											"label": "Bild",
+											"value": "0"
+										},
+										{
+											"reference": "1",
+											"label": "Symbol",
+											"value": "1"
+										}
+									]
+								},
+								"fieldReference": "Tipo"
+							},
+							"defaultValue": {
+								"en_GB": "0",
+								"eu_ES": "",
+								"es_ES": "0",
+								"fr_FR": "0",
+								"de_DE": "0",
+								"pt_PT": "0"
+							},
+							"fieldType": "radio",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Graphic element type",
+								"eu_ES": "Elementu grafiko mota",
+								"es_ES": "Tipo de elemento gráfico",
+								"fr_FR": "Type d'élément graphique",
+								"de_DE": "Grafischer Elementtyp",
+								"pt_PT": "Tipo de elemento gráfico"
+							},
+							"localizable": true,
+							"name": "Tipo",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						},
+						{
+							"customProperties": {
+								"ddmStructureLayoutId": "",
+								"ddmStructureId": "",
+								"upgradedStructure": false,
+								"fieldReference": "ImagenLogoFieldSet",
+								"rows": [
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ImagenLogo"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ImagenLogoFieldSetFieldSet"
+												]
+											}
+										]
+									}
+								],
+								"collapsible": false
+							},
+							"defaultValue": {
+								
+							},
+							"fieldType": "fieldset",
+							"indexable": false,
+							"label": {
+								"eu_ES": ""
+							},
+							"localizable": false,
+							"name": "ImagenLogoFieldSet",
+							"nestedDataDefinitionFields": [
+								{
+									"customProperties": {
+										"fieldNamespace": "",
+										"visibilityExpression": "",
+										"dataType": "document-library",
+										"fieldReference": "ImagenLogo"
+									},
+									"defaultValue": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									},
+									"fieldType": "document_library",
+									"indexType": "keyword",
+									"indexable": true,
+									"label": {
+										"en_GB": "Image",
+										"eu_ES": "Irudia",
+										"es_ES": "Imagen",
+										"fr_FR": "Image",
+										"de_DE": "Bild",
+										"pt_PT": "Imagem"
+									},
+									"localizable": true,
+									"name": "ImagenLogo",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									}
+								},
+								{
+									"customProperties": {
+										"ddmStructureLayoutId": "",
+										"ddmStructureId": "",
+										"upgradedStructure": false,
+										"fieldReference": "ImagenLogoFieldSetFieldSet",
+										"rows": [
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"alt_logo"
+														]
+													}
+												]
+											}
+										],
+										"collapsible": false
+									},
+									"defaultValue": {
+										
+									},
+									"fieldType": "fieldset",
+									"indexable": false,
+									"label": {
+										"eu_ES": ""
+									},
+									"localizable": false,
+									"name": "ImagenLogoFieldSetFieldSet",
+									"nestedDataDefinitionFields": [
+										{
+											"customProperties": {
+												"displayStyle": "singleline",
+												"fieldNamespace": "",
+												"visibilityExpression": "",
+												"ddmDataProviderInstanceOutput": [],
+												"autocomplete": false,
+												"ddmDataProviderInstanceId": [],
+												"dataType": "string",
+												"options": {
+													"eu_ES": [
+														{
+															"reference": "",
+															"label": "Option",
+															"value": "Option"
+														}
+													]
+												},
+												"tooltip": {
+													"eu_ES": ""
+												},
+												"fieldReference": "alt_logo",
+												"placeholder": {
+													"eu_ES": ""
+												},
+												"dataSourceType": "manual"
+											},
+											"defaultValue": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											},
+											"fieldType": "text",
+											"indexType": "keyword",
+											"indexable": true,
+											"label": {
+												"en_GB": "Image’s alternative text",
+												"eu_ES": "Irudiaren ordezko testua",
+												"es_ES": "Texto alternativo de la imagen",
+												"fr_FR": "Texte alternatif de l’image",
+												"de_DE": "Alternativer Bildtext",
+												"pt_PT": "Texto alternativo da imagem"
+											},
+											"localizable": true,
+											"name": "alt_logo",
+											"nestedDataDefinitionFields": [],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": true,
+											"tip": {
+												"en_GB": "Description of the image not to lose information when it is not seen",
+												"eu_ES": "Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin",
+												"es_ES": "Descripción de la imagen para que cuando ésta no se vea no se pierda información",
+												"fr_FR": "Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu",
+												"de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird",
+												"pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas"
+											}
+										}
+									],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": false,
+									"tip": {
+										
+									}
+								}
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": false,
+							"tip": {
+								
+							}
+						},
+						{
+							"customProperties": {
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"en_GB": [
+										{
+											"reference": "",
+											"label": "Choose an icon ...",
+											"value": ""
+										},
+										{
+											"reference": "Sí",
+											"label": "Yes, OK, Accept",
+											"value": "Sí"
+										},
+										{
+											"reference": "Buscar",
+											"label": "Search",
+											"value": "Buscar"
+										},
+										{
+											"reference": "Reunión",
+											"label": "Meeting",
+											"value": "Reunión"
+										},
+										{
+											"reference": "Reciclar",
+											"label": "Recycle",
+											"value": "Reciclar"
+										},
+										{
+											"reference": "Bloqueado",
+											"label": "Locked",
+											"value": "Bloqueado"
+										},
+										{
+											"reference": "Desbloqueado",
+											"label": "Unlocked",
+											"value": "Desbloqueado"
+										},
+										{
+											"reference": "Descarga",
+											"label": "Download",
+											"value": "Descarga"
+										},
+										{
+											"reference": "Alerta",
+											"label": "Alert",
+											"value": "Alerta"
+										},
+										{
+											"reference": "Pausa",
+											"label": "Pause",
+											"value": "Pausa"
+										},
+										{
+											"reference": "Home",
+											"label": "Home",
+											"value": "Home"
+										},
+										{
+											"reference": "Ajustes",
+											"label": "Settings",
+											"value": "Ajustes"
+										},
+										{
+											"reference": "Refrescar",
+											"label": "Refresh",
+											"value": "Refrescar"
+										},
+										{
+											"reference": "Zoom_in",
+											"label": "Zoom in",
+											"value": "Zoom_in"
+										},
+										{
+											"reference": "Mostrador",
+											"label": "Counter",
+											"value": "Mostrador"
+										},
+										{
+											"reference": "Subir",
+											"label": "Go up",
+											"value": "Subir"
+										},
+										{
+											"reference": "Información",
+											"label": "Information",
+											"value": "Información"
+										},
+										{
+											"reference": "Imprimir",
+											"label": "Print",
+											"value": "Imprimir"
+										},
+										{
+											"reference": "Leer",
+											"label": "Read on",
+											"value": "Leer"
+										},
+										{
+											"reference": "Cerrar",
+											"label": "Close, Delete",
+											"value": "Cerrar"
+										},
+										{
+											"reference": "Play",
+											"label": "Play",
+											"value": "Play"
+										},
+										{
+											"reference": "Clase",
+											"label": "Class",
+											"value": "Clase"
+										},
+										{
+											"reference": "Clase_presencial",
+											"label": "Face-to-face class",
+											"value": "Clase_presencial"
+										},
+										{
+											"reference": "Taza",
+											"label": "Cup",
+											"value": "Taza"
+										},
+										{
+											"reference": "Ayuda",
+											"label": "Help",
+											"value": "Ayuda"
+										},
+										{
+											"reference": "Libro",
+											"label": "Book",
+											"value": "Libro"
+										},
+										{
+											"reference": "Enlace",
+											"label": "Link",
+											"value": "Enlace"
+										},
+										{
+											"reference": "Cubiertos",
+											"label": "Cutlery",
+											"value": "Cubiertos"
+										},
+										{
+											"reference": "Pantalla",
+											"label": "Screen",
+											"value": "Pantalla"
+										},
+										{
+											"reference": "Clase_pantalla",
+											"label": "Screen class",
+											"value": "Clase_pantalla"
+										},
+										{
+											"reference": "Sobre",
+											"label": "Envelope",
+											"value": "Sobre"
+										},
+										{
+											"reference": "Clase_streaming",
+											"label": "Streaming class",
+											"value": "Clase_streaming"
+										},
+										{
+											"reference": "Zoom_out",
+											"label": "Zoom out",
+											"value": "Zoom_out"
+										},
+										{
+											"reference": "Wifi",
+											"label": "Wifi",
+											"value": "Wifi"
+										}
+									],
+									"eu_ES": [
+										{
+											"reference": "",
+											"label": "Aukeratu ikono bat ...",
+											"value": ""
+										},
+										{
+											"reference": "Sí",
+											"label": "Bai, OK, Onartu",
+											"value": "Sí"
+										},
+										{
+											"reference": "Buscar",
+											"label": "Bilatu",
+											"value": "Buscar"
+										},
+										{
+											"reference": "Reunión",
+											"label": "Bilera",
+											"value": "Reunión"
+										},
+										{
+											"reference": "Reciclar",
+											"label": "Birziklatu",
+											"value": "Reciclar"
+										},
+										{
+											"reference": "Bloqueado",
+											"label": "Blokeatuta",
+											"value": "Bloqueado"
+										},
+										{
+											"reference": "Desbloqueado",
+											"label": "Desblokeatuta",
+											"value": "Desbloqueado"
+										},
+										{
+											"reference": "Descarga",
+											"label": "Deskargatu",
+											"value": "Descarga"
+										},
+										{
+											"reference": "Alerta",
+											"label": "Erne",
+											"value": "Alerta"
+										},
+										{
+											"reference": "Pausa",
+											"label": "Pause",
+											"value": "Pausa"
+										},
+										{
+											"reference": "Home",
+											"label": "Etxea",
+											"value": "Home"
+										},
+										{
+											"reference": "Ajustes",
+											"label": "Ezarpenak",
+											"value": "Ajustes"
+										},
+										{
+											"reference": "Refrescar",
+											"label": "Freskatu",
+											"value": "Refrescar"
+										},
+										{
+											"reference": "Zoom_in",
+											"label": "Handitu",
+											"value": "Zoom_in"
+										},
+										{
+											"reference": "Mostrador",
+											"label": "Erakusmahaia",
+											"value": "Mostrador"
+										},
+										{
+											"reference": "Subir",
+											"label": "Igo",
+											"value": "Subir"
+										},
+										{
+											"reference": "Información",
+											"label": "Informazioa",
+											"value": "Información"
+										},
+										{
+											"reference": "Imprimir",
+											"label": "Inprimatzeko",
+											"value": "Imprimir"
+										},
+										{
+											"reference": "Leer",
+											"label": "Irakurri",
+											"value": "Leer"
+										},
+										{
+											"reference": "Cerrar",
+											"label": "Itxi, Ezabatu",
+											"value": "Cerrar"
+										},
+										{
+											"reference": "Play",
+											"label": "Play",
+											"value": "Play"
+										},
+										{
+											"reference": "Clase",
+											"label": "Klasea",
+											"value": "Clase"
+										},
+										{
+											"reference": "Clase_presencial",
+											"label": "Klase presentziala",
+											"value": "Clase_presencial"
+										},
+										{
+											"reference": "Taza",
+											"label": "Katilua",
+											"value": "Taza"
+										},
+										{
+											"reference": "Ayuda",
+											"label": "Laguntza",
+											"value": "Ayuda"
+										},
+										{
+											"reference": "Libro",
+											"label": "Liburua",
+											"value": "Libro"
+										},
+										{
+											"reference": "Enlace",
+											"label": "Esteka",
+											"value": "Enlace"
+										},
+										{
+											"reference": "Cubiertos",
+											"label": "Mahai tresnak",
+											"value": "Cubiertos"
+										},
+										{
+											"reference": "Pantalla",
+											"label": "Pantaila",
+											"value": "Pantalla"
+										},
+										{
+											"reference": "Clase_pantalla",
+											"label": "Pantaila klasea",
+											"value": "Clase_pantalla"
+										},
+										{
+											"reference": "Sobre",
+											"label": "Gutun-azala",
+											"value": "Sobre"
+										},
+										{
+											"reference": "Clase_streaming",
+											"label": "Streaming klasea",
+											"value": "Clase_streaming"
+										},
+										{
+											"reference": "Zoom_out",
+											"label": "Txikiagotu",
+											"value": "Zoom_out"
+										},
+										{
+											"reference": "Wifi",
+											"label": "Wifi",
+											"value": "Wifi"
+										}
+									],
+									"es_ES": [
+										{
+											"reference": "",
+											"label": "Selecciona un icono...",
+											"value": ""
+										},
+										{
+											"reference": "Sí",
+											"label": "Sí, OK, Aceptar",
+											"value": "Sí"
+										},
+										{
+											"reference": "Buscar",
+											"label": "Buscar",
+											"value": "Buscar"
+										},
+										{
+											"reference": "Reunión",
+											"label": "Reunión",
+											"value": "Reunión"
+										},
+										{
+											"reference": "Reciclar",
+											"label": "Reciclar",
+											"value": "Reciclar"
+										},
+										{
+											"reference": "Bloqueado",
+											"label": "Bloqueado",
+											"value": "Bloqueado"
+										},
+										{
+											"reference": "Desbloqueado",
+											"label": "Desbloqueado",
+											"value": "Desbloqueado"
+										},
+										{
+											"reference": "Descarga",
+											"label": "Descarga",
+											"value": "Descarga"
+										},
+										{
+											"reference": "Alerta",
+											"label": "Alerta",
+											"value": "Alerta"
+										},
+										{
+											"reference": "Pausa",
+											"label": "Pause",
+											"value": "Pausa"
+										},
+										{
+											"reference": "Home",
+											"label": "Home",
+											"value": "Home"
+										},
+										{
+											"reference": "Ajustes",
+											"label": "Ajustes",
+											"value": "Ajustes"
+										},
+										{
+											"reference": "Refrescar",
+											"label": "Refrescar",
+											"value": "Refrescar"
+										},
+										{
+											"reference": "Zoom_in",
+											"label": "Zoom in",
+											"value": "Zoom_in"
+										},
+										{
+											"reference": "Mostrador",
+											"label": "Mostrador",
+											"value": "Mostrador"
+										},
+										{
+											"reference": "Subir",
+											"label": "Subir",
+											"value": "Subir"
+										},
+										{
+											"reference": "Información",
+											"label": "Información",
+											"value": "Información"
+										},
+										{
+											"reference": "Imprimir",
+											"label": "Imprimir",
+											"value": "Imprimir"
+										},
+										{
+											"reference": "Leer",
+											"label": "Leer",
+											"value": "Leer"
+										},
+										{
+											"reference": "Cerrar",
+											"label": "Cerrar, Eliminar",
+											"value": "Cerrar"
+										},
+										{
+											"reference": "Play",
+											"label": "Play",
+											"value": "Play"
+										},
+										{
+											"reference": "Clase",
+											"label": "Clase",
+											"value": "Clase"
+										},
+										{
+											"reference": "Clase_presencial",
+											"label": "Clase Presencial",
+											"value": "Clase_presencial"
+										},
+										{
+											"reference": "Taza",
+											"label": "Taza",
+											"value": "Taza"
+										},
+										{
+											"reference": "Ayuda",
+											"label": "Ayuda",
+											"value": "Ayuda"
+										},
+										{
+											"reference": "Libro",
+											"label": "Libro",
+											"value": "Libro"
+										},
+										{
+											"reference": "Enlace",
+											"label": "Enlace",
+											"value": "Enlace"
+										},
+										{
+											"reference": "Cubiertos",
+											"label": "Cubiertos",
+											"value": "Cubiertos"
+										},
+										{
+											"reference": "Pantalla",
+											"label": "Pantalla",
+											"value": "Pantalla"
+										},
+										{
+											"reference": "Clase_pantalla",
+											"label": "Clase Pantalla",
+											"value": "Clase_pantalla"
+										},
+										{
+											"reference": "Sobre",
+											"label": "Sobre",
+											"value": "Sobre"
+										},
+										{
+											"reference": "Clase_streaming",
+											"label": "Clase Streaming",
+											"value": "Clase_streaming"
+										},
+										{
+											"reference": "Zoom_out",
+											"label": "Zoom out",
+											"value": "Zoom_out"
+										},
+										{
+											"reference": "Wifi",
+											"label": "Wifi",
+											"value": "Wifi"
+										}
+									],
+									"fr_FR": [
+										{
+											"reference": "",
+											"label": "Choisissez un icône ...",
+											"value": ""
+										},
+										{
+											"reference": "Sí",
+											"label": "Oui, OK, Accepter",
+											"value": "Sí"
+										},
+										{
+											"reference": "Buscar",
+											"label": "Chercher",
+											"value": "Buscar"
+										},
+										{
+											"reference": "Reunión",
+											"label": "Réunion",
+											"value": "Reunión"
+										},
+										{
+											"reference": "Reciclar",
+											"label": "Recycler",
+											"value": "Reciclar"
+										},
+										{
+											"reference": "Bloqueado",
+											"label": "Fermé à clé",
+											"value": "Bloqueado"
+										},
+										{
+											"reference": "Desbloqueado",
+											"label": "Débloqué",
+											"value": "Desbloqueado"
+										},
+										{
+											"reference": "Descarga",
+											"label": "Télécharger",
+											"value": "Descarga"
+										},
+										{
+											"reference": "Alerta",
+											"label": "Alerte",
+											"value": "Alerta"
+										},
+										{
+											"reference": "Pausa",
+											"label": "Pause",
+											"value": "Pausa"
+										},
+										{
+											"reference": "Home",
+											"label": "Maison",
+											"value": "Home"
+										},
+										{
+											"reference": "Ajustes",
+											"label": "Réglages",
+											"value": "Ajustes"
+										},
+										{
+											"reference": "Refrescar",
+											"label": "Rafraîchir",
+											"value": "Refrescar"
+										},
+										{
+											"reference": "Zoom_in",
+											"label": "Zoom in",
+											"value": "Zoom_in"
+										},
+										{
+											"reference": "Mostrador",
+											"label": "Comptoir",
+											"value": "Mostrador"
+										},
+										{
+											"reference": "Subir",
+											"label": "Monter",
+											"value": "Subir"
+										},
+										{
+											"reference": "Información",
+											"label": "Informations",
+											"value": "Información"
+										},
+										{
+											"reference": "Imprimir",
+											"label": "Ipression",
+											"value": "Imprimir"
+										},
+										{
+											"reference": "Leer",
+											"label": "Lire",
+											"value": "Leer"
+										},
+										{
+											"reference": "Cerrar",
+											"label": "Fermer, Supprimer",
+											"value": "Cerrar"
+										},
+										{
+											"reference": "Play",
+											"label": "Play",
+											"value": "Play"
+										},
+										{
+											"reference": "Clase",
+											"label": "Classer",
+											"value": "Clase"
+										},
+										{
+											"reference": "Clase_presencial",
+											"label": "Cours en présentiel",
+											"value": "Clase_presencial"
+										},
+										{
+											"reference": "Taza",
+											"label": "Tasse",
+											"value": "Taza"
+										},
+										{
+											"reference": "Ayuda",
+											"label": "Aider",
+											"value": "Ayuda"
+										},
+										{
+											"reference": "Libro",
+											"label": "Livre",
+											"value": "Libro"
+										},
+										{
+											"reference": "Enlace",
+											"label": "Lien",
+											"value": "Enlace"
+										},
+										{
+											"reference": "Cubiertos",
+											"label": "Coutellerie",
+											"value": "Cubiertos"
+										},
+										{
+											"reference": "Pantalla",
+											"label": "Écran",
+											"value": "Pantalla"
+										},
+										{
+											"reference": "Clase_pantalla",
+											"label": "Classe d'écranklasea",
+											"value": "Clase_pantalla"
+										},
+										{
+											"reference": "Sobre",
+											"label": "Enveloppe",
+											"value": "Sobre"
+										},
+										{
+											"reference": "Clase_streaming",
+											"label": "Cours de streaming",
+											"value": "Clase_streaming"
+										},
+										{
+											"reference": "Zoom_out",
+											"label": "Zoom out",
+											"value": "Zoom_out"
+										},
+										{
+											"reference": "Wifi",
+											"label": "Wifi",
+											"value": "Wifi"
+										}
+									],
+									"pt_PT": [
+										{
+											"reference": "",
+											"label": "Selecione um ícone ...",
+											"value": ""
+										},
+										{
+											"reference": "Sí",
+											"label": "Sim, OK, Aceitar",
+											"value": "Sí"
+										},
+										{
+											"reference": "Buscar",
+											"label": "Pesquisar",
+											"value": "Buscar"
+										},
+										{
+											"reference": "Reunión",
+											"label": "Reunião",
+											"value": "Reunión"
+										},
+										{
+											"reference": "Reciclar",
+											"label": "Reciclar",
+											"value": "Reciclar"
+										},
+										{
+											"reference": "Bloqueado",
+											"label": "Bloqueado",
+											"value": "Bloqueado"
+										},
+										{
+											"reference": "Desbloqueado",
+											"label": "Desbloqueado",
+											"value": "Desbloqueado"
+										},
+										{
+											"reference": "Descarga",
+											"label": "Descarregar",
+											"value": "Descarga"
+										},
+										{
+											"reference": "Alerta",
+											"label": "Alerta",
+											"value": "Alerta"
+										},
+										{
+											"reference": "Pausa",
+											"label": "Pause",
+											"value": "Pausa"
+										},
+										{
+											"reference": "Home",
+											"label": "Casa",
+											"value": "Home"
+										},
+										{
+											"reference": "Ajustes",
+											"label": "Configurações",
+											"value": "Ajustes"
+										},
+										{
+											"reference": "Refrescar",
+											"label": "Atualizar",
+											"value": "Refrescar"
+										},
+										{
+											"reference": "Zoom_in",
+											"label": "Zoom in",
+											"value": "Zoom_in"
+										},
+										{
+											"reference": "Mostrador",
+											"label": "Balcão",
+											"value": "Mostrador"
+										},
+										{
+											"reference": "Subir",
+											"label": "Ascender",
+											"value": "Subir"
+										},
+										{
+											"reference": "Información",
+											"label": "Informação",
+											"value": "Información"
+										},
+										{
+											"reference": "Imprimir",
+											"label": "Imprimir",
+											"value": "Imprimir"
+										},
+										{
+											"reference": "Leer",
+											"label": "Leitura",
+											"value": "Leer"
+										},
+										{
+											"reference": "Cerrar",
+											"label": "Fechar, Excluir",
+											"value": "Cerrar"
+										},
+										{
+											"reference": "Play",
+											"label": "Play",
+											"value": "Play"
+										},
+										{
+											"reference": "Clase",
+											"label": "Aula",
+											"value": "Clase"
+										},
+										{
+											"reference": "Clase_presencial",
+											"label": "Aula presencial",
+											"value": "Clase_presencial"
+										},
+										{
+											"reference": "Taza",
+											"label": "Chávena",
+											"value": "Taza"
+										},
+										{
+											"reference": "Ayuda",
+											"label": "Ajuda",
+											"value": "Ayuda"
+										},
+										{
+											"reference": "Libro",
+											"label": "Livro",
+											"value": "Libro"
+										},
+										{
+											"reference": "Enlace",
+											"label": "Esteka",
+											"value": "Enlace"
+										},
+										{
+											"reference": "Cubiertos",
+											"label": "Talher",
+											"value": "Cubiertos"
+										},
+										{
+											"reference": "Pantalla",
+											"label": "Ecrã",
+											"value": "Pantalla"
+										},
+										{
+											"reference": "Clase_pantalla",
+											"label": "Aula de ecrã",
+											"value": "Clase_pantalla"
+										},
+										{
+											"reference": "Sobre",
+											"label": "Envelope",
+											"value": "Sobre"
+										},
+										{
+											"reference": "Clase_streaming",
+											"label": "Aula de streaming",
+											"value": "Clase_streaming"
+										},
+										{
+											"reference": "Zoom_out",
+											"label": "Zoom out",
+											"value": "Zoom_out"
+										},
+										{
+											"reference": "Wifi",
+											"label": "Wifi",
+											"value": "Wifi"
+										}
+									],
+									"de_DE": [
+										{
+											"reference": "",
+											"label": "Wählen Sie ein Symbol aus ...",
+											"value": ""
+										},
+										{
+											"reference": "Sí",
+											"label": "Ja, OK, Akzeptieren",
+											"value": "Sí"
+										},
+										{
+											"reference": "Buscar",
+											"label": "Suche",
+											"value": "Buscar"
+										},
+										{
+											"reference": "Reunión",
+											"label": "Treffen",
+											"value": "Reunión"
+										},
+										{
+											"reference": "Reciclar",
+											"label": "Recyceln",
+											"value": "Reciclar"
+										},
+										{
+											"reference": "Bloqueado",
+											"label": "Gesperrt",
+											"value": "Bloqueado"
+										},
+										{
+											"reference": "Desbloqueado",
+											"label": "Entsperrt",
+											"value": "Desbloqueado"
+										},
+										{
+											"reference": "Descarga",
+											"label": "Herunterladen",
+											"value": "Descarga"
+										},
+										{
+											"reference": "Alerta",
+											"label": "Achtung",
+											"value": "Alerta"
+										},
+										{
+											"reference": "Pausa",
+											"label": "Pause",
+											"value": "Pausa"
+										},
+										{
+											"reference": "Home",
+											"label": "Zuhause",
+											"value": "Home"
+										},
+										{
+											"reference": "Ajustes",
+											"label": "Die Einstellungen",
+											"value": "Ajustes"
+										},
+										{
+											"reference": "Refrescar",
+											"label": "Aktualisierung",
+											"value": "Refrescar"
+										},
+										{
+											"reference": "Zoom_in",
+											"label": "Zoom in",
+											"value": "Zoom_in"
+										},
+										{
+											"reference": "Mostrador",
+											"label": "Zähler",
+											"value": "Mostrador"
+										},
+										{
+											"reference": "Subir",
+											"label": "Geh hinauf",
+											"value": "Subir"
+										},
+										{
+											"reference": "Información",
+											"label": "Information",
+											"value": "Información"
+										},
+										{
+											"reference": "Imprimir",
+											"label": "Drucken",
+											"value": "Imprimir"
+										},
+										{
+											"reference": "Leer",
+											"label": "Lesen",
+											"value": "Leer"
+										},
+										{
+											"reference": "Cerrar",
+											"label": "Schließen, Löschen",
+											"value": "Cerrar"
+										},
+										{
+											"reference": "Play",
+											"label": "Play",
+											"value": "Play"
+										},
+										{
+											"reference": "Clase",
+											"label": "Klasse",
+											"value": "Clase"
+										},
+										{
+											"reference": "Clase_presencial",
+											"label": "Präsenzkurse",
+											"value": "Clase_presencial"
+										},
+										{
+											"reference": "Taza",
+											"label": "Tasse",
+											"value": "Taza"
+										},
+										{
+											"reference": "Ayuda",
+											"label": "Hilfe",
+											"value": "Ayuda"
+										},
+										{
+											"reference": "Libro",
+											"label": "Buch",
+											"value": "Libro"
+										},
+										{
+											"reference": "Enlace",
+											"label": "Link",
+											"value": "Enlace"
+										},
+										{
+											"reference": "Cubiertos",
+											"label": "Besteck",
+											"value": "Cubiertos"
+										},
+										{
+											"reference": "Pantalla",
+											"label": "Bildschirm",
+											"value": "Pantalla"
+										},
+										{
+											"reference": "Clase_pantalla",
+											"label": "Bildschirmklasse",
+											"value": "Clase_pantalla"
+										},
+										{
+											"reference": "Sobre",
+											"label": "Briefumschlag",
+											"value": "Sobre"
+										},
+										{
+											"reference": "Clase_streaming",
+											"label": "Streaming-Klasse",
+											"value": "Clase_streaming"
+										},
+										{
+											"reference": "Zoom_out",
+											"label": "Zoom out",
+											"value": "Zoom_out"
+										},
+										{
+											"reference": "Wifi",
+											"label": "W-lan",
+											"value": "Wifi"
+										}
+									]
+								},
+								"multiple": false,
+								"fieldReference": "IconoLogo",
+								"dataSourceType": [
+									"manual"
+								]
+							},
+							"defaultValue": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							},
+							"fieldType": "select",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Icos",
+								"eu_ES": "Ikonoa",
+								"es_ES": "Icono",
+								"fr_FR": "Icône",
+								"de_DE": "Symbol",
+								"pt_PT": "Ícone"
+							},
+							"localizable": true,
+							"name": "IconoLogo",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						}
+					],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": false,
+					"tip": {
+						
+					}
+				}
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": false,
+			"tip": {
+				
+			}
+		},
+		{
+			"customProperties": {
+				"ddmStructureLayoutId": "",
+				"ddmStructureId": "",
+				"upgradedStructure": false,
+				"fieldReference": "EnlacesDestacadosFieldSet",
+				"rows": [
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"EnlacesDestacados"
+								]
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"EnlacesDestacadosFieldSetFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"collapsible": false
+			},
+			"defaultValue": {
+				
+			},
+			"fieldType": "fieldset",
+			"indexable": false,
+			"label": {
+				"eu_ES": ""
+			},
+			"localizable": false,
+			"name": "EnlacesDestacadosFieldSet",
+			"nestedDataDefinitionFields": [
+				{
+					"customProperties": {
+						"fieldNamespace": "",
+						"dataType": "",
+						"fieldReference": "EnlacesDestacados",
+						"style": {
+							
+						}
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "separator",
+					"indexType": "keyword",
+					"indexable": true,
+					"label": {
+						"en_GB": "Highlighted links (minimum 3 and maximum 4)",
+						"eu_ES": "Nabarmendutako estekak (gutxienez 3 eta gehienez 4)",
+						"es_ES": "Enlaces destacados (mínimo 3 y máximo 4)",
+						"fr_FR": "Liens en vedette (minimum 3 et maximum 4)",
+						"de_DE": "Ausgewählte Links (Minimum 3 und Maximum 4)",
+						"pt_PT": "Links em destaque (mínimo 3 e máximo 4)"
+					},
+					"localizable": true,
+					"name": "EnlacesDestacados",
+					"nestedDataDefinitionFields": [],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"tip": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					}
+				},
+				{
+					"customProperties": {
+						"ddmStructureLayoutId": "",
+						"ddmStructureId": "",
+						"upgradedStructure": false,
+						"fieldReference": "EnlacesDestacadosFieldSetFieldSet",
+						"rows": [
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"TituloDestacado"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"EnlaceFieldSet"
+										]
+									}
+								]
+							}
+						],
+						"collapsible": false
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "fieldset",
+					"indexable": false,
+					"label": {
+						"eu_ES": ""
+					},
+					"localizable": false,
+					"name": "EnlacesDestacadosFieldSetFieldSet",
+					"nestedDataDefinitionFields": [
+						{
+							"customProperties": {
+								"displayStyle": "singleline",
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"autocomplete": false,
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"eu_ES": [
+										{
+											"reference": "",
+											"label": "Option",
+											"value": "Option"
+										}
+									]
+								},
+								"tooltip": {
+									"eu_ES": ""
+								},
+								"fieldReference": "TituloDestacado",
+								"placeholder": {
+									"eu_ES": ""
+								},
+								"dataSourceType": "manual"
+							},
+							"defaultValue": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							},
+							"fieldType": "text",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Section title",
+								"eu_ES": "Atalaren izenburua",
+								"es_ES": "Título de la sección",
+								"fr_FR": "Section titre",
+								"de_DE": "Abschnittsüberschrift",
+								"pt_PT": "Título da seção"
+							},
+							"localizable": true,
+							"name": "TituloDestacado",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						},
+						{
+							"customProperties": {
+								"ddmStructureLayoutId": "",
+								"ddmStructureId": "",
+								"upgradedStructure": false,
+								"fieldReference": "EnlaceFieldSet",
+								"rows": [
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"Enlace"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"EnlaceFieldSetFieldSet"
+												]
+											}
+										]
+									}
+								],
+								"collapsible": false
+							},
+							"defaultValue": {
+								
+							},
+							"fieldType": "fieldset",
+							"indexable": false,
+							"label": {
+								"eu_ES": ""
+							},
+							"localizable": false,
+							"name": "EnlaceFieldSet",
+							"nestedDataDefinitionFields": [
+								{
+									"customProperties": {
+										"fieldNamespace": "",
+										"dataType": "",
+										"fieldReference": "Enlace",
+										"style": {
+											
+										}
+									},
+									"defaultValue": {
+										
+									},
+									"fieldType": "separator",
+									"indexType": "keyword",
+									"indexable": true,
+									"label": {
+										"en_GB": "Highlighted link",
+										"eu_ES": "Esteka nabarmena",
+										"es_ES": "Enlace destacado",
+										"fr_FR": "Lien en vedette",
+										"de_DE": "Ausgewählter Link",
+										"pt_PT": "Link em destaque"
+									},
+									"localizable": true,
+									"name": "Enlace",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									}
+								},
+								{
+									"customProperties": {
+										"ddmStructureLayoutId": "",
+										"ddmStructureId": "",
+										"upgradedStructure": false,
+										"fieldReference": "EnlaceFieldSetFieldSet",
+										"rows": [
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"NombreEnlaceFieldSet"
+														]
+													}
+												]
+											},
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"IconoEnlace"
+														]
+													}
+												]
+											}
+										],
+										"collapsible": false
+									},
+									"defaultValue": {
+										
+									},
+									"fieldType": "fieldset",
+									"indexable": false,
+									"label": {
+										"eu_ES": ""
+									},
+									"localizable": false,
+									"name": "EnlaceFieldSetFieldSet",
+									"nestedDataDefinitionFields": [
+										{
+											"customProperties": {
+												"ddmStructureLayoutId": "",
+												"ddmStructureId": "",
+												"upgradedStructure": false,
+												"fieldReference": "NombreEnlaceFieldSet",
+												"rows": [
+													{
+														"columns": [
+															{
+																"size": 12,
+																"fields": [
+																	"NombreEnlace"
+																]
+															}
+														]
+													},
+													{
+														"columns": [
+															{
+																"size": 12,
+																"fields": [
+																	"NombreEnlaceFieldSetFieldSet"
+																]
+															}
+														]
+													}
+												],
+												"collapsible": false
+											},
+											"defaultValue": {
+												
+											},
+											"fieldType": "fieldset",
+											"indexable": false,
+											"label": {
+												"eu_ES": ""
+											},
+											"localizable": false,
+											"name": "NombreEnlaceFieldSet",
+											"nestedDataDefinitionFields": [
+												{
+													"customProperties": {
+														"displayStyle": "singleline",
+														"fieldNamespace": "",
+														"visibilityExpression": "",
+														"ddmDataProviderInstanceOutput": [],
+														"autocomplete": false,
+														"ddmDataProviderInstanceId": [],
+														"dataType": "string",
+														"options": {
+															"eu_ES": [
+																{
+																	"reference": "",
+																	"label": "Option",
+																	"value": "Option"
+																}
+															]
+														},
+														"tooltip": {
+															"eu_ES": ""
+														},
+														"fieldReference": "NombreEnlace",
+														"placeholder": {
+															"eu_ES": ""
+														},
+														"dataSourceType": "manual"
+													},
+													"defaultValue": {
+														"en_GB": "",
+														"eu_ES": "",
+														"es_ES": "",
+														"fr_FR": "",
+														"de_DE": "",
+														"pt_PT": ""
+													},
+													"fieldType": "text",
+													"indexType": "keyword",
+													"indexable": true,
+													"label": {
+														"en_GB": "Link text",
+														"eu_ES": "Estekaren testua",
+														"es_ES": "Texto del enlace",
+														"fr_FR": "Texte du lien",
+														"de_DE": "Link Text",
+														"pt_PT": "Texto do link"
+													},
+													"localizable": true,
+													"name": "NombreEnlace",
+													"nestedDataDefinitionFields": [],
+													"readOnly": false,
+													"repeatable": false,
+													"required": false,
+													"showLabel": true,
+													"tip": {
+														"en_GB": "",
+														"eu_ES": "",
+														"es_ES": "",
+														"fr_FR": "",
+														"de_DE": "",
+														"pt_PT": ""
+													}
+												},
+												{
+													"customProperties": {
+														"ddmStructureLayoutId": "",
+														"ddmStructureId": "",
+														"upgradedStructure": false,
+														"fieldReference": "NombreEnlaceFieldSetFieldSet",
+														"rows": [
+															{
+																"columns": [
+																	{
+																		"size": 12,
+																		"fields": [
+																			"UrlEnlace"
+																		]
+																	}
+																]
+															},
+															{
+																"columns": [
+																	{
+																		"size": 12,
+																		"fields": [
+																			"Externo"
+																		]
+																	}
+																]
+															}
+														],
+														"collapsible": false
+													},
+													"defaultValue": {
+														
+													},
+													"fieldType": "fieldset",
+													"indexable": false,
+													"label": {
+														"eu_ES": ""
+													},
+													"localizable": false,
+													"name": "NombreEnlaceFieldSetFieldSet",
+													"nestedDataDefinitionFields": [
+														{
+															"customProperties": {
+																"displayStyle": "singleline",
+																"fieldNamespace": "",
+																"visibilityExpression": "",
+																"ddmDataProviderInstanceOutput": [],
+																"autocomplete": false,
+																"ddmDataProviderInstanceId": [],
+																"dataType": "string",
+																"options": {
+																	"eu_ES": [
+																		{
+																			"reference": "",
+																			"label": "Option",
+																			"value": "Option"
+																		}
+																	]
+																},
+																"tooltip": {
+																	"eu_ES": ""
+																},
+																"fieldReference": "UrlEnlace",
+																"placeholder": {
+																	"eu_ES": ""
+																},
+																"dataSourceType": "manual"
+															},
+															"defaultValue": {
+																"en_GB": "",
+																"eu_ES": "",
+																"es_ES": "",
+																"fr_FR": "",
+																"de_DE": "",
+																"pt_PT": ""
+															},
+															"fieldType": "text",
+															"indexType": "keyword",
+															"indexable": true,
+															"label": {
+																"en_GB": "Web address",
+																"eu_ES": "Web helbidea",
+																"es_ES": "Dirección web",
+																"fr_FR": "Adresse web",
+																"de_DE": "Webadresse",
+																"pt_PT": "Endereço da web"
+															},
+															"localizable": true,
+															"name": "UrlEnlace",
+															"nestedDataDefinitionFields": [],
+															"readOnly": false,
+															"repeatable": false,
+															"required": false,
+															"showLabel": true,
+															"tip": {
+																"en_GB": "https://www.example.com",
+																"eu_ES": "https://www.adibide.com",
+																"es_ES": "https://www.ejemplo.com",
+																"fr_FR": "https://www.exemple.com",
+																"de_DE": "https://www.beispiel.com",
+																"pt_PT": "https://www.exemplo.com"
+															}
+														},
+														{
+															"customProperties": {
+																"dataType": "radio",
+																"options": {
+																	"en_GB": [
+																		{
+																			"reference": "Si",
+																			"label": "Sí",
+																			"value": "Si"
+																		},
+																		{
+																			"reference": "No",
+																			"label": "No",
+																			"value": "No"
+																		}
+																	],
+																	"eu_ES": [
+																		{
+																			"reference": "Si",
+																			"label": "Bai",
+																			"value": "Si"
+																		},
+																		{
+																			"reference": "No",
+																			"label": "Ez",
+																			"value": "No"
+																		}
+																	],
+																	"es_ES": [
+																		{
+																			"reference": "Si",
+																			"label": "Sí",
+																			"value": "Si"
+																		},
+																		{
+																			"reference": "No",
+																			"label": "No",
+																			"value": "No"
+																		}
+																	],
+																	"fr_FR": [
+																		{
+																			"reference": "Si",
+																			"label": "Oui",
+																			"value": "Si"
+																		},
+																		{
+																			"reference": "No",
+																			"label": "Non",
+																			"value": "No"
+																		}
+																	],
+																	"pt_PT": [
+																		{
+																			"reference": "Si",
+																			"label": "Sim",
+																			"value": "Si"
+																		},
+																		{
+																			"reference": "No",
+																			"label": "Não",
+																			"value": "No"
+																		}
+																	],
+																	"de_DE": [
+																		{
+																			"reference": "Si",
+																			"label": "Ja",
+																			"value": "Si"
+																		},
+																		{
+																			"reference": "No",
+																			"label": "Nein",
+																			"value": "No"
+																		}
+																	]
+																},
+																"fieldReference": "Externo"
+															},
+															"defaultValue": {
+																"en_GB": "",
+																"eu_ES": "",
+																"es_ES": "",
+																"fr_FR": "",
+																"de_DE": "",
+																"pt_PT": ""
+															},
+															"fieldType": "radio",
+															"indexType": "keyword",
+															"indexable": true,
+															"label": {
+																"en_GB": "External",
+																"eu_ES": "Kanpokoa",
+																"es_ES": "Externo",
+																"fr_FR": "Externe",
+																"de_DE": "Extern",
+																"pt_PT": "Externo"
+															},
+															"localizable": true,
+															"name": "Externo",
+															"nestedDataDefinitionFields": [],
+															"readOnly": false,
+															"repeatable": false,
+															"required": false,
+															"showLabel": true,
+															"tip": {
+																"en_GB": "",
+																"eu_ES": "",
+																"es_ES": "",
+																"fr_FR": "",
+																"de_DE": "",
+																"pt_PT": ""
+															}
+														}
+													],
+													"readOnly": false,
+													"repeatable": false,
+													"required": false,
+													"showLabel": false,
+													"tip": {
+														
+													}
+												}
+											],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": false,
+											"tip": {
+												
+											}
+										},
+										{
+											"customProperties": {
+												"fieldNamespace": "",
+												"visibilityExpression": "",
+												"ddmDataProviderInstanceOutput": [],
+												"ddmDataProviderInstanceId": [],
+												"dataType": "string",
+												"options": {
+													"en_GB": [
+														{
+															"reference": "",
+															"label": "Choose an icon ...",
+															"value": ""
+														},
+														{
+															"reference": "Sí",
+															"label": "Yes, OK, Accept",
+															"value": "Sí"
+														},
+														{
+															"reference": "Buscar",
+															"label": "Search",
+															"value": "Buscar"
+														},
+														{
+															"reference": "Reunión",
+															"label": "Meeting",
+															"value": "Reunión"
+														},
+														{
+															"reference": "Reciclar",
+															"label": "Recycle",
+															"value": "Reciclar"
+														},
+														{
+															"reference": "Bloqueado",
+															"label": "Locked",
+															"value": "Bloqueado"
+														},
+														{
+															"reference": "Desbloqueado",
+															"label": "Unlocked",
+															"value": "Desbloqueado"
+														},
+														{
+															"reference": "Descarga",
+															"label": "Download",
+															"value": "Descarga"
+														},
+														{
+															"reference": "Alerta",
+															"label": "Alert",
+															"value": "Alerta"
+														},
+														{
+															"reference": "Pausa",
+															"label": "Pause",
+															"value": "Pausa"
+														},
+														{
+															"reference": "Home",
+															"label": "Home",
+															"value": "Home"
+														},
+														{
+															"reference": "Ajustes",
+															"label": "Settings",
+															"value": "Ajustes"
+														},
+														{
+															"reference": "Refrescar",
+															"label": "Refresh",
+															"value": "Refrescar"
+														},
+														{
+															"reference": "Zoom_in",
+															"label": "Zoom in",
+															"value": "Zoom_in"
+														},
+														{
+															"reference": "Mostrador",
+															"label": "Counter",
+															"value": "Mostrador"
+														},
+														{
+															"reference": "Subir",
+															"label": "Go up",
+															"value": "Subir"
+														},
+														{
+															"reference": "Información",
+															"label": "Information",
+															"value": "Información"
+														},
+														{
+															"reference": "Imprimir",
+															"label": "Print",
+															"value": "Imprimir"
+														},
+														{
+															"reference": "Leer",
+															"label": "Read on",
+															"value": "Leer"
+														},
+														{
+															"reference": "Cerrar",
+															"label": "Close, Delete",
+															"value": "Cerrar"
+														},
+														{
+															"reference": "Play",
+															"label": "Play",
+															"value": "Play"
+														},
+														{
+															"reference": "Clase",
+															"label": "Class",
+															"value": "Clase"
+														},
+														{
+															"reference": "Clase_presencial",
+															"label": "Face-to-face class",
+															"value": "Clase_presencial"
+														},
+														{
+															"reference": "Taza",
+															"label": "Cup",
+															"value": "Taza"
+														},
+														{
+															"reference": "Ayuda",
+															"label": "Help",
+															"value": "Ayuda"
+														},
+														{
+															"reference": "Libro",
+															"label": "Book",
+															"value": "Libro"
+														},
+														{
+															"reference": "Enlace",
+															"label": "Link",
+															"value": "Enlace"
+														},
+														{
+															"reference": "Cubiertos",
+															"label": "Cutlery",
+															"value": "Cubiertos"
+														},
+														{
+															"reference": "Pantalla",
+															"label": "Screen",
+															"value": "Pantalla"
+														},
+														{
+															"reference": "Clase_pantalla",
+															"label": "Screen class",
+															"value": "Clase_pantalla"
+														},
+														{
+															"reference": "Sobre",
+															"label": "Envelope",
+															"value": "Sobre"
+														},
+														{
+															"reference": "Clase_streaming",
+															"label": "Streaming class",
+															"value": "Clase_streaming"
+														},
+														{
+															"reference": "Zoom_out",
+															"label": "Zoom out",
+															"value": "Zoom_out"
+														},
+														{
+															"reference": "Wifi",
+															"label": "Wifi",
+															"value": "Wifi"
+														}
+													],
+													"eu_ES": [
+														{
+															"reference": "",
+															"label": "Aukeratu ikono bat ...",
+															"value": ""
+														},
+														{
+															"reference": "Sí",
+															"label": "Bai, OK, Onartu",
+															"value": "Sí"
+														},
+														{
+															"reference": "Buscar",
+															"label": "Bilatu",
+															"value": "Buscar"
+														},
+														{
+															"reference": "Reunión",
+															"label": "Bilera",
+															"value": "Reunión"
+														},
+														{
+															"reference": "Reciclar",
+															"label": "Birziklatu",
+															"value": "Reciclar"
+														},
+														{
+															"reference": "Bloqueado",
+															"label": "Blokeatuta",
+															"value": "Bloqueado"
+														},
+														{
+															"reference": "Desbloqueado",
+															"label": "Desblokeatuta",
+															"value": "Desbloqueado"
+														},
+														{
+															"reference": "Descarga",
+															"label": "Deskargatu",
+															"value": "Descarga"
+														},
+														{
+															"reference": "Alerta",
+															"label": "Erne",
+															"value": "Alerta"
+														},
+														{
+															"reference": "Pausa",
+															"label": "Pause",
+															"value": "Pausa"
+														},
+														{
+															"reference": "Home",
+															"label": "Etxea",
+															"value": "Home"
+														},
+														{
+															"reference": "Ajustes",
+															"label": "Ezarpenak",
+															"value": "Ajustes"
+														},
+														{
+															"reference": "Refrescar",
+															"label": "Freskatu",
+															"value": "Refrescar"
+														},
+														{
+															"reference": "Zoom_in",
+															"label": "Handitu",
+															"value": "Zoom_in"
+														},
+														{
+															"reference": "Mostrador",
+															"label": "Erakusmahaia",
+															"value": "Mostrador"
+														},
+														{
+															"reference": "Subir",
+															"label": "Igo",
+															"value": "Subir"
+														},
+														{
+															"reference": "Información",
+															"label": "Informazioa",
+															"value": "Información"
+														},
+														{
+															"reference": "Imprimir",
+															"label": "Inprimatzeko",
+															"value": "Imprimir"
+														},
+														{
+															"reference": "Leer",
+															"label": "Irakurri",
+															"value": "Leer"
+														},
+														{
+															"reference": "Cerrar",
+															"label": "Itxi, Ezabatu",
+															"value": "Cerrar"
+														},
+														{
+															"reference": "Play",
+															"label": "Play",
+															"value": "Play"
+														},
+														{
+															"reference": "Clase",
+															"label": "Klasea",
+															"value": "Clase"
+														},
+														{
+															"reference": "Clase_presencial",
+															"label": "Klase presentziala",
+															"value": "Clase_presencial"
+														},
+														{
+															"reference": "Taza",
+															"label": "Katilua",
+															"value": "Taza"
+														},
+														{
+															"reference": "Ayuda",
+															"label": "Laguntza",
+															"value": "Ayuda"
+														},
+														{
+															"reference": "Libro",
+															"label": "Liburua",
+															"value": "Libro"
+														},
+														{
+															"reference": "Enlace",
+															"label": "Esteka",
+															"value": "Enlace"
+														},
+														{
+															"reference": "Cubiertos",
+															"label": "Mahai tresnak",
+															"value": "Cubiertos"
+														},
+														{
+															"reference": "Pantalla",
+															"label": "Pantaila",
+															"value": "Pantalla"
+														},
+														{
+															"reference": "Clase_pantalla",
+															"label": "Pantaila klasea",
+															"value": "Clase_pantalla"
+														},
+														{
+															"reference": "Sobre",
+															"label": "Gutun-azala",
+															"value": "Sobre"
+														},
+														{
+															"reference": "Clase_streaming",
+															"label": "Streaming klasea",
+															"value": "Clase_streaming"
+														},
+														{
+															"reference": "Zoom_out",
+															"label": "Txikiagotu",
+															"value": "Zoom_out"
+														},
+														{
+															"reference": "Wifi",
+															"label": "Wifi",
+															"value": "Wifi"
+														}
+													],
+													"es_ES": [
+														{
+															"reference": "",
+															"label": "Selecciona un icono...",
+															"value": ""
+														},
+														{
+															"reference": "Sí",
+															"label": "Sí, OK, Aceptar",
+															"value": "Sí"
+														},
+														{
+															"reference": "Buscar",
+															"label": "Buscar",
+															"value": "Buscar"
+														},
+														{
+															"reference": "Reunión",
+															"label": "Reunión",
+															"value": "Reunión"
+														},
+														{
+															"reference": "Reciclar",
+															"label": "Reciclar",
+															"value": "Reciclar"
+														},
+														{
+															"reference": "Bloqueado",
+															"label": "Bloqueado",
+															"value": "Bloqueado"
+														},
+														{
+															"reference": "Desbloqueado",
+															"label": "Desbloqueado",
+															"value": "Desbloqueado"
+														},
+														{
+															"reference": "Descarga",
+															"label": "Descarga",
+															"value": "Descarga"
+														},
+														{
+															"reference": "Alerta",
+															"label": "Alerta",
+															"value": "Alerta"
+														},
+														{
+															"reference": "Pausa",
+															"label": "Pause",
+															"value": "Pausa"
+														},
+														{
+															"reference": "Home",
+															"label": "Home",
+															"value": "Home"
+														},
+														{
+															"reference": "Ajustes",
+															"label": "Ajustes",
+															"value": "Ajustes"
+														},
+														{
+															"reference": "Refrescar",
+															"label": "Refrescar",
+															"value": "Refrescar"
+														},
+														{
+															"reference": "Zoom_in",
+															"label": "Zoom in",
+															"value": "Zoom_in"
+														},
+														{
+															"reference": "Mostrador",
+															"label": "Mostrador",
+															"value": "Mostrador"
+														},
+														{
+															"reference": "Subir",
+															"label": "Subir",
+															"value": "Subir"
+														},
+														{
+															"reference": "Información",
+															"label": "Información",
+															"value": "Información"
+														},
+														{
+															"reference": "Imprimir",
+															"label": "Imprimir",
+															"value": "Imprimir"
+														},
+														{
+															"reference": "Leer",
+															"label": "Leer",
+															"value": "Leer"
+														},
+														{
+															"reference": "Cerrar",
+															"label": "Cerrar, Eliminar",
+															"value": "Cerrar"
+														},
+														{
+															"reference": "Play",
+															"label": "Play",
+															"value": "Play"
+														},
+														{
+															"reference": "Clase",
+															"label": "Clase",
+															"value": "Clase"
+														},
+														{
+															"reference": "Clase_presencial",
+															"label": "Clase Presencial",
+															"value": "Clase_presencial"
+														},
+														{
+															"reference": "Taza",
+															"label": "Taza",
+															"value": "Taza"
+														},
+														{
+															"reference": "Ayuda",
+															"label": "Ayuda",
+															"value": "Ayuda"
+														},
+														{
+															"reference": "Libro",
+															"label": "Libro",
+															"value": "Libro"
+														},
+														{
+															"reference": "Enlace",
+															"label": "Enlace",
+															"value": "Enlace"
+														},
+														{
+															"reference": "Cubiertos",
+															"label": "Cubiertos",
+															"value": "Cubiertos"
+														},
+														{
+															"reference": "Pantalla",
+															"label": "Pantalla",
+															"value": "Pantalla"
+														},
+														{
+															"reference": "Clase_pantalla",
+															"label": "Clase Pantalla",
+															"value": "Clase_pantalla"
+														},
+														{
+															"reference": "Sobre",
+															"label": "Sobre",
+															"value": "Sobre"
+														},
+														{
+															"reference": "Clase_streaming",
+															"label": "Clase Streaming",
+															"value": "Clase_streaming"
+														},
+														{
+															"reference": "Zoom_out",
+															"label": "Zoom out",
+															"value": "Zoom_out"
+														},
+														{
+															"reference": "Wifi",
+															"label": "Wifi",
+															"value": "Wifi"
+														}
+													],
+													"fr_FR": [
+														{
+															"reference": "",
+															"label": "Choisissez un icône ...",
+															"value": ""
+														},
+														{
+															"reference": "Sí",
+															"label": "Oui, OK, Accepter",
+															"value": "Sí"
+														},
+														{
+															"reference": "Buscar",
+															"label": "Chercher",
+															"value": "Buscar"
+														},
+														{
+															"reference": "Reunión",
+															"label": "Réunion",
+															"value": "Reunión"
+														},
+														{
+															"reference": "Reciclar",
+															"label": "Recycler",
+															"value": "Reciclar"
+														},
+														{
+															"reference": "Bloqueado",
+															"label": "Fermé à clé",
+															"value": "Bloqueado"
+														},
+														{
+															"reference": "Desbloqueado",
+															"label": "Débloqué",
+															"value": "Desbloqueado"
+														},
+														{
+															"reference": "Descarga",
+															"label": "Télécharger",
+															"value": "Descarga"
+														},
+														{
+															"reference": "Alerta",
+															"label": "Alerte",
+															"value": "Alerta"
+														},
+														{
+															"reference": "Pausa",
+															"label": "Pause",
+															"value": "Pausa"
+														},
+														{
+															"reference": "Home",
+															"label": "Maison",
+															"value": "Home"
+														},
+														{
+															"reference": "Ajustes",
+															"label": "Réglages",
+															"value": "Ajustes"
+														},
+														{
+															"reference": "Refrescar",
+															"label": "Rafraîchir",
+															"value": "Refrescar"
+														},
+														{
+															"reference": "Zoom_in",
+															"label": "Zoom in",
+															"value": "Zoom_in"
+														},
+														{
+															"reference": "Mostrador",
+															"label": "Comptoir",
+															"value": "Mostrador"
+														},
+														{
+															"reference": "Subir",
+															"label": "Monter",
+															"value": "Subir"
+														},
+														{
+															"reference": "Información",
+															"label": "Informations",
+															"value": "Información"
+														},
+														{
+															"reference": "Imprimir",
+															"label": "Ipression",
+															"value": "Imprimir"
+														},
+														{
+															"reference": "Leer",
+															"label": "Lire",
+															"value": "Leer"
+														},
+														{
+															"reference": "Cerrar",
+															"label": "Fermer, Supprimer",
+															"value": "Cerrar"
+														},
+														{
+															"reference": "Play",
+															"label": "Play",
+															"value": "Play"
+														},
+														{
+															"reference": "Clase",
+															"label": "Classer",
+															"value": "Clase"
+														},
+														{
+															"reference": "Clase_presencial",
+															"label": "Cours en présentiel",
+															"value": "Clase_presencial"
+														},
+														{
+															"reference": "Taza",
+															"label": "Tasse",
+															"value": "Taza"
+														},
+														{
+															"reference": "Ayuda",
+															"label": "Aider",
+															"value": "Ayuda"
+														},
+														{
+															"reference": "Libro",
+															"label": "Livre",
+															"value": "Libro"
+														},
+														{
+															"reference": "Enlace",
+															"label": "Lien",
+															"value": "Enlace"
+														},
+														{
+															"reference": "Cubiertos",
+															"label": "Coutellerie",
+															"value": "Cubiertos"
+														},
+														{
+															"reference": "Pantalla",
+															"label": "Écran",
+															"value": "Pantalla"
+														},
+														{
+															"reference": "Clase_pantalla",
+															"label": "Classe d'écranklasea",
+															"value": "Clase_pantalla"
+														},
+														{
+															"reference": "Sobre",
+															"label": "Enveloppe",
+															"value": "Sobre"
+														},
+														{
+															"reference": "Clase_streaming",
+															"label": "Cours de streaming",
+															"value": "Clase_streaming"
+														},
+														{
+															"reference": "Zoom_out",
+															"label": "Zoom out",
+															"value": "Zoom_out"
+														},
+														{
+															"reference": "Wifi",
+															"label": "Wifi",
+															"value": "Wifi"
+														}
+													],
+													"pt_PT": [
+														{
+															"reference": "",
+															"label": "Selecione um ícone ...",
+															"value": ""
+														},
+														{
+															"reference": "Sí",
+															"label": "Sim, OK, Aceitar",
+															"value": "Sí"
+														},
+														{
+															"reference": "Buscar",
+															"label": "Pesquisar",
+															"value": "Buscar"
+														},
+														{
+															"reference": "Reunión",
+															"label": "Reunião",
+															"value": "Reunión"
+														},
+														{
+															"reference": "Reciclar",
+															"label": "Reciclar",
+															"value": "Reciclar"
+														},
+														{
+															"reference": "Bloqueado",
+															"label": "Bloqueado",
+															"value": "Bloqueado"
+														},
+														{
+															"reference": "Desbloqueado",
+															"label": "Desbloqueado",
+															"value": "Desbloqueado"
+														},
+														{
+															"reference": "Descarga",
+															"label": "Descarregar",
+															"value": "Descarga"
+														},
+														{
+															"reference": "Alerta",
+															"label": "Alerta",
+															"value": "Alerta"
+														},
+														{
+															"reference": "Pausa",
+															"label": "Pause",
+															"value": "Pausa"
+														},
+														{
+															"reference": "Home",
+															"label": "Casa",
+															"value": "Home"
+														},
+														{
+															"reference": "Ajustes",
+															"label": "Configurações",
+															"value": "Ajustes"
+														},
+														{
+															"reference": "Refrescar",
+															"label": "Atualizar",
+															"value": "Refrescar"
+														},
+														{
+															"reference": "Zoom_in",
+															"label": "Zoom in",
+															"value": "Zoom_in"
+														},
+														{
+															"reference": "Mostrador",
+															"label": "Balcão",
+															"value": "Mostrador"
+														},
+														{
+															"reference": "Subir",
+															"label": "Ascender",
+															"value": "Subir"
+														},
+														{
+															"reference": "Información",
+															"label": "Informação",
+															"value": "Información"
+														},
+														{
+															"reference": "Imprimir",
+															"label": "Imprimir",
+															"value": "Imprimir"
+														},
+														{
+															"reference": "Leer",
+															"label": "Leitura",
+															"value": "Leer"
+														},
+														{
+															"reference": "Cerrar",
+															"label": "Fechar, Excluir",
+															"value": "Cerrar"
+														},
+														{
+															"reference": "Play",
+															"label": "Play",
+															"value": "Play"
+														},
+														{
+															"reference": "Clase",
+															"label": "Aula",
+															"value": "Clase"
+														},
+														{
+															"reference": "Clase_presencial",
+															"label": "Aula presencial",
+															"value": "Clase_presencial"
+														},
+														{
+															"reference": "Taza",
+															"label": "Chávena",
+															"value": "Taza"
+														},
+														{
+															"reference": "Ayuda",
+															"label": "Ajuda",
+															"value": "Ayuda"
+														},
+														{
+															"reference": "Libro",
+															"label": "Livro",
+															"value": "Libro"
+														},
+														{
+															"reference": "Enlace",
+															"label": "Esteka",
+															"value": "Enlace"
+														},
+														{
+															"reference": "Cubiertos",
+															"label": "Talher",
+															"value": "Cubiertos"
+														},
+														{
+															"reference": "Pantalla",
+															"label": "Ecrã",
+															"value": "Pantalla"
+														},
+														{
+															"reference": "Clase_pantalla",
+															"label": "Aula de ecrã",
+															"value": "Clase_pantalla"
+														},
+														{
+															"reference": "Sobre",
+															"label": "Envelope",
+															"value": "Sobre"
+														},
+														{
+															"reference": "Clase_streaming",
+															"label": "Aula de streaming",
+															"value": "Clase_streaming"
+														},
+														{
+															"reference": "Zoom_out",
+															"label": "Zoom out",
+															"value": "Zoom_out"
+														},
+														{
+															"reference": "Wifi",
+															"label": "Wifi",
+															"value": "Wifi"
+														}
+													],
+													"de_DE": [
+														{
+															"reference": "",
+															"label": "Wählen Sie ein Symbol aus ...",
+															"value": ""
+														},
+														{
+															"reference": "Sí",
+															"label": "Ja, OK, Akzeptieren",
+															"value": "Sí"
+														},
+														{
+															"reference": "Buscar",
+															"label": "Suche",
+															"value": "Buscar"
+														},
+														{
+															"reference": "Reunión",
+															"label": "Treffen",
+															"value": "Reunión"
+														},
+														{
+															"reference": "Reciclar",
+															"label": "Recyceln",
+															"value": "Reciclar"
+														},
+														{
+															"reference": "Bloqueado",
+															"label": "Gesperrt",
+															"value": "Bloqueado"
+														},
+														{
+															"reference": "Desbloqueado",
+															"label": "Entsperrt",
+															"value": "Desbloqueado"
+														},
+														{
+															"reference": "Descarga",
+															"label": "Herunterladen",
+															"value": "Descarga"
+														},
+														{
+															"reference": "Alerta",
+															"label": "Achtung",
+															"value": "Alerta"
+														},
+														{
+															"reference": "Pausa",
+															"label": "Pause",
+															"value": "Pausa"
+														},
+														{
+															"reference": "Home",
+															"label": "Zuhause",
+															"value": "Home"
+														},
+														{
+															"reference": "Ajustes",
+															"label": "Die Einstellungen",
+															"value": "Ajustes"
+														},
+														{
+															"reference": "Refrescar",
+															"label": "Aktualisierung",
+															"value": "Refrescar"
+														},
+														{
+															"reference": "Zoom_in",
+															"label": "Zoom in",
+															"value": "Zoom_in"
+														},
+														{
+															"reference": "Mostrador",
+															"label": "Zähler",
+															"value": "Mostrador"
+														},
+														{
+															"reference": "Subir",
+															"label": "Geh hinauf",
+															"value": "Subir"
+														},
+														{
+															"reference": "Información",
+															"label": "Information",
+															"value": "Información"
+														},
+														{
+															"reference": "Imprimir",
+															"label": "Drucken",
+															"value": "Imprimir"
+														},
+														{
+															"reference": "Leer",
+															"label": "Lesen",
+															"value": "Leer"
+														},
+														{
+															"reference": "Cerrar",
+															"label": "Schließen, Löschen",
+															"value": "Cerrar"
+														},
+														{
+															"reference": "Play",
+															"label": "Play",
+															"value": "Play"
+														},
+														{
+															"reference": "Clase",
+															"label": "Klasse",
+															"value": "Clase"
+														},
+														{
+															"reference": "Clase_presencial",
+															"label": "Präsenzkurse",
+															"value": "Clase_presencial"
+														},
+														{
+															"reference": "Taza",
+															"label": "Tasse",
+															"value": "Taza"
+														},
+														{
+															"reference": "Ayuda",
+															"label": "Hilfe",
+															"value": "Ayuda"
+														},
+														{
+															"reference": "Libro",
+															"label": "Buch",
+															"value": "Libro"
+														},
+														{
+															"reference": "Enlace",
+															"label": "Link",
+															"value": "Enlace"
+														},
+														{
+															"reference": "Cubiertos",
+															"label": "Besteck",
+															"value": "Cubiertos"
+														},
+														{
+															"reference": "Pantalla",
+															"label": "Bildschirm",
+															"value": "Pantalla"
+														},
+														{
+															"reference": "Clase_pantalla",
+															"label": "Bildschirmklasse",
+															"value": "Clase_pantalla"
+														},
+														{
+															"reference": "Sobre",
+															"label": "Briefumschlag",
+															"value": "Sobre"
+														},
+														{
+															"reference": "Clase_streaming",
+															"label": "Streaming-Klasse",
+															"value": "Clase_streaming"
+														},
+														{
+															"reference": "Zoom_out",
+															"label": "Zoom out",
+															"value": "Zoom_out"
+														},
+														{
+															"reference": "Wifi",
+															"label": "W-lan",
+															"value": "Wifi"
+														}
+													]
+												},
+												"multiple": false,
+												"fieldReference": "IconoEnlace",
+												"dataSourceType": [
+													"manual"
+												]
+											},
+											"defaultValue": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											},
+											"fieldType": "select",
+											"indexType": "keyword",
+											"indexable": true,
+											"label": {
+												"en_GB": "Icon",
+												"eu_ES": "Ikonoa",
+												"es_ES": "Icono",
+												"fr_FR": "Icôns",
+												"de_DE": "Symbol",
+												"pt_PT": "Ícone"
+											},
+											"localizable": true,
+											"name": "IconoEnlace",
+											"nestedDataDefinitionFields": [],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": true,
+											"tip": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											}
+										}
+									],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": false,
+									"tip": {
+										
+									}
+								}
+							],
+							"readOnly": false,
+							"repeatable": true,
+							"required": false,
+							"showLabel": false,
+							"tip": {
+								
+							}
+						}
+					],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": false,
+					"tip": {
+						
+					}
+				}
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": false,
+			"tip": {
+				
+			}
+		},
+		{
+			"customProperties": {
+				"ddmStructureLayoutId": "",
+				"ddmStructureId": "",
+				"upgradedStructure": false,
+				"fieldReference": "GaleriaImagenesFieldSet",
+				"rows": [
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"GaleriaImagenes"
+								]
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"GaleriaImagenesFieldSetFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"collapsible": false
+			},
+			"defaultValue": {
+				
+			},
+			"fieldType": "fieldset",
+			"indexable": false,
+			"label": {
+				"eu_ES": ""
+			},
+			"localizable": false,
+			"name": "GaleriaImagenesFieldSet",
+			"nestedDataDefinitionFields": [
+				{
+					"customProperties": {
+						"fieldNamespace": "",
+						"dataType": "",
+						"fieldReference": "GaleriaImagenes",
+						"style": {
+							
+						}
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "separator",
+					"indexType": "keyword",
+					"indexable": true,
+					"label": {
+						"en_GB": "Image gallery",
+						"eu_ES": "Irudi galeria",
+						"es_ES": "Galería de imágenes",
+						"fr_FR": "Galerie d'images",
+						"de_DE": "Bildergalerie",
+						"pt_PT": "Galeria de imagens"
+					},
+					"localizable": true,
+					"name": "GaleriaImagenes",
+					"nestedDataDefinitionFields": [],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"tip": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					}
+				},
+				{
+					"customProperties": {
+						"ddmStructureLayoutId": "",
+						"ddmStructureId": "",
+						"upgradedStructure": false,
+						"fieldReference": "GaleriaImagenesFieldSetFieldSet",
+						"rows": [
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"TituloGaleria"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"DescripcionGaleria"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"UrlGaleriaFieldSet"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"ImagenRepresentativaFieldSet"
+										]
+									}
+								]
+							}
+						],
+						"collapsible": false
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "fieldset",
+					"indexable": false,
+					"label": {
+						"eu_ES": ""
+					},
+					"localizable": false,
+					"name": "GaleriaImagenesFieldSetFieldSet",
+					"nestedDataDefinitionFields": [
+						{
+							"customProperties": {
+								"displayStyle": "singleline",
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"autocomplete": false,
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"eu_ES": [
+										{
+											"reference": "",
+											"label": "Option",
+											"value": "Option"
+										}
+									]
+								},
+								"tooltip": {
+									"eu_ES": ""
+								},
+								"fieldReference": "TituloGaleria",
+								"placeholder": {
+									"eu_ES": ""
+								},
+								"dataSourceType": "manual"
+							},
+							"defaultValue": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							},
+							"fieldType": "text",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Title",
+								"eu_ES": "Izenburua",
+								"es_ES": "Título",
+								"fr_FR": "Titre",
+								"de_DE": "Titel",
+								"pt_PT": "Título"
+							},
+							"localizable": true,
+							"name": "TituloGaleria",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						},
+						{
+							"customProperties": {
+								"displayStyle": "multiline",
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"autocomplete": false,
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"eu_ES": [
+										{
+											"reference": "",
+											"label": "Option",
+											"value": "Option"
+										}
+									]
+								},
+								"tooltip": {
+									"eu_ES": ""
+								},
+								"fieldReference": "DescripcionGaleria",
+								"placeholder": {
+									"eu_ES": ""
+								},
+								"dataSourceType": "manual"
+							},
+							"defaultValue": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							},
+							"fieldType": "text",
+							"indexType": "text",
+							"indexable": true,
+							"label": {
+								"en_GB": "Description",
+								"eu_ES": "Deskribapena",
+								"es_ES": "Descripción",
+								"fr_FR": "Description",
+								"de_DE": "Beschreibung",
+								"pt_PT": "Descrição"
+							},
+							"localizable": true,
+							"name": "DescripcionGaleria",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						},
+						{
+							"customProperties": {
+								"ddmStructureLayoutId": "",
+								"ddmStructureId": "",
+								"upgradedStructure": false,
+								"fieldReference": "UrlGaleriaFieldSet",
+								"rows": [
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"UrlGaleria"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"UrlGaleriaFieldSetFieldSet"
+												]
+											}
+										]
+									}
+								],
+								"collapsible": false
+							},
+							"defaultValue": {
+								
+							},
+							"fieldType": "fieldset",
+							"indexable": false,
+							"label": {
+								"eu_ES": ""
+							},
+							"localizable": false,
+							"name": "UrlGaleriaFieldSet",
+							"nestedDataDefinitionFields": [
+								{
+									"customProperties": {
+										"displayStyle": "singleline",
+										"fieldNamespace": "",
+										"visibilityExpression": "",
+										"ddmDataProviderInstanceOutput": [],
+										"autocomplete": false,
+										"ddmDataProviderInstanceId": [],
+										"dataType": "string",
+										"options": {
+											"eu_ES": [
+												{
+													"reference": "",
+													"label": "Option",
+													"value": "Option"
+												}
+											]
+										},
+										"tooltip": {
+											"eu_ES": ""
+										},
+										"fieldReference": "UrlGaleria",
+										"placeholder": {
+											"eu_ES": ""
+										},
+										"dataSourceType": "manual"
+									},
+									"defaultValue": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									},
+									"fieldType": "text",
+									"indexType": "keyword",
+									"indexable": true,
+									"label": {
+										"en_GB": "Web address",
+										"eu_ES": "Web helbidea",
+										"es_ES": "Dirección web",
+										"fr_FR": "Adresse web",
+										"de_DE": "Webadresse",
+										"pt_PT": "Endereço da web"
+									},
+									"localizable": true,
+									"name": "UrlGaleria",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "https://www.example.com",
+										"eu_ES": "https://www.adibide.com",
+										"es_ES": "https://www.ejemplo.com",
+										"fr_FR": "https://www.exemple.com",
+										"de_DE": "https://www.beispiel.com",
+										"pt_PT": "https://www.exemplo.com"
+									}
+								},
+								{
+									"customProperties": {
+										"ddmStructureLayoutId": "",
+										"ddmStructureId": "",
+										"upgradedStructure": false,
+										"fieldReference": "UrlGaleriaFieldSetFieldSet",
+										"rows": [
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"ExternoGaleria"
+														]
+													}
+												]
+											}
+										],
+										"collapsible": false
+									},
+									"defaultValue": {
+										
+									},
+									"fieldType": "fieldset",
+									"indexable": false,
+									"label": {
+										"eu_ES": ""
+									},
+									"localizable": false,
+									"name": "UrlGaleriaFieldSetFieldSet",
+									"nestedDataDefinitionFields": [
+										{
+											"customProperties": {
+												"dataType": "radio",
+												"options": {
+													"en_GB": [
+														{
+															"reference": "Si",
+															"label": "Sí",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "No",
+															"value": "No"
+														}
+													],
+													"eu_ES": [
+														{
+															"reference": "Si",
+															"label": "Bai",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "Ez",
+															"value": "No"
+														}
+													],
+													"es_ES": [
+														{
+															"reference": "Si",
+															"label": "Sí",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "No",
+															"value": "No"
+														}
+													],
+													"fr_FR": [
+														{
+															"reference": "Si",
+															"label": "Oui",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "Non",
+															"value": "No"
+														}
+													],
+													"pt_PT": [
+														{
+															"reference": "Si",
+															"label": "Sim",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "Não",
+															"value": "No"
+														}
+													],
+													"de_DE": [
+														{
+															"reference": "Si",
+															"label": "Ja",
+															"value": "Si"
+														},
+														{
+															"reference": "No",
+															"label": "Nein",
+															"value": "No"
+														}
+													]
+												},
+												"fieldReference": "ExternoGaleria"
+											},
+											"defaultValue": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											},
+											"fieldType": "radio",
+											"indexType": "keyword",
+											"indexable": true,
+											"label": {
+												"en_GB": "External",
+												"eu_ES": "Kanpokoa",
+												"es_ES": "Externo",
+												"fr_FR": "Externe",
+												"de_DE": "Extern",
+												"pt_PT": "Externo"
+											},
+											"localizable": true,
+											"name": "ExternoGaleria",
+											"nestedDataDefinitionFields": [],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": true,
+											"tip": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											}
+										}
+									],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": false,
+									"tip": {
+										
+									}
+								}
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": false,
+							"tip": {
+								
+							}
+						},
+						{
+							"customProperties": {
+								"ddmStructureLayoutId": "",
+								"ddmStructureId": "",
+								"upgradedStructure": false,
+								"fieldReference": "ImagenRepresentativaFieldSet",
+								"rows": [
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ImagenRepresentativa"
+												]
+											}
+										]
+									},
+									{
+										"columns": [
+											{
+												"size": 12,
+												"fields": [
+													"ImagenRepresentativaFieldSetFieldSet"
+												]
+											}
+										]
+									}
+								],
+								"collapsible": false
+							},
+							"defaultValue": {
+								
+							},
+							"fieldType": "fieldset",
+							"indexable": false,
+							"label": {
+								"eu_ES": ""
+							},
+							"localizable": false,
+							"name": "ImagenRepresentativaFieldSet",
+							"nestedDataDefinitionFields": [
+								{
+									"customProperties": {
+										"fieldNamespace": "",
+										"visibilityExpression": "",
+										"dataType": "document-library",
+										"fieldReference": "ImagenRepresentativa"
+									},
+									"defaultValue": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									},
+									"fieldType": "document_library",
+									"indexType": "keyword",
+									"indexable": true,
+									"label": {
+										"en_GB": "Representative image",
+										"eu_ES": "Irudi adierazgarria",
+										"es_ES": "Imagen representativa",
+										"fr_FR": "Image indicative",
+										"de_DE": "Indikatives Bild",
+										"pt_PT": "Imagem representativa"
+									},
+									"localizable": true,
+									"name": "ImagenRepresentativa",
+									"nestedDataDefinitionFields": [],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": true,
+									"tip": {
+										"en_GB": "",
+										"eu_ES": "",
+										"es_ES": "",
+										"fr_FR": "",
+										"de_DE": "",
+										"pt_PT": ""
+									}
+								},
+								{
+									"customProperties": {
+										"ddmStructureLayoutId": "",
+										"ddmStructureId": "",
+										"upgradedStructure": false,
+										"fieldReference": "ImagenRepresentativaFieldSetFieldSet",
+										"rows": [
+											{
+												"columns": [
+													{
+														"size": 12,
+														"fields": [
+															"alt_galeria"
+														]
+													}
+												]
+											}
+										],
+										"collapsible": false
+									},
+									"defaultValue": {
+										
+									},
+									"fieldType": "fieldset",
+									"indexable": false,
+									"label": {
+										"eu_ES": ""
+									},
+									"localizable": false,
+									"name": "ImagenRepresentativaFieldSetFieldSet",
+									"nestedDataDefinitionFields": [
+										{
+											"customProperties": {
+												"displayStyle": "singleline",
+												"fieldNamespace": "",
+												"visibilityExpression": "",
+												"ddmDataProviderInstanceOutput": [],
+												"autocomplete": false,
+												"ddmDataProviderInstanceId": [],
+												"dataType": "string",
+												"options": {
+													"eu_ES": [
+														{
+															"reference": "",
+															"label": "Option",
+															"value": "Option"
+														}
+													]
+												},
+												"tooltip": {
+													"eu_ES": ""
+												},
+												"fieldReference": "alt_galeria",
+												"placeholder": {
+													"eu_ES": ""
+												},
+												"dataSourceType": "manual"
+											},
+											"defaultValue": {
+												"en_GB": "",
+												"eu_ES": "",
+												"es_ES": "",
+												"fr_FR": "",
+												"de_DE": "",
+												"pt_PT": ""
+											},
+											"fieldType": "text",
+											"indexType": "keyword",
+											"indexable": true,
+											"label": {
+												"en_GB": "Image’s alternative text",
+												"eu_ES": "Irudiaren ordezko testua",
+												"es_ES": "Texto alternativo de la imagen",
+												"fr_FR": "Texte alternatif de l’image",
+												"de_DE": "Alternativer Bildtext",
+												"pt_PT": "Texto alternativo da imagem"
+											},
+											"localizable": true,
+											"name": "alt_galeria",
+											"nestedDataDefinitionFields": [],
+											"readOnly": false,
+											"repeatable": false,
+											"required": false,
+											"showLabel": true,
+											"tip": {
+												"en_GB": "Description of the image not to lose information when it is not seen",
+												"eu_ES": "Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin",
+												"es_ES": "Descripción de la imagen para que cuando ésta no se vea no se pierda información",
+												"fr_FR": "Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu",
+												"de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird",
+												"pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas"
+											}
+										}
+									],
+									"readOnly": false,
+									"repeatable": false,
+									"required": false,
+									"showLabel": false,
+									"tip": {
+										
+									}
+								}
+							],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": false,
+							"tip": {
+								
+							}
+						}
+					],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": false,
+					"tip": {
+						
+					}
+				}
+			],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": false,
+			"tip": {
+				
+			}
+		}
+	],
+	"defaultDataLayout": {
+		"dataLayoutFields": {
+			
+		},
+		"dataLayoutPages": [
+			{
+				"dataLayoutRows": [
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"LogoFieldSet"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"EnlacesDestacadosFieldSet"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"GaleriaImagenesFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"description": {
+					"eu_ES": "Deskribapena"
+				},
+				"title": {
+					"eu_ES": "Orrialdea"
+				}
+			}
+		],
+		"dataRules": [],
+		"description": {
+			
+		},
+		"name": {
+			
+		},
+		"paginationMode": "single-page"
+	},
+	"defaultLanguageId": "eu_ES",
+	"description": {
+		
+	},
+	"name": {
+		"en_GB": "Centres - Info + Links / Gallery",
+		"eu_ES": "Ikastegiak - Info + Estekak / Galeria",
+		"es_ES": "Centros - Info + Enlaces / Galería",
+		"fr_FR": "Centres - Info + Liens / Galerie",
+		"pt_PT": "Centros - Info + Links / Galeria",
+		"de_DE": "Zentren - Info + Links / Galerie"
+	},
+	"storageType": "default"
+}

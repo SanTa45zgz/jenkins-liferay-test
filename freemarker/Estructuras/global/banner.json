@@ -1,0 +1,880 @@
+{
+    "availableLanguageIds": ["es_ES", "eu_ES", "pt_PT", "fr_FR", "en_GB", "de_DE"],
+    "contentType": "journal",
+    "dataDefinitionFields": [{
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehubannerimageFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehubannerimage"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehubannerimageFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": "",
+                "pt_PT": ""
+            },
+            "localizable": false,
+            "name": "ehubannerimageFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "fieldNamespace": "",
+                        "visibilityExpression": "",
+                        "allowGuestUsers": false,
+                        "dataType": "document-library",
+                        "fieldReference": "ehubannerimage"
+                    },
+                    "defaultValue": {},
+                    "fieldType": "document_library",
+                    "indexType": "none",
+                    "indexable": true,
+                    "label": {
+                        "en_GB": " Image ",
+                        "eu_ES": " Irudia ",
+                        "es_ES": " Imagen ",
+                        "fr_FR": " Image ",
+                        "de_DE": " Bild ",
+                        "pt_PT": "Imagem"
+                    },
+                    "localizable": true,
+                    "name": "ehubannerimage",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": " Use PNG type, 200 pixels width and minimum 60 pixels height ",
+                        "eu_ES": " Erabili PNG motako irudiak, 200 zabalerako pixelekoa eta 60 altuerako pixelekoa gutxienez ",
+                        "es_ES": " Usa imágenes de tipo PNG, de 200 píxeles de ancho y 60 píxeles de alto como mínimo ",
+                        "fr_FR": " Utiliser des images de type de PNG, 200 pixels de large et 60 pixels de haut au moins ",
+                        "de_DE": " Verwenden Sie PNG-Bilder mit einer Breite von 200 Pixel und einer Höhe von mindestens 60 Pixel ",
+                        "pt_PT": "Use imagens do tipo PNG, com pelo menos 200 pixels de largura e 60 pixels de altura"
+                    }
+                }, {
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehubannerimageFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehubannerimagealttext"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": "",
+                        "pt_PT": ""
+                    },
+                    "localizable": false,
+                    "name": "ehubannerimageFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "hideField": false,
+                                "confirmationErrorMessage": {},
+                                "autocomplete": false,
+                                "ddmDataProviderInstanceId": [],
+                                "dataType": "string",
+                                "tooltip": {
+                                    "eu_ES": "",
+                                    "pt_PT": ""
+                                },
+                                "requireConfirmation": false,
+                                "displayStyle": "singleline",
+                                "fieldNamespace": "",
+                                "visibilityExpression": "",
+                                "ddmDataProviderInstanceOutput": [],
+                                "options": {
+                                    "en_GB": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "eu_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "es_ES": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "fr_FR": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "pt_PT": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ],
+                                    "de_DE": [{
+                                            "reference": "",
+                                            "label": "Option",
+                                            "value": "Option"
+                                        }
+                                    ]
+                                },
+                                "nativeField": false,
+                                "confirmationLabel": {},
+                                "fieldReference": "ehubannerimagealttext",
+                                "placeholder": {
+                                    "eu_ES": "",
+                                    "pt_PT": ""
+                                },
+                                "dataSourceType": "manual",
+                                "direction": []
+                            },
+                            "defaultValue": {},
+                            "fieldType": "text",
+                            "indexType": "keyword",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Image’s alternative text ",
+                                "eu_ES": " Irudiaren ordezko testua ",
+                                "es_ES": " Texto alternativo de la imagen ",
+                                "fr_FR": " Texte alternatif de l’image ",
+                                "de_DE": " Alternativer Text des Bildes ",
+                                "pt_PT": "Texto alternativo da imagem"
+                            },
+                            "localizable": true,
+                            "name": "ehubannerimagealttext",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": " Description of the image not to lose information when it is not seen ",
+                                "eu_ES": " Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin ",
+                                "es_ES": " Descripción de la imagen para que cuando ésta no se vea no se pierda información ",
+                                "fr_FR": " Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu ",
+                                "de_DE": " Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird ",
+                                "pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas"
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "hideField": false,
+                "confirmationErrorMessage": {},
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "eu_ES": "",
+                    "pt_PT": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {
+                    "en_GB": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "eu_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "es_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "fr_FR": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "pt_PT": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "de_DE": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "nativeField": false,
+                "confirmationLabel": {},
+                "fieldReference": "ehubannertext",
+                "placeholder": {
+                    "eu_ES": "",
+                    "pt_PT": ""
+                },
+                "dataSourceType": "manual",
+                "direction": []
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "text",
+            "indexable": true,
+            "label": {
+                "en_GB": " Image’s foot ",
+                "eu_ES": " Irudiaren oina ",
+                "es_ES": " Pie de imagen ",
+                "fr_FR": " Légende ",
+                "de_DE": " Bildunterschrift ",
+                "pt_PT": "Legenda da imagem"
+            },
+            "localizable": true,
+            "name": "ehubannertext",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "tip": {
+                "en_GB": " 50 character limit ",
+                "eu_ES": " 50 karakterera mugatuta ",
+                "es_ES": " Límite de 50 caracteres ",
+                "fr_FR": " Limite de 50 caractères ",
+                "de_DE": " Maximal 50 Zeichen ",
+                "pt_PT": "Limite de 50 caracteres"
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "alphabeticalOrder": false,
+                "ddmDataProviderInstanceOutput": [],
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "options": {
+                    "en_GB": [{
+                            "reference": "eu",
+                            "label": " Euskara ",
+                            "value": "eu"
+                        }, {
+                            "reference": "es",
+                            "label": " Spanish ",
+                            "value": "es"
+                        }, {
+                            "reference": "en",
+                            "label": " English ",
+                            "value": "en"
+                        }, {
+                            "reference": "fr",
+                            "label": " French ",
+                            "value": "fr"
+                        }, {
+                            "reference": "ca",
+                            "label": " Catalá ",
+                            "value": "ca"
+                        }, {
+                            "reference": "de",
+                            "label": " German ",
+                            "value": "de"
+                        }, {
+                            "reference": "pt",
+                            "label": "Portuguese",
+                            "value": "pt"
+                        }
+                    ],
+                    "eu_ES": [{
+                            "reference": "eu",
+                            "label": " Euskara ",
+                            "value": "eu"
+                        }, {
+                            "reference": "es",
+                            "label": " Espainiera ",
+                            "value": "es"
+                        }, {
+                            "reference": "en",
+                            "label": " Ingelesa ",
+                            "value": "en"
+                        }, {
+                            "reference": "fr",
+                            "label": " Frantsesa ",
+                            "value": "fr"
+                        }, {
+                            "reference": "ca",
+                            "label": " Catalá ",
+                            "value": "ca"
+                        }, {
+                            "reference": "de",
+                            "label": "Alemana",
+                            "value": "de"
+                        }, {
+                            "reference": "pt",
+                            "label": "Portugalera",
+                            "value": "pt"
+                        }
+                    ],
+                    "es_ES": [{
+                            "reference": "eu",
+                            "label": " Euskara ",
+                            "value": "eu"
+                        }, {
+                            "reference": "es",
+                            "label": " Español ",
+                            "value": "es"
+                        }, {
+                            "reference": "en",
+                            "label": " Inglés ",
+                            "value": "en"
+                        }, {
+                            "reference": "fr",
+                            "label": " Francés ",
+                            "value": "fr"
+                        }, {
+                            "reference": "ca",
+                            "label": " Catalá ",
+                            "value": "ca"
+                        }, {
+                            "reference": "de",
+                            "label": "Alemán",
+                            "value": "de"
+                        }, {
+                            "reference": "pt",
+                            "label": "Portugués",
+                            "value": "pt"
+                        }
+                    ],
+                    "fr_FR": [{
+                            "reference": "eu",
+                            "label": " Euskara ",
+                            "value": "eu"
+                        }, {
+                            "reference": "es",
+                            "label": " Espagnol ",
+                            "value": "es"
+                        }, {
+                            "reference": "en",
+                            "label": " Anglais ",
+                            "value": "en"
+                        }, {
+                            "reference": "fr",
+                            "label": " Français ",
+                            "value": "fr"
+                        }, {
+                            "reference": "ca",
+                            "label": " Catalá ",
+                            "value": "ca"
+                        }, {
+                            "reference": "de",
+                            "label": "Allemand",
+                            "value": "de"
+                        }, {
+                            "reference": "pt",
+                            "label": "Portugais",
+                            "value": "pt"
+                        }
+                    ],
+                    "pt_PT": [{
+                            "reference": "eu",
+                            "label": " Euskara ",
+                            "value": "eu"
+                        }, {
+                            "reference": "es",
+                            "label": " Espanhol ",
+                            "value": "es"
+                        }, {
+                            "reference": "en",
+                            "label": " Inglês ",
+                            "value": "en"
+                        }, {
+                            "reference": "fr",
+                            "label": " Francês ",
+                            "value": "fr"
+                        }, {
+                            "reference": "ca",
+                            "label": " Catalá ",
+                            "value": "ca"
+                        }, {
+                            "reference": "de",
+                            "label": "Alemão",
+                            "value": "de"
+                        }, {
+                            "reference": "pt",
+                            "label": "Português",
+                            "value": "pt"
+                        }
+                    ],
+                    "de_DE": [{
+                            "reference": "eu",
+                            "label": " Euskara ",
+                            "value": "eu"
+                        }, {
+                            "reference": "es",
+                            "label": " Spanisch ",
+                            "value": "es"
+                        }, {
+                            "reference": "en",
+                            "label": " Englisch ",
+                            "value": "en"
+                        }, {
+                            "reference": "fr",
+                            "label": " Französisch ",
+                            "value": "fr"
+                        }, {
+                            "reference": "ca",
+                            "label": " Catalá ",
+                            "value": "ca"
+                        }, {
+                            "reference": "de",
+                            "label": " Deutsch ",
+                            "value": "de"
+                        }, {
+                            "reference": "pt",
+                            "label": "Portugiesisch",
+                            "value": "pt"
+                        }
+                    ]
+                },
+                "multiple": false,
+                "nativeField": false,
+                "fieldReference": "ehubannerlang",
+                "dataSourceType": ["manual"]
+            },
+            "defaultValue": {},
+            "fieldType": "select",
+            "indexType": "none",
+            "indexable": true,
+            "label": {
+                "en_GB": " Language ",
+                "eu_ES": " Hizkuntza ",
+                "es_ES": " Idioma ",
+                "fr_FR": " Langue ",
+                "de_DE": " Sprache ",
+                "pt_PT": "Idioma"
+            },
+            "localizable": true,
+            "name": "ehubannerlang",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": " If the title cannot be translated, choose the language in which it is written. ",
+                "eu_ES": " Izenburua itzuli ezin bada, hautatu behar da idatzita dagoen hizkuntzatan. ",
+                "es_ES": " Si el título no se puede traducir, se ha de seleccionar el idioma en el que está escrito. ",
+                "fr_FR": " Si le titre ne peut pas traduire, vous devez sélectionner la langue dans laquelle il est écrit. ",
+                "de_DE": " Wenn der Titel nicht übersetzt werden kann, muss die Sprache ausgewählt werden, in der er geschrieben ist. ",
+                "pt_PT": "Se o título não puder ser traduzido, o idioma em que está escrito deve ser selecionado."
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehubannerurlFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehubannerurl"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehubannerurlFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": "",
+                "pt_PT": ""
+            },
+            "localizable": false,
+            "name": "ehubannerurlFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehubannerurlFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehubannerurlnewtab"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": "",
+                        "pt_PT": ""
+                    },
+                    "localizable": false,
+                    "name": "ehubannerurlFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "fieldNamespace": "null",
+                                "visibilityExpression": "null",
+                                "dataType": "boolean",
+                                "options": {},
+                                "fieldReference": "ehubannerurlnewtab",
+                                "showAsSwitcher": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "checkbox",
+                            "indexType": "none",
+                            "indexable": true,
+                            "label": {
+                                "en_GB": " Open in new tab ",
+                                "eu_ES": " Ireki fitxa berrian ",
+                                "es_ES": " Abrir en nueva pestaña ",
+                                "fr_FR": " Ouvrir dans un nouvel onglet ",
+                                "de_DE": " In neuem Tab öffnen ",
+                                "pt_PT": "Abrir em nova aba"
+                            },
+                            "localizable": true,
+                            "name": "ehubannerurlnewtab",
+                            "nestedDataDefinitionFields": [],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "tip": {
+                                "en_GB": "",
+                                "eu_ES": "",
+                                "es_ES": "",
+                                "fr_FR": "",
+                                "de_DE": "",
+                                "pt_PT": ""
+                            }
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "hideField": false,
+                        "confirmationErrorMessage": {},
+                        "autocomplete": false,
+                        "ddmDataProviderInstanceId": [],
+                        "dataType": "string",
+                        "tooltip": {
+                            "eu_ES": "",
+                            "pt_PT": ""
+                        },
+                        "requireConfirmation": false,
+                        "displayStyle": "singleline",
+                        "fieldNamespace": "",
+                        "visibilityExpression": "",
+                        "ddmDataProviderInstanceOutput": [],
+                        "options": {
+                            "en_GB": [{
+                                    "reference": "",
+                                    "label": "Option",
+                                    "value": "Option"
+                                }
+                            ],
+                            "eu_ES": [{
+                                    "reference": "",
+                                    "label": "Option",
+                                    "value": "Option"
+                                }
+                            ],
+                            "es_ES": [{
+                                    "reference": "",
+                                    "label": "Option",
+                                    "value": "Option"
+                                }
+                            ],
+                            "fr_FR": [{
+                                    "reference": "",
+                                    "label": "Option",
+                                    "value": "Option"
+                                }
+                            ],
+                            "pt_PT": [{
+                                    "reference": "",
+                                    "label": "Option",
+                                    "value": "Option"
+                                }
+                            ],
+                            "de_DE": [{
+                                    "reference": "",
+                                    "label": "Option",
+                                    "value": "Option"
+                                }
+                            ]
+                        },
+                        "nativeField": false,
+                        "confirmationLabel": {},
+                        "fieldReference": "ehubannerurl",
+                        "placeholder": {
+                            "eu_ES": "",
+                            "pt_PT": ""
+                        },
+                        "dataSourceType": "manual",
+                        "direction": []
+                    },
+                    "defaultValue": {},
+                    "fieldType": "text",
+                    "indexType": "text",
+                    "indexable": true,
+                    "label": {
+                        "en_GB": " Image’s web adderss ",
+                        "eu_ES": " Irudiaren web helbidea ",
+                        "es_ES": " Dirección web de la imagen ",
+                        "fr_FR": " Adresse web de l'image ",
+                        "de_DE": " Webadresse des Bildes ",
+                        "pt_PT": "Endereço da web da imagem"
+                    },
+                    "localizable": true,
+                    "name": "ehubannerurl",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": " https://www.example.com ",
+                        "eu_ES": " https://www.adibide.com ",
+                        "es_ES": " https://www.ejemplo.com ",
+                        "fr_FR": " https://www.exemple.com ",
+                        "de_DE": " https://www.beispiel.com ",
+                        "pt_PT": " https://www.exemplo.com "
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "hideField": false,
+                "confirmationErrorMessage": {},
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "eu_ES": "",
+                    "pt_PT": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {
+                    "en_GB": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "eu_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "es_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "fr_FR": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "pt_PT": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "de_DE": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "nativeField": false,
+                "confirmationLabel": {},
+                "fieldReference": "ehubannertitle",
+                "placeholder": {
+                    "eu_ES": "",
+                    "pt_PT": ""
+                },
+                "dataSourceType": "manual",
+                "direction": []
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "text",
+            "indexable": true,
+            "label": {
+                "en_GB": " Link’s description ",
+                "eu_ES": " Estekaren deskribapena ",
+                "es_ES": " Descripción del enlace ",
+                "fr_FR": " Description du lien ",
+                "de_DE": " Link Beschreibung ",
+                "pt_PT": "Descrição do Link"
+            },
+            "localizable": true,
+            "name": "ehubannertitle",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": " If the title is not clear enough, explain here the link’s objective ",
+                "eu_ES": " Izenburua ez denean oso esanguratsua, hemen zehaztu nora doan esteka ",
+                "es_ES": " Si el título no es lo suficientemente significativo, explica aquí dónde lleva el enlace ",
+                "fr_FR": " Si le titre n'est pas assez clair, expliquez ici l'objectif du lien ",
+                "de_DE": " Wenn der Titel nicht aussagekräftig genug ist, erläutern Sie hier, wohin der Link führt ",
+                "pt_PT": "Se o título não for significativo o suficiente, explique aqui para onde o link leva"
+            }
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [{
+                "dataLayoutRows": [{
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehubannerimageFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehubannertext"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehubannerlang"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehubannerurlFieldSet"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehubannertitle"]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "eu_ES": "Deskribapena"
+                },
+                "title": {
+                    "eu_ES": "Orrialdea"
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "en_GB": "Banner",
+            "eu_ES": "Banner",
+            "es_ES": "Banner",
+            "fr_FR": "Banner",
+            "pt_PT": "Banner",
+            "de_DE": "Banner"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "eu_ES",
+    "description": {},
+    "name": {
+        "en_GB": "Banner",
+        "eu_ES": "Banner",
+        "es_ES": "Banner",
+        "fr_FR": "Banner",
+        "pt_PT": "Banner",
+        "de_DE": "Banner"
+    },
+    "storageType": "default"
+}

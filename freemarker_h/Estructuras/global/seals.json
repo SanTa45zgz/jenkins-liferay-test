@@ -1,0 +1,145 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "en_GB",
+        "de_DE"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "Logotipo",
+                "eu_ES": "Logotipoa",
+                "pt_PT": "Logo",
+                "fr_FR": "Logo",
+                "en_GB": "Logo",
+                "de_DE": "Logo"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "document-library",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "logo",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-documentlibrary",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Texto alternativo de la imagen",
+                        "eu_ES": "Irudiaren ordezko testua",
+                        "pt_PT": "Texto alternativo da imagem",
+                        "fr_FR": "Texte alternatif de l’image",
+                        "en_GB": "Image’s alternative text",
+                        "de_DE": "Alternativer Text des Bildes"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "Descripción de la imagen para que cuando ésta no se vea no se pierda información",
+                        "eu_ES": "Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin",
+                        "pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas",
+                        "fr_FR": "Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu",
+                        "en_GB": "Description of the image not to lose information when it is not seen",
+                        "de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird"
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "alt_logo",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": "Dirección web",
+                        "eu_ES": "Web helbidea",
+                        "pt_PT": "Endereço da web",
+                        "fr_FR": "Adresse web",
+                        "en_GB": "Web address",
+                        "de_DE": "Webadresse"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "https://www.ejemplo.com",
+                        "eu_ES": "https://www.adibide.com",
+                        "pt_PT": "https://www.exemplo.com",
+                        "fr_FR": "https://www.exemple.com",
+                        "en_GB": "https://www.example.com",
+                        "de_DE": "https://www.beispiel.com"
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "direccionWeb",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        }
+    ]
+}

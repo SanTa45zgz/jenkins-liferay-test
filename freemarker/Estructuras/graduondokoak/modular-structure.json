@@ -1,0 +1,535 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " Principal ",
+                "eu_ES": " Nagusia "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Principal",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": " Título Principal ",
+                "eu_ES": " Izenburu Nagusia "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "title1",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Tipo ",
+                        "eu_ES": " Mota "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "type1",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Créditos ",
+                        "eu_ES": " Kredituak "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "number",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "credit1",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "ddm-number"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Segundo Nivel ",
+                "eu_ES": " Bigarren Maila "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Segundo_Nivel",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": " Título ",
+                "eu_ES": " Izenburua "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "title2",
+            "readOnly": false,
+            "repeatable": true,
+            "required": true,
+            "showLabel": true,
+            "type": "text",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Tipo ",
+                        "eu_ES": " Mota "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "type2",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Créditos ",
+                        "eu_ES": " Kredituak "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "number",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "credit2",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "ddm-number"
+                },
+                {
+                    "label": {
+                        "es_ES": " Estilo del componente: ",
+                        "eu_ES": " Izaera: "
+                    },
+                    "options": [
+                        {
+                            "value": "especializacion",
+                            "label": {
+                                "es_ES": " Especialización ",
+                                "eu_ES": " Espezializazioa "
+                            }
+                        },
+                        {
+                            "value": "tfm",
+                            "label": {
+                                "es_ES": " TFM ",
+                                "eu_ES": " MAL "
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": "especializacion",
+                        "eu_ES": "especializacion"
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "style",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "radio"
+                },
+                {
+                    "label": {
+                        "es_ES": " Enlace a página ",
+                        "eu_ES": " Esteka orrialdera "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "link-to-page",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "link2",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-link-to-page"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Tercer Nivel ",
+                "eu_ES": " Hirugarren Maila "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "Tercer_Nivel",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " ¿Mostrar 3º nivel? ",
+                        "eu_ES": " 3. maila erakutsi? "
+                    },
+                    "predefinedValue": {
+                        "es_ES": " true ",
+                        "eu_ES": true
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "showThirdLevel",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Título ",
+                "eu_ES": " Izenburua "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "title3",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "text",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Tipo ",
+                        "eu_ES": " Mota "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "type3",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Créditos ",
+                        "eu_ES": " Kredituak "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "number",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "credit3",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-number"
+                },
+                {
+                    "label": {
+                        "es_ES": " Depende de: (Segundo nivel) ",
+                        "eu_ES": " Honen menpekoa: (Bigarren maila) "
+                    },
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": {
+                                "es_ES": " Primera Caja ",
+                                "eu_ES": " Lehen Kutxa "
+                            }
+                        },
+                        {
+                            "value": "2",
+                            "label": {
+                                "es_ES": " Segunda Caja ",
+                                "eu_ES": " Bigarren Kutxa "
+                            }
+                        },
+                        {
+                            "value": "3",
+                            "label": {
+                                "es_ES": " Tercera Caja ",
+                                "eu_ES": " Hirugarren Kutxa "
+                            }
+                        },
+                        {
+                            "value": "4",
+                            "label": {
+                                "es_ES": " Cuarta Caja ",
+                                "eu_ES": " Laugarren Kutxa "
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [
+                            ""
+                        ],
+                        "eu_ES": [
+                            ""
+                        ]
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "multiple": true,
+                    "name": "parentsBox",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "select"
+                },
+                {
+                    "label": {
+                        "es_ES": " Enlace a página ",
+                        "eu_ES": " Esteka orrialdera "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "link-to-page",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "link3",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-link-to-page"
+                }
+            ]
+        }
+    ]
+}

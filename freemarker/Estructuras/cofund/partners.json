@@ -1,0 +1,1709 @@
+{
+    "availableLanguageIds": ["en_GB"],
+    "contentType": "journal",
+    "dataDefinitionFields": [{
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "hideField": false,
+                "confirmationErrorMessage": {},
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "en_GB": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {
+                    "en_GB": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "nativeField": false,
+                "confirmationLabel": {},
+                "fieldReference": "tituloPartner",
+                "placeholder": {
+                    "en_GB": ""
+                },
+                "dataSourceType": "manual",
+                "direction": []
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": "Titulo partner"
+            },
+            "localizable": true,
+            "name": "tituloPartner",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": ""
+            }
+        }, {
+            "customProperties": {
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "dataType": "string",
+                "fieldReference": "partnerDescription"
+            },
+            "defaultValue": {},
+            "fieldType": "rich_text",
+            "indexType": "text",
+            "indexable": true,
+            "label": {
+                "en_GB": "Partner description"
+            },
+            "localizable": true,
+            "name": "partnerDescription",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": ""
+            }
+        }, {
+            "customProperties": {
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "dataType": "image",
+                "requiredDescription": true,
+                "fieldReference": "partnerLogo"
+            },
+            "defaultValue": {},
+            "fieldType": "image",
+            "indexType": "text",
+            "indexable": true,
+            "label": {
+                "en_GB": "Partner logo"
+            },
+            "localizable": true,
+            "name": "partnerLogo",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": ""
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "hideField": false,
+                "confirmationErrorMessage": {},
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "en_GB": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {
+                    "en_GB": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "nativeField": false,
+                "confirmationLabel": {},
+                "fieldReference": "linkWeb",
+                "placeholder": {
+                    "en_GB": ""
+                },
+                "dataSourceType": "manual",
+                "direction": []
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": "Link Web"
+            },
+            "localizable": true,
+            "name": "linkWeb",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": ""
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "hideField": false,
+                "confirmationErrorMessage": {},
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "en_GB": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {
+                    "en_GB": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "nativeField": false,
+                "confirmationLabel": {},
+                "fieldReference": "partnerEmail",
+                "placeholder": {
+                    "en_GB": ""
+                },
+                "dataSourceType": "manual",
+                "direction": []
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": "Partner contact email"
+            },
+            "localizable": true,
+            "name": "partnerEmail",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": ""
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ResearchLinesFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ResearchLines"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ResearchLinesFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "en_GB": ""
+            },
+            "localizable": false,
+            "name": "ResearchLinesFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ResearchLinesFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["researchLines_amFieldSet"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["researchLines_ifepsFieldSet"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["researchLines_dcfFieldSet"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["researchLines_eeFieldSet"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["researchLines_smFieldSet"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": ""
+                    },
+                    "localizable": false,
+                    "name": "ResearchLinesFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "researchLines_dcfFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_dcf"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_dcf_titleFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "en_GB": ""
+                            },
+                            "localizable": false,
+                            "name": "researchLines_dcfFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "fieldNamespace": "null",
+                                        "visibilityExpression": "null",
+                                        "dataType": "boolean",
+                                        "options": {},
+                                        "fieldReference": "researchLines_dcf",
+                                        "showAsSwitcher": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "checkbox",
+                                    "indexType": "keyword",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": "Digital and Connected Factory"
+                                    },
+                                    "localizable": true,
+                                    "name": "researchLines_dcf",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": ""
+                                    }
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "researchLines_dcf_titleFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_dcf_title"]
+                                                    }
+                                                ]
+                                            }, {
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_dcf_titleFieldSetFieldSet"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "en_GB": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "researchLines_dcf_titleFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "ddmStructureLayoutId": "",
+                                                "ddmStructureId": "",
+                                                "upgradedStructure": false,
+                                                "fieldReference": "researchLines_dcf_titleFieldSetFieldSet",
+                                                "rows": [{
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_dcf_desc"]
+                                                            }
+                                                        ]
+                                                    }, {
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_dcf_author"]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "collapsible": false
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "fieldset",
+                                            "indexable": false,
+                                            "label": {
+                                                "en_GB": ""
+                                            },
+                                            "localizable": false,
+                                            "name": "researchLines_dcf_titleFieldSetFieldSet",
+                                            "nestedDataDefinitionFields": [{
+                                                    "customProperties": {
+                                                        "labelAtStructureLevel": false,
+                                                        "hideField": false,
+                                                        "confirmationErrorMessage": {},
+                                                        "autocomplete": false,
+                                                        "ddmDataProviderInstanceId": [],
+                                                        "dataType": "string",
+                                                        "tooltip": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "requireConfirmation": false,
+                                                        "displayStyle": "singleline",
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "ddmDataProviderInstanceOutput": [],
+                                                        "options": {
+                                                            "en_GB": [{
+                                                                    "reference": "",
+                                                                    "label": "Option",
+                                                                    "value": "Option"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "nativeField": false,
+                                                        "confirmationLabel": {},
+                                                        "fieldReference": "researchLines_dcf_author",
+                                                        "placeholder": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "dataSourceType": "manual",
+                                                        "direction": []
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "text",
+                                                    "indexType": "keyword",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Author"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_dcf_author",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }, {
+                                                    "customProperties": {
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "dataType": "string",
+                                                        "fieldReference": "researchLines_dcf_desc"
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "rich_text",
+                                                    "indexType": "text",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Description"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_dcf_desc",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }
+                                            ],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": false,
+                                            "tip": {}
+                                        }, {
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "en_GB": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "researchLines_dcf_title",
+                                                "placeholder": {
+                                                    "en_GB": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "keyword",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": "Title"
+                                            },
+                                            "localizable": true,
+                                            "name": "researchLines_dcf_title",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": ""
+                                            }
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": true,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "researchLines_smFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_sm"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_sm_titleFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "en_GB": ""
+                            },
+                            "localizable": false,
+                            "name": "researchLines_smFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "fieldNamespace": "null",
+                                        "visibilityExpression": "null",
+                                        "dataType": "boolean",
+                                        "options": {},
+                                        "fieldReference": "researchLines_sm",
+                                        "showAsSwitcher": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "checkbox",
+                                    "indexType": "keyword",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": "Sustainable Manufacturing"
+                                    },
+                                    "localizable": true,
+                                    "name": "researchLines_sm",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": ""
+                                    }
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "researchLines_sm_titleFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_sm_title"]
+                                                    }
+                                                ]
+                                            }, {
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_sm_titleFieldSetFieldSet"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "en_GB": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "researchLines_sm_titleFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "en_GB": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "researchLines_sm_title",
+                                                "placeholder": {
+                                                    "en_GB": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "keyword",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": "Title"
+                                            },
+                                            "localizable": true,
+                                            "name": "researchLines_sm_title",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": ""
+                                            }
+                                        }, {
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "ddmStructureLayoutId": "",
+                                                "ddmStructureId": "",
+                                                "upgradedStructure": false,
+                                                "fieldReference": "researchLines_sm_titleFieldSetFieldSet",
+                                                "rows": [{
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_sm_desc"]
+                                                            }
+                                                        ]
+                                                    }, {
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_sm_author"]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "collapsible": false
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "fieldset",
+                                            "indexable": false,
+                                            "label": {
+                                                "en_GB": ""
+                                            },
+                                            "localizable": false,
+                                            "name": "researchLines_sm_titleFieldSetFieldSet",
+                                            "nestedDataDefinitionFields": [{
+                                                    "customProperties": {
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "dataType": "string",
+                                                        "fieldReference": "researchLines_sm_desc"
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "rich_text",
+                                                    "indexType": "text",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Description"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_sm_desc",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }, {
+                                                    "customProperties": {
+                                                        "labelAtStructureLevel": false,
+                                                        "hideField": false,
+                                                        "confirmationErrorMessage": {},
+                                                        "autocomplete": false,
+                                                        "ddmDataProviderInstanceId": [],
+                                                        "dataType": "string",
+                                                        "tooltip": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "requireConfirmation": false,
+                                                        "displayStyle": "singleline",
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "ddmDataProviderInstanceOutput": [],
+                                                        "options": {
+                                                            "en_GB": [{
+                                                                    "reference": "",
+                                                                    "label": "Option",
+                                                                    "value": "Option"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "nativeField": false,
+                                                        "confirmationLabel": {},
+                                                        "fieldReference": "researchLines_sm_author",
+                                                        "placeholder": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "dataSourceType": "manual",
+                                                        "direction": []
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "text",
+                                                    "indexType": "keyword",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Author"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_sm_author",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }
+                                            ],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": false,
+                                            "tip": {}
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": true,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "researchLines_eeFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_ee"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_ee_titleFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "en_GB": ""
+                            },
+                            "localizable": false,
+                            "name": "researchLines_eeFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "researchLines_ee_titleFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_ee_title"]
+                                                    }
+                                                ]
+                                            }, {
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_ee_titleFieldSetFieldSet"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "en_GB": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "researchLines_ee_titleFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "ddmStructureLayoutId": "",
+                                                "ddmStructureId": "",
+                                                "upgradedStructure": false,
+                                                "fieldReference": "researchLines_ee_titleFieldSetFieldSet",
+                                                "rows": [{
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_ee_desc"]
+                                                            }
+                                                        ]
+                                                    }, {
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_ee_author"]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "collapsible": false
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "fieldset",
+                                            "indexable": false,
+                                            "label": {
+                                                "en_GB": ""
+                                            },
+                                            "localizable": false,
+                                            "name": "researchLines_ee_titleFieldSetFieldSet",
+                                            "nestedDataDefinitionFields": [{
+                                                    "customProperties": {
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "dataType": "string",
+                                                        "fieldReference": "researchLines_ee_desc"
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "rich_text",
+                                                    "indexType": "text",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Description"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_ee_desc",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }, {
+                                                    "customProperties": {
+                                                        "labelAtStructureLevel": false,
+                                                        "hideField": false,
+                                                        "confirmationErrorMessage": {},
+                                                        "autocomplete": false,
+                                                        "ddmDataProviderInstanceId": [],
+                                                        "dataType": "string",
+                                                        "tooltip": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "requireConfirmation": false,
+                                                        "displayStyle": "singleline",
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "ddmDataProviderInstanceOutput": [],
+                                                        "options": {
+                                                            "en_GB": [{
+                                                                    "reference": "",
+                                                                    "label": "Option",
+                                                                    "value": "Option"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "nativeField": false,
+                                                        "confirmationLabel": {},
+                                                        "fieldReference": "researchLines_ee_author",
+                                                        "placeholder": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "dataSourceType": "manual",
+                                                        "direction": []
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "text",
+                                                    "indexType": "keyword",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Author"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_ee_author",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }
+                                            ],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": false,
+                                            "tip": {}
+                                        }, {
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "en_GB": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "researchLines_ee_title",
+                                                "placeholder": {
+                                                    "en_GB": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "keyword",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": "Title"
+                                            },
+                                            "localizable": true,
+                                            "name": "researchLines_ee_title",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": ""
+                                            }
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": true,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "fieldNamespace": "null",
+                                        "visibilityExpression": "null",
+                                        "dataType": "boolean",
+                                        "options": {},
+                                        "fieldReference": "researchLines_ee",
+                                        "showAsSwitcher": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "checkbox",
+                                    "indexType": "keyword",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": "Energy Efficiency"
+                                    },
+                                    "localizable": true,
+                                    "name": "researchLines_ee",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": ""
+                                    }
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "researchLines_amFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_am"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_amp_titleFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "en_GB": ""
+                            },
+                            "localizable": false,
+                            "name": "researchLines_amFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "fieldNamespace": "null",
+                                        "visibilityExpression": "null",
+                                        "dataType": "boolean",
+                                        "options": {},
+                                        "fieldReference": "researchLines_am",
+                                        "showAsSwitcher": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "checkbox",
+                                    "indexType": "keyword",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": "Advanced Materials and Processes"
+                                    },
+                                    "localizable": true,
+                                    "name": "researchLines_am",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": ""
+                                    }
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "researchLines_amp_titleFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_amp_title"]
+                                                    }
+                                                ]
+                                            }, {
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_amp_titleFieldSetFieldSet"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "en_GB": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "researchLines_amp_titleFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "en_GB": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "researchLines_amp_title",
+                                                "placeholder": {
+                                                    "en_GB": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "keyword",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": "Title"
+                                            },
+                                            "localizable": true,
+                                            "name": "researchLines_amp_title",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": ""
+                                            }
+                                        }, {
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "ddmStructureLayoutId": "",
+                                                "ddmStructureId": "",
+                                                "upgradedStructure": false,
+                                                "fieldReference": "researchLines_amp_titleFieldSetFieldSet",
+                                                "rows": [{
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_amp_desc"]
+                                                            }
+                                                        ]
+                                                    }, {
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_amp_author"]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "collapsible": false
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "fieldset",
+                                            "indexable": false,
+                                            "label": {
+                                                "en_GB": ""
+                                            },
+                                            "localizable": false,
+                                            "name": "researchLines_amp_titleFieldSetFieldSet",
+                                            "nestedDataDefinitionFields": [{
+                                                    "customProperties": {
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "dataType": "string",
+                                                        "fieldReference": "researchLines_amp_desc"
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "rich_text",
+                                                    "indexType": "text",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Description"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_amp_desc",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }, {
+                                                    "customProperties": {
+                                                        "labelAtStructureLevel": false,
+                                                        "hideField": false,
+                                                        "confirmationErrorMessage": {},
+                                                        "autocomplete": false,
+                                                        "ddmDataProviderInstanceId": [],
+                                                        "dataType": "string",
+                                                        "tooltip": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "requireConfirmation": false,
+                                                        "displayStyle": "singleline",
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "ddmDataProviderInstanceOutput": [],
+                                                        "options": {
+                                                            "en_GB": [{
+                                                                    "reference": "",
+                                                                    "label": "Option",
+                                                                    "value": "Option"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "nativeField": false,
+                                                        "confirmationLabel": {},
+                                                        "fieldReference": "researchLines_amp_author",
+                                                        "placeholder": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "dataSourceType": "manual",
+                                                        "direction": []
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "text",
+                                                    "indexType": "keyword",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Author"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_amp_author",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }
+                                            ],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": false,
+                                            "tip": {}
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": true,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "researchLines_ifepsFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_ifeps"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["researchLines_ifeps_titleFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "en_GB": ""
+                            },
+                            "localizable": false,
+                            "name": "researchLines_ifepsFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "researchLines_ifeps_titleFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_ifeps_title"]
+                                                    }
+                                                ]
+                                            }, {
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["researchLines_ifeps_titleFieldSetFieldSet"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "en_GB": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "researchLines_ifeps_titleFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "en_GB": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "researchLines_ifeps_title",
+                                                "placeholder": {
+                                                    "en_GB": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "keyword",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": "Title"
+                                            },
+                                            "localizable": true,
+                                            "name": "researchLines_ifeps_title",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": ""
+                                            }
+                                        }, {
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "ddmStructureLayoutId": "",
+                                                "ddmStructureId": "",
+                                                "upgradedStructure": false,
+                                                "fieldReference": "researchLines_ifeps_titleFieldSetFieldSet",
+                                                "rows": [{
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_ifeps_desc"]
+                                                            }
+                                                        ]
+                                                    }, {
+                                                        "columns": [{
+                                                                "size": 12,
+                                                                "fields": ["researchLines_ifeps_author"]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "collapsible": false
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "fieldset",
+                                            "indexable": false,
+                                            "label": {
+                                                "en_GB": ""
+                                            },
+                                            "localizable": false,
+                                            "name": "researchLines_ifeps_titleFieldSetFieldSet",
+                                            "nestedDataDefinitionFields": [{
+                                                    "customProperties": {
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "dataType": "string",
+                                                        "fieldReference": "researchLines_ifeps_desc"
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "rich_text",
+                                                    "indexType": "text",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Description"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_ifeps_desc",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }, {
+                                                    "customProperties": {
+                                                        "labelAtStructureLevel": false,
+                                                        "hideField": false,
+                                                        "confirmationErrorMessage": {},
+                                                        "autocomplete": false,
+                                                        "ddmDataProviderInstanceId": [],
+                                                        "dataType": "string",
+                                                        "tooltip": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "requireConfirmation": false,
+                                                        "displayStyle": "singleline",
+                                                        "fieldNamespace": "",
+                                                        "visibilityExpression": "",
+                                                        "ddmDataProviderInstanceOutput": [],
+                                                        "options": {
+                                                            "en_GB": [{
+                                                                    "reference": "",
+                                                                    "label": "Option",
+                                                                    "value": "Option"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "nativeField": false,
+                                                        "confirmationLabel": {},
+                                                        "fieldReference": "researchLines_ifeps_author",
+                                                        "placeholder": {
+                                                            "en_GB": ""
+                                                        },
+                                                        "dataSourceType": "manual",
+                                                        "direction": []
+                                                    },
+                                                    "defaultValue": {},
+                                                    "fieldType": "text",
+                                                    "indexType": "keyword",
+                                                    "indexable": true,
+                                                    "label": {
+                                                        "en_GB": "Author"
+                                                    },
+                                                    "localizable": true,
+                                                    "name": "researchLines_ifeps_author",
+                                                    "nestedDataDefinitionFields": [],
+                                                    "readOnly": false,
+                                                    "repeatable": false,
+                                                    "required": false,
+                                                    "showLabel": true,
+                                                    "tip": {
+                                                        "en_GB": ""
+                                                    }
+                                                }
+                                            ],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": false,
+                                            "tip": {}
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": true,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "fieldNamespace": "null",
+                                        "visibilityExpression": "null",
+                                        "dataType": "boolean",
+                                        "options": {},
+                                        "fieldReference": "researchLines_ifeps",
+                                        "showAsSwitcher": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "checkbox",
+                                    "indexType": "keyword",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": "Intelligent, Flexible & Efficient Production Systems"
+                                    },
+                                    "localizable": true,
+                                    "name": "researchLines_ifeps",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": ""
+                                    }
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }, {
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ResearchLines",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": "Research Lines"
+                    },
+                    "localizable": false,
+                    "name": "ResearchLines",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [{
+                "dataLayoutRows": [{
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["tituloPartner"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["partnerDescription"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["partnerLogo"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["linkWeb"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["partnerEmail"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ResearchLinesFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "en_GB": "Description"
+                },
+                "title": {
+                    "en_GB": "Page"
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "en_GB": "Partners"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "en_GB",
+    "description": {},
+    "name": {
+        "en_GB": "Partners"
+    },
+    "storageType": "default"
+}

@@ -1,0 +1,374 @@
+{
+    "availableLanguageIds": ["es_ES", "eu_ES", "pt_PT", "fr_FR", "en_GB", "de_DE"],
+    "contentType": "journal",
+    "dataDefinitionFields": [{
+            "customProperties": {
+                "fieldNamespace": "",
+                "dataType": "",
+                "fieldReference": "ehu_content_list_oharra",
+                "style": {}
+            },
+            "defaultValue": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "pt_PT": ""
+            },
+            "fieldType": "separator",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": "ATTENTION: This type of content is for the exclusive use of Campusa.",
+                "eu_ES": "OHARRA: Eduki mota hau Campusan erabiltzeko da, besterik ez.",
+                "es_ES": "ATENCIÓN: Este tipo de contenido es para uso exclusivo de Campusa.",
+                "fr_FR": "ATTENTION: Ce type de contenu est à l'usage exclusif de Campusa.",
+                "de_DE": "ACHTUNG: Diese Art von Inhalten ist ausschließlich für Campusa bestimmt.",
+                "pt_PT": "ATENÇÃO: Este tipo de conteúdo é de uso exclusivo da Campusa."
+            },
+            "localizable": true,
+            "name": "ehu_content_list_oharra",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "pt_PT": ""
+            }
+        }, {
+            "customProperties": {
+                "visibilityExpression": "",
+                "fieldNamespace": "",
+                "dataType": "double",
+                "fieldReference": "ehu_content_list_number"
+            },
+            "defaultValue": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "pt_PT": ""
+            },
+            "fieldType": "numeric",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": "Number",
+                "eu_ES": "Zenbakia",
+                "es_ES": "Número",
+                "fr_FR": "Nombre",
+                "de_DE": "Nummer",
+                "pt_PT": "Número"
+            },
+            "localizable": true,
+            "name": "ehu_content_list_number",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "pt_PT": ""
+            }
+        }, {
+            "customProperties": {
+                "displayStyle": "singleline",
+                "visibilityExpression": "",
+                "fieldNamespace": "",
+                "autocomplete": false,
+                "ddmDataProviderInstanceOutput": [],
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "options": {
+                    "eu_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "tooltip": {
+                    "eu_ES": ""
+                },
+                "fieldReference": "ehu_content_list_articleId",
+                "placeholder": {
+                    "eu_ES": ""
+                },
+                "dataSourceType": "manual"
+            },
+            "defaultValue": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "pt_PT": ""
+            },
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": "News item",
+                "eu_ES": "Albistea",
+                "es_ES": "Noticia",
+                "fr_FR": "Nouvelle",
+                "de_DE": "Nachrichten",
+                "pt_PT": "Notícia"
+            },
+            "localizable": true,
+            "name": "ehu_content_list_articleId",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "Identifier of a news item",
+                "eu_ES": "Albiste baten identifikatzailea",
+                "es_ES": "Identificador de una noticia",
+                "fr_FR": "Identifiant d'une nouvelle",
+                "de_DE": "Nachrichten ID",
+                "pt_PT": "Identificador de uma notícia"
+            }
+        }, {
+            "customProperties": {
+                "displayStyle": "singleline",
+                "visibilityExpression": "",
+                "fieldNamespace": "",
+                "autocomplete": false,
+                "ddmDataProviderInstanceOutput": [],
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "options": {
+                    "eu_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "tooltip": {
+                    "eu_ES": ""
+                },
+                "fieldReference": "ehu_event_list_articleId",
+                "placeholder": {
+                    "eu_ES": ""
+                },
+                "dataSourceType": "manual"
+            },
+            "defaultValue": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "pt_PT": ""
+            },
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": "Event",
+                "eu_ES": "Ekitaldia",
+                "es_ES": "Evento",
+                "fr_FR": "Événement",
+                "de_DE": "Event",
+                "pt_PT": "Evento"
+            },
+            "localizable": true,
+            "name": "ehu_event_list_articleId",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "Identifier of an event",
+                "eu_ES": "Ekitaldi baten identifikatzailea",
+                "es_ES": "Identificador de un evento",
+                "fr_FR": "Identifiant d'un événement",
+                "de_DE": "Event ID",
+                "pt_PT": "Identificador de um evento"
+            }
+        }, {
+            "customProperties": {
+                "visibilityExpression": "",
+                "fieldNamespace": "",
+                "ddmDataProviderInstanceOutput": [],
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "options": {
+                    "en_GB": [{
+                            "reference": "eu-es",
+                            "label": "Basque and Spanish",
+                            "value": "eu-es"
+                        }, {
+                            "reference": "en",
+                            "label": "English",
+                            "value": "en"
+                        }
+                    ],
+                    "eu_ES": [{
+                            "reference": "eu-es",
+                            "label": "Euskaraz eta gaztelaniaz",
+                            "value": "eu-es"
+                        }, {
+                            "reference": "en",
+                            "label": "Ingelesez",
+                            "value": "en"
+                        }
+                    ],
+                    "es_ES": [{
+                            "reference": "eu-es",
+                            "label": "Euskera y castellano",
+                            "value": "eu-es"
+                        }, {
+                            "reference": "en",
+                            "label": "Inglés",
+                            "value": "en"
+                        }
+                    ],
+                    "fr_FR": [{
+                            "reference": "eu-es",
+                            "label": "Euskara - Espagnol",
+                            "value": "eu-es"
+                        }, {
+                            "reference": "en",
+                            "label": "Anglais",
+                            "value": "en"
+                        }
+                    ],
+                    "pt_PT": [{
+                            "reference": "eu-es",
+                            "label": "Basco e Espanhol",
+                            "value": "eu-es"
+                        }, {
+                            "reference": "en",
+                            "label": "Inglês",
+                            "value": "en"
+                        }
+                    ],
+                    "de_DE": [{
+                            "reference": "eu-es",
+                            "label": "Baskisch und Spanisch",
+                            "value": "eu-es"
+                        }, {
+                            "reference": "en",
+                            "label": "Englisch",
+                            "value": "en"
+                        }
+                    ]
+                },
+                "multiple": false,
+                "fieldReference": "ehu_content_list_languages",
+                "dataSourceType": ["manual"]
+            },
+            "defaultValue": {
+                "en_GB": [""],
+                "eu_ES": [""],
+                "es_ES": [""],
+                "fr_FR": [""],
+                "de_DE": [""],
+                "pt_PT": [""]
+            },
+            "fieldType": "select",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": "Languages",
+                "eu_ES": "Hizkuntzak",
+                "es_ES": "Idiomas",
+                "fr_FR": "Langues",
+                "de_DE": "Sprachen",
+                "pt_PT": "Idiomas"
+            },
+            "localizable": true,
+            "name": "ehu_content_list_languages",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "Languages for the newsletter",
+                "eu_ES": "Newsletterrerako hizkuntzak",
+                "es_ES": "Idiomas para la newsletter",
+                "fr_FR": "Langues pour la newsletter",
+                "de_DE": "Sprachen für den Newsletter",
+                "pt_PT": "Idiomas para o boletim informativo"
+            }
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [{
+                "dataLayoutRows": [{
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehu_content_list_oharra"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehu_content_list_number"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehu_content_list_articleId"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehu_event_list_articleId"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehu_content_list_languages"]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "eu_ES": "Deskribapena"
+                },
+                "title": {
+                    "eu_ES": "Orrialdea"
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {},
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "eu_ES",
+    "description": {},
+    "name": {
+        "en_GB": "Campusa Newsletter",
+        "eu_ES": "Campusa Newsletter",
+        "es_ES": "Campusa Newsletter",
+        "fr_FR": "Campusa Newsletter",
+        "pt_PT": "Campusa Newsletter",
+        "de_DE": "Campusa Newsletter"
+    },
+    "storageType": "default"
+}

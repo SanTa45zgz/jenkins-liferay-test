@@ -1,0 +1,322 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "en_GB",
+        "de_DE"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "Título",
+                "eu_ES": "Izenburua",
+                "pt_PT": "Título",
+                "fr_FR": "Titre",
+                "en_GB": "Title",
+                "de_DE": "Titel"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehubuttonstitle",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": "Botones",
+                "eu_ES": "Botoiak",
+                "pt_PT": "Botões",
+                "fr_FR": "Boutons",
+                "en_GB": "Buttons",
+                "de_DE": "Tasten"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuattachments",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Documento",
+                        "eu_ES": "Dokumentua",
+                        "pt_PT": "Documento",
+                        "fr_FR": "Document",
+                        "en_GB": "Document",
+                        "de_DE": "Dokument"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "document-library",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehuinfoattachmentdocument",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-documentlibrary",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": "Nombre del documento",
+                                "eu_ES": "Dokumentuaren izena",
+                                "pt_PT": "Nome do Documento",
+                                "fr_FR": "Nom du document",
+                                "en_GB": "Document name",
+                                "de_DE": "Dokumentname"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "Nombre asociado al fichero seleccionado",
+                                "eu_ES": "Aukeratutako fitxategiarekin lotutako izena",
+                                "pt_PT": "Nome associado ao arquivo selecionado",
+                                "fr_FR": "Nom associé au fichier sélectionné",
+                                "en_GB": "Name associated to the selected file",
+                                "de_DE": "Name, der der ausgewählten Datei zugeordnet ist"
+                            },
+                            "dataType": "string",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehuinfoattachmentdocumenttitle",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": "Dirección web",
+                        "eu_ES": "Web helbidea",
+                        "pt_PT": "Endereço da web",
+                        "fr_FR": "Adresse web",
+                        "en_GB": "Web address",
+                        "de_DE": "Webadresse"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "https://www.ejemplo.com",
+                        "eu_ES": "https://www.adibide.com",
+                        "pt_PT": "https://www.exemplo.com",
+                        "fr_FR": "https://www.exemple.com",
+                        "en_GB": "https://www.example.com",
+                        "de_DE": "https://www.beispiel.com"
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehuinfoattachmenturl",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": "Nombre de la dirección web",
+                                "eu_ES": "Web helbidearen izena",
+                                "pt_PT": "Nome do endereço da web",
+                                "fr_FR": "Nom de l'adresse web",
+                                "en_GB": "Name of the web address",
+                                "de_DE": "Name der Webadresse"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "Nombre asociado a la dirección web seleccionada",
+                                "eu_ES": "Aukeratutako web helbidearekin lotutako izena",
+                                "pt_PT": "Nome associado ao endereço da web selecionado",
+                                "fr_FR": "Nom associé à l'adresse web sélectionnée",
+                                "en_GB": "Name associated to the selected web address",
+                                "de_DE": "Mit der ausgewählten Webadresse verknüpfter Text"
+                            },
+                            "dataType": "string",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehuinfoattachmenturltitle",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        },
+                        {
+                            "label": {
+                                "es_ES": "Abrir en nueva pestaña",
+                                "eu_ES": "Ireki fitxa berrian",
+                                "pt_PT": "Abrir em nova aba",
+                                "fr_FR": "Ouvrir dans un nouvel onglet",
+                                "en_GB": "Open in new tab",
+                                "de_DE": "In neuem Tab öffnen"
+                            },
+                            "predefinedValue": {
+                                "es_ES": false,
+                                "eu_ES": false,
+                                "pt_PT": "false",
+                                "fr_FR": "false",
+                                "en_GB": "false",
+                                "de_DE": "false"
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "",
+                            "localizable": true,
+                            "name": "ehuinfoattachmenturlnewtab",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,520 @@
+{
+	"availableLanguageIds": [
+		"es_ES",
+		"eu_ES",
+		"pt_PT",
+		"fr_FR",
+		"de_DE",
+		"en_GB"
+	],
+	"contentType": "journal",
+	"dataDefinitionFields": [
+		{
+			"customProperties": {
+				"fieldNamespace": "",
+				"dataType": "",
+				"fieldReference": "3DatuErakutsiBeharDiraGehiagoSartzenBadiraEzDiraErakutsiko",
+				"style": {
+					
+				}
+			},
+			"defaultValue": {
+				
+			},
+			"fieldType": "separator",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_GB": "Note for Centres: You must report 3 data. If you include more, they will not be displayed.",
+				"eu_ES": "Ikastegientzako oharra: 3 datu erakutsi behar dira. Gehiago sartzen badira, ez dira erakutsiko.",
+				"es_ES": "Nota para Centros: Se deben informar 3 datos. Si se introducen más, no se mostrarán.",
+				"fr_FR": "Remarque pour les Centres: 3 informations doivent être signalées. Si d'autres sont saisis, ils ne seront pas affichés.",
+				"de_DE": "Hinweis für Zentren: Es müssen 3 Daten angezeigt werden. Wenn mehr eingegeben werden, werden diese nicht angezeigt.",
+				"pt_PT": "Nota para Centros: Você deve preencher 3 dados. Se mais forem inseridos, eles não serão exibidos."
+			},
+			"localizable": true,
+			"name": "3DatuErakutsiBeharDiraGehiagoSartzenBadiraEzDiraErakutsiko",
+			"nestedDataDefinitionFields": [],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"tip": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			}
+		},
+		{
+			"customProperties": {
+				"displayStyle": "singleline",
+				"fieldNamespace": "",
+				"visibilityExpression": "",
+				"ddmDataProviderInstanceOutput": [],
+				"autocomplete": false,
+				"ddmDataProviderInstanceId": [],
+				"dataType": "string",
+				"options": {
+					"eu_ES": [
+						{
+							"reference": "",
+							"label": "Option",
+							"value": "Option"
+						}
+					]
+				},
+				"tooltip": {
+					"eu_ES": ""
+				},
+				"fieldReference": "Titulo",
+				"placeholder": {
+					"eu_ES": ""
+				},
+				"dataSourceType": "manual"
+			},
+			"defaultValue": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			},
+			"fieldType": "text",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_GB": "Title",
+				"eu_ES": "Izenburua",
+				"es_ES": "Título",
+				"fr_FR": "Titre",
+				"de_DE": "Titel",
+				"pt_PT": "Título"
+			},
+			"localizable": true,
+			"name": "Titulo",
+			"nestedDataDefinitionFields": [],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"tip": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			}
+		},
+		{
+			"customProperties": {
+				"fieldNamespace": "",
+				"visibilityExpression": "",
+				"dataType": "document-library",
+				"fieldReference": "Imagen"
+			},
+			"defaultValue": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			},
+			"fieldType": "document_library",
+			"indexType": "keyword",
+			"indexable": true,
+			"label": {
+				"en_GB": "Background image (not for Centers)",
+				"eu_ES": "Atzeko irudia (Ikastegientzat ez)",
+				"es_ES": "Imagen de fondo (no para Centros)",
+				"fr_FR": "Image d'arrière-plan (pas pour les Centres)",
+				"de_DE": "Hintergrundbild (nicht für Center)",
+				"pt_PT": "Imagem de fundo (não para Centros)"
+			},
+			"localizable": true,
+			"name": "Imagen",
+			"nestedDataDefinitionFields": [],
+			"readOnly": false,
+			"repeatable": false,
+			"required": false,
+			"showLabel": true,
+			"tip": {
+				"en_GB": "",
+				"eu_ES": "",
+				"es_ES": "",
+				"fr_FR": "",
+				"de_DE": "",
+				"pt_PT": ""
+			}
+		},
+		{
+			"customProperties": {
+				"ddmStructureLayoutId": "",
+				"ddmStructureId": "",
+				"upgradedStructure": false,
+				"fieldReference": "DatoFieldSet",
+				"rows": [
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"Dato"
+								]
+							}
+						]
+					},
+					{
+						"columns": [
+							{
+								"size": 12,
+								"fields": [
+									"DatoFieldSetFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"collapsible": false
+			},
+			"defaultValue": {
+				
+			},
+			"fieldType": "fieldset",
+			"indexable": false,
+			"label": {
+				"eu_ES": ""
+			},
+			"localizable": false,
+			"name": "DatoFieldSet",
+			"nestedDataDefinitionFields": [
+				{
+					"customProperties": {
+						"displayStyle": "singleline",
+						"fieldNamespace": "",
+						"visibilityExpression": "",
+						"ddmDataProviderInstanceOutput": [],
+						"autocomplete": false,
+						"ddmDataProviderInstanceId": [],
+						"dataType": "string",
+						"options": {
+							"eu_ES": [
+								{
+									"reference": "",
+									"label": "Option",
+									"value": "Option"
+								}
+							]
+						},
+						"tooltip": {
+							"eu_ES": ""
+						},
+						"fieldReference": "Dato",
+						"placeholder": {
+							"eu_ES": ""
+						},
+						"dataSourceType": "manual"
+					},
+					"defaultValue": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					},
+					"fieldType": "text",
+					"indexType": "keyword",
+					"indexable": true,
+					"label": {
+						"en_GB": "Datum",
+						"eu_ES": "Datua",
+						"es_ES": "Dato",
+						"fr_FR": "Donée",
+						"de_DE": "Angabe",
+						"pt_PT": "Dado"
+					},
+					"localizable": true,
+					"name": "Dato",
+					"nestedDataDefinitionFields": [],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": true,
+					"tip": {
+						"en_GB": "",
+						"eu_ES": "",
+						"es_ES": "",
+						"fr_FR": "",
+						"de_DE": "",
+						"pt_PT": ""
+					}
+				},
+				{
+					"customProperties": {
+						"ddmStructureLayoutId": "",
+						"ddmStructureId": "",
+						"upgradedStructure": false,
+						"fieldReference": "DatoFieldSetFieldSet",
+						"rows": [
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"Cantidad"
+										]
+									}
+								]
+							},
+							{
+								"columns": [
+									{
+										"size": 12,
+										"fields": [
+											"Enlace"
+										]
+									}
+								]
+							}
+						],
+						"collapsible": false
+					},
+					"defaultValue": {
+						
+					},
+					"fieldType": "fieldset",
+					"indexable": false,
+					"label": {
+						"eu_ES": ""
+					},
+					"localizable": false,
+					"name": "DatoFieldSetFieldSet",
+					"nestedDataDefinitionFields": [
+						{
+							"customProperties": {
+								"displayStyle": "singleline",
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"autocomplete": false,
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"eu_ES": [
+										{
+											"reference": "",
+											"label": "Option",
+											"value": "Option"
+										}
+									]
+								},
+								"tooltip": {
+									"eu_ES": ""
+								},
+								"fieldReference": "Cantidad",
+								"placeholder": {
+									"eu_ES": ""
+								},
+								"dataSourceType": "manual"
+							},
+							"defaultValue": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							},
+							"fieldType": "text",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Figure",
+								"eu_ES": "Zenbakia",
+								"es_ES": "Cifra",
+								"fr_FR": "Figure",
+								"de_DE": "Zahl",
+								"pt_PT": "Figura"
+							},
+							"localizable": true,
+							"name": "Cantidad",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							}
+						},
+						{
+							"customProperties": {
+								"displayStyle": "singleline",
+								"fieldNamespace": "",
+								"visibilityExpression": "",
+								"ddmDataProviderInstanceOutput": [],
+								"autocomplete": false,
+								"ddmDataProviderInstanceId": [],
+								"dataType": "string",
+								"options": {
+									"eu_ES": [
+										{
+											"reference": "",
+											"label": "Option",
+											"value": "Option"
+										}
+									]
+								},
+								"tooltip": {
+									"eu_ES": ""
+								},
+								"fieldReference": "Enlace",
+								"placeholder": {
+									"eu_ES": ""
+								},
+								"dataSourceType": "manual"
+							},
+							"defaultValue": {
+								"en_GB": "",
+								"eu_ES": "",
+								"es_ES": "",
+								"fr_FR": "",
+								"de_DE": "",
+								"pt_PT": ""
+							},
+							"fieldType": "text",
+							"indexType": "keyword",
+							"indexable": true,
+							"label": {
+								"en_GB": "Web address",
+								"eu_ES": "Web helbidea",
+								"es_ES": "Dirección web",
+								"fr_FR": "Adresse web",
+								"de_DE": "Webadresse",
+								"pt_PT": "Endereço da web"
+							},
+							"localizable": true,
+							"name": "Enlace",
+							"nestedDataDefinitionFields": [],
+							"readOnly": false,
+							"repeatable": false,
+							"required": false,
+							"showLabel": true,
+							"tip": {
+								"en_GB": "https://www.example.com",
+								"eu_ES": "https://www.adibide.com",
+								"es_ES": "https://www.ejemplo.com",
+								"fr_FR": "https://www.exemple.com",
+								"de_DE": "https://www.beispiel.com",
+								"pt_PT": "https://www.exemplo.com"
+							}
+						}
+					],
+					"readOnly": false,
+					"repeatable": false,
+					"required": false,
+					"showLabel": false,
+					"tip": {
+						
+					}
+				}
+			],
+			"readOnly": false,
+			"repeatable": true,
+			"required": false,
+			"showLabel": false,
+			"tip": {
+				
+			}
+		}
+	],
+	"defaultDataLayout": {
+		"dataLayoutFields": {
+			
+		},
+		"dataLayoutPages": [
+			{
+				"dataLayoutRows": [
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"3DatuErakutsiBeharDiraGehiagoSartzenBadiraEzDiraErakutsiko"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"Titulo"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"Imagen"
+								]
+							}
+						]
+					},
+					{
+						"dataLayoutColumns": [
+							{
+								"columnSize": 12,
+								"fieldNames": [
+									"DatoFieldSet"
+								]
+							}
+						]
+					}
+				],
+				"description": {
+					"eu_ES": "Deskribapena"
+				},
+				"title": {
+					"eu_ES": "Orrialdea"
+				}
+			}
+		],
+		"dataRules": [],
+		"description": {
+			
+		},
+		"name": {
+			
+		},
+		"paginationMode": "single-page"
+	},
+	"defaultLanguageId": "eu_ES",
+	"description": {
+		
+	},
+	"name": {
+		"en_GB": "Figures",
+		"eu_ES": "Zenbakiak",
+		"es_ES": "Cifras",
+		"fr_FR": "Figures",
+		"pt_PT": "Figuras",
+		"de_DE": "Zahlen"
+	},
+	"storageType": "default"
+}

@@ -1,0 +1,2910 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " EL CÓDIGO DEL TRATAMIENTO se debe rellenar en el Título de arriba (TGXXXX o TIXXXX) ",
+                "eu_ES": " TRATAMENDUAREN KODEA goiko Izenburuan bete behar da (TGXXXX edo TIXXXX) "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehudata_processingwarn",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": " NOMBRE del tratamiento ",
+                "eu_ES": " Tratamenduaren IZENA "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehudata_processingname",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "text",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Idioma ",
+                        "eu_ES": " Hizkuntza "
+                    },
+                    "options": [
+                        {
+                            "value": "eu",
+                            "label": {
+                                "es_ES": " Euskara ",
+                                "eu_ES": " Euskara "
+                            }
+                        },
+                        {
+                            "value": "es",
+                            "label": {
+                                "es_ES": " Español ",
+                                "eu_ES": " Espainiera "
+                            }
+                        },
+                        {
+                            "value": "en",
+                            "label": {
+                                "es_ES": " Inglés ",
+                                "eu_ES": " Ingelesa "
+                            }
+                        },
+                        {
+                            "value": "fr",
+                            "label": {
+                                "es_ES": " Francés ",
+                                "eu_ES": " Frantsesa "
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [
+                            ""
+                        ],
+                        "eu_ES": [
+                            ""
+                        ]
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": " Si el título no se puede traducir, se ha de seleccionar el idioma en el que está escrito. ",
+                        "eu_ES": " Izenburua itzuli ezin bada, hautatu behar da idatzita dagoen hizkuntzatan. "
+                    },
+                    "dataType": "string",
+                    "indexType": "",
+                    "localizable": true,
+                    "multiple": false,
+                    "name": "ehutitlelangname",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "select"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " FINALIDAD ",
+                "eu_ES": " HELBURUA "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehudata_processingpurpose",
+            "readOnly": false,
+            "repeatable": false,
+            "required": true,
+            "showLabel": true,
+            "type": "textarea",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Idioma ",
+                        "eu_ES": " Hizkuntza "
+                    },
+                    "options": [
+                        {
+                            "value": "upv-ehu-blank",
+                            "label": {
+                                "es_ES": " Selecciona un idioma ",
+                                "eu_ES": " Hautatu hizkuntza bat "
+                            }
+                        },
+                        {
+                            "value": "eu",
+                            "label": {
+                                "es_ES": " Euskara ",
+                                "eu_ES": " Euskara "
+                            }
+                        },
+                        {
+                            "value": "es",
+                            "label": {
+                                "es_ES": " Español ",
+                                "eu_ES": " Espainiera "
+                            }
+                        },
+                        {
+                            "value": "en",
+                            "label": {
+                                "es_ES": " Inglés ",
+                                "eu_ES": " Ingelesa "
+                            }
+                        },
+                        {
+                            "value": "fr",
+                            "label": {
+                                "es_ES": " Francés ",
+                                "eu_ES": " Frantsesa "
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [
+                            ""
+                        ],
+                        "eu_ES": [
+                            ""
+                        ]
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": " Si la finalidad no se puede traducir, se ha de seleccionar el idioma en el que está escrita. ",
+                        "eu_ES": " Helburua itzuli ezin bada, hautatu behar da idatzita dagoen hizkuntzatan. "
+                    },
+                    "dataType": "string",
+                    "indexType": "",
+                    "localizable": true,
+                    "multiple": false,
+                    "name": "ehutitlelangpurpose",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "select"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " LEGITIMACIÓN ",
+                "eu_ES": " LEGITIMAZIOA "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehudata_processinglegitimation",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Consentimiento de las personas interesadas. ",
+                        "eu_ES": " Interesdunen baimena. "
+                    },
+                    "predefinedValue": {
+                        "es_ES": " false ",
+                        "eu_ES": false
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": false,
+                    "name": "ehudata_processinglegitimation1",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                },
+                {
+                    "label": {
+                        "es_ES": " Necesario para la ejecución de un contrato en el que la persona interesada es parte, o para la aplicación, a petición de ésta, de medidas precontractuales. ",
+                        "eu_ES": " Zure adostasuna ezinbestekoa izan daiteke zuri dagokizun kontratu bat gauzatzeko edo, zure eskariz, kontratua egin aurreko neurriak ezartzeko. "
+                    },
+                    "predefinedValue": {
+                        "es_ES": " false ",
+                        "eu_ES": false
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": false,
+                    "name": "ehudata_processinglegitimation2",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                },
+                {
+                    "label": {
+                        "es_ES": " Necesario para el cumplimiento de una obligación legal aplicable a la universidad. ",
+                        "eu_ES": " Unibertsitateak legez daukan eginbeharra betetzea. "
+                    },
+                    "predefinedValue": {
+                        "es_ES": " false ",
+                        "eu_ES": false
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": false,
+                    "name": "ehudata_processinglegitimation3",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                },
+                {
+                    "label": {
+                        "es_ES": " Necesario para la satisfacción de intereses legítimos perseguidos por la universidad sin que prevalezcan sobre los intereses, derechos y libertades fundamentales de la persona interesada. ",
+                        "eu_ES": " Tratamendua beharrezkoa da unibertsitatearen interes legitimoak betetzeko, interesdunen interesen eta oinarrizko eskubide eta askatasunen gainetik egonik interes legitimo horiek. "
+                    },
+                    "predefinedValue": {
+                        "es_ES": " false ",
+                        "eu_ES": false
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": false,
+                    "name": "ehudata_processinglegitimation4",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                },
+                {
+                    "label": {
+                        "es_ES": " Necesario para proteger intereses vitales de la persona interesada o de otra persona física. ",
+                        "eu_ES": " Tratamendua beharrezkoa da interesdunaren edo beste pertsona batzuen bizi interesak babesteko. "
+                    },
+                    "predefinedValue": {
+                        "es_ES": " false ",
+                        "eu_ES": false
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": false,
+                    "name": "ehudata_processinglegitimation5",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                },
+                {
+                    "label": {
+                        "es_ES": " Necesario para el cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos a la universidad: ",
+                        "eu_ES": " Interes publikoaren izenean edo unibertsitateari esleitutako botere publikoen izenean burutu beharreko eginkizun bat betetzeko: "
+                    },
+                    "predefinedValue": {
+                        "es_ES": " false ",
+                        "eu_ES": false
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": false,
+                    "name": "ehudata_processinglegitimation6",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Misión ",
+                                "eu_ES": " Eginkizuna "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processinglegitimation6other",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "textarea"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Otra legitimación ",
+                        "eu_ES": " Beste legitimazioren bat "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": " Añadir una sección por cada legitimación adicional. ",
+                        "eu_ES": " Legitimazio bakoitzeko, atal bat gehitu. "
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processinglegitimationother",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Leyes reguladoras ",
+                        "eu_ES": " Legedia "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": " Añadir una sección por cada ley adicional. ",
+                        "eu_ES": " Lege bakoitzeko, atal bat gehitu. "
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processinglegislation",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " DESTINATARIOS/AS de cesiones y TRANSFERENCIAS INTERNACIONALES de datos ",
+                "eu_ES": " Lagapenenaren HARTZAILEAK eta datuen NAZIOARTEKO TRANSFERENTZIAK "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehudata_processingtransfer",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " No se cederán datos salvo previsión legal. ",
+                        "eu_ES": " Ez zaie daturik lagako hirugarrenei, legeak agindu ezean. "
+                    },
+                    "predefinedValue": {
+                        "es_ES": " false ",
+                        "eu_ES": false
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": false,
+                    "name": "ehudata_processingtransferno",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                },
+                {
+                    "label": {
+                        "es_ES": " No se efectuarán transferencias internacionales. ",
+                        "eu_ES": " Ez da nazioarteko transferentziarik egingo. "
+                    },
+                    "predefinedValue": {
+                        "es_ES": " false ",
+                        "eu_ES": false
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "boolean",
+                    "indexType": "keyword",
+                    "localizable": false,
+                    "name": "ehudata_processingtransfernointernational",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "checkbox"
+                },
+                {
+                    "label": {
+                        "es_ES": " Cesiones y/o transferencias internacionales ",
+                        "eu_ES": " Nori lagako zaizkio datuak edota nazioarteko transferentziak "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingtransferother",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "textarea"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " DATOS DE CARÁCTER PERSONAL del tratamiento ",
+                "eu_ES": " Tratatuko diren DATU PERTSONALAK "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehudata_processingdata",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " DATOS ESPECIALMENTE PROTEGIDOS ",
+                        "eu_ES": " BABES BEREZIDUN DATUAK "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingspecial",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-separator",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Salud ",
+                                "eu_ES": " Osasuna "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialhealth",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Datos biométricos ",
+                                "eu_ES": " Datu biometrikoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialbiometric",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Datos genéticos ",
+                                "eu_ES": " Datu genetikoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialgenetic",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Vida sexual u orientación sexual ",
+                                "eu_ES": " Bizitza sexualari edo sexu-orientazioari buruzko informazioa "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialsexual",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Ideología u opiniones políticas ",
+                                "eu_ES": " Iritzi politikoa "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialpolitics",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Afiliación sindical ",
+                                "eu_ES": " Sindikatu bazkidetzari buruzko informazioa "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialunions",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Religión u opiniones religiosas ",
+                                "eu_ES": " Pentsamolde erlijiosoa "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialreligion",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Creencias o creencias filosóficas ",
+                                "eu_ES": " Pentsamolde filosofikoa "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialphilosophy",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Origen racial o étnico ",
+                                "eu_ES": " Arraza edo jatorri etnikoa "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialrace",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Violencia de género y malos tratos ",
+                                "eu_ES": " Genero indarkeriari edo tratu txarrei buruzko informazioa "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialgenderviolence",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Datos relativos a condenas y delitos penales ",
+                                "eu_ES": " Kondena edo zigor hauste penalak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialcrimes",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Datos relativos a infracciones adminstrativas ",
+                                "eu_ES": " Administrazio arloko arau hausteak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingspecialadministrativeinfractions",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Otros ",
+                                "eu_ES": " Bestelakoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": " Añadir una sección por cada tipo de dato adicional. ",
+                                "eu_ES": " Datu bakoitzeko, atal bat gehitu. "
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processingspecialother",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " DATOS DE CARÁCTER IDENTIFICATIVO ",
+                        "eu_ES": " IDENTIFIKAZIOKO DATUAK "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingidentification",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-separator",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " DNI / NIF ",
+                                "eu_ES": " NAN / IFZ "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationid",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Nº SS / Mutualidad ",
+                                "eu_ES": " Gizarte Segurantzako / Mutualitateko zk. "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationss",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Nº Registro Personal ",
+                                "eu_ES": " Erregistroko zenbaki pertsonala "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationregistry",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Nombre y Apellidos ",
+                                "eu_ES": " Izen-abizenak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationname",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Dirección (Postal, electrónica) ",
+                                "eu_ES": " Helbidea (posta-helbidea, posta elektronikoa) "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationaddress",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Teléfonos ",
+                                "eu_ES": " Telefonoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationphone",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Firma / Huella ",
+                                "eu_ES": " Izenpea / Hatz-marka "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationsign",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Firma electrónica ",
+                                "eu_ES": " Sinadura elektronikoa "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationelectronicsign",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Imagen / Voz ",
+                                "eu_ES": " Irudia / Ahotsa "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationimage",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Marcas físicas ",
+                                "eu_ES": " Gorputz-seinaleak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingidentificationbody",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Otros ",
+                                "eu_ES": " Bestelakoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": " Añadir una sección por cada tipo de dato adicional. ",
+                                "eu_ES": " Datu bakoitzeko, atal bat gehitu. "
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processingidentificationother",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " DATOS DE CARACTERÍSTICAS PERSONALES ",
+                        "eu_ES": " EZAUGARRI PERTSONALEI BURUZKO DATUAK "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingpersonal",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-separator",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Estado civil ",
+                                "eu_ES": " Egoera zibila "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingpersonalmaritalstatus",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Datos de familia ",
+                                "eu_ES": " Familiari buruzko datuak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingpersonalfamily",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Fecha de nacimiento ",
+                                "eu_ES": " Jaioteguna "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingpersonalbirthdate",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Lugar de nacimiento ",
+                                "eu_ES": " Jaioterria "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingpersonalbirthplace",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Edad ",
+                                "eu_ES": " Adina "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingpersonalage",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Sexo ",
+                                "eu_ES": " Sexua "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingpersonalsex",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Nacionalidad ",
+                                "eu_ES": " Nazionalitatea "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingpersonalnationality",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Lengua materna ",
+                                "eu_ES": " Ama-hizkuntza "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingpersonalmothertongue",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Características físicas o antropométricas ",
+                                "eu_ES": " Ezaugarri fisikoak edo antropometrikoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingpersonalphysical",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Otros ",
+                                "eu_ES": " Bestelakoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": " Añadir una sección por cada tipo de dato adicional. ",
+                                "eu_ES": " Datu bakoitzeko, atal bat gehitu. "
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processingpersonalother",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " DATOS DE CIRCUNSTANCIAS SOCIALES ",
+                        "eu_ES": " GIZARTE-EGOERARI BURUZKO DATUAK "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingsocial",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-separator",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Alojamiento, vivienda ",
+                                "eu_ES": " Bizilekua "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingsociallivingplace",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Situación militar ",
+                                "eu_ES": " Egoera militarra "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingsocialmilitary",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Propiedades, posesiones ",
+                                "eu_ES": " Jabetzak, ondasunak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingsocialpossessions",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Aficiones / estilo de vida ",
+                                "eu_ES": " Zaletasunak / bizimodua "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingsociallifestyle",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Pertenencia a clubes, asociaciones ",
+                                "eu_ES": " Zein elkartetako kide den "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingsocialassociation",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Licencias, permisos, autorizaciones ",
+                                "eu_ES": " Lizentziak, baimenak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingsocialpermissions",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Otros ",
+                                "eu_ES": " Bestelakoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": " Añadir una sección por cada tipo de dato adicional. ",
+                                "eu_ES": " Datu bakoitzeko, atal bat gehitu. "
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processingsocialother",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " DATOS ECONÓMICOS Y DE SEGUROS ",
+                        "eu_ES": " EKONOMIA ETA FINANTZA-ARLOARI ETA ASEGURUEI BURUZKO DATUAK "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingeconomy",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-separator",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Ingresos, rentas ",
+                                "eu_ES": " Sarrerak, errentak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomyincome",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Inversiones, bienes patrimoniales ",
+                                "eu_ES": " Inbertsioak, ondare-ondasunak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomyinvest",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Créditos, préstamos, avales ",
+                                "eu_ES": " Kredituak, maileguak, abalak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomycredit",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Datos bancarios ",
+                                "eu_ES": " Bankuko datuak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomybank",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Planes de jubilación, pensiones ",
+                                "eu_ES": " Erretiro- eta pentsio-planak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomypension",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Impuestos ",
+                                "eu_ES": " Zergak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomytax",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Seguros ",
+                                "eu_ES": " Aseguruak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomyinsurance",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Hipotecas ",
+                                "eu_ES": " Hipotekak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomymortgage",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Subsidios, beneficios ",
+                                "eu_ES": " Sorospenak, irabaziak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomysubsidy",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Historial de créditos ",
+                                "eu_ES": " Kredituen historiala "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomycredithistory",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Tarjetas de crédito ",
+                                "eu_ES": " Kreditu-txartelak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingeconomycreditcards",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Otros ",
+                                "eu_ES": " Bestelakoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": " Añadir una sección por cada tipo de dato adicional. ",
+                                "eu_ES": " Datu bakoitzeko, atal bat gehitu. "
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processingeconomyother",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " DATOS ACADÉMICOS Y PROFESIONALES ",
+                        "eu_ES": " IKASKETEI ETA LANBIDEARI BURUZKO DATUAK "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingstudies",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-separator",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Formación y titulaciones ",
+                                "eu_ES": " Prestakuntza eta tituluak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingstudiestraining",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Historial de estudios ",
+                                "eu_ES": " Ikasketen historiala "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingstudieshistory",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Experiencia profesional ",
+                                "eu_ES": " Lanbide-arloko esperientzia "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingstudiesprofessionalexperience",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Pertenencia a colegios o a asociaciones ",
+                                "eu_ES": " Zein lanbide-elkargoetako eta elkartetako kide den "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingstudiescollege",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Otros ",
+                                "eu_ES": " Bestelakoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": " Añadir una sección por cada tipo de dato adicional. ",
+                                "eu_ES": " Datu bakoitzeko, atal bat gehitu. "
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processingstudiesother",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " DATOS DE DETALLE DEL EMPLEO ",
+                        "eu_ES": " ENPLEGUARI BURUZKO XEHETASUNAK "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingjob",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-separator",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Cuerpo / escala ",
+                                "eu_ES": " Kidegoa / eskala "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingjobscale",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Categoría / grado ",
+                                "eu_ES": " Kategoria / maila "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingjobcategory",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Puestos de trabajo ",
+                                "eu_ES": " Lanpostuak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingjobpositions",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Datos no económicos de nómina ",
+                                "eu_ES": " Ekonomikoak ez diren nominako datuak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingjobnoneconomicpayroll",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Historial laboral ",
+                                "eu_ES": " Langilearen historiala "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingjobhistory",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Otros ",
+                                "eu_ES": " Bestelakoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": " Añadir una sección por cada tipo de dato adicional. ",
+                                "eu_ES": " Datu bakoitzeko, atal bat gehitu. "
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processingjobother",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " DATOS DE INFORMACIÓN COMERCIAL ",
+                        "eu_ES": " MERKATARITZA-ARLOKO DATUAK "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingcommercial",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-separator",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Actividades y negocios ",
+                                "eu_ES": " Jarduerak eta negozioak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingcommercialbusiness",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Licencias comerciales ",
+                                "eu_ES": " Merkataritzako lizentziak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingcommerciallicenses",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Suscripciones a publicaciones / medios de comunicación ",
+                                "eu_ES": " Argitalpenetako / komunikabideetako harpidetzak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingcommercialsubscriptions",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Creaciones artísticas, literarias, científicas o técnicas ",
+                                "eu_ES": " Sorkuntza-lan artistikoak, literarioak, zientifikoak edo teknikoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingcommercialcreations",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Otros ",
+                                "eu_ES": " Bestelakoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": " Añadir una sección por cada tipo de dato adicional. ",
+                                "eu_ES": " Datu bakoitzeko, atal bat gehitu. "
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processingcommercialother",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " DATOS DE TRANSACCIONES ",
+                        "eu_ES": " TRANSAKZIOEI BURUZKO DATUAK "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": ""
+                    },
+                    "dataType": "",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudata_processingtransactions",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-separator",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Bienes y servicios suministrados por la persona interesada ",
+                                "eu_ES": " Interesdunak emandako ondasunak eta zerbitzuak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingtransactionsprovidedservices",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Bienes y servicios recibidos por la persona interesada ",
+                                "eu_ES": " Interesdunak jasotako ondasunak eta zerbitzuak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingtransactionsreceivedservices",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Transacciones financieras ",
+                                "eu_ES": " Finantza-transakzioak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingtransactionsfinancial",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Compensaciones / Indemnizaciones ",
+                                "eu_ES": " Konpentsazioak / Kalte-ordainak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": " false ",
+                                "eu_ES": false
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": false,
+                            "name": "ehudata_processingtransactionscompensation",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Otros ",
+                                "eu_ES": " Bestelakoak "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": ""
+                            },
+                            "tip": {
+                                "es_ES": " Añadir una sección por cada tipo de dato adicional. ",
+                                "eu_ES": " Datu bakoitzeko, atal bat gehitu. "
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehudata_processingtransactionsother",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

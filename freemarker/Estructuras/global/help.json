@@ -1,0 +1,2420 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "en_GB",
+        "de_DE"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " No se puede poner más de un contenido de este tipo con visualización completa en una página. ",
+                "eu_ES": " Ezin da mota honetako eduki bat baino gehiago jarri orrialde batean bistaratze osoarekin. ",
+                "pt_PT": "Você não pode colocar mais de um conteúdo deste tipo com exibição total em uma página.",
+                "fr_FR": " Vous ne pouvez pas mettre plus d'un contenu de ce type avec un affichage complet sur une page. ",
+                "en_GB": " You must not put more than one content of this type with full display on a page. ",
+                "de_DE": "Sie können nicht mehr als einen Inhalt dieses Typs mit voller Anzeige auf einer Seite platzieren."
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuhelpwarning",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": " Selecciona la categoría correspondiente para mostrar la Entidad convocante, de los Órganos de Gobierno si es de la UPV/EHU y del apartado Entidades en caso contrario. Si no existe, solicítalo en el CAU (cau@ehu.eus). ",
+                "eu_ES": " Hautatu dagokion kategoria Erakunde deitzailea erakusteko, Gobernu organoen artean UPV/EHUkoa bada edo Erakundeen artean kanpokoa bada. Existitzen ez bada, eskatu EAZ bidez (cau@ehu.eus). ",
+                "pt_PT": "Selecione uma ÚNICA categoria para mostrar a Entidade Organizadora, os Órgãos Diretores se for da UPV/EHU e a seção Entidades caso contrário. Caso não exista, solicite no CAU (cau@ehu.eus).",
+                "fr_FR": " Sélectionnez une catégorie pour afficher la Entité convocatrice, des organes directeurs s'il s'agit de l'UPV/EHU et de la section Entités autrement. S'il n'existe pas, demandez-le dans le CAU (cau@ehu.eus). ",
+                "en_GB": " Select a category to show the Calling entity, from the Government Organs if UPV/EHU, from the Entities otherwise. In case you need a new one, ask for it (cau@ehu.eus). ",
+                "de_DE": "Wählen Sie eine SINGLE-Kategorie aus, um die organisierende Einheit, die leitenden Organe, falls sie aus der UPV/EHU stammen, und andernfalls den Abschnitt \"Einheiten\" anzuzeigen. Falls nicht vorhanden, fordern Sie diese bei der CAU an (cau@ehu.eus)."
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehuhelpcategoriesnote",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator"
+        },
+        {
+            "label": {
+                "es_ES": " Información principal ",
+                "eu_ES": " Informazio nagusia ",
+                "pt_PT": "Informação principal",
+                "fr_FR": " Information principale ",
+                "en_GB": " Main information ",
+                "de_DE": "Hauptinformation"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehugeneraldata",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Título ",
+                        "eu_ES": " Izenburua ",
+                        "pt_PT": "Título",
+                        "fr_FR": " Titre ",
+                        "en_GB": " Title ",
+                        "de_DE": "Titel"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehutitle",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Tipo ",
+                        "eu_ES": " Mota ",
+                        "pt_PT": "Tipo",
+                        "fr_FR": " Type ",
+                        "en_GB": " Type ",
+                        "de_DE": "Typ"
+                    },
+                    "options": [
+                        {
+                            "value": "upv-ehu-blank",
+                            "label": {
+                                "es_ES": " Selecciona un tipo ",
+                                "eu_ES": " Hautatu mota bat ",
+                                "pt_PT": "Selecione um tipo",
+                                "fr_FR": " Sélectionnez un type ",
+                                "en_GB": " Select a type ",
+                                "de_DE": "Wählen Sie einen Typ"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-research-project",
+                            "label": {
+                                "es_ES": " Proyecto de investigación ",
+                                "eu_ES": " Ikerketa proiektua ",
+                                "pt_PT": "Projeto de investigação",
+                                "fr_FR": " Projet de recherche ",
+                                "en_GB": " Research project ",
+                                "de_DE": "Forschungsprojekt"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-scientific-infrastructure",
+                            "label": {
+                                "es_ES": " Infraestructura científica ",
+                                "eu_ES": " Azpiegitura zientifikoa ",
+                                "pt_PT": "Infraestrutura científica",
+                                "fr_FR": " Infrastructure scientifique ",
+                                "en_GB": " Scientific infrastructure ",
+                                "de_DE": "Wissenschaftliche Infrastruktur"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-congress-realization",
+                            "label": {
+                                "es_ES": " Realización de congreso ",
+                                "eu_ES": " Kongresu antolamendua ",
+                                "pt_PT": "Realização de congresso",
+                                "fr_FR": " Réalisation du congrès ",
+                                "en_GB": " Congress realization ",
+                                "de_DE": "Kongress"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-research-group",
+                            "label": {
+                                "es_ES": " Grupo de investigación ",
+                                "eu_ES": " Ikerketa taldea ",
+                                "pt_PT": "Grupo de investigação",
+                                "fr_FR": " Groupe de recherche ",
+                                "en_GB": " Research group ",
+                                "de_DE": "Forschungsgruppe"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-research-ufi",
+                            "label": {
+                                "es_ES": " Unidades de formación e investigación ",
+                                "eu_ES": " Prestakuntza eta ikerketa unitatea ",
+                                "pt_PT": "Unidades de treinamento e pesquisa",
+                                "fr_FR": " Recherche UFI ",
+                                "en_GB": " Research UFI ",
+                                "de_DE": "Research UFI"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-predoctoral",
+                            "label": {
+                                "es_ES": " Predoctoral ",
+                                "eu_ES": " Doktore-aurrekoa ",
+                                "pt_PT": "Pré-doutoramento",
+                                "fr_FR": " Predoctoral ",
+                                "en_GB": " Predoctoral ",
+                                "de_DE": "Predoctoral"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-postdoc",
+                            "label": {
+                                "es_ES": " Postdoctoral ",
+                                "eu_ES": " Doktore-ondokoa ",
+                                "pt_PT": "Pós-doutoramento",
+                                "fr_FR": " Postdoctoral ",
+                                "en_GB": " Postdoctoral ",
+                                "de_DE": "Postdoctoral"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-movability",
+                            "label": {
+                                "es_ES": " Movilidad ",
+                                "eu_ES": " Mugikortasuna ",
+                                "pt_PT": " Mobilidade",
+                                "fr_FR": " Mobilité ",
+                                "en_GB": " Movability ",
+                                "de_DE": "Mobilität"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-other-helps",
+                            "label": {
+                                "es_ES": " Otras ayudas ",
+                                "eu_ES": " Bestelako laguntza ",
+                                "pt_PT": "Outros auxílios",
+                                "fr_FR": " Autre aide ",
+                                "en_GB": " Other helps ",
+                                "de_DE": "Andere Hilfsmittel"
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [
+                            ""
+                        ],
+                        "eu_ES": [
+                            ""
+                        ],
+                        "pt_PT": [
+                            ""
+                        ],
+                        "fr_FR": [
+                            ""
+                        ],
+                        "en_GB": [
+                            ""
+                        ],
+                        "de_DE": [
+                            ""
+                        ]
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "multiple": false,
+                    "name": "ehutype",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "select"
+                },
+                {
+                    "label": {
+                        "es_ES": " Estado ",
+                        "eu_ES": " Egoera ",
+                        "pt_PT": "Estado",
+                        "fr_FR": " État ",
+                        "en_GB": " State ",
+                        "de_DE": "Zustand"
+                    },
+                    "options": [
+                        {
+                            "value": "upv-ehu-blank",
+                            "label": {
+                                "es_ES": " Selecciona un estado ",
+                                "eu_ES": " Hautatu egoera bat ",
+                                "pt_PT": "Selecione um estado",
+                                "fr_FR": " Sélectionnez un état ",
+                                "en_GB": " Select a state ",
+                                "de_DE": "Wählen Sie einen Staat aus"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-open",
+                            "label": {
+                                "es_ES": " Abierto ",
+                                "eu_ES": " Irekita ",
+                                "pt_PT": "Aberto",
+                                "fr_FR": " Ouvert ",
+                                "en_GB": " Open ",
+                                "de_DE": "Öffnen"
+                            }
+                        },
+                        {
+                            "value": "upv-ehu-closed",
+                            "label": {
+                                "es_ES": " Cerrado ",
+                                "eu_ES": " Itxita ",
+                                "pt_PT": "Fechado",
+                                "fr_FR": " Fermé ",
+                                "en_GB": " Closed ",
+                                "de_DE": "Geschlossen"
+                            }
+                        }
+                    ],
+                    "predefinedValue": {
+                        "es_ES": [
+                            ""
+                        ],
+                        "eu_ES": [
+                            ""
+                        ],
+                        "pt_PT": [
+                            ""
+                        ],
+                        "fr_FR": [
+                            ""
+                        ],
+                        "en_GB": [
+                            ""
+                        ],
+                        "de_DE": [
+                            ""
+                        ]
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": " Si se selecciona un estado para la ayuda, abierto o cerrado, no se tendrán en cuenta las fechas de inicio y de fin ",
+                        "eu_ES": " Dirulaguntzaren egoera bat hautatuz gero, irekita edo itxita, hasierako eta amaierako datak ez dira kontuan hartuko ",
+                        "pt_PT": "Se um estado for selecionado para a ajuda, aberto ou fechado, as datas de início e término não serão levadas em consideração",
+                        "fr_FR": " Si vous sélectionnez un état pour l'aide, ouvert ou fermé, les dates de début et de fin ne seront pas prises en compte ",
+                        "en_GB": " If a state for the help is chosen, init and end dates are not take into account ",
+                        "de_DE": "Wenn für die Hilfe ein Status ausgewählt wurde (offen oder geschlossen), werden Start- und Enddatum nicht berücksichtigt"
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "multiple": false,
+                    "name": "ehustate",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "select"
+                },
+                {
+                    "label": {
+                        "es_ES": " Fecha de inicio del plazo de presentación ",
+                        "eu_ES": " Eskabideak egiteko hasierako data ",
+                        "pt_PT": "Data de início do período de inscrição",
+                        "fr_FR": " Date de début du délai de soumission ",
+                        "en_GB": " Presentation deadline init date ",
+                        "de_DE": "Startdatum der Einreichungsfrist"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "date",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehuinitdate",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "ddm-date",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Utilizar fecha de inicio ",
+                                "eu_ES": " Erabili hasierako data ",
+                                "pt_PT": "Use data de início",
+                                "fr_FR": " Utilisez la date de début ",
+                                "en_GB": " Use init date ",
+                                "de_DE": "Verwenden Sie Startdatum"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "false",
+                                "eu_ES": "false",
+                                "pt_PT": "false",
+                                "fr_FR": "false",
+                                "en_GB": "false",
+                                "de_DE": "false"
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "",
+                            "localizable": true,
+                            "name": "ehushowinitdate",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Fecha de fin del plazo de presentación ",
+                        "eu_ES": " Eskabideak egiteko amaierako data ",
+                        "pt_PT": "Data de término do período de inscrição",
+                        "fr_FR": " Date de fin du délai de soumission ",
+                        "en_GB": " Presentation deadline end date ",
+                        "de_DE": "Enddatum der Einreichungsfrist"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "date",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehuenddate",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "ddm-date",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Utilizar fecha de fin ",
+                                "eu_ES": " Erabili amaierako data ",
+                                "pt_PT": "Use a data de término",
+                                "fr_FR": " Utilisez la date de fin ",
+                                "en_GB": " Use end date ",
+                                "de_DE": "Verwenden Sie das Enddatum"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "false",
+                                "eu_ES": "false",
+                                "pt_PT": "false",
+                                "fr_FR": "false",
+                                "en_GB": "false",
+                                "de_DE": "false"
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "",
+                            "localizable": true,
+                            "name": "ehushowenddate",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Hora de fin (hora) ",
+                                "eu_ES": " Amaierako ordua (ordua) ",
+                                "pt_PT": "Hora de término (hora)",
+                                "fr_FR": " Heure de fin (heure) ",
+                                "en_GB": " End hour (hour) ",
+                                "de_DE": "Endzeit (Zeit)"
+                            },
+                            "options": [
+                                {
+                                    "value": "0",
+                                    "label": {
+                                        "es_ES": " 00 ",
+                                        "eu_ES": " 00 ",
+                                        "pt_PT": " 00 ",
+                                        "fr_FR": " 00 ",
+                                        "en_GB": " 00 ",
+                                        "de_DE": " 00 "
+                                    }
+                                },
+                                {
+                                    "value": "1",
+                                    "label": {
+                                        "es_ES": " 01 ",
+                                        "eu_ES": " 01 ",
+                                        "pt_PT": " 01 ",
+                                        "fr_FR": " 01 ",
+                                        "en_GB": " 01 ",
+                                        "de_DE": " 01 "
+                                    }
+                                },
+                                {
+                                    "value": "2",
+                                    "label": {
+                                        "es_ES": " 02 ",
+                                        "eu_ES": " 02 ",
+                                        "pt_PT": " 02 ",
+                                        "fr_FR": " 02 ",
+                                        "en_GB": " 02 ",
+                                        "de_DE": " 02 "
+                                    }
+                                },
+                                {
+                                    "value": "3",
+                                    "label": {
+                                        "es_ES": " 03 ",
+                                        "eu_ES": " 03 ",
+                                        "pt_PT": " 03 ",
+                                        "fr_FR": " 03 ",
+                                        "en_GB": " 03 ",
+                                        "de_DE": " 03 "
+                                    }
+                                },
+                                {
+                                    "value": "4",
+                                    "label": {
+                                        "es_ES": " 04 ",
+                                        "eu_ES": " 04 ",
+                                        "pt_PT": " 04 ",
+                                        "fr_FR": " 04 ",
+                                        "en_GB": " 04 ",
+                                        "de_DE": " 04 "
+                                    }
+                                },
+                                {
+                                    "value": "5",
+                                    "label": {
+                                        "es_ES": " 05 ",
+                                        "eu_ES": " 05 ",
+                                        "pt_PT": " 05 ",
+                                        "fr_FR": " 05 ",
+                                        "en_GB": " 05 ",
+                                        "de_DE": " 05 "
+                                    }
+                                },
+                                {
+                                    "value": "6",
+                                    "label": {
+                                        "es_ES": " 06 ",
+                                        "eu_ES": " 06 ",
+                                        "pt_PT": " 06 ",
+                                        "fr_FR": " 06 ",
+                                        "en_GB": " 06 ",
+                                        "de_DE": " 06 "
+                                    }
+                                },
+                                {
+                                    "value": "7",
+                                    "label": {
+                                        "es_ES": " 07 ",
+                                        "eu_ES": " 07 ",
+                                        "pt_PT": " 07 ",
+                                        "fr_FR": " 07 ",
+                                        "en_GB": " 07 ",
+                                        "de_DE": " 07 "
+                                    }
+                                },
+                                {
+                                    "value": "8",
+                                    "label": {
+                                        "es_ES": " 08 ",
+                                        "eu_ES": " 08 ",
+                                        "pt_PT": " 08 ",
+                                        "fr_FR": " 08 ",
+                                        "en_GB": " 08 ",
+                                        "de_DE": " 08 "
+                                    }
+                                },
+                                {
+                                    "value": "9",
+                                    "label": {
+                                        "es_ES": " 09 ",
+                                        "eu_ES": " 09 ",
+                                        "pt_PT": " 09 ",
+                                        "fr_FR": " 09 ",
+                                        "en_GB": " 09 ",
+                                        "de_DE": " 09 "
+                                    }
+                                },
+                                {
+                                    "value": "10",
+                                    "label": {
+                                        "es_ES": " 10 ",
+                                        "eu_ES": " 10 ",
+                                        "pt_PT": " 10 ",
+                                        "fr_FR": " 10 ",
+                                        "en_GB": " 10 ",
+                                        "de_DE": " 10 "
+                                    }
+                                },
+                                {
+                                    "value": "11",
+                                    "label": {
+                                        "es_ES": " 11 ",
+                                        "eu_ES": " 11 ",
+                                        "pt_PT": " 11 ",
+                                        "fr_FR": " 11 ",
+                                        "en_GB": " 11 ",
+                                        "de_DE": " 11 "
+                                    }
+                                },
+                                {
+                                    "value": "12",
+                                    "label": {
+                                        "es_ES": " 12 ",
+                                        "eu_ES": " 12 ",
+                                        "pt_PT": " 12 ",
+                                        "fr_FR": " 12 ",
+                                        "en_GB": " 12 ",
+                                        "de_DE": " 12 "
+                                    }
+                                },
+                                {
+                                    "value": "13",
+                                    "label": {
+                                        "es_ES": " 13 ",
+                                        "eu_ES": " 13 ",
+                                        "pt_PT": " 13 ",
+                                        "fr_FR": " 13 ",
+                                        "en_GB": " 13 ",
+                                        "de_DE": " 13 "
+                                    }
+                                },
+                                {
+                                    "value": "14",
+                                    "label": {
+                                        "es_ES": " 14 ",
+                                        "eu_ES": " 14 ",
+                                        "pt_PT": " 14 ",
+                                        "fr_FR": " 14 ",
+                                        "en_GB": " 14 ",
+                                        "de_DE": " 14 "
+                                    }
+                                },
+                                {
+                                    "value": "15",
+                                    "label": {
+                                        "es_ES": " 15 ",
+                                        "eu_ES": " 15 ",
+                                        "pt_PT": " 15 ",
+                                        "fr_FR": " 15 ",
+                                        "en_GB": " 15 ",
+                                        "de_DE": " 15 "
+                                    }
+                                },
+                                {
+                                    "value": "16",
+                                    "label": {
+                                        "es_ES": " 16 ",
+                                        "eu_ES": " 16 ",
+                                        "pt_PT": " 16 ",
+                                        "fr_FR": " 16 ",
+                                        "en_GB": " 16 ",
+                                        "de_DE": " 16 "
+                                    }
+                                },
+                                {
+                                    "value": "17",
+                                    "label": {
+                                        "es_ES": " 17 ",
+                                        "eu_ES": " 17 ",
+                                        "pt_PT": " 17 ",
+                                        "fr_FR": " 17 ",
+                                        "en_GB": " 17 ",
+                                        "de_DE": " 17 "
+                                    }
+                                },
+                                {
+                                    "value": "18",
+                                    "label": {
+                                        "es_ES": " 18 ",
+                                        "eu_ES": " 18 ",
+                                        "pt_PT": " 18 ",
+                                        "fr_FR": " 18 ",
+                                        "en_GB": " 18 ",
+                                        "de_DE": " 18 "
+                                    }
+                                },
+                                {
+                                    "value": "19",
+                                    "label": {
+                                        "es_ES": " 19 ",
+                                        "eu_ES": " 19 ",
+                                        "pt_PT": " 19 ",
+                                        "fr_FR": " 19 ",
+                                        "en_GB": " 19 ",
+                                        "de_DE": " 19 "
+                                    }
+                                },
+                                {
+                                    "value": "20",
+                                    "label": {
+                                        "es_ES": " 20 ",
+                                        "eu_ES": " 20 ",
+                                        "pt_PT": " 20 ",
+                                        "fr_FR": " 20 ",
+                                        "en_GB": " 20 ",
+                                        "de_DE": " 20 "
+                                    }
+                                },
+                                {
+                                    "value": "21",
+                                    "label": {
+                                        "es_ES": " 21 ",
+                                        "eu_ES": " 21 ",
+                                        "pt_PT": " 21 ",
+                                        "fr_FR": " 21 ",
+                                        "en_GB": " 21 ",
+                                        "de_DE": " 21 "
+                                    }
+                                },
+                                {
+                                    "value": "22",
+                                    "label": {
+                                        "es_ES": " 22 ",
+                                        "eu_ES": " 22 ",
+                                        "pt_PT": " 22 ",
+                                        "fr_FR": " 22 ",
+                                        "en_GB": " 22 ",
+                                        "de_DE": " 22 "
+                                    }
+                                },
+                                {
+                                    "value": "23",
+                                    "label": {
+                                        "es_ES": " 23 ",
+                                        "eu_ES": " 23 ",
+                                        "pt_PT": " 23 ",
+                                        "fr_FR": " 23 ",
+                                        "en_GB": " 23 ",
+                                        "de_DE": " 23 "
+                                    }
+                                }
+                            ],
+                            "predefinedValue": {
+                                "es_ES": [
+                                    ""
+                                ],
+                                "eu_ES": [
+                                    ""
+                                ],
+                                "pt_PT": [
+                                    ""
+                                ],
+                                "fr_FR": [
+                                    ""
+                                ],
+                                "en_GB": [
+                                    ""
+                                ],
+                                "de_DE": [
+                                    ""
+                                ]
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "multiple": false,
+                            "name": "ehuenddatehourhh",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "select"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Hora de fin (minutos) ",
+                                "eu_ES": " Amaierako ordua (minutuak) ",
+                                "pt_PT": "Hora de término (minutos)",
+                                "fr_FR": " Heure de fin (minutes) ",
+                                "en_GB": " End hour (minutes) ",
+                                "de_DE": "Endzeit (Minuten)"
+                            },
+                            "options": [
+                                {
+                                    "value": "0",
+                                    "label": {
+                                        "es_ES": " 00 ",
+                                        "eu_ES": " 00 ",
+                                        "pt_PT": " 00 ",
+                                        "fr_FR": " 00 ",
+                                        "en_GB": " 00 ",
+                                        "de_DE": " 00 "
+                                    }
+                                },
+                                {
+                                    "value": "1",
+                                    "label": {
+                                        "es_ES": " 01 ",
+                                        "eu_ES": " 01 ",
+                                        "pt_PT": " 01 ",
+                                        "fr_FR": " 01 ",
+                                        "en_GB": " 01 ",
+                                        "de_DE": " 01 "
+                                    }
+                                },
+                                {
+                                    "value": "2",
+                                    "label": {
+                                        "es_ES": " 02 ",
+                                        "eu_ES": " 02 ",
+                                        "pt_PT": " 02 ",
+                                        "fr_FR": " 02 ",
+                                        "en_GB": " 02 ",
+                                        "de_DE": " 02 "
+                                    }
+                                },
+                                {
+                                    "value": "3",
+                                    "label": {
+                                        "es_ES": " 03 ",
+                                        "eu_ES": " 03 ",
+                                        "pt_PT": " 03 ",
+                                        "fr_FR": " 03 ",
+                                        "en_GB": " 03 ",
+                                        "de_DE": " 03 "
+                                    }
+                                },
+                                {
+                                    "value": "4",
+                                    "label": {
+                                        "es_ES": " 04 ",
+                                        "eu_ES": " 04 ",
+                                        "pt_PT": " 04 ",
+                                        "fr_FR": " 04 ",
+                                        "en_GB": " 04 ",
+                                        "de_DE": " 04 "
+                                    }
+                                },
+                                {
+                                    "value": "5",
+                                    "label": {
+                                        "es_ES": " 05 ",
+                                        "eu_ES": " 05 ",
+                                        "pt_PT": " 05 ",
+                                        "fr_FR": " 05 ",
+                                        "en_GB": " 05 ",
+                                        "de_DE": " 05 "
+                                    }
+                                },
+                                {
+                                    "value": "6",
+                                    "label": {
+                                        "es_ES": " 06 ",
+                                        "eu_ES": " 06 ",
+                                        "pt_PT": " 06 ",
+                                        "fr_FR": " 06 ",
+                                        "en_GB": " 06 ",
+                                        "de_DE": " 06 "
+                                    }
+                                },
+                                {
+                                    "value": "7",
+                                    "label": {
+                                        "es_ES": " 07 ",
+                                        "eu_ES": " 07 ",
+                                        "pt_PT": " 07 ",
+                                        "fr_FR": " 07 ",
+                                        "en_GB": " 07 ",
+                                        "de_DE": " 07 "
+                                    }
+                                },
+                                {
+                                    "value": "8",
+                                    "label": {
+                                        "es_ES": " 08 ",
+                                        "eu_ES": " 08 ",
+                                        "pt_PT": " 08 ",
+                                        "fr_FR": " 08 ",
+                                        "en_GB": " 08 ",
+                                        "de_DE": " 08 "
+                                    }
+                                },
+                                {
+                                    "value": "9",
+                                    "label": {
+                                        "es_ES": " 09 ",
+                                        "eu_ES": " 09 ",
+                                        "pt_PT": " 09 ",
+                                        "fr_FR": " 09 ",
+                                        "en_GB": " 09 ",
+                                        "de_DE": " 09 "
+                                    }
+                                },
+                                {
+                                    "value": "10",
+                                    "label": {
+                                        "es_ES": " 10 ",
+                                        "eu_ES": " 10 ",
+                                        "pt_PT": " 10 ",
+                                        "fr_FR": " 10 ",
+                                        "en_GB": " 10 ",
+                                        "de_DE": " 10 "
+                                    }
+                                },
+                                {
+                                    "value": "11",
+                                    "label": {
+                                        "es_ES": " 11 ",
+                                        "eu_ES": " 11 ",
+                                        "pt_PT": " 11 ",
+                                        "fr_FR": " 11 ",
+                                        "en_GB": " 11 ",
+                                        "de_DE": " 11 "
+                                    }
+                                },
+                                {
+                                    "value": "12",
+                                    "label": {
+                                        "es_ES": " 12 ",
+                                        "eu_ES": " 12 ",
+                                        "pt_PT": " 12 ",
+                                        "fr_FR": " 12 ",
+                                        "en_GB": " 12 ",
+                                        "de_DE": " 12 "
+                                    }
+                                },
+                                {
+                                    "value": "13",
+                                    "label": {
+                                        "es_ES": " 13 ",
+                                        "eu_ES": " 13 ",
+                                        "pt_PT": " 13 ",
+                                        "fr_FR": " 13 ",
+                                        "en_GB": " 13 ",
+                                        "de_DE": " 13 "
+                                    }
+                                },
+                                {
+                                    "value": "14",
+                                    "label": {
+                                        "es_ES": " 14 ",
+                                        "eu_ES": " 14 ",
+                                        "pt_PT": " 14 ",
+                                        "fr_FR": " 14 ",
+                                        "en_GB": " 14 ",
+                                        "de_DE": " 14 "
+                                    }
+                                },
+                                {
+                                    "value": "15",
+                                    "label": {
+                                        "es_ES": " 15 ",
+                                        "eu_ES": " 15 ",
+                                        "pt_PT": " 15 ",
+                                        "fr_FR": " 15 ",
+                                        "en_GB": " 15 ",
+                                        "de_DE": " 15 "
+                                    }
+                                },
+                                {
+                                    "value": "16",
+                                    "label": {
+                                        "es_ES": " 16 ",
+                                        "eu_ES": " 16 ",
+                                        "pt_PT": " 16 ",
+                                        "fr_FR": " 16 ",
+                                        "en_GB": " 16 ",
+                                        "de_DE": " 16 "
+                                    }
+                                },
+                                {
+                                    "value": "17",
+                                    "label": {
+                                        "es_ES": " 17 ",
+                                        "eu_ES": " 17 ",
+                                        "pt_PT": " 17 ",
+                                        "fr_FR": " 17 ",
+                                        "en_GB": " 17 ",
+                                        "de_DE": " 17 "
+                                    }
+                                },
+                                {
+                                    "value": "18",
+                                    "label": {
+                                        "es_ES": " 18 ",
+                                        "eu_ES": " 18 ",
+                                        "pt_PT": " 18 ",
+                                        "fr_FR": " 18 ",
+                                        "en_GB": " 18 ",
+                                        "de_DE": " 18 "
+                                    }
+                                },
+                                {
+                                    "value": "19",
+                                    "label": {
+                                        "es_ES": " 19 ",
+                                        "eu_ES": " 19 ",
+                                        "pt_PT": " 19 ",
+                                        "fr_FR": " 19 ",
+                                        "en_GB": " 19 ",
+                                        "de_DE": " 19 "
+                                    }
+                                },
+                                {
+                                    "value": "20",
+                                    "label": {
+                                        "es_ES": " 20 ",
+                                        "eu_ES": " 20 ",
+                                        "pt_PT": " 20 ",
+                                        "fr_FR": " 20 ",
+                                        "en_GB": " 20 ",
+                                        "de_DE": " 20 "
+                                    }
+                                },
+                                {
+                                    "value": "21",
+                                    "label": {
+                                        "es_ES": " 21 ",
+                                        "eu_ES": " 21 ",
+                                        "pt_PT": " 21 ",
+                                        "fr_FR": " 21 ",
+                                        "en_GB": " 21 ",
+                                        "de_DE": " 21 "
+                                    }
+                                },
+                                {
+                                    "value": "22",
+                                    "label": {
+                                        "es_ES": " 22 ",
+                                        "eu_ES": " 22 ",
+                                        "pt_PT": " 22 ",
+                                        "fr_FR": " 22 ",
+                                        "en_GB": " 22 ",
+                                        "de_DE": " 22 "
+                                    }
+                                },
+                                {
+                                    "value": "23",
+                                    "label": {
+                                        "es_ES": " 23 ",
+                                        "eu_ES": " 23 ",
+                                        "pt_PT": " 23 ",
+                                        "fr_FR": " 23 ",
+                                        "en_GB": " 23 ",
+                                        "de_DE": " 23 "
+                                    }
+                                },
+                                {
+                                    "value": "24",
+                                    "label": {
+                                        "es_ES": " 24 ",
+                                        "eu_ES": " 24 ",
+                                        "pt_PT": " 24 ",
+                                        "fr_FR": " 24 ",
+                                        "en_GB": " 24 ",
+                                        "de_DE": " 24 "
+                                    }
+                                },
+                                {
+                                    "value": "25",
+                                    "label": {
+                                        "es_ES": " 25 ",
+                                        "eu_ES": " 25 ",
+                                        "pt_PT": " 25 ",
+                                        "fr_FR": " 25 ",
+                                        "en_GB": " 25 ",
+                                        "de_DE": " 25 "
+                                    }
+                                },
+                                {
+                                    "value": "26",
+                                    "label": {
+                                        "es_ES": " 26 ",
+                                        "eu_ES": " 26 ",
+                                        "pt_PT": " 26 ",
+                                        "fr_FR": " 26 ",
+                                        "en_GB": " 26 ",
+                                        "de_DE": " 26 "
+                                    }
+                                },
+                                {
+                                    "value": "27",
+                                    "label": {
+                                        "es_ES": " 27 ",
+                                        "eu_ES": " 27 ",
+                                        "pt_PT": " 27 ",
+                                        "fr_FR": " 27 ",
+                                        "en_GB": " 27 ",
+                                        "de_DE": " 27 "
+                                    }
+                                },
+                                {
+                                    "value": "28",
+                                    "label": {
+                                        "es_ES": " 28 ",
+                                        "eu_ES": " 28 ",
+                                        "pt_PT": " 28 ",
+                                        "fr_FR": " 28 ",
+                                        "en_GB": " 28 ",
+                                        "de_DE": " 28 "
+                                    }
+                                },
+                                {
+                                    "value": "29",
+                                    "label": {
+                                        "es_ES": " 29 ",
+                                        "eu_ES": " 29 ",
+                                        "pt_PT": " 29 ",
+                                        "fr_FR": " 29 ",
+                                        "en_GB": " 29 ",
+                                        "de_DE": " 29 "
+                                    }
+                                },
+                                {
+                                    "value": "30",
+                                    "label": {
+                                        "es_ES": " 30 ",
+                                        "eu_ES": " 30 ",
+                                        "pt_PT": " 30 ",
+                                        "fr_FR": " 30 ",
+                                        "en_GB": " 30 ",
+                                        "de_DE": " 30 "
+                                    }
+                                },
+                                {
+                                    "value": "31",
+                                    "label": {
+                                        "es_ES": " 31 ",
+                                        "eu_ES": " 31 ",
+                                        "pt_PT": " 31 ",
+                                        "fr_FR": " 31 ",
+                                        "en_GB": " 31 ",
+                                        "de_DE": " 31 "
+                                    }
+                                },
+                                {
+                                    "value": "32",
+                                    "label": {
+                                        "es_ES": " 32 ",
+                                        "eu_ES": " 32 ",
+                                        "pt_PT": " 32 ",
+                                        "fr_FR": " 32 ",
+                                        "en_GB": " 32 ",
+                                        "de_DE": " 32 "
+                                    }
+                                },
+                                {
+                                    "value": "33",
+                                    "label": {
+                                        "es_ES": " 33 ",
+                                        "eu_ES": " 33 ",
+                                        "pt_PT": " 33 ",
+                                        "fr_FR": " 33 ",
+                                        "en_GB": " 33 ",
+                                        "de_DE": " 33 "
+                                    }
+                                },
+                                {
+                                    "value": "34",
+                                    "label": {
+                                        "es_ES": " 34 ",
+                                        "eu_ES": " 34 ",
+                                        "pt_PT": " 34 ",
+                                        "fr_FR": " 34 ",
+                                        "en_GB": " 34 ",
+                                        "de_DE": " 34 "
+                                    }
+                                },
+                                {
+                                    "value": "35",
+                                    "label": {
+                                        "es_ES": " 35 ",
+                                        "eu_ES": " 35 ",
+                                        "pt_PT": " 35 ",
+                                        "fr_FR": " 35 ",
+                                        "en_GB": " 35 ",
+                                        "de_DE": " 35 "
+                                    }
+                                },
+                                {
+                                    "value": "36",
+                                    "label": {
+                                        "es_ES": " 36 ",
+                                        "eu_ES": " 36 ",
+                                        "pt_PT": " 36 ",
+                                        "fr_FR": " 36 ",
+                                        "en_GB": " 36 ",
+                                        "de_DE": " 36 "
+                                    }
+                                },
+                                {
+                                    "value": "37",
+                                    "label": {
+                                        "es_ES": " 37 ",
+                                        "eu_ES": " 37 ",
+                                        "pt_PT": " 37 ",
+                                        "fr_FR": " 37 ",
+                                        "en_GB": " 37 ",
+                                        "de_DE": " 37 "
+                                    }
+                                },
+                                {
+                                    "value": "38",
+                                    "label": {
+                                        "es_ES": " 38 ",
+                                        "eu_ES": " 38 ",
+                                        "pt_PT": " 38 ",
+                                        "fr_FR": " 38 ",
+                                        "en_GB": " 38 ",
+                                        "de_DE": " 38 "
+                                    }
+                                },
+                                {
+                                    "value": "39",
+                                    "label": {
+                                        "es_ES": " 39 ",
+                                        "eu_ES": " 39 ",
+                                        "pt_PT": " 39 ",
+                                        "fr_FR": " 39 ",
+                                        "en_GB": " 39 ",
+                                        "de_DE": " 39 "
+                                    }
+                                },
+                                {
+                                    "value": "40",
+                                    "label": {
+                                        "es_ES": " 40 ",
+                                        "eu_ES": " 40 ",
+                                        "pt_PT": " 40 ",
+                                        "fr_FR": " 40 ",
+                                        "en_GB": " 40 ",
+                                        "de_DE": " 40 "
+                                    }
+                                },
+                                {
+                                    "value": "41",
+                                    "label": {
+                                        "es_ES": " 41 ",
+                                        "eu_ES": " 41 ",
+                                        "pt_PT": " 41 ",
+                                        "fr_FR": " 41 ",
+                                        "en_GB": " 41 ",
+                                        "de_DE": " 41 "
+                                    }
+                                },
+                                {
+                                    "value": "42",
+                                    "label": {
+                                        "es_ES": " 42 ",
+                                        "eu_ES": " 42 ",
+                                        "pt_PT": " 42 ",
+                                        "fr_FR": " 42 ",
+                                        "en_GB": " 42 ",
+                                        "de_DE": " 42 "
+                                    }
+                                },
+                                {
+                                    "value": "43",
+                                    "label": {
+                                        "es_ES": " 43 ",
+                                        "eu_ES": " 43 ",
+                                        "pt_PT": " 43 ",
+                                        "fr_FR": " 43 ",
+                                        "en_GB": " 43 ",
+                                        "de_DE": " 43 "
+                                    }
+                                },
+                                {
+                                    "value": "44",
+                                    "label": {
+                                        "es_ES": " 44 ",
+                                        "eu_ES": " 44 ",
+                                        "pt_PT": " 44 ",
+                                        "fr_FR": " 44 ",
+                                        "en_GB": " 44 ",
+                                        "de_DE": " 44 "
+                                    }
+                                },
+                                {
+                                    "value": "45",
+                                    "label": {
+                                        "es_ES": " 45 ",
+                                        "eu_ES": " 45 ",
+                                        "pt_PT": " 45 ",
+                                        "fr_FR": " 45 ",
+                                        "en_GB": " 45 ",
+                                        "de_DE": " 45 "
+                                    }
+                                },
+                                {
+                                    "value": "46",
+                                    "label": {
+                                        "es_ES": " 46 ",
+                                        "eu_ES": " 46 ",
+                                        "pt_PT": " 46 ",
+                                        "fr_FR": " 46 ",
+                                        "en_GB": " 46 ",
+                                        "de_DE": " 46 "
+                                    }
+                                },
+                                {
+                                    "value": "47",
+                                    "label": {
+                                        "es_ES": " 47 ",
+                                        "eu_ES": " 47 ",
+                                        "pt_PT": " 47 ",
+                                        "fr_FR": " 47 ",
+                                        "en_GB": " 47 ",
+                                        "de_DE": " 47 "
+                                    }
+                                },
+                                {
+                                    "value": "48",
+                                    "label": {
+                                        "es_ES": " 48 ",
+                                        "eu_ES": " 48 ",
+                                        "pt_PT": " 48 ",
+                                        "fr_FR": " 48 ",
+                                        "en_GB": " 48 ",
+                                        "de_DE": " 48 "
+                                    }
+                                },
+                                {
+                                    "value": "49",
+                                    "label": {
+                                        "es_ES": " 49 ",
+                                        "eu_ES": " 49 ",
+                                        "pt_PT": " 49 ",
+                                        "fr_FR": " 49 ",
+                                        "en_GB": " 49 ",
+                                        "de_DE": " 49 "
+                                    }
+                                },
+                                {
+                                    "value": "50",
+                                    "label": {
+                                        "es_ES": " 50 ",
+                                        "eu_ES": " 50 ",
+                                        "pt_PT": " 50 ",
+                                        "fr_FR": " 50 ",
+                                        "en_GB": " 50 ",
+                                        "de_DE": " 50 "
+                                    }
+                                },
+                                {
+                                    "value": "51",
+                                    "label": {
+                                        "es_ES": " 51 ",
+                                        "eu_ES": " 51 ",
+                                        "pt_PT": " 51 ",
+                                        "fr_FR": " 51 ",
+                                        "en_GB": " 51 ",
+                                        "de_DE": " 51 "
+                                    }
+                                },
+                                {
+                                    "value": "52",
+                                    "label": {
+                                        "es_ES": " 52 ",
+                                        "eu_ES": " 52 ",
+                                        "pt_PT": " 52 ",
+                                        "fr_FR": " 52 ",
+                                        "en_GB": " 52 ",
+                                        "de_DE": " 52 "
+                                    }
+                                },
+                                {
+                                    "value": "53",
+                                    "label": {
+                                        "es_ES": " 53 ",
+                                        "eu_ES": " 53 ",
+                                        "pt_PT": " 53 ",
+                                        "fr_FR": " 53 ",
+                                        "en_GB": " 53 ",
+                                        "de_DE": " 53 "
+                                    }
+                                },
+                                {
+                                    "value": "54",
+                                    "label": {
+                                        "es_ES": " 54 ",
+                                        "eu_ES": " 54 ",
+                                        "pt_PT": " 54 ",
+                                        "fr_FR": " 54 ",
+                                        "en_GB": " 54 ",
+                                        "de_DE": " 54 "
+                                    }
+                                },
+                                {
+                                    "value": "55",
+                                    "label": {
+                                        "es_ES": " 55 ",
+                                        "eu_ES": " 55 ",
+                                        "pt_PT": " 55 ",
+                                        "fr_FR": " 55 ",
+                                        "en_GB": " 55 ",
+                                        "de_DE": " 55 "
+                                    }
+                                },
+                                {
+                                    "value": "56",
+                                    "label": {
+                                        "es_ES": " 56 ",
+                                        "eu_ES": " 56 ",
+                                        "pt_PT": " 56 ",
+                                        "fr_FR": " 56 ",
+                                        "en_GB": " 56 ",
+                                        "de_DE": " 56 "
+                                    }
+                                },
+                                {
+                                    "value": "57",
+                                    "label": {
+                                        "es_ES": " 57 ",
+                                        "eu_ES": " 57 ",
+                                        "pt_PT": " 57 ",
+                                        "fr_FR": " 57 ",
+                                        "en_GB": " 57 ",
+                                        "de_DE": " 57 "
+                                    }
+                                },
+                                {
+                                    "value": "58",
+                                    "label": {
+                                        "es_ES": " 58 ",
+                                        "eu_ES": " 58 ",
+                                        "pt_PT": " 58 ",
+                                        "fr_FR": " 58 ",
+                                        "en_GB": " 58 ",
+                                        "de_DE": " 58 "
+                                    }
+                                },
+                                {
+                                    "value": "59",
+                                    "label": {
+                                        "es_ES": " 59 ",
+                                        "eu_ES": " 59 ",
+                                        "pt_PT": " 59 ",
+                                        "fr_FR": " 59 ",
+                                        "en_GB": " 59 ",
+                                        "de_DE": " 59 "
+                                    }
+                                }
+                            ],
+                            "predefinedValue": {
+                                "es_ES": [
+                                    ""
+                                ],
+                                "eu_ES": [
+                                    ""
+                                ],
+                                "pt_PT": [
+                                    ""
+                                ],
+                                "fr_FR": [
+                                    ""
+                                ],
+                                "en_GB": [
+                                    ""
+                                ],
+                                "de_DE": [
+                                    ""
+                                ]
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "multiple": false,
+                            "name": "ehuenddatehourmm",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "select"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Aviso ",
+                        "eu_ES": " Oharra ",
+                        "pt_PT": "Aviso",
+                        "fr_FR": " Avis ",
+                        "en_GB": " Advice ",
+                        "de_DE": "Bekanntmachung"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehuadvice",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Apartado ",
+                "eu_ES": " Atala ",
+                "pt_PT": "Secção",
+                "fr_FR": " Section ",
+                "en_GB": " Section ",
+                "de_DE": "Abschnitt"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehusection",
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Título del apartado ",
+                        "eu_ES": " Atalaren izenburua ",
+                        "pt_PT": "Título da seção",
+                        "fr_FR": " Titre de la section ",
+                        "en_GB": " Section title ",
+                        "de_DE": "Abschnittsüberschrift"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehusectionname",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Descripción ",
+                        "eu_ES": " Deskribapena ",
+                        "pt_PT": "Descrição",
+                        "fr_FR": " Description ",
+                        "en_GB": " Description ",
+                        "de_DE": "Beschreibung"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehudescription",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "textarea",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Tipo ",
+                                "eu_ES": " Mota ",
+                                "pt_PT": "Tipo",
+                                "fr_FR": " Type ",
+                                "en_GB": " Type ",
+                                "de_DE": "Typ"
+                            },
+                            "options": [
+                                {
+                                    "value": "text",
+                                    "label": {
+                                        "es_ES": " text ",
+                                        "eu_ES": " Text ",
+                                        "pt_PT": " Text ",
+                                        "fr_FR": " Text ",
+                                        "en_GB": " Text ",
+                                        "de_DE": " Text "
+                                    }
+                                },
+                                {
+                                    "value": "information",
+                                    "label": {
+                                        "es_ES": " information ",
+                                        "eu_ES": " Info ",
+                                        "pt_PT": " Info ",
+                                        "fr_FR": " Info ",
+                                        "en_GB": " Info ",
+                                        "de_DE": " Info "
+                                    }
+                                },
+                                {
+                                    "value": "alert",
+                                    "label": {
+                                        "es_ES": " alert ",
+                                        "eu_ES": " Alert ",
+                                        "pt_PT": " Alert ",
+                                        "fr_FR": " Alert ",
+                                        "en_GB": " Alert ",
+                                        "de_DE": " Alert "
+                                    }
+                                }
+                            ],
+                            "predefinedValue": {
+                                "es_ES": [
+                                    ""
+                                ],
+                                "eu_ES": [
+                                    ""
+                                ],
+                                "pt_PT": [
+                                    ""
+                                ],
+                                "fr_FR": [
+                                    ""
+                                ],
+                                "en_GB": [
+                                    ""
+                                ],
+                                "de_DE": [
+                                    ""
+                                ]
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "multiple": false,
+                            "name": "ehudescriptiontype",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "select"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Documento ",
+                        "eu_ES": " Dokumentua ",
+                        "pt_PT": "Documento",
+                        "fr_FR": " Document ",
+                        "en_GB": " Document ",
+                        "de_DE": "Dokument"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "document-library",
+                    "fieldNamespace": "ddm",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehudocuments",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-documentlibrary",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Nombre del documento ",
+                                "eu_ES": " Dokumentuaren izena ",
+                                "pt_PT": "Nome do Documento",
+                                "fr_FR": " Nom du document ",
+                                "en_GB": " Document name ",
+                                "de_DE": "Dokumentname"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": " Nombre asociado al fichero seleccionado ",
+                                "eu_ES": " Aukeratutako fitxategiarekin lotutako izena ",
+                                "pt_PT": "Nome associado ao arquivo selecionado",
+                                "fr_FR": " Nom associé au fichier sélectionné ",
+                                "en_GB": " Name associated to the selected file ",
+                                "de_DE": "Name, der der ausgewählten Datei zugeordnet ist"
+                            },
+                            "dataType": "string",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehudocumentname",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Dirección web ",
+                        "eu_ES": " Web helbidea ",
+                        "pt_PT": "Endereço da web",
+                        "fr_FR": " Adresse web ",
+                        "en_GB": " Web address ",
+                        "de_DE": "Webadresse"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": " https://www.ejemplo.com ",
+                        "eu_ES": " https://www.adibide.com ",
+                        "pt_PT": " https://www.exemplo.com ",
+                        "fr_FR": " https://www.exemple.com ",
+                        "en_GB": " https://www.example.com ",
+                        "de_DE": " https://www.beispiel.com "
+                    },
+                    "dataType": "string",
+                    "indexType": "",
+                    "localizable": true,
+                    "name": "ehuurls",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Nombre de la dirección web ",
+                                "eu_ES": " Web helbidearen izena ",
+                                "pt_PT": "Nome do endereço da web",
+                                "fr_FR": " Nom de l'adresse web ",
+                                "en_GB": " Name of the web address ",
+                                "de_DE": "Name der Webadresse"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": " Nombre asociado a la dirección web seleccionada ",
+                                "eu_ES": " Aukeratutako web helbidearekin lotutako izena ",
+                                "pt_PT": "Nome associado ao endereço da web selecionado",
+                                "fr_FR": " Nom associé à l'adresse web sélectionnée ",
+                                "en_GB": " Name associated to the selected web address ",
+                                "de_DE": "Mit der ausgewählten Webadresse verknüpfter Text"
+                            },
+                            "dataType": "string",
+                            "indexType": "",
+                            "localizable": true,
+                            "name": "ehuurldescription",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        },
+                        {
+                            "label": {
+                                "es_ES": " Abrir en nueva pestaña ",
+                                "eu_ES": " Ireki fitxa berrian ",
+                                "pt_PT": "Abrir em nova aba",
+                                "fr_FR": " Ouvrir dans un nouvel onglet ",
+                                "en_GB": " Open in new tab ",
+                                "de_DE": "In neuem Tab öffnen"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "false",
+                                "eu_ES": "false",
+                                "pt_PT": "false",
+                                "fr_FR": "false",
+                                "en_GB": "false",
+                                "de_DE": "false"
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "",
+                            "localizable": true,
+                            "name": "ehunewtab",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Datos de contacto ",
+                "eu_ES": " Harremanetarako datuak ",
+                "pt_PT": "Dados de contato",
+                "fr_FR": " Informations de contact ",
+                "en_GB": " Contact information ",
+                "de_DE": "Kontaktdaten"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehucontactdata",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Contacto ",
+                        "eu_ES": " Kontaktua ",
+                        "pt_PT": "Contato",
+                        "fr_FR": " Contact ",
+                        "en_GB": " Contact ",
+                        "de_DE": "Kontakt"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": " Departamento - Servicio - Persona ",
+                        "eu_ES": " Saila - Zerbitzua - Pertsona ",
+                        "pt_PT": "Departamento - Serviço - Pessoa",
+                        "fr_FR": " Département - Service - Personne ",
+                        "en_GB": " Department - Service - Person ",
+                        "de_DE": "Abteilung - Service - Person"
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucontact",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Descripción del correo electrónico ",
+                        "eu_ES": " Posta elektronikoaren deskribapena ",
+                        "pt_PT": "Descrição do Email",
+                        "fr_FR": " Description du e-mail ",
+                        "en_GB": " Email’s description ",
+                        "de_DE": "Beschreibung der E-Mail"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehuemailtext",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Correo electrónico ",
+                                "eu_ES": " Posta elektronikoa ",
+                                "pt_PT": "Email",
+                                "fr_FR": " E-mail ",
+                                "en_GB": " Email-address ",
+                                "de_DE": "E-Mail"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": " mi-correo@ejemplo.com ",
+                                "eu_ES": " nire-posta@adibide.com ",
+                                "pt_PT": "meu-correio@exemplo.com",
+                                "fr_FR": " mon-email@exemple.com ",
+                                "en_GB": " my-email@example.com ",
+                                "de_DE": "meine-email@beispiel.com"
+                            },
+                            "dataType": "string",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehuemail",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Descripción del teléfono ",
+                        "eu_ES": " Telefonoaren deskribapena ",
+                        "pt_PT": "Descrição do telefone",
+                        "fr_FR": " Description du téléphone ",
+                        "en_GB": " Phone’s description ",
+                        "de_DE": "Beschreibung des Telefons"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehuphonetext",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Teléfono ",
+                                "eu_ES": " Telefonoa ",
+                                "pt_PT": "Telefone",
+                                "fr_FR": " Téléphone ",
+                                "en_GB": " Phone ",
+                                "de_DE": "Telefon"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+		                        "es_ES": "+00 123 456 789",
+		                        "eu_ES": "+00 123 456 789",
+		                        "pt_PT": "+00 123 456 789",
+		                        "fr_FR": "+00 123 456 789",
+		                        "en_GB": "+00 123 456 789",
+		                        "de_DE": "+00 123 456 789"
+		                    },
+                            "dataType": "string",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehuphone",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

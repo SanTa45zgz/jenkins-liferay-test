@@ -1,0 +1,319 @@
+{
+   "availableLanguageIds": [
+       "es_ES",
+       "eu_ES",
+       "fr_FR",
+       "en_GB",
+       "de_DE",
+       "pt_PT"
+    ],
+   "defaultLanguageId": "eu_ES",
+   "fields": [
+        {
+           "label": {
+               "es_ES": "Título",
+               "eu_ES": "Izenburua",
+               "fr_FR": "Titre",
+               "en_GB": "Title",
+               "de_DE": "Titel",
+               "pt_PT": "Título"
+            },
+           "predefinedValue": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "style": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "tip": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "dataType": "string",
+           "indexType": "",
+           "localizable": true,
+           "name": "ehuoutstandingtitle",
+           "readOnly": false,
+           "repeatable": false,
+           "required": true,
+           "showLabel": true,
+           "type": "text"
+        },
+        {
+           "label": {
+               "es_ES": "Subtítulo",
+               "eu_ES": "Azpititulua",
+               "fr_FR": "Sous-titre",
+               "en_GB": "Subtitle",
+               "de_DE": "Untertitel",
+               "pt_PT": "Subtítulo"
+            },
+           "predefinedValue": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "style": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "tip": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "dataType": "string",
+           "indexType": "",
+           "localizable": true,
+           "name": "ehuoutstandingsubtitle",
+           "readOnly": false,
+           "repeatable": false,
+           "required": false,
+           "showLabel": true,
+           "type": "text"
+        },
+        {
+           "label": {
+               "es_ES": "Imagen",
+               "eu_ES": "Irudia",
+               "fr_FR": "Image",
+               "en_GB": "Image",
+               "de_DE": "Bild",
+               "pt_PT": "Imagem"
+            },
+           "predefinedValue": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "style": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "tip": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "dataType": "document-library",
+           "fieldNamespace": "ddm",
+           "indexType": "",
+           "localizable": true,
+           "name": "ehuoutstandingimage",
+           "readOnly": false,
+           "repeatable": false,
+           "required": false,
+           "showLabel": true,
+           "type": "ddm-documentlibrary",
+           "nestedFields": [
+                {
+                   "label": {
+                       "es_ES": "Texto alternativo de la imagen",
+                       "eu_ES": "Irudiaren ordezko testua",
+                       "fr_FR": "Texte alternatif de l’image",
+                       "en_GB": "Image’s alternative text",
+                       "de_DE": "Alternativer Text des Bildes",
+                       "pt_PT": "Texto alternativo da imagem"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "Descripción de la imagen para que cuando ésta no se vea no se pierda información",
+                       "eu_ES": "Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin",
+                       "fr_FR": "Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu",
+                       "en_GB": "Description of the image not to lose information when it is not seen",
+                       "de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird",
+                       "pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas"
+                    },
+                   "dataType": "string",
+                   "indexType": "text",
+                   "localizable": true,
+                   "name": "ehuoutstandingimagealttext",
+                   "readOnly": false,
+                   "repeatable": false,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "text"
+                }
+            ]
+        },
+        {
+           "label": {
+               "es_ES": "Enlace",
+               "eu_ES": "Esteka",
+               "fr_FR": "Lien",
+               "en_GB": "Link",
+               "de_DE": "Link",
+               "pt_PT": "Link"
+            },
+           "predefinedValue": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "style": {
+               "es_ES": "",
+               "eu_ES": "",
+               "fr_FR": "",
+               "en_GB": "",
+               "de_DE": "",
+               "pt_PT": ""
+            },
+           "tip": {
+               "es_ES": "https://www.ejemplo.com",
+               "eu_ES": "https://www.adibide.com",
+               "fr_FR": "https://www.exemple.com",
+               "en_GB": "https://www.example.com",
+               "de_DE": "https://www.beispiel.com",
+               "pt_PT": "https://www.exemplo.com"
+            },
+           "dataType": "string",
+           "indexType": "",
+           "localizable": true,
+           "name": "ehuoutstandinglink",
+           "readOnly": false,
+           "repeatable": false,
+           "required": true,
+           "showLabel": true,
+           "type": "text",
+           "nestedFields": [
+                {
+                   "label": {
+                       "es_ES": "Descripción del enlace",
+                       "eu_ES": "Estekaren deskribapena",
+                       "fr_FR": "Description du lien",
+                       "en_GB": "Link’s description",
+                       "de_DE": "Link Beschreibung",
+                       "pt_PT": "Descrição do Link"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "Si el título no es lo suficientemente significativo, explica aquí dónde lleva el enlace",
+                       "eu_ES": "Izenburua ez denean oso esanguratsua, hemen zehaztu nora doan esteka",
+                       "fr_FR": "Si le titre n'est pas assez clair, expliquez ici l'objectif du lien",
+                       "en_GB": "If the title is not clear enough, explain here the link’s objective",
+                       "de_DE": "Wenn der Titel nicht aussagekräftig genug ist, erläutern Sie hier, wohin der Link führt",
+                       "pt_PT": "Se o título não for significativo o suficiente, explique aqui para onde o link leva"
+                    },
+                   "dataType": "string",
+                   "indexType": "",
+                   "localizable": true,
+                   "name": "ehuoutstandinglinktitle",
+                   "readOnly": false,
+                   "repeatable": false,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "text"
+                },
+                {
+                   "label": {
+                       "es_ES": "Abrir en nueva pestaña",
+                       "eu_ES": "Ireki fitxa berrian",
+                       "fr_FR": "Ouvrir dans un nouvel onglet",
+                       "en_GB": "Open in new tab",
+                       "de_DE": "In neuem Tab öffnen",
+                       "pt_PT": "Abrir em nova aba"
+                    },
+                   "predefinedValue": {
+                       "es_ES": "",
+                       "eu_ES": false,
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": false
+                    },
+                   "style": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "tip": {
+                       "es_ES": "",
+                       "eu_ES": "",
+                       "fr_FR": "",
+                       "en_GB": "",
+                       "de_DE": "",
+                       "pt_PT": ""
+                    },
+                   "dataType": "boolean",
+                   "indexType": "",
+                   "localizable": true,
+                   "name": "ehuoutstandingurlnewtab",
+                   "readOnly": false,
+                   "repeatable": false,
+                   "required": false,
+                   "showLabel": true,
+                   "type": "checkbox"
+                }
+            ]
+        }
+    ]
+}

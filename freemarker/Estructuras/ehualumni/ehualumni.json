@@ -1,0 +1,211 @@
+{
+    "availableLanguageIds": ["es_ES", "eu_ES", "en_GB"],
+    "contentType": "journal",
+    "dataDefinitionFields": [{
+            "customProperties": {
+                "rulesConditionDisabled": false,
+                "dataType": "",
+                "fieldReference": "ehuwarning",
+                "style": {}
+            },
+            "defaultValue": {},
+            "fieldType": "separator",
+            "indexable": false,
+            "label": {
+                "en_GB": " You must not put more than one content of this type with full display on a page. ",
+                "eu_ES": " Ezin da mota honetako eduki bat baino gehiago jarri orrialde batean bistaratze osoarekin. ",
+                "es_ES": " No se puede poner más de un contenido de este tipo con visualización completa en una página. "
+            },
+            "localizable": false,
+            "name": "ehuwarning",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": ""
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "hideField": false,
+                "confirmationErrorMessage": {},
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "eu_ES": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {
+                    "en_GB": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "eu_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "es_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "nativeField": false,
+                "confirmationLabel": {},
+                "fieldReference": "ehutitle",
+                "placeholder": {
+                    "eu_ES": ""
+                },
+                "dataSourceType": "manual",
+                "direction": []
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "none",
+            "indexable": true,
+            "label": {
+                "en_GB": " Title ",
+                "eu_ES": " Izenburua ",
+                "es_ES": " Título "
+            },
+            "localizable": true,
+            "name": "ehutitle",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": ""
+            }
+        }, {
+            "customProperties": {
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "dataType": "string",
+                "fieldReference": "ehubody"
+            },
+            "defaultValue": {},
+            "fieldType": "rich_text",
+            "indexType": "none",
+            "indexable": true,
+            "label": {
+                "en_GB": " Body ",
+                "eu_ES": " Testua ",
+                "es_ES": " Cuerpo "
+            },
+            "localizable": true,
+            "name": "ehubody",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": ""
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "allowGuestUsers": false,
+                "dataType": "document-library",
+                "fieldReference": "ehuimage"
+            },
+            "defaultValue": {},
+            "fieldType": "document_library",
+            "indexType": "none",
+            "indexable": true,
+            "label": {
+                "en_GB": " Image ",
+                "eu_ES": " Irudia ",
+                "es_ES": " Imagen "
+            },
+            "localizable": true,
+            "name": "ehuimage",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": ""
+            }
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [{
+                "dataLayoutRows": [{
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehuwarning"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehutitle"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehubody"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehuimage"]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "eu_ES": "Deskribapena"
+                },
+                "title": {
+                    "eu_ES": "Orrialdea"
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "en_GB": "Alumni",
+            "eu_ES": "Alumni",
+            "es_ES": "Alumni"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "eu_ES",
+    "description": {},
+    "name": {
+        "en_GB": "Alumni",
+        "eu_ES": "Alumni",
+        "es_ES": "Alumni"
+    },
+    "storageType": "default"
+}

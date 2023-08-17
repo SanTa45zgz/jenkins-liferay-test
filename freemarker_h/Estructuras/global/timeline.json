@@ -1,0 +1,759 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "pt_PT",
+        "fr_FR",
+        "en_GB",
+        "de_DE"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": "Título",
+                "eu_ES": "Izenburua",
+                "pt_PT": "Título",
+                "fr_FR": "Titre",
+                "en_GB": "Title",
+                "de_DE": "Titel"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehutimelinetitle",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "es_ES": "Descripción",
+                "eu_ES": "Deskribapena",
+                "pt_PT": "Descrição",
+                "fr_FR": "Description",
+                "en_GB": "Description",
+                "de_DE": "Beschreibung"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "html",
+            "fieldNamespace": "ddm",
+            "indexType": "text",
+            "localizable": true,
+            "name": "ehutimelinedescription",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-text-html"
+        },
+        {
+            "label": {
+                "es_ES": "Año",
+                "eu_ES": "Urtea",
+                "pt_PT": "Ano",
+                "fr_FR": "Année",
+                "en_GB": "Year",
+                "de_DE": "Jahr"
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "pt_PT": "",
+                "fr_FR": "",
+                "en_GB": "",
+                "de_DE": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehutimelineyear",
+            "readOnly": false,
+            "repeatable": true,
+            "required": true,
+            "showLabel": true,
+            "type": "text",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": "Título del apartado",
+                        "eu_ES": "Atalaren izenburua",
+                        "pt_PT": "Título da seção",
+                        "fr_FR": "Titre de la section",
+                        "en_GB": "Section title",
+                        "de_DE": "Abschnittsüberschrift"
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "pt_PT": "",
+                        "fr_FR": "",
+                        "en_GB": "",
+                        "de_DE": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "keyword",
+                    "localizable": true,
+                    "name": "ehutimelineitemtitle",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": "Destacado",
+                                "eu_ES": "Nabarmendua",
+                                "pt_PT": "Destacado",
+                                "fr_FR": "Surligné",
+                                "en_GB": "Outstanding",
+                                "de_DE": "Bemerkenswert"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "false",
+                                "eu_ES": false,
+                                "pt_PT": "false",
+                                "fr_FR": "false",
+                                "en_GB": "false",
+                                "de_DE": "false"
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehutimelinehighlight",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": "Mantener abierto al iniciar",
+                                "eu_ES": "Hasieran zabalik erakutsi",
+                                "pt_PT": "Mantenha aberto no início",
+                                "fr_FR": "Rester ouvert au démarrage",
+                                "en_GB": "Keep open at first",
+                                "de_DE": "Beim Start offen lassen"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "false",
+                                "eu_ES": false,
+                                "pt_PT": "false",
+                                "fr_FR": "false",
+                                "en_GB": "false",
+                                "de_DE": "false"
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "boolean",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehutimelinekeepopenonstart",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "checkbox"
+                        },
+                        {
+                            "label": {
+                                "es_ES": "Imagen miniatura",
+                                "eu_ES": "Irudi txikia",
+                                "pt_PT": "Imagem em miniatura",
+                                "fr_FR": "Image miniature",
+                                "en_GB": "Thumbnail Image",
+                                "de_DE": "Miniaturbild"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "document-library",
+                            "fieldNamespace": "ddm",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehutimelinethumbnailimage",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "ddm-documentlibrary",
+                            "nestedFields": [
+                                {
+                                    "label": {
+                                        "es_ES": "Texto alternativo de la imagen miniatura",
+                                        "eu_ES": "Irudi txikiaren ordezko testua",
+                                        "pt_PT": "Texto alternativo da imagem em miniatura",
+                                        "fr_FR": "Texte alternatif de l’image miniature",
+                                        "en_GB": "Thumbnail Image’s alternative text",
+                                        "de_DE": "Miniaturbild Alternativtext"
+                                    },
+                                    "predefinedValue": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "style": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "tip": {
+                                        "es_ES": "Descripción de la imagen para que cuando ésta no se vea no se pierda información",
+                                        "eu_ES": "Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin",
+                                        "pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas",
+                                        "fr_FR": "Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu",
+                                        "en_GB": "Description of the image not to lose information when it is not seen",
+                                        "de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird"
+                                    },
+                                    "dataType": "string",
+                                    "indexType": "keyword",
+                                    "localizable": true,
+                                    "name": "ehutimelinethumbnailalt",
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "label": {
+                                "es_ES": "Texto",
+                                "eu_ES": "Testua",
+                                "pt_PT": "Texto",
+                                "fr_FR": "Texte",
+                                "en_GB": "Text",
+                                "de_DE": "Text"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "html",
+                            "fieldNamespace": "ddm",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehutimelinetext",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "ddm-text-html"
+                        },
+                        {
+                            "label": {
+                                "es_ES": "Imagen",
+                                "eu_ES": "Irudia",
+                                "pt_PT": "Imagem",
+                                "fr_FR": "Image",
+                                "en_GB": "Image",
+                                "de_DE": "Bild"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "dataType": "document-library",
+                            "fieldNamespace": "ddm",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehutimelineimage",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "ddm-documentlibrary",
+                            "nestedFields": [
+                                {
+                                    "label": {
+                                        "es_ES": "Pie de imagen",
+                                        "eu_ES": "Irudiaren oina",
+                                        "pt_PT": "Legenda da imagem",
+                                        "fr_FR": "Légende",
+                                        "en_GB": "Image’s foot",
+                                        "de_DE": "Bildunterschrift"
+                                    },
+                                    "predefinedValue": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "style": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "tip": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "dataType": "string",
+                                    "indexType": "keyword",
+                                    "localizable": true,
+                                    "name": "ehutimelinecaption",
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "type": "text"
+                                },
+                                {
+                                    "label": {
+                                        "es_ES": "Texto alternativo de la imagen",
+                                        "eu_ES": "Irudiaren ordezko testua",
+                                        "pt_PT": "Texto alternativo da imagem",
+                                        "fr_FR": "Texte alternatif de l’image",
+                                        "en_GB": "Image’s alternative text",
+                                        "de_DE": "Alternativer Text des Bildes"
+                                    },
+                                    "predefinedValue": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "style": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "tip": {
+                                        "es_ES": "Descripción de la imagen para que cuando ésta no se vea no se pierda información",
+                                        "eu_ES": "Irudia ikusten ez denerako deskribapena, irudiak ematen duen informazioa gal ez dadin",
+                                        "pt_PT": "Descrição da imagem para que quando não for vista, as informações não sejam perdidas",
+                                        "fr_FR": "Description de l'image pour ne pas perdre d'information lorsqu'il n'est pas vu",
+                                        "en_GB": "Description of the image not to lose information when it is not seen",
+                                        "de_DE": "Beschreibung des Bildes, damit Informationen nicht verloren gehen, wenn es nicht gesehen wird"
+                                    },
+                                    "dataType": "string",
+                                    "indexType": "keyword",
+                                    "localizable": true,
+                                    "name": "ehutimelineimagealt",
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "type": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "label": {
+                                "es_ES": "URL del vídeo",
+                                "eu_ES": "Bideoaren URLa",
+                                "pt_PT": "URL do vídeo",
+                                "fr_FR": "URL de la vidéo",
+                                "en_GB": "Video URL",
+                                "de_DE": "Video-URL"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "La URL del vídeo se debe obtener del código iframe del vídeo en cada plataforma, y el vídeo debe ser accesible.",
+                                "eu_ES": "Bideoaren URLa plataforma bakoitzeko bideoaren iframe kodetik eskuratu behar da eta bideoa irisgarria izan behar da.",
+                                "pt_PT": "O URL do vídeo deve ser obtido a partir do código iframe do vídeo em cada plataforma, e o vídeo deve estar acessível.",
+                                "fr_FR": "L'URL de la vidéo doit être obtenue à partir du code iframe de la vidéo sur chaque plateforme, et la vidéo doit être accessible.",
+                                "en_GB": "The url of the video must be obtained from the iframe code of the video on each platform, and the video must be accessible.",
+                                "de_DE": "Die URL des Videos muss aus dem Iframe-Code des Videos auf jeder Plattform abgerufen werden, und das Video muss zugänglich sein."
+                            },
+                            "dataType": "string",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehutimelinevideo",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        },
+                        {
+                            "label": {
+                                "es_ES": "Audio MP3",
+                                "eu_ES": "MP3 audioa",
+                                "pt_PT": "Áudio MP3",
+                                "fr_FR": "Audio MP3",
+                                "en_GB": "MP3 audio",
+                                "de_DE": "Audio-MP3"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "La información del audio se debe proporcionar también en texto",
+                                "eu_ES": "Audioaren informazioa testu bidez ere eman behar da",
+                                "pt_PT": "As informações no áudio também devem ser fornecidas em texto",
+                                "fr_FR": "Les informations contenues dans l'audio doivent également être fournies sous forme de texte",
+                                "en_GB": "The information in the audio must also be provided in text",
+                                "de_DE": "Die Informationen im Audio müssen auch in Textform bereitgestellt werden"
+                            },
+                            "dataType": "document-library",
+                            "fieldNamespace": "ddm",
+                            "indexType": "keyword",
+                            "localizable": true,
+                            "name": "ehutimelineaudio",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "ddm-documentlibrary"
+                        },
+                        {
+                            "label": {
+                                "es_ES": "Dirección web",
+                                "eu_ES": "Web helbidea",
+                                "pt_PT": "Endereço da web",
+                                "fr_FR": "Adresse web",
+                                "en_GB": "Web address",
+                                "de_DE": "Webadresse"
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "pt_PT": "",
+                                "fr_FR": "",
+                                "en_GB": "",
+                                "de_DE": ""
+                            },
+                            "tip": {
+                                "es_ES": "https://www.ejemplo.com",
+                                "eu_ES": "https://www.adibide.com",
+                                "pt_PT": "https://www.exemplo.com",
+                                "fr_FR": "https://www.exemple.com",
+                                "en_GB": "https://www.example.com",
+                                "de_DE": "https://www.beispiel.com"
+                            },
+                            "dataType": "string",
+                            "indexType": "",
+                            "localizable": true,
+                            "name": "ehutimelinelink",
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text",
+                            "nestedFields": [
+                                {
+                                    "label": {
+                                        "es_ES": "Nombre de la dirección web",
+                                        "eu_ES": "Web helbidearen izena",
+                                        "pt_PT": "Nome do endereço da web",
+                                        "fr_FR": "Nom de l'adresse web",
+                                        "en_GB": "Name of the web address",
+                                        "de_DE": "Name der Webadresse"
+                                    },
+                                    "predefinedValue": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "style": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "tip": {
+                                        "es_ES": "Nombre asociado a la dirección web seleccionada",
+                                        "eu_ES": "Aukeratutako web helbidearekin lotutako izena",
+                                        "pt_PT": "Nome associado ao endereço da web selecionado",
+                                        "fr_FR": "Nom associé à l'adresse web sélectionnée",
+                                        "en_GB": "Name associated to the selected web address",
+                                        "de_DE": "Mit der ausgewählten Webadresse verknüpfter Text"
+                                    },
+                                    "dataType": "string",
+                                    "indexType": "",
+                                    "localizable": true,
+                                    "name": "ehutimelinelinktext",
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "type": "text"
+                                },
+                                {
+                                    "label": {
+                                        "es_ES": "Abrir en nueva pestaña",
+                                        "eu_ES": "Ireki fitxa berrian",
+                                        "pt_PT": "Abrir em nova aba",
+                                        "fr_FR": "Ouvrir dans un nouvel onglet",
+                                        "en_GB": "Open in new tab",
+                                        "de_DE": "In neuem Tab öffnen"
+                                    },
+                                    "predefinedValue": {
+                                        "es_ES": "false",
+                                        "eu_ES": false,
+                                        "pt_PT": "false",
+                                        "fr_FR": "false",
+                                        "en_GB": "false",
+                                        "de_DE": "false"
+                                    },
+                                    "style": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "tip": {
+                                        "es_ES": "",
+                                        "eu_ES": "",
+                                        "pt_PT": "",
+                                        "fr_FR": "",
+                                        "en_GB": "",
+                                        "de_DE": ""
+                                    },
+                                    "dataType": "boolean",
+                                    "indexType": "",
+                                    "localizable": true,
+                                    "name": "ehutimelinelinknewtab",
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "type": "checkbox"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

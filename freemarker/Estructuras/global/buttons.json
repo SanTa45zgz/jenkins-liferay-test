@@ -1,0 +1,742 @@
+{
+    "availableLanguageIds": ["es_ES", "eu_ES", "pt_PT", "fr_FR", "en_GB", "de_DE"],
+    "contentType": "journal",
+    "dataDefinitionFields": [{
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "hideField": false,
+                "confirmationErrorMessage": {},
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "eu_ES": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {
+                    "en_GB": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "eu_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "es_ES": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "fr_FR": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "pt_PT": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ],
+                    "de_DE": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "nativeField": false,
+                "confirmationLabel": {},
+                "fieldReference": "ehubuttonstitle",
+                "placeholder": {
+                    "eu_ES": ""
+                },
+                "dataSourceType": "manual",
+                "direction": []
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "text",
+            "indexable": true,
+            "label": {
+                "en_GB": "Title",
+                "eu_ES": "Izenburua",
+                "es_ES": "Título",
+                "fr_FR": "Titre",
+                "de_DE": "Titel",
+                "pt_PT": "Título"
+            },
+            "localizable": true,
+            "name": "ehubuttonstitle",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": "",
+                "eu_ES": "",
+                "es_ES": "",
+                "fr_FR": "",
+                "de_DE": "",
+                "pt_PT": ""
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "ehuattachmentsFieldSet",
+                "rows": [{
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehuattachments"]
+                            }
+                        ]
+                    }, {
+                        "columns": [{
+                                "size": 12,
+                                "fields": ["ehuattachmentsFieldSetFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "eu_ES": ""
+            },
+            "localizable": false,
+            "name": "ehuattachmentsFieldSet",
+            "nestedDataDefinitionFields": [{
+                    "customProperties": {
+                        "rulesConditionDisabled": false,
+                        "dataType": "",
+                        "fieldReference": "ehuattachments",
+                        "style": {}
+                    },
+                    "defaultValue": {},
+                    "fieldType": "separator",
+                    "indexable": false,
+                    "label": {
+                        "en_GB": "Buttons",
+                        "eu_ES": "Botoiak",
+                        "es_ES": "Botones",
+                        "fr_FR": "Boutons",
+                        "de_DE": "Tasten",
+                        "pt_PT": "Botões"
+                    },
+                    "localizable": false,
+                    "name": "ehuattachments",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "en_GB": "",
+                        "eu_ES": "",
+                        "es_ES": "",
+                        "fr_FR": "",
+                        "de_DE": "",
+                        "pt_PT": ""
+                    }
+                }, {
+                    "customProperties": {
+                        "labelAtStructureLevel": false,
+                        "ddmStructureLayoutId": "",
+                        "ddmStructureId": "",
+                        "upgradedStructure": false,
+                        "fieldReference": "ehuattachmentsFieldSetFieldSet",
+                        "rows": [{
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehuinfoattachmentdocumentFieldSet"]
+                                    }
+                                ]
+                            }, {
+                                "columns": [{
+                                        "size": 12,
+                                        "fields": ["ehuinfoattachmenturlFieldSet"]
+                                    }
+                                ]
+                            }
+                        ],
+                        "collapsible": false
+                    },
+                    "defaultValue": {},
+                    "fieldType": "fieldset",
+                    "indexable": false,
+                    "label": {
+                        "eu_ES": ""
+                    },
+                    "localizable": false,
+                    "name": "ehuattachmentsFieldSetFieldSet",
+                    "nestedDataDefinitionFields": [{
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "ehuinfoattachmenturlFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehuinfoattachmenturl"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehuinfoattachmenturlFieldSetFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "eu_ES": ""
+                            },
+                            "localizable": false,
+                            "name": "ehuinfoattachmenturlFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "hideField": false,
+                                        "confirmationErrorMessage": {},
+                                        "autocomplete": false,
+                                        "ddmDataProviderInstanceId": [],
+                                        "dataType": "string",
+                                        "tooltip": {
+                                            "eu_ES": ""
+                                        },
+                                        "requireConfirmation": false,
+                                        "displayStyle": "singleline",
+                                        "fieldNamespace": "",
+                                        "visibilityExpression": "",
+                                        "ddmDataProviderInstanceOutput": [],
+                                        "options": {
+                                            "en_GB": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "eu_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "es_ES": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "fr_FR": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "pt_PT": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ],
+                                            "de_DE": [{
+                                                    "reference": "",
+                                                    "label": "Option",
+                                                    "value": "Option"
+                                                }
+                                            ]
+                                        },
+                                        "nativeField": false,
+                                        "confirmationLabel": {},
+                                        "fieldReference": "ehuinfoattachmenturl",
+                                        "placeholder": {
+                                            "eu_ES": ""
+                                        },
+                                        "dataSourceType": "manual",
+                                        "direction": []
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "text",
+                                    "indexType": "text",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": "Web address",
+                                        "eu_ES": "Web helbidea",
+                                        "es_ES": "Dirección web",
+                                        "fr_FR": "Adresse web",
+                                        "de_DE": "Webadresse",
+                                        "pt_PT": "Endereço da web"
+                                    },
+                                    "localizable": true,
+                                    "name": "ehuinfoattachmenturl",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": "https://www.example.com",
+                                        "eu_ES": "https://www.adibide.com",
+                                        "es_ES": "https://www.ejemplo.com",
+                                        "fr_FR": "https://www.exemple.com",
+                                        "de_DE": "https://www.beispiel.com",
+                                        "pt_PT": "https://www.exemplo.com"
+                                    }
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "ehuinfoattachmenturlFieldSetFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["ehuinfoattachmenturltitle"]
+                                                    }
+                                                ]
+                                            }, {
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["ehuinfoattachmenturlnewtab"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "eu_ES": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "ehuinfoattachmenturlFieldSetFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "fieldNamespace": "null",
+                                                "visibilityExpression": "null",
+                                                "dataType": "boolean",
+                                                "options": {},
+                                                "fieldReference": "ehuinfoattachmenturlnewtab",
+                                                "showAsSwitcher": false
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "checkbox",
+                                            "indexType": "none",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": "Open in new tab",
+                                                "eu_ES": "Ireki fitxa berrian",
+                                                "es_ES": "Abrir en nueva pestaña",
+                                                "fr_FR": "Ouvrir dans un nouvel onglet",
+                                                "de_DE": "In neuem Tab öffnen",
+                                                "pt_PT": "Abrir em nova aba"
+                                            },
+                                            "localizable": true,
+                                            "name": "ehuinfoattachmenturlnewtab",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": "",
+                                                "eu_ES": "",
+                                                "es_ES": "",
+                                                "fr_FR": "",
+                                                "de_DE": "",
+                                                "pt_PT": ""
+                                            }
+                                        }, {
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "eu_ES": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "eu_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "es_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "fr_FR": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "pt_PT": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "de_DE": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "ehuinfoattachmenturltitle",
+                                                "placeholder": {
+                                                    "eu_ES": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "text",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": "Name of the web address",
+                                                "eu_ES": "Web helbidearen izena",
+                                                "es_ES": "Nombre de la dirección web",
+                                                "fr_FR": "Nom de l'adresse web",
+                                                "de_DE": "Name der Webadresse",
+                                                "pt_PT": "Nome do endereço da web"
+                                            },
+                                            "localizable": true,
+                                            "name": "ehuinfoattachmenturltitle",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": "Name associated to the selected web address",
+                                                "eu_ES": "Aukeratutako web helbidearekin lotutako izena",
+                                                "es_ES": "Nombre asociado a la dirección web seleccionada",
+                                                "fr_FR": "Nom associé à l'adresse web sélectionnée",
+                                                "de_DE": "Mit der ausgewählten Webadresse verknüpfter Text",
+                                                "pt_PT": "Nome associado ao endereço da web selecionado"
+                                            }
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }, {
+                            "customProperties": {
+                                "labelAtStructureLevel": false,
+                                "ddmStructureLayoutId": "",
+                                "ddmStructureId": "",
+                                "upgradedStructure": false,
+                                "fieldReference": "ehuinfoattachmentdocumentFieldSet",
+                                "rows": [{
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehuinfoattachmentdocument"]
+                                            }
+                                        ]
+                                    }, {
+                                        "columns": [{
+                                                "size": 12,
+                                                "fields": ["ehuinfoattachmentdocumentFieldSetFieldSet"]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "collapsible": false
+                            },
+                            "defaultValue": {},
+                            "fieldType": "fieldset",
+                            "indexable": false,
+                            "label": {
+                                "eu_ES": ""
+                            },
+                            "localizable": false,
+                            "name": "ehuinfoattachmentdocumentFieldSet",
+                            "nestedDataDefinitionFields": [{
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "ddmStructureLayoutId": "",
+                                        "ddmStructureId": "",
+                                        "upgradedStructure": false,
+                                        "fieldReference": "ehuinfoattachmentdocumentFieldSetFieldSet",
+                                        "rows": [{
+                                                "columns": [{
+                                                        "size": 12,
+                                                        "fields": ["ehuinfoattachmentdocumenttitle"]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "collapsible": false
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "fieldset",
+                                    "indexable": false,
+                                    "label": {
+                                        "eu_ES": ""
+                                    },
+                                    "localizable": false,
+                                    "name": "ehuinfoattachmentdocumentFieldSetFieldSet",
+                                    "nestedDataDefinitionFields": [{
+                                            "customProperties": {
+                                                "labelAtStructureLevel": false,
+                                                "hideField": false,
+                                                "confirmationErrorMessage": {},
+                                                "autocomplete": false,
+                                                "ddmDataProviderInstanceId": [],
+                                                "dataType": "string",
+                                                "tooltip": {
+                                                    "eu_ES": ""
+                                                },
+                                                "requireConfirmation": false,
+                                                "displayStyle": "singleline",
+                                                "fieldNamespace": "",
+                                                "visibilityExpression": "",
+                                                "ddmDataProviderInstanceOutput": [],
+                                                "options": {
+                                                    "en_GB": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "eu_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "es_ES": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "fr_FR": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "pt_PT": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ],
+                                                    "de_DE": [{
+                                                            "reference": "",
+                                                            "label": "Option",
+                                                            "value": "Option"
+                                                        }
+                                                    ]
+                                                },
+                                                "nativeField": false,
+                                                "confirmationLabel": {},
+                                                "fieldReference": "ehuinfoattachmentdocumenttitle",
+                                                "placeholder": {
+                                                    "eu_ES": ""
+                                                },
+                                                "dataSourceType": "manual",
+                                                "direction": []
+                                            },
+                                            "defaultValue": {},
+                                            "fieldType": "text",
+                                            "indexType": "text",
+                                            "indexable": true,
+                                            "label": {
+                                                "en_GB": "Document name",
+                                                "eu_ES": "Dokumentuaren izena",
+                                                "es_ES": "Nombre del documento",
+                                                "fr_FR": "Nom du document",
+                                                "de_DE": "Dokumentname",
+                                                "pt_PT": "Nome do Documento"
+                                            },
+                                            "localizable": true,
+                                            "name": "ehuinfoattachmentdocumenttitle",
+                                            "nestedDataDefinitionFields": [],
+                                            "readOnly": false,
+                                            "repeatable": false,
+                                            "required": false,
+                                            "showLabel": true,
+                                            "tip": {
+                                                "en_GB": "Name associated to the selected file",
+                                                "eu_ES": "Aukeratutako fitxategiarekin lotutako izena",
+                                                "es_ES": "Nombre asociado al fichero seleccionado",
+                                                "fr_FR": "Nom associé au fichier sélectionné",
+                                                "de_DE": "Name, der der ausgewählten Datei zugeordnet ist",
+                                                "pt_PT": "Nome associado ao arquivo selecionado"
+                                            }
+                                        }
+                                    ],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": false,
+                                    "tip": {}
+                                }, {
+                                    "customProperties": {
+                                        "labelAtStructureLevel": false,
+                                        "fieldNamespace": "",
+                                        "visibilityExpression": "",
+                                        "allowGuestUsers": false,
+                                        "dataType": "document-library",
+                                        "fieldReference": "ehuinfoattachmentdocument"
+                                    },
+                                    "defaultValue": {},
+                                    "fieldType": "document_library",
+                                    "indexType": "keyword",
+                                    "indexable": true,
+                                    "label": {
+                                        "en_GB": "Document",
+                                        "eu_ES": "Dokumentua",
+                                        "es_ES": "Documento",
+                                        "fr_FR": "Document",
+                                        "de_DE": "Dokument",
+                                        "pt_PT": "Documento"
+                                    },
+                                    "localizable": true,
+                                    "name": "ehuinfoattachmentdocument",
+                                    "nestedDataDefinitionFields": [],
+                                    "readOnly": false,
+                                    "repeatable": false,
+                                    "required": false,
+                                    "showLabel": true,
+                                    "tip": {
+                                        "en_GB": "",
+                                        "eu_ES": "",
+                                        "es_ES": "",
+                                        "fr_FR": "",
+                                        "de_DE": "",
+                                        "pt_PT": ""
+                                    }
+                                }
+                            ],
+                            "readOnly": false,
+                            "repeatable": true,
+                            "required": false,
+                            "showLabel": false,
+                            "tip": {}
+                        }
+                    ],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": false,
+                    "tip": {}
+                }
+            ],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": false,
+            "tip": {}
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [{
+                "dataLayoutRows": [{
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehubuttonstitle"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["ehuattachmentsFieldSet"]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "eu_ES": "Deskribapena"
+                },
+                "title": {
+                    "eu_ES": "Orrialdea"
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "en_GB": "Buttons",
+            "eu_ES": "Botoiak",
+            "es_ES": "Botones",
+            "fr_FR": "Boutons",
+            "pt_PT": "Botões",
+            "de_DE": "Tasten"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "eu_ES",
+    "description": {},
+    "name": {
+        "en_GB": "Buttons",
+        "eu_ES": "Botoiak",
+        "es_ES": "Botones",
+        "fr_FR": "Boutons",
+        "pt_PT": "Botões",
+        "de_DE": "Tasten"
+    },
+    "storageType": "default"
+}

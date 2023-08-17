@@ -1,0 +1,175 @@
+{
+    "availableLanguageIds": ["en_GB"],
+    "contentType": "journal",
+    "dataDefinitionFields": [{
+            "customProperties": {
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "dataType": "image",
+                "requiredDescription": true,
+                "fieldReference": "Imagen9cfx"
+            },
+            "defaultValue": {},
+            "fieldType": "image",
+            "indexType": "text",
+            "indexable": true,
+            "label": {
+                "en_GB": ""
+            },
+            "localizable": true,
+            "name": "Imagen9cfx",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": ""
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "hideField": false,
+                "confirmationErrorMessage": {},
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "en_GB": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {
+                    "en_GB": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "nativeField": false,
+                "confirmationLabel": {},
+                "fieldReference": "Antetitulo",
+                "placeholder": {
+                    "en_GB": ""
+                },
+                "dataSourceType": "manual",
+                "direction": []
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": ""
+            },
+            "localizable": true,
+            "name": "Antetitulo",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": ""
+            }
+        }, {
+            "customProperties": {
+                "labelAtStructureLevel": false,
+                "hideField": false,
+                "confirmationErrorMessage": {},
+                "autocomplete": false,
+                "ddmDataProviderInstanceId": [],
+                "dataType": "string",
+                "tooltip": {
+                    "en_GB": ""
+                },
+                "requireConfirmation": false,
+                "displayStyle": "singleline",
+                "fieldNamespace": "",
+                "visibilityExpression": "",
+                "ddmDataProviderInstanceOutput": [],
+                "options": {
+                    "en_GB": [{
+                            "reference": "",
+                            "label": "Option",
+                            "value": "Option"
+                        }
+                    ]
+                },
+                "nativeField": false,
+                "confirmationLabel": {},
+                "fieldReference": "Titulo",
+                "placeholder": {
+                    "en_GB": ""
+                },
+                "dataSourceType": "manual",
+                "direction": []
+            },
+            "defaultValue": {},
+            "fieldType": "text",
+            "indexType": "keyword",
+            "indexable": true,
+            "label": {
+                "en_GB": ""
+            },
+            "localizable": true,
+            "name": "Titulo",
+            "nestedDataDefinitionFields": [],
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "tip": {
+                "en_GB": ""
+            }
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [{
+                "dataLayoutRows": [{
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["Imagen9cfx"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["Antetitulo"]
+                            }
+                        ]
+                    }, {
+                        "dataLayoutColumns": [{
+                                "columnSize": 12,
+                                "fieldNames": ["Titulo"]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "en_GB": "Description"
+                },
+                "title": {
+                    "en_GB": "Page"
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "en_GB": "Cofund cabecera"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "en_GB",
+    "description": {},
+    "name": {
+        "en_GB": "Cofund cabecera"
+    },
+    "storageType": "default"
+}

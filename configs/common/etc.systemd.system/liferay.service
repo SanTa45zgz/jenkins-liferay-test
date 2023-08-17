@@ -1,0 +1,25 @@
+[Unit]
+Description=Liferay Portal 7
+After=network.target syslog.target
+
+[Service]
+Type=forking
+WorkingDirectory=/opt/liferay/
+
+Environment="JAVA_HOME=/usr/java/default"
+
+ExecStart=/opt/liferay/tomcat/bin/startup.sh
+ExecStop=/opt/liferay/tomcat/bin/shutdown.sh
+
+TimeoutStopSec=60
+KillMode=process
+KillSignal=SIGTERM
+
+Restart=on-failure
+RestartSec=30s
+
+User=liferay
+Group=liferay
+
+[Install]
+WantedBy=multi-user.target

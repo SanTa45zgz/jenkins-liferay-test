@@ -1,0 +1,735 @@
+{
+    "availableLanguageIds": [
+        "es_ES",
+        "eu_ES",
+        "fr_FR",
+        "en_GB"
+    ],
+    "defaultLanguageId": "eu_ES",
+    "fields": [
+        {
+            "label": {
+                "es_ES": " Información principal ",
+                "eu_ES": " Informazio nagusia ",
+                "fr_FR": " Information principale ",
+                "en_GB": " Main information "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehucompanygeneraldata",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Nombre ",
+                        "eu_ES": " Izena ",
+                        "fr_FR": " Nom ",
+                        "en_GB": " Name "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucompanyname",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": true,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Logotipo ",
+                        "eu_ES": " Logotipoa ",
+                        "fr_FR": " Logo ",
+                        "en_GB": " Logo "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "document-library",
+                    "fieldNamespace": "ddm",
+                    "indexType": "",
+                    "localizable": true,
+                    "name": "ehucompanylogo",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-documentlibrary"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Datos de contacto ",
+                "eu_ES": " Harremanetarako datuak ",
+                "fr_FR": " Informations de contact ",
+                "en_GB": " Contact information "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehucompanycontactdata",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Descripción del teléfono ",
+                        "eu_ES": " Telefonoaren deskribapena ",
+                        "fr_FR": " Description du téléphone ",
+                        "en_GB": " Phone's description "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucompanyphonetext",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Teléfono ",
+                                "eu_ES": " Telefonoa ",
+                                "fr_FR": " Téléphone ",
+                                "en_GB": " Phone "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "tip": {
+                                "es_ES": "+00 123 456 789",
+                                "eu_ES": "+00 123 456 789",
+                                "fr_FR": "+00 123 456 789",
+                                "en_GB": "+00 123 456 789"
+                            },
+                            "dataType": "string",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehucompanyphone",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Descripción del correo electrónico ",
+                        "eu_ES": " Posta elektronikoaren deskribapena ",
+                        "fr_FR": " Description du e-mail ",
+                        "en_GB": " Email's description "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucompanyemailtext",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Correo electrónico ",
+                                "eu_ES": " Posta elektronikoa ",
+                                "fr_FR": " E-mail ",
+                                "en_GB": " Email-address "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "tip": {
+                                "es_ES": " mi-correo@ejemplo.com ",
+                                "eu_ES": " nire-posta@adibide.com ",
+                                "fr_FR": " mon-email@exemple.com ",
+                                "en_GB": " my-email@example.com "
+                            },
+                            "dataType": "string",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehucompanyemail",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Nombre de la dirección web ",
+                        "eu_ES": " Web helbidearen izena ",
+                        "fr_FR": " Nom de l'adresse web ",
+                        "en_GB": " Name of the web address "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": " Nombre asociado a la dirección web seleccionada ",
+                        "eu_ES": " Aukeratutako web helbidearekin lotutako izena ",
+                        "fr_FR": " Nom associé à l'adresse web sélectionnée ",
+                        "en_GB": " Name associated to the selected web address "
+                    },
+                    "dataType": "string",
+                    "indexType": "",
+                    "localizable": true,
+                    "name": "ehucompanyurltext",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Dirección web ",
+                                "eu_ES": " Web helbidea ",
+                                "fr_FR": " Adresse web ",
+                                "en_GB": " Web address "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "tip": {
+                                "es_ES": " https://www.ejemplo.com ",
+                                "eu_ES": " https://www.adibide.com ",
+                                "fr_FR": " https://www.exemple.com ",
+                                "en_GB": " https://www.example.com "
+                            },
+                            "dataType": "string",
+                            "indexType": "",
+                            "localizable": true,
+                            "name": "ehucompanyurl",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Localización ",
+                "eu_ES": " Kokapena ",
+                "fr_FR": " Emplacement ",
+                "en_GB": " Location "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehucompanylocationdata",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Dirección ",
+                        "eu_ES": " Helbidea ",
+                        "fr_FR": " Adresse ",
+                        "en_GB": " Address "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucompanyaddressstreet",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Código postal ",
+                        "eu_ES": " Posta kodea ",
+                        "fr_FR": " Code postal ",
+                        "en_GB": " Postal Code "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucompanyaddresspostcode",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Ciudad ",
+                        "eu_ES": " Hiria ",
+                        "fr_FR": " Ville ",
+                        "en_GB": " City "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucompanyaddresscity",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                },
+                {
+                    "label": {
+                        "es_ES": " Provincia ",
+                        "eu_ES": " Probintzia ",
+                        "fr_FR": " Province ",
+                        "en_GB": " Province "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucompanyaddressprovince",
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "label": {
+                "es_ES": " Información adicional ",
+                "eu_ES": " Informazio gehigarria ",
+                "fr_FR": " Information additionnelle ",
+                "en_GB": " Additional information "
+            },
+            "predefinedValue": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "style": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "tip": {
+                "es_ES": "",
+                "eu_ES": "",
+                "fr_FR": "",
+                "en_GB": ""
+            },
+            "dataType": "",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "ehucompanyextrainformationdata",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-separator",
+            "nestedFields": [
+                {
+                    "label": {
+                        "es_ES": " Documento ",
+                        "eu_ES": " Dokumentua ",
+                        "fr_FR": " Document ",
+                        "en_GB": " Document "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "dataType": "document-library",
+                    "fieldNamespace": "ddm",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucompanydocument",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "ddm-documentlibrary",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Nombre del documento ",
+                                "eu_ES": " Dokumentuaren izena ",
+                                "fr_FR": " Nom du document ",
+                                "en_GB": " Document name "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "tip": {
+                                "es_ES": " Nombre asociado al fichero seleccionado ",
+                                "eu_ES": " Aukeratutako fitxategiarekin lotutako izena ",
+                                "fr_FR": " Nom associé au fichier sélectionné ",
+                                "en_GB": " Name associated to the selected file "
+                            },
+                            "dataType": "string",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehucompanydocumenttitle",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                },
+                {
+                    "label": {
+                        "es_ES": " Dirección web ",
+                        "eu_ES": " Web helbidea ",
+                        "fr_FR": " Adresse web ",
+                        "en_GB": " Web address "
+                    },
+                    "predefinedValue": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "style": {
+                        "es_ES": "",
+                        "eu_ES": "",
+                        "fr_FR": "",
+                        "en_GB": ""
+                    },
+                    "tip": {
+                        "es_ES": " https://www.ejemplo.com ",
+                        "eu_ES": " https://www.adibide.com ",
+                        "fr_FR": " https://www.exemple.com ",
+                        "en_GB": " https://www.example.com "
+                    },
+                    "dataType": "string",
+                    "indexType": "text",
+                    "localizable": true,
+                    "name": "ehucompanylinks",
+                    "readOnly": false,
+                    "repeatable": true,
+                    "required": false,
+                    "showLabel": true,
+                    "type": "text",
+                    "nestedFields": [
+                        {
+                            "label": {
+                                "es_ES": " Nombre de la dirección web ",
+                                "eu_ES": " Web helbidearen izena ",
+                                "fr_FR": " Nom de l'adresse web ",
+                                "en_GB": " Name of the web address "
+                            },
+                            "predefinedValue": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "style": {
+                                "es_ES": "",
+                                "eu_ES": "",
+                                "fr_FR": "",
+                                "en_GB": ""
+                            },
+                            "tip": {
+                                "es_ES": " Nombre asociado a la dirección web seleccionada ",
+                                "eu_ES": " Aukeratutako web helbidearekin lotutako izena ",
+                                "fr_FR": " Nom associé à l'adresse web sélectionnée ",
+                                "en_GB": " Name associated to the selected web address "
+                            },
+                            "dataType": "string",
+                            "indexType": "text",
+                            "localizable": true,
+                            "name": "ehucompanylinkstitle",
+                            "readOnly": false,
+                            "repeatable": false,
+                            "required": false,
+                            "showLabel": true,
+                            "type": "text"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
