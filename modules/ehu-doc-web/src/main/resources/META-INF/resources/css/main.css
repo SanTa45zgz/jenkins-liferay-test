@@ -1,0 +1,12 @@
+.cmis-navigator .aui-field-content {
+	display: inline;
+}
+
+.cmis-navigator .aui-field-content:after {
+	display: inline;
+}
+
+
+.cmis-navigator-breadcrumbs {
+	font-size: 13px;
+}

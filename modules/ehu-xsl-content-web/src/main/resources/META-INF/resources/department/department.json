@@ -1,0 +1,21 @@
+{
+  "config":[
+  	{
+    	"val":"1",
+    	"label": {
+    		"eu":"Graduko ikasgaiak",
+    		"es":"Asignaturas de grado",
+    		"en":"Graduate's subjects",
+    		"fr":"Sujets d'études"
+    	}
+    } ,{
+    	"val":"2",
+    	"label": {
+    		"eu":"Graduondoko ikasgaiak",
+    		"es":"Asignaturas de posgrado",
+    		"en":"Master's subjects",
+    		"fr":"Sujets d'études"
+    	}
+    }  
+  ]
+}

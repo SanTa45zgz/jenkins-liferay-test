@@ -1,0 +1,1 @@
+- Se añaden los siguientes plugins custom al CKEditor: 'Langswitch' y 'HelpBtn'

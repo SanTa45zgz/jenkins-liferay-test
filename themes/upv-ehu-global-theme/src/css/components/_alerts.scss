@@ -1,0 +1,201 @@
+.journal-content-article,
+.portlet-asset-publisher {
+
+	.portlet-msg-info,
+	.portlet-msg-alert,
+	.portlet-msg-error,
+	.portlet-msg-success{
+		align-items: center;
+	    border: solid $background-color 3px;
+	    border-radius: 4px;
+	    color: $neutral-color-dark;
+	    font-size: 1.14rem;
+	    padding: 18px 25px;
+	    width: auto;
+		padding-left: 60px;
+		position: relative;
+		overflow: auto;
+
+		p{
+			margin-bottom: 0;
+		}
+
+	    &:before {
+			font-family: 'fontawesome-alloy';
+		    font-size: 24px;
+    		margin-right: 15px;
+			position: absolute;
+			left: 20px;
+			top: calc(50% - 12px);
+		}
+	}
+
+	.portlet-msg-info{
+		background-color: $background-color;
+
+		&:before {
+			content: "\f05a";
+		}
+	}
+
+	.portlet-msg-alert{
+		background-color: $color-white;
+		border-color: $warning;
+
+		&:before {
+			color: $warning;
+			content: "\f06a";
+		}
+	}
+
+	.portlet-msg-error{
+		background-color: $color-white;
+		border-color: $danger;
+
+		&:before {
+			color: $danger;
+			content: "\f071";
+		}
+	}
+
+	.portlet-msg-success{
+		background-color: $color-white;
+		border-color: $success-dark;
+
+		&:before {
+			color: $success-dark;
+			content: "\f058";
+		}
+	}
+
+	article {
+
+		&.advice.portlet-msg-alert {
+		    flex-direction: column;
+
+		    &::before {
+			    position: absolute;
+			    margin-top: 10px;
+			}
+
+			&>h1 {
+		    	margin-left: 40px;
+			}
+		}
+	}
+
+}
+
+.alert, 
+.portlet-msg-help, 
+.portlet-msg-progress{
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 20px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px; 
+}
+
+.alert-success {
+	background-color: $color-white;
+	border-color: $success-dark;
+	color: $neutral-color-dark;
+}
+
+.alert-info, 
+.portlet-msg-help,
+.portlet-msg-progress {
+	background-color: $background-color;
+	border-color: $background-color;
+	color: $neutral-color-dark;
+}
+
+.alert-danger,
+.alert-error{
+	background-color: $color-white;
+	border-color: $danger;
+	color: $neutral-color-dark;
+}
+
+.alert,
+.alert-danger,
+.alert-error,
+.alert-info,
+.alert-success,
+.portlet-msg-help, 
+.portlet-msg-progress, 
+.alert h4,
+.alert-danger h4,
+.alert-error h4,
+.alert-info h4,
+.alert-success h4,
+.portlet-msg-alert h4,
+.portlet-msg-error h4,
+.portlet-msg-help h4,
+.portlet-msg-info h4,
+.portlet-msg-progress h4,
+.portlet-msg-success h4 {
+	color: $neutral-color-dark;
+}
+
+.alert h4,
+.alert-danger h4,
+.alert-error h4,
+.alert-info h4,
+.alert-success h4,
+.portlet-msg-alert h4,
+.portlet-msg-error h4,
+.portlet-msg-help h4,
+.portlet-msg-info h4,
+.portlet-msg-progress h4,
+.portlet-msg-success h4 {
+	margin: 0;
+}
+
+.alert .close, 
+.portlet-msg-alert .close, 
+.portlet-msg-error .close, 
+.portlet-msg-help .close, 
+.portlet-msg-info .close, 
+.portlet-msg-progress .close, 
+.portlet-msg-success .close {
+	position: relative;
+	top: -2px;
+	right: -21px;
+	line-height: 20px; 
+}
+
+.alert-block {
+	padding-top: 14px;
+	padding-bottom: 14px; 
+}
+.alert-block > p,
+.alert-block > ul {
+	margin-bottom: 0; 
+}
+
+.alert-block p + p {
+	margin-top: 5px; 
+}
+
+.alert,
+.portlet-msg-help,
+.portlet-msg-progress{
+	display: table;	//para que los avisos no se solapen a imagenes flotadas
+}
+
+
+.portlet-asset-publisher{
+	.portlet-msg-info,
+	.portlet-msg-alert,
+	.portlet-msg-error,
+	.portlet-msg-success{
+		margin-top: 1rem;
+		padding: 8px 15px;
+    	padding-left: 53px;
+    	margin-bottom: 0;
+	}
+}

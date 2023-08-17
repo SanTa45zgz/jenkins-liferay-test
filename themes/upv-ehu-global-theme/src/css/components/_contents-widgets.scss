@@ -1,0 +1,965 @@
+//-- Ajustes mínimos para visualizar correctamente contenidos y widgets antiguos con este tema
+
+/* Variables -----------------------------------*/
+
+/* Colors */
+
+$color-secondary: #424242;
+$color-secondary-light: #BDBDBD;
+$color-secondary-dark: #212121;
+
+//-- TIPOS DE CONTENIDO -- //
+
+//-- Iconos de documentos y enlaces --
+
+.journal-content-article {
+	.call,
+	.enterprise,
+	.help,
+	.person {
+		
+		.documents,
+		.links {
+			ul {
+				list-style: none;
+				margin: 0 0 2rem 1rem;
+				padding-left: 3px;
+				
+				li {
+					display: flex;
+					line-height: 1.5rem;
+					margin-bottom: 1.5rem;
+				}
+				
+				li::before {
+					background-color: transparent;
+					border: none;
+					color: $neutral-color-medium;
+					font-family: 'fontawesome-alloy';
+					font-size: 24px;
+					height: inherit;
+					margin-right: 10px;
+					position: inherit;
+					width: inherit;
+					left: 0;
+				}
+			}
+		}	
+		.documents {
+			li::before {
+			  content: "\f0f6";
+			}
+		}
+		.links {
+			li::before {
+				content: "\f0c1";
+			}
+		}
+	}
+	
+	.intellectual-property,
+	.research-project,
+	.thesis {
+		dd.document::before,
+		dd.link::before {
+			color: $neutral-color-medium;
+			font-family: 'fontawesome-alloy';
+			font-size: 24px;
+			margin-right: 10px;
+			position: relative;
+			top: 5px;
+		}
+		dd.document::before {
+			content: "\f0f6";
+		}
+		dd.link::before {
+			content: "\f0c1";
+		}
+	}
+	
+	.publication {
+		ul {
+			padding: 0;
+		}	
+		li.document,
+		li.link {
+			margin-bottom: 1.5rem;
+			
+			&::before {
+				border: none;
+				color: $neutral-color-medium;
+				font-family: 'fontawesome-alloy';
+				font-size: 24px;
+				height: inherit;
+				margin-right: 10px;
+				position: inherit;
+				width: inherit;
+				left: 0;
+				top: 5px;
+			}
+		}
+		li.document::before {
+			content: "\f0f6";
+		}
+		li.link::before {
+			content: "\f0c1";
+		}
+	}
+}
+
+@media (max-width: 991.98px) {
+	.journal-content-article {
+		.help,
+		.call,
+		.person {
+			
+			.documents,
+			.links {
+				ul {
+					margin-left: 0;
+				}
+			}
+		}
+	}	
+}
+
+//-- Alumni --
+			
+.alumni {
+
+	// Primer Bloque
+	#acreditacion1 {
+		padding: 0px 15px;
+		background-image: url("https://www.ehu.eus/documents/4615962/5480001/fondo_acreditacion_2018/3b07e770-782f-9a92-516e-a12d34a2febb?t=1524660987723");
+		
+		.photo {
+			overflow: hidden;
+			
+			.acd_div_tx {
+				float: left;
+				background-color: #FFFFFF;
+				
+				p {
+					font-size: 25px;
+					margin: 18px;
+					
+					span {
+						color:#becf00;
+					}
+				}
+			}
+		}
+		
+		.description {
+			clear: both;
+			padding-top: 34px;
+			
+			p {
+				color: #FFFFFF;
+				margin: 0;
+				font-weight: bold;
+				padding: 5px 0;
+				font-size: 19px;
+				
+				&:first-of-type {
+					padding-top: 18px;
+				}
+			}
+			
+			.main p {
+				font-size: 15px;
+				padding-top: 8px;
+			}
+		}
+	}
+	
+	// Segundo Bloque
+	#acreditacion2 {
+		background-image: url("https://www.ehu.eus/documents/4615962/5480001/fondo_acreditacion_2018/3b07e770-782f-9a92-516e-a12d34a2febb?t=1524660987723");
+		
+		.photo img {
+			display: block;
+			padding: 10px 5px;
+			background-color: #FFFFFF;
+			margin-left: 15px;
+			max-width: 240px;
+			height: 57px;
+		}
+		
+		.description {
+			padding-top: 32px;
+		}
+		
+		.main {
+			margin-left: 15px;
+			margin-top: 20px;
+			
+			p {
+				font-size: 18px;
+				font-weight: bold;
+				color: #FFFFFF;
+				text-align: left;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	
+	// Comunes Bloque
+	.acd_div_bq {
+		width: 240.9448pt;
+		height: 155.9055pt;
+		box-sizing: border-box;
+		border-radius: 10px;
+		float: left;
+		font-family: 'ehuSans', sans-serif;
+		margin: 5px;
+		border: 1px solid black;
+	}
+	
+	// Enlace de descarga
+	#descarga {
+    	@extend .c-button;
+    	@extend .c-button--primary;
+    	margin: 5px;
+	}
+}
+
+//-- Ayuda --
+
+.help {
+	font-size: $basic-font-size;
+
+	.help-state{
+		border: solid #E9E9E9 2px;
+	    border-radius: 4px;
+	    color: #000000;
+	    padding: 18px 20px;
+	}
+	
+	.help-icon {
+		height: 20px;
+	    width: 20px;
+	    border-radius: 0;
+	    margin-right: 18px;
+	}
+}
+
+//-- Banner --
+
+.banner {
+	font-size: $basic-font-size;
+	
+	figure {
+		text-align: center;
+	}
+	
+	img {
+		width: 100%;
+	}
+	
+	figcaption {
+		background: #FFFFFF;
+	}
+}
+
+.aui .span6,
+.aui .span9 {
+	.banner {
+		max-width: 400px;
+	}
+}
+
+//-- Contacto --
+
+.contact {
+	font-size: $basic-font-size;
+	
+	.btn {
+		@extend .c-button;
+    	@extend .c-button--secondary;
+    	margin-top: $extra-font-size;
+	}
+}
+
+//-- Convocatoria --
+
+.call {
+	font-size: $basic-font-size;
+	
+	button#lopd-msg {
+		@extend .c-button;
+    	@extend .c-button--secondary;
+    	margin: 0 1rem;
+	}
+	
+	#modal{
+		position: unset;
+
+		.yui3-widget-mask{
+			z-index: 99!important;
+		}
+
+		.modal-dialog {
+			position: absolute;
+			z-index: 100 !important;
+			background-color: #FFFFFF;
+			pointer-events: inherit !important;
+			max-width: 650px;
+			left: auto !important;
+			right: auto !important;
+			
+			&::after {
+				content: "";
+				width: 100%;
+				height: 100%;
+				top: 0;
+				background-color: #000;
+				opacity: 0.4;
+				position: fixed;
+				left: 0;
+				z-index: 1;
+			}
+			
+			#contentBox {
+				position: relative;
+				z-index: 2;
+				background-color: #FFFFFF;
+				border-radius: 7px;
+
+				.modal-header .btn-toolbar-button.close {
+					background-color: #FFFFFF;
+					background-image: none;
+					color: #000;
+					opacity: 1;
+				}
+				
+				h2 {
+					font-size: $highlight-font-size;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+//-- Destacado --
+
+.aui .asset-list-highlight .box {
+    margin: 0 0 20px 20px;
+    background-color: #FFFFFF;
+    
+    a {
+    	padding: 15px;
+    	
+    	&:focus {	//porque ya se subraya el texto y esto hace efecto raro con el padding
+    		outline: 0 !important;
+    		box-shadow: none !important;
+    	}
+    }
+
+    p.card-title {
+        color: $color-primary;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    p {
+        color: black;
+        font-size: $basic-font-size;
+        margin-bottom: 0;
+    }
+    
+    a:hover p,
+    a:focus p {
+        text-decoration: underline;
+    }
+    
+    figure {
+        margin: 0;
+        display: flex;
+		align-items: center;
+    }
+}
+
+// para que en publicador en visualización completa tenga padding
+.aui .asset-full-content .outstanding .thumbnail {
+  margin: 0 20px;
+}
+
+// para que el destacado en visualización completa no tenga margen excesivo
+.aui .journal-content-article .portlet-asset-publisher .outstanding.asset-list-highlight {
+	margin: 0 0 0 -20px;
+	padding: 0;
+}
+
+// para que el destacado en visualización completa y el resto de destacados tengan el mismo margin-left
+.aui .portlet-asset-publisher .journal-content-article .portlet-asset-publisher .outstanding.asset-list-highlight {
+    margin-left: 0;
+}
+
+@media (max-width: 767px) {
+    .aui .asset-list-highlight .box p.card-title {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 1199px) {
+	.aui .portlet-asset-publisher .asset-list-highlight .box figure {
+		display: block;
+	
+	    img.col-4,
+	    figcaption.col-8 {
+	        max-width: 100%;    //imagen y texto al 100% en responsive
+	    }
+	}
+}
+
+@media (min-width: 1200px) {
+	.aui .portlet-asset-publisher .asset-list-highlight .box figure {
+	
+	    img.col-4 {
+	    	max-width: 33.33333%;	//para sobreescribir un max-width 100% y recuperar el que corresponde
+	    }
+	}
+	
+	.aui .span3 .portlet-asset-publisher .asset-list-highlight .box figure {
+	display: block;
+	
+	    img.col-4,
+	    figcaption.col-8 {
+	        max-width: 100%;    //imagen y texto al 100% en destacados en columna estrecha
+	    }
+	}
+}
+
+//-- Persona --
+
+.person {
+	font-size: $basic-font-size;
+
+	.person_photo {
+	    float: right;
+	    margin: 5px 10px 20px;
+	    width: 30%;
+	}
+}
+
+@media (max-width: 480px) {
+	.person .person_photo {
+		width: 100%;
+	}
+}
+
+.asset-list-highlight .box .person {
+	
+	figure {
+		display: flex;
+		
+		.person_photo {
+			width: 100px;
+			margin: 10px;
+			margin-left: auto;
+			order: 2;
+			padding-left: 0.5rem;
+		}
+	}
+	
+	h2,
+	h3 {
+		color: $color-primary;
+		margin-bottom: $basic-font-size;
+	}
+}
+
+//-- FAQ --
+
+.faq {
+
+	.backtop {
+		text-align: right;
+		margin-bottom: $extra-font-size;
+		
+		a {
+			@extend .c-button;
+	    	@extend .c-button--tertiary;
+	    	
+	    	.icon-chevron-up {
+				text-decoration: none;
+				margin-left: 10px;
+			}
+		}
+	}
+
+	.nav-pills {
+		display: flex;
+		justify-content: center;
+		
+		li a[aria-selected="false"] {
+			@extend .c-button;
+	    	@extend .c-button--tertiary;
+		}
+		
+		li a[aria-selected="true"] {
+			@extend .c-button;
+	    	@extend .c-button--secondary;
+		}
+	}
+}
+
+//-- Oferta tecnológica y Tratamiento de datos personales --
+
+.data-processing,
+.technology-offer {
+	font-size: $basic-font-size;
+	
+	.backtop {
+		text-align: right;
+		margin-bottom: $extra-font-size;
+		
+		a {
+			@extend .c-button;
+	    	@extend .c-button--tertiary;
+	    	
+	    	.icon-chevron-up {
+				text-decoration: none;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+
+
+//-- WIDGETS -- //
+
+//-- Blog --//
+
+.aui .portlet-blogs {
+	font-size: $basic-font-size;
+	
+	.btn.btn-outline-secondary:not(.btn-monospaced),
+	.btn.btn-outline-primary {
+		@extend .c-button;
+	    @extend .c-button--secondary;
+	}
+	
+	.rating-element {
+		font-size: $basic-font-size;
+	}
+	
+	.taglib-social-bookmark {
+		margin-top: 10px;
+	
+		a.btn-monospaced .lexicon-icon {
+			font-size: 1.5rem;
+		}
+	}
+}
+
+
+//-- Documentos y multimedia --//
+
+.aui .portlet-document-library {
+	font-size: $basic-font-size;
+
+	.navbar,
+	.navbar-form {
+		background: #FFFFFF;		   
+	}
+	
+	.breadcrumb {
+		margin-left: 20px;
+	}
+	
+	a:not(.btn):not(.page-link) {
+		color: $color-primary;
+	}
+	
+	dd {
+		margin-left: 0;
+		font-size: $small-font-size;
+		
+		&.list-group-item.active a {
+			color: #FFFFFF;
+			
+			&.dropdown-toggle:hover,
+			&.dropdown-toggle:focus {
+				color: $color-primary;
+			}
+		}
+		
+		.autofit-col.autofit-col-expand {
+			padding: 0;
+		}
+		
+		.card-row .autofit-col.autofit-col-expand {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		
+		h2 {
+			font-family: $secondary-font;
+		}
+	}
+	
+	.lfr-search-container-wrapper .list-group .list-group-item .h5 {
+		font-size: $basic-font-size;
+	}
+}
+
+//-- ehuDoku --//
+
+.aui .portlet-boundary_es_ehu_doc_web_navigator_portlet_NavigatorPortlet_ {
+
+	.portlet-content-container {
+		margin: 30px 20px 0 20px;
+	}
+	
+	button {
+		@extend .c-button;
+    	@extend .c-button--primary;
+	}
+	
+	.lfr-search-container {
+		margin-top: 0;
+		overflow: unset;
+	}
+	
+	.lfr-search-container-wrapper a {
+		color: $color-primary;
+	}
+	
+	table.table-bordered.table-striped {
+		display: table;
+		border: none;
+		
+		 th {
+		 	height: auto;
+		 	border: none;
+		 }
+		 
+		 td {
+			border: none;
+		}
+		 
+		 tbody tr:nth-of-type(2n+1) td {
+		 	background-color: unset;
+		 }
+	}
+}
+
+//-- Formulario --//
+
+.aui .portlet-forms {
+	background-color: #FFFFFF;
+	padding: 20px 35px;
+
+	@include media-breakpoint-down(sm) {
+		.portlet-forms {
+			padding: 20px 15px;
+		}
+	}
+	
+	.ddm-form-basic-info .ddm-form-description { //descripcion del formulario
+		padding-bottom: 24px;
+	}
+	
+	.multi-step-item.active .multi-step-icon,
+	.ddm-user-view-content .multi-step-item.active .multi-step-divider {	//paginación
+		background-color: $color-secondary;
+	}
+	
+	.form-group {
+	    margin-bottom: 2rem;
+	    
+	    .form-group {
+		    margin-bottom: 0; //para el campo tipo parrafo que tiene dos form-group
+		}
+	}
+	
+	.reference-mark,
+	legend .reference-mark,
+	p .reference-mark,
+	.help-block {
+		color: #DC3545;
+		
+	}
+	
+	.reference-mark,
+	legend .reference-mark,
+	p .reference-mark {
+		font-size: 0.75rem;
+	}
+	
+	.help-block {
+		font-size: $small-font-size;
+	}
+	
+	.text-warning {	//para pisar el important de clay con el color amarillo para el asterisco del captcha
+		color: #DC3545!important;
+	}
+	
+	label,
+	.custom-control-label {
+		font-size: $basic-font-size;
+	}
+	
+	legend {
+		color: $neutral-color-dark;
+		font-size: $basic-font-size;
+		font-weight: 400;
+	}
+				
+	.btn.btn-primary {
+    	@extend .c-button;
+    	@extend .c-button--primary;
+    	background-image: none;
+	}
+	
+	.btn-primary:not(:disabled):not(.disabled):active:focus {
+		/*box-shadow: 0 0 0 0.2rem $color-secondary-light;*/
+	}
+	
+	.lfr-ddm-form-field-repeatable-toolbar {
+		button.btn.btn-primary.ddm-form-field-repeatable-add-button,
+		button.btn.btn-primary.ddm-form-field-repeatable-delete-button {
+			display: inline-block;
+			min-height: unset;
+		}
+		
+		button.btn.btn-primary.ddm-form-field-repeatable-delete-button {
+			margin-right: 10px;
+		}
+	}
+}
+
+//-- Foro --//
+
+.aui .portlet-message-boards {
+	font-size: $basic-font-size;
+	
+	h2.portlet-title-text {
+		padding-top: 30px;
+	}
+	
+	.basic-search {
+		margin: 30px;
+	}
+	
+	.navigation-bar-light {
+		background-color: #FFFFFF;
+	}
+	
+	.breadcrumb {
+		margin-left: 10px;
+	}
+	
+	.btn.btn-primary {
+		@extend .c-button;
+	    @extend .c-button--primary;
+	    background-image: none;
+	}
+	
+	.btn.btn-secondary {
+		@extend .c-button;
+	    @extend .c-button--secondary;
+	}
+	
+	.taglib-flags {
+		button.btn-outline-secondary {
+			padding: 5px;
+		}
+	}
+	
+	&.portlet-decorate .autofit-col.autofit-col-expand,
+	&.portlet-borderless .autofit-col.autofit-col-expand {
+		padding-top: 0;
+		padding-left: 0.625rem;
+		padding-right: 0.625rem;
+	}
+	
+	.lfr-search-container-wrapper .list-group .list-group-item .autofit-col div {
+		font-size: $smaller-font-size;
+		&.h5 {
+			font-size: $basic-font-size;
+		}
+	}
+	
+	.lfr-search-container-wrapper a {
+		color: $color-primary-link;
+	}
+	
+	dd.list-group-item {
+		margin-left: 0;
+	}
+	
+	.page-item.active .page-link,
+	.nav-underline .tab.active a.page-item .page-link,
+	.page-item.show .page-link,
+	.pagination-items-per-page.active > a,
+	.nav-underline .tab.active a.pagination-items-per-page > a,
+	.pagination-items-per-page.active > button,
+	.nav-underline .tab.active a.pagination-items-per-page > button, .pagination-items-per-page.show > a,
+	.pagination-items-per-page.show > button {
+		color: #FFFFFF;
+	}
+	
+	.rating-element {
+		font-size: $basic-font-size;
+	}
+}
+
+//-- Navegación por categorías --//
+
+.aui .portlet-asset-categories-navigation {
+	
+	.tree-node-content .tree-hitarea {
+		font-size: 20px;
+	}
+}
+
+
+// Ajustes de contenido completo en publicador (se traen del esquema de centros para que aplique en todos)
+.asset-full-content.clearfix.mb-5 {
+
+	.component-title.h4 {	//el boton de Atras
+		margin: 20px 35px 0;
+	}
+	
+	.asset-details {
+	    justify-content: flex-end;
+	    margin-top: -30px;
+	    background: #FFFFFF;
+
+	    .taglib-social-bookmarks button {	//redes sociales en menu
+	    	margin: 0 30px 30px;
+	    }
+	    
+	    .taglib-social-bookmarks ul.list-unstyled {	//redes sociales en linea
+
+	    	li.taglib-social-bookmark {
+			    width: 100%;
+			    height: 40px;
+			    margin: 10px;
+
+			    a.btn {
+			    	border: 0;
+				    box-shadow: none;
+				    background: #f4f4f4;
+				    border-radius: 50%;
+				    width: 100%;
+				    height: 100%;
+				    padding: 10px;
+				    cursor: pointer;
+
+				    svg.lexicon-icon {
+					    width: 100%;
+					    height: 100%;
+					    color: $neutral-color-dark;
+				    }
+
+				    &:hover svg.lexicon-icon {
+				    	color: #606060;
+				    }
+			    }
+	    	}
+	    }
+	}
+}
+
+//-- Wiki --//
+
+.aui .portlet-wiki {
+	
+	.navigation-bar-light .nav-link {
+		color: #000000;
+	}
+	
+	.lfr-search-container-wrapper a {
+		color: $color-primary;
+	}
+	
+	.main-content-body {
+		background-color: #FFFFFF;
+		padding: 40px;
+		margin-bottom: 20px;
+	}
+	
+	li {
+		font-size: 1.14rem;
+	}
+	
+	.page-actions .stats {
+		color: #6c757d; //clay text-secondary color
+	}
+}
+
+//-- XSL Content --//
+
+//-- Lista de personal --
+
+.portlet-xsl-content .xsl-content.ldap {
+	font-size: $basic-font-size;
+	background-color: #FFFFFF;
+	padding: 20px 35px 50px;
+	
+	h1 {
+		margin-bottom: $extra-font-size;
+	}
+	
+	ul {
+		padding-left: 0;
+		margin-left: 0;
+	
+		& > li::before {
+			content: none;
+		}
+		
+	}
+	
+	.pagination {
+		margin: 20px 0;
+		list-style: none;
+		
+		&.pagination-centered {
+			text-align: center;
+		}
+		
+		ul {
+			display: inline-block;
+			padding: 0;
+			border-radius: 4px;
+			box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+			
+			li {
+				display: inline;
+				
+				&:first-child a {
+					border-left-width: 1px;
+					border-top-left-radius: 4px;
+					border-bottom-left-radius: 4px;
+				}
+				
+				a {
+					float: left;
+					padding: 4px 12px;
+					line-height: 20px;
+					text-decoration: none;
+					background-color: #FFFFFF;
+					border: 1px solid #ddd;
+					border-left-width: 0;
+					
+					&:hover,
+					&:focus {
+						background-color: #F5F5F5;
+					}
+				}
+				
+				&:last-child a {
+					border-top-right-radius: 4px;
+					border-bottom-right-radius: 4px;
+				}
+			}
+		}
+	}
+}

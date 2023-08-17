@@ -1,0 +1,262 @@
+.nav{
+  &.nav-tabs{
+
+    & + .tab-content{
+      padding: 1rem;
+    }
+
+    & > li:before{
+      content: none;
+    }
+  }
+}
+ol.nav.nav-pills{
+  padding: 0;
+  
+  li:before{
+    content: none;
+  }
+}
+
+.nav-pills [class^="icon-"].icon-large,
+.nav-pills [class*=" icon-"].icon-large,
+.nav-tabs [class^="icon-"].icon-large,
+.nav-tabs [class*=" icon-"].icon-large {
+    line-height: .75em;
+    margin-top: -7px;
+    padding-top: 5px;
+    margin-bottom: -5px;
+    padding-bottom: 4px;
+}
+
+.aui .nav-tabs,
+.aui .nav-pills {
+    *zoom: 1;
+
+    &:before,
+    &:after{
+        display: table;
+        content: "";
+        line-height: 0;
+    }
+
+    &:after{
+        clear: both;
+    }
+}
+
+.aui .nav-tabs {
+    border-bottom: 1px solid $neutral-color-light;
+
+    li:before{
+        content: none!important;
+    }
+
+    & > li > a:hover,
+    & > li > a:focus {
+        border-color: #eeeeee #eeeeee $neutral-color-light;
+    }
+
+    & > .active > a,
+    & > .active > a:hover,
+    & > .active > a:focus {
+        color: #555555;
+        background-color: white;
+        border: 1px solid $neutral-color-light;
+        border-bottom-color: transparent;
+        cursor: default;
+    }
+
+}
+
+.aui .nav-pills > .active > a,
+.aui .nav-pills > .active > a:hover,
+.aui .nav-pills > .active > a:focus {
+    color: white;
+    background-color: #026aa6;
+}
+
+.aui .nav-stacked > li {
+    float: none;
+
+    & > a {
+        margin-right: 0;
+    }
+}
+
+.aui .nav-tabs.nav-stacked {
+    border-bottom: 0;
+
+    & > li > a {
+        border: 1px solid $neutral-color-light;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+
+        &:hover,
+        &:focus {
+            border-color: $neutral-color-light;
+            z-index: 2;
+        }
+    }
+
+    & > li:first-child > a {
+        -webkit-border-top-right-radius: 4px;
+        -moz-border-radius-top-right: 4px;
+        border-top-right-radius: 4px;
+        -webkit-border-top-left-radius: 4px;
+        -moz-border-radius-top-left: 4px;
+        border-top-left-radius: 4px;
+    }
+
+    & > li:last-child > a {
+        -webkit-border-bottom-right-radius: 4px;
+        -moz-border-radius-bottom-right: 4px;
+        border-bottom-right-radius: 4px;
+        -webkit-border-bottom-left-radius: 4px;
+        -moz-border-radius-bottom-left: 4px;
+        border-bottom-left-radius: 4px;
+    }
+}
+
+.aui .nav-pills.nav-stacked > li > a {
+    margin-bottom: 3px;
+}
+
+.aui .nav-pills.nav-stacked > li:last-child > a {
+    margin-bottom: 1px;
+}
+
+.aui .nav-tabs .dropdown-menu {
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+}
+
+.aui .nav-tabs .dropdown-toggle .caret {
+    margin-top: 8px;
+}
+
+.aui .nav .active .dropdown-toggle .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.aui .nav-tabs .active .dropdown-toggle .caret {
+    border-top-color: #555555;
+    border-bottom-color: #555555;
+}
+
+.aui .nav > .dropdown.active > a:hover,
+.aui .nav > .dropdown.active > a:focus {
+    cursor: pointer;
+}
+
+.aui .tabs-below > .nav-tabs,
+.aui .tabs-right > .nav-tabs,
+.aui .tabs-left > .nav-tabs {
+    border-bottom: 0;
+}
+
+.aui .tabs-below > .nav-tabs {
+    border-top: 1px solid $neutral-color-light;
+
+    & > li {
+        margin-top: -1px;
+        margin-bottom: 0;
+
+        & > a {
+            -webkit-border-radius: 0 0 4px 4px;
+            -moz-border-radius: 0 0 4px 4px;
+            border-radius: 0 0 4px 4px;
+
+            &:hover,
+            &:focus {
+                border-bottom-color: transparent;
+                border-top-color: $neutral-color-light;
+            }
+        }
+    }
+
+    & > .active > a,
+    & > .active > a:hover,
+    & > .active > a:focus {
+        border-color: transparent $neutral-color-light $neutral-color-light $neutral-color-light;
+    }
+}
+
+.aui .tabs-left > .nav-tabs > li,
+.aui .tabs-right > .nav-tabs > li {
+    float: none;
+
+    & > a {
+        min-width: 74px;
+        margin-right: 0;
+        margin-bottom: 3px;
+    }
+}
+
+.aui .tabs-left > .nav-tabs {
+    float: left;
+    margin-right: 19px;
+    border-right: 1px solid $neutral-color-light;
+
+    & > li > a {
+        margin-right: -1px;
+        -webkit-border-radius: 4px 0 0 4px;
+        -moz-border-radius: 4px 0 0 4px;
+        border-radius: 4px 0 0 4px;
+
+        &:hover,
+        &:focus {
+            border-color: #eeeeee $neutral-color-light #eeeeee #eeeeee;
+        }
+    }
+
+    & .active > a,
+    & .active > a:hover,
+    & .active > a:focus {
+        border-color: $neutral-color-light transparent $neutral-color-light $neutral-color-light;
+        *border-right-color: white;
+    }
+}
+
+.aui .tabs-right > .nav-tabs {
+    float: right;
+    margin-left: 19px;
+    border-left: 1px solid $neutral-color-light;
+
+    & > li > a {
+        margin-left: -1px;
+        -webkit-border-radius: 0 4px 4px 0;
+        -moz-border-radius: 0 4px 4px 0;
+        border-radius: 0 4px 4px 0;
+
+        &:hover,
+        &:focus {
+            border-color: #eeeeee #eeeeee #eeeeee $neutral-color-light;
+        }
+    }
+
+    .active > a,
+    .active > a:hover,
+    .active > a:focus {
+        border-color: $neutral-color-light $neutral-color-light $neutral-color-light transparent;
+        *border-left-color: white;
+    }
+}
+
+.aui .nav > .disabled > a {
+    color: #999999;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        background-color: transparent;
+        cursor: default;
+    }
+}
+
+.aui .tabbable-hidden {
+    display: none;
+}

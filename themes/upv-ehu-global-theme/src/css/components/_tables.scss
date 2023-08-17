@@ -1,0 +1,199 @@
+/* Tables ----------*/
+
+.journal-content-article table {
+	margin-bottom: 15px;
+}
+
+.container-fluid{
+    table{
+    	border-collapse: collapse;
+        direction: ltr;
+        display: block; 
+        font-size: 1.14rem;
+        margin-bottom: 20px;
+        overflow-x: auto;
+        padding: 5px 0 10px 0;
+        scrollbar-color:  $neutral-color-light #d5deea;  /* Firefox custom colors*/
+        scrollbar-width: auto; /* Firefox custom width */
+        width: 100%;
+
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: $background-color;
+            border-radius: 100px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: $neutral-color-light;
+            border-radius: 100px;
+            border: 2px solid transparent;
+        }
+
+    	@include media-breakpoint-down(md){
+    		display: block;
+    	}
+
+    	tr:nth-child(odd){
+    		@extend .u-bg;
+    	}
+
+        tr:last-child{
+            td,
+            th{
+                border-bottom: solid 1px $neutral-color-dark; 
+            } 
+        }
+
+    	thead{
+            border-top: solid 1px $neutral-color-dark;
+
+
+            th{
+                border-bottom: solid 1px $neutral-color-dark; 
+    			@extend .u-border-s-bottom;
+    			@extend .u-bg-white;
+    			padding: 5px 15px;
+                vertical-align: middle!important;
+    		}
+    	}
+
+    	th{
+    		color: $neutral-color-dark;
+    		font-family: $secondary-font;
+    		height: 47px;
+    		padding: 5px 15px;
+    		@extend .u-text-16-24;
+
+    		p{
+    			margin-bottom: 0;
+    		}
+    	}
+
+    	td{
+    		border-bottom: solid 1px $neutral-color-light;
+    		height: 47px;
+    		padding: 5px 15px;
+
+            p{
+                margin: 5px 0;
+            }
+    	}
+
+        tbody{
+
+            th{
+                border-bottom: solid 1px $neutral-color-light;
+            }
+        }
+
+    	caption{
+    		caption-side: top;
+    		font-weight: bold;
+    		font-size: 1.14rem;
+        	line-height: 1.71rem;
+        	margin-bottom: 1rem;
+    		padding: 0;
+    		@extend .u-primary-text;
+    	}
+
+        th.span3,
+        th.span4{
+            min-height: 47px!important;
+            padding: 5px 15px!important;
+            display: table-cell!important;
+            width: auto!important;
+            margin-left: 0!important;
+            float: none!important;
+            vertical-align: middle!important;
+        }
+    }
+}
+
+@-moz-document url-prefix() {
+    .container-fluid table thead tr:last-child th {
+        border-bottom: solid 2px $neutral-color-dark; 
+    }
+}
+
+/* Estilos para la tablas heredados del upv-ehu-theme ----------*/
+
+.upv-tabla {
+    .table {
+        caption {
+            display: none;
+        }
+    }
+}
+
+.graduate {
+    .upv-tabla .table {
+
+        a[target="_blank"]{
+            position:relative;
+        }
+
+    }
+}
+.portlet-xsl-content .toggler-content-expanded,
+.portlet-xsl-content .main,
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+    scrollbar-color:  $neutral-color-light #d5deea;  /* Firefox custom colors*/
+    scrollbar-width: auto; /* Firefox custom width */
+
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: $background-color;
+        border-radius: 100px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $neutral-color-light;
+        border-radius: 100px;
+        border: 2px solid transparent;
+    }
+
+    table{
+        display: table;
+    }
+  
+    @media screen and (max-width: 767px) {
+    
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    
+        // Tighten up spacing
+        > .table {
+            margin-bottom: 0;
+  
+            // Ensure the content doesn't wrap
+            > thead,
+            > tbody,
+            > tfoot {
+                > tr {
+                    > th,
+                    > td {
+                    white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para la tablas estudiar/departamentos ----------*/
+
+.container-fluid table.profesorado-doc{
+    tr:nth-child(odd){
+        @extend .u-bg-white;
+    }
+}

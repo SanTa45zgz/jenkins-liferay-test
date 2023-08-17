@@ -1,0 +1,76 @@
+
+// UPV/EHU Typography
+// -------------------------
+
+//-- Sans serif bold --
+@font-face {
+    font-family: 'ehuSans';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/ehusans-bold-webfont.eot');
+	src: url('../font/ehusans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../font/ehusans-bold-webfont.woff') format('woff'),
+	     url('../font/ehusans-bold-webfont.ttf') format('truetype'),
+	     url('../font/ehusans-bold-webfont.svg#ehusansbold') format('svg');
+}
+
+//-- Sans serif italic --
+@font-face {
+	font-family: 'ehuSans';
+	font-style: italic;
+	font-weight: normal;
+	src: url('../font/ehusans-italic-webfont.eot');
+	src: url('../font/ehusans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/ehusans-italic-webfont.woff') format('woff'),
+	     url('../font/ehusans-italic-webfont.ttf') format('truetype'),
+	     url('../font/ehusans-italic-webfont.svg#ehusansitalic') format('svg');
+}
+
+//-- Sans serif regular --
+@font-face {
+	font-family: 'ehuSans';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/ehusans-regular-webfont.eot');
+	src: url('../font/ehusans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../font/ehusans-regular-webfont.woff') format('woff'),
+	     url('../font/ehusans-regular-webfont.ttf') format('truetype'),
+	     url('../font/ehusans-regular-webfont.svg#ehusansregular') format('svg');
+}
+
+//-- Serif bold --
+@font-face {
+    font-family: 'ehuSerif';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/ehuserif-bold-webfont.eot');
+    src: url('../font/ehuserif-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ehuserif-bold-webfont.woff') format('woff'),
+         url('../font/ehuserif-bold-webfont.ttf') format('truetype'),
+         url('../font/ehuserif-bold-webfont.svg#ehuserifbold') format('svg');
+}
+
+//-- Serif italic --
+@font-face {
+	font-family: 'ehuSerif';
+	font-style: italic;
+	font-weight: normal;
+	src: url('../font/ehuserif-italic-webfont.eot');
+	src: url('../font/ehuserif-italic-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../font/ehuserif-italic-webfont.woff') format('woff'),
+	     url('../font/ehuserif-italic-webfont.ttf') format('truetype'),
+		 url('../font/ehuserif-italic-webfont.svg#ehuserifitalic') format('svg');
+}
+
+//-- Serif regular --
+@font-face {
+    font-family: 'ehuSerif';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/ehuserif-regular-webfont.eot');
+    src: url('../font/ehuserif-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ehuserif-regular-webfont.woff') format('woff'),
+         url('../font/ehuserif-regular-webfont.ttf') format('truetype'),
+         url('../font/ehuserif-regular-webfont.svg#ehuserif_regular') format('svg');
+}
+

@@ -1,0 +1,3 @@
+Módulo alternativo al de liferay para deshabilitar bundles
+Aporta la deshabilitación de bundles especificando la versión [SYMBOLIC_NAME:VERSION]
+Evita los problemas al borrar la carpeta state cuando existen module-ext

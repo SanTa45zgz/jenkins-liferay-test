@@ -1,0 +1,166 @@
+.visible-print {
+    display: none !important;
+}
+
+@media print {
+	.aui {
+		body {
+			font-size:$smaller-font-size;
+		}
+		h1 {
+			font-size:$extra-font-size;
+		}
+		h2 {
+			font-size:$highlight-font-size;
+
+			//código de asignatura en una línea
+			span.visible-print {
+				display: inline-block!important;
+
+				&::before {
+					content:"-";
+					margin:0 10px;
+				}
+			}
+		}
+		h3 {
+			font-size:$basic-font-size;
+		}
+		h4 {
+			font-size:$small-font-size;
+		}
+		//quitar hueco de portlets vacios
+		.portlet-column-content.empty {
+			padding: 0;
+		}
+        //que la url solo se pinte dentro de contenidos
+        a[href]:after {
+            content:"";
+        }
+        
+        .journal-content-article,
+        .portlet-wiki .wiki-body,
+        .portlet-blogs .entry-body {
+            a[href]:after {
+                content:" (" attr(href) ")";
+            }
+            
+            //que la url no se pinte en secciones de documentos y de galeria de imagenes
+            .documents,
+            .image-gallery {
+                a[href]:after {
+                    content:"";
+                }
+            }
+		}
+
+		//ocultar cabecera, menu, pie, ruta de migas, más elementos
+		#masthead {
+			display:none;
+		}
+
+		#side-menu {
+			margin-top:0;
+
+			ul.level-1 {
+				display:none;
+			}
+			h2 {
+				padding: 0;
+			}
+		}
+
+		#footer {
+			display:none;
+		}
+
+		//quitar el display flex
+		#main-content > div > .row,
+		#main-content__principal > div > .row {
+			display: block;
+		}
+		//hacer que las dos columnas sean 100% de ancho
+		#column-1 {
+			&.span3 {
+				width: 100%;
+			}
+		}
+		#column-2 {
+			&.span9 {
+				width: 100%;
+				margin-left:0;
+			}
+		}
+		
+		//ajustes de espacios y eliminar iconos en toogler acordeon
+		.bg-white.p-20 {
+			padding:15px 0;
+		}
+		.m-b-30, .m-b-60 {
+			margin-bottom:15px;
+		}
+		#toggler, #myToggler { 
+			.toggler-header {
+				margin-bottom: 15px;
+				padding:10px 0;
+			}
+			h3.toggler-header { 
+				padding: 8px 0;
+				font-size: $basic-font-size;
+			}
+			.toggler-content-expanded {
+				padding: 15px 0;
+
+				&::after {
+					content: "";
+				}
+			}
+			.toggler-header-collapsed {
+				
+				&::after {
+					content: "";
+				}
+			}
+		}
+        .upv-acordeon.accordion {
+			.accordion-heading {
+				.accordion-toggle {
+					&::after {
+						content: "";
+					}
+					&.collapsed::after {
+						content: "";
+					}
+				}
+			}
+		}
+        //para imprimir los acordeones desplegados		
+		.toggler-content-collapsed {	//en las asignaturas 
+		    display: block;
+		}
+		.upv-acordeon .accordion-body.collapse {		//en el plan de estudios
+		    height: auto!important;
+		}
+		//tablas con menos altura
+		.upv-tabla .table {
+			th, td {
+			  	padding: 5px;
+			  	line-height: 1.2;
+			}
+			thead tr th {
+				&:last-child, &:first-child {
+					padding: 8px 5px;
+				}
+			}
+			tbody tr td {
+			  	&:first-child, &:last-child {
+					padding: 8px 5px;
+				}
+			}
+			thead tr th {
+				  padding: 8px 5px;
+				  font-size:$smaller-font-size;
+			}
+		}
+    }
+}

@@ -1,0 +1,311 @@
+.aui {
+
+	.numbers{
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top center;
+		font-family: $primary-font-sans;
+		min-height: 375px;
+	   	padding: 26px 42px 8px 42px;
+	   	margin-bottom: 30px;
+	
+	   	@include media-breakpoint-down(sm){
+	   		min-height: 307px;
+	   		padding: 20px 20px 8px 20px;
+	   	}
+
+		&:before{
+			background-color: rgba(0, 0, 0, 0.55);
+			content: "";
+			display: block;
+			height: 100%;
+			left: 0;
+	    	position: absolute;
+	    	top: 0;
+	    	width: 100%;
+		}
+
+	   	h2{
+	   		color: $color-white;
+	   		font-weight: 700;
+	   		margin-bottom: 30px;
+	   		position: relative;
+	   		z-index: 2;
+	
+	   		@include media-breakpoint-down(sm){
+	   			font-size: 1.29rem;
+	   			line-height: 2rem;
+	   			margin-bottom: 18px;
+	   		}
+	   	}
+
+	   	&__list{
+	   		padding: 0 0 55px 0;
+
+	   		&--noindicators{
+	   			padding: 27px 0;
+	   		}
+	
+	   		&__item{
+	   			&__number{
+				    border-bottom: solid 1px $color-white;
+				    color: $color-white;
+				    display: flex;
+				    font-size: 72px;
+				    font-weight: 700;
+				    justify-content: center;
+				    line-height: 80px;
+				    margin-bottom: 7px;
+				    padding-bottom: 16px;
+				    width: 100%;
+
+				    @include media-breakpoint-only(lg){
+				    	font-size: 60px;
+				    }
+	
+				    @include media-breakpoint-down(sm){
+				    	margin-bottom: 12px;
+				    	padding-bottom: 8px;
+				    }
+	   			}
+	
+	   			&__info{
+	   				color: $color-white;
+	   				font-weight: 700;
+	   				margin-bottom: 0;
+	   				min-height: 72px;
+	
+	   				@include media-breakpoint-down(sm){
+	   					line-height: 1.5rem;
+	   					min-height: 63px;
+	   				}
+	   			}
+	   		}
+	
+	   		a{
+	   			display: flex;
+    			flex-direction: column;
+	   			text-decoration: none;
+	
+	   			&:hover{
+	
+	   				text-decoration:none;
+	
+	   				.numbers__list__item__info{
+	   					text-decoration:underline;
+	   				}
+	   			}
+
+	   			&:focus{
+	   				box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 3px #000 inset !important;
+	   			}
+	   		}
+	   	}
+
+   		/* carousel multiple */
+
+		.carousel-item-column{
+			display: inline-block;
+			flex: 0 0 33%;
+			max-width: 33%;
+			margin-bottom: 50px;
+		    padding-left: 15px;
+		    padding-right: 15px;
+	
+		    @include media-breakpoint-down(lg){
+		    	flex: 0 0 32%;
+				max-width: 32%;
+		    }
+		}
+
+		.carousel-item{
+		    position:relative;
+		    display:none;
+		    -webkit-box-align:center;
+		    -ms-flex-align:center;
+		    align-items:center;
+		    width:100%;
+		    transition:-webkit-transform .6s ease;
+		    transition:transform .6s ease;
+		    transition:transform .6s ease,-webkit-transform .6s ease;
+		    -webkit-backface-visibility:hidden;
+		    backface-visibility:hidden;
+		    -webkit-perspective:1000px;
+		    perspective:1000px;
+		}
+
+		.carousel-item-next,.carousel-item-prev,.carousel-item.active{
+		    display:flex;	//para que los 3 elementos salgan centrados
+		    
+		    @include media-breakpoint-down(md){
+		    	display: block;	//para que los elementos se centren en responsive
+		    }
+		}
+
+		.carousel-item-next.carousel-item-left,.carousel-item-prev.carousel-item-right{
+		    -webkit-transform:translateX(0);
+		    transform:translateX(0)
+		}
+
+		@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){
+		    .carousel-item-next.carousel-item-left,.carousel-item-prev.carousel-item-right{
+		        -webkit-transform:translate3d(0,0,0);
+		        transform:translate3d(0,0,0)
+		    }
+		}
+
+		.active.carousel-item-right,.carousel-item-next{
+		    -webkit-transform:translateX(100%);
+		    transform:translateX(100%)
+		}
+
+		@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){
+		    .active.carousel-item-right,.carousel-item-next{
+		        -webkit-transform:translate3d(100%,0,0);
+		        transform:translate3d(100%,0,0)
+		    }
+		}
+
+		.active.carousel-item-left,.carousel-item-prev{
+		    -webkit-transform:translateX(-100%);
+		    transform:translateX(-100%)
+		}
+
+		@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)){
+		    .active.carousel-item-left,.carousel-item-prev{
+		        -webkit-transform:translate3d(-100%,0,0);
+		        transform:translate3d(-100%,0,0)
+		    }
+		}
+		.carousel-indicators{
+			background-color: rgba(0,0,0, 0.5);
+			border-radius: 30px;
+			bottom: 17px;
+			height: 40px;
+			margin-bottom: 0;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0 15px;
+			width: fit-content;
+	
+			@media (max-width: $xxl-1){
+				height: 40px;
+			}
+	
+			@include media-breakpoint-down(sm){
+				bottom: -2px;
+				margin-bottom: 0;
+			}
+	
+			li {
+				background: transparent;
+				border: none;
+				display: flex;
+				height: 40px;
+				margin: 0 2px;
+				width: 40px;
+	
+				@media (max-width: $xxl-1){
+					height: 40px;
+				}
+				
+				@include media-breakpoint-down(sm){
+				    width: 21px;
+				}
+	
+				&:after{
+					background-color: $neutral-color-light;
+					border-radius: 50%;
+					content: "";
+					display: flex;
+					height: 10px;
+					margin: auto;
+					opacity: 1;
+					width: 10px;
+	
+					@include media-breakpoint-down(sm){
+						height: 7px;
+						width: 7px;
+					}
+				}
+	
+				&:before{
+					content: none;
+				}
+	
+				&:last-child{
+				 	margin-right:0;
+				}
+	
+				&:first-child{
+					margin-left:0;
+				}
+			}
+	
+			.active{
+				&:after{
+					background-color: $color-white; 
+					opacity: 1;
+				}
+			}
+		}
+
+
+		&--bgcolor{
+	   		background-color: #f0f0f0;
+	   		padding: 28px 42px 25px 42px;
+
+
+
+	   		@include media-breakpoint-down(sm){
+	   			padding: 28px 35px 25px 35px;
+	   		}
+	
+	   		&:before{
+				content: none;
+			}
+	
+			h2{
+				color: $neutral-color-dark;
+				margin-bottom: 20px;
+			}
+	
+			.numbers__list{
+				border: solid 2px #d1d1d1;
+			    border-radius: 5px;
+			    margin-left: 0;
+			    margin-right: 0;
+			    padding: 35px 40px 55px 40px;
+
+			   	&--noindicators{
+		   			padding: 45px 40px;
+		   		}
+
+			    @include media-breakpoint-down(sm){
+			    	padding: 30px 35px 67px 35px;
+			    }
+			}
+			
+			.numbers__list__item__number{
+				border-bottom: solid 1px #afafaf;
+				color: $neutral-color-dark;
+			}
+	
+			.numbers__list__item__info{
+				color: $neutral-color-dark;
+			}
+	
+			.carousel-indicators{
+				bottom: 22px;
+			}
+	   	}
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,134 @@
+.box_article-wrapper{
+    display: flex;
+    width: calc(100% + 15px);
+    @include media-breakpoint-down(md){
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap:wrap;
+        @include media-breakpoint-down(md){
+            width: 100%;
+            margin-left: 0 !important;
+        }
+        &>div{
+            
+            @include media-breakpoint-down(md){
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+    .journal-content-article {
+        background-color: $color-white;
+        width: 100%;
+    }
+    .box_article-items{
+        display: inline-flex;
+        width: 31%;
+        margin-bottom: 16px;
+        margin-right: 4%;
+        &:last-child{
+            margin-right: 0;
+        }
+        @include media-breakpoint-down(md){
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+    .card-head {
+        background-color: $color-white;
+        width: 100%;
+        position: relative;
+        padding: 10px 8px;
+        &:after{
+            content: " ";
+            background-color: $bodyBackgroundColor;
+            position: absolute;
+            width: 20%;
+            height: 100%;
+            right: 0;
+            top: 0;
+        }
+        p{
+            font-weight: bold;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            font-family: $primary-font-sans;
+        }
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .card{
+        border: 0;
+        display: flex;
+        margin-bottom: 0;
+        img.card-img-top {
+            height: 200px;
+        }
+        .card-title{
+            font-size: $basic-font-size;
+            max-height: 72px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            font-family: $primary-font-sans;
+        }
+        .card-text {
+            font-size: $small-font-size;
+            margin-bottom: 20px;
+            max-height: 102px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            font-family: $primary-font-sans;
+            @include media-breakpoint-down(md){
+                height: auto;
+                max-height: 102px;
+            }
+        }
+        a{
+            font-size: $small-font-size;
+            font-family: $primary-font-sans;
+        }
+    }
+    &.col-8-4{
+        .box_article-items{
+            &:first-child{
+                width: 70.66667%;
+                @include media-breakpoint-down(md){
+                    width: 100%;
+                    margin-right: 0;
+                }
+            }
+            &:last-child{
+                width: 33.33333%;
+                @include media-breakpoint-down(md){
+                    width: 100%;
+                }
+            }
+        }
+    }
+    &.col-4-8{
+        .box_article-items{
+            width: 33.33333%;
+            &:first-child{
+                @include media-breakpoint-down(md){
+                    width: 100%;
+                    margin-right: 0;
+                }
+            }
+            &:last-child{
+                width: 70.66667%;
+                @include media-breakpoint-down(md){
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

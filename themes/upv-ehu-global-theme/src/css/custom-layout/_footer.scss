@@ -1,0 +1,157 @@
+.footer{
+	display: flex!important;
+	min-height: 177px;
+
+	& > .container{
+		background-color: $neutral-color-dark;
+		padding: 0 48px;
+
+		@include media-breakpoint-down(md){
+			padding: 0 50px 0 0;
+		}
+
+		@include media-breakpoint-down(sm){
+			padding: 0 30px;
+			flex-direction: column;
+		}
+	}
+
+	&__logo{
+		display: flex;
+
+		img{
+			margin: auto 0;
+			max-width: 245px!important;
+			min-width: 245px;
+			width: 100%;
+
+			@include media-breakpoint-down(sm){
+				margin: 0 auto;
+			    max-height: 132px;
+			}
+		}
+	}
+
+	&__navigations{
+		margin: auto 0 auto auto;
+
+		@include media-breakpoint-down(sm){
+			margin: 0;
+		}
+	}
+
+	&__rrss{
+		display: flex;
+		list-style: none;
+	    padding: 0;
+	    margin: 0!important;
+	    justify-content: flex-end;
+
+	    @include media-breakpoint-down(md){
+			padding-bottom: 20px;
+		}
+
+	    @include media-breakpoint-down(sm){
+		    justify-content: space-around;
+		    flex-wrap: wrap;
+		}
+
+		@media (max-width: 400px){
+			justify-content: space-between;
+		}
+
+	    li{
+	    	margin-left: 30px;
+
+	    	&:first-child{
+	    		@include media-breakpoint-down(sm){
+	    			margin-left: 0;
+	    		}
+	    	}
+
+	    	@include media-breakpoint-down(sm){
+	    		margin-left: 5px;
+	    		margin-bottom: 20px !important;
+	    	}
+	    }
+
+		a{
+		    align-items: center;
+		    border: solid 1px $color-white;
+		    border-radius: 50%;
+		   	display: flex;
+		    height: 44px;
+		    width: 44px;
+		    text-decoration: none;
+		    justify-content: center;
+
+		    i{
+		    	font-size: 22px;
+		    }
+
+		    svg{
+		    	fill: $color-white;
+		    	height: 22px;
+		    	width: 22px;
+		    }
+
+		    &:hover{
+		    	background-color: $color-white;
+
+		    	svg,
+		    	i{
+			    	fill: $neutral-color-dark;
+			    	color: $neutral-color-dark;
+			    }
+		    }
+		}
+	}
+
+	&__menu{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		list-style: none;
+		margin: 0!important;
+
+		@include media-breakpoint-down(md){
+			padding-top: 20px;
+		}
+
+		@include media-breakpoint-down(sm){
+		    padding: 15px 40px 15px 40px!important;
+		    flex-wrap: wrap;
+		    width: 100%;
+		    margin: 0!important;
+		}
+
+		li{
+			margin-bottom: 20px;
+			padding-left: 40px;
+
+			@include media-breakpoint-down(sm){
+			    padding-left: 0;
+			    margin-bottom: 20px;
+			    width: 50%;
+
+			    &:nth-child(odd){
+			    	padding-right: 5px;
+				}
+
+				&:nth-child(even){
+					padding-left: 5px;
+				}
+			}
+		}
+
+		a {
+			font-family: $primary-font-sans;
+			text-decoration: none;
+			
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+	}
+}

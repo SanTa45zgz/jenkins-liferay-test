@@ -1,0 +1,54 @@
+ .aui .journal-content-article .buttons-content{
+	margin-bottom: 30px;
+	margin-top: 20px;
+
+	&__documents-links{
+
+		ul{
+			display: flex;
+			flex-wrap: wrap;
+		    margin: 0 !important;
+		    padding: 0;
+
+    		@include media-breakpoint-down(xs){
+    			padding-left: 0;
+    			padding-inline-start: 0;
+    		}
+
+			li{
+				margin-bottom: 10px;
+				margin-right: 15px;
+
+				@include media-breakpoint-down(xs){
+					width: 100%;
+		    	}
+
+				&:before{
+					content:none!important;
+				}
+
+				a{
+					@include media-breakpoint-down(xs){
+						width: 100%;
+		    		}
+				}
+			}
+		}
+	}
+
+	.icon-external-link{
+
+		&:before{
+			content: "\f0f6";
+		    font-family: FontAwesome;
+		    margin-left: 10px;
+		}
+	}
+
+	.icon-angle-right,
+	.icon-external-link{
+		@include media-breakpoint-down(xs){
+			margin-left: auto;
+		}
+	}
+}

@@ -1,0 +1,172 @@
+/* Nueva Oferta - Grados / plew0040-new-offer .xsl */
+/* Nueva Oferta - Masteres / plew0050-new-offer .xsl */
+/* Nueva Oferta - Doctorados / plew0060-new-offer .xsl */
+
+.aui{
+	.ehu-oferta-grados,
+	.ehu-oferta-masteres,
+	.ehu-oferta-doctorados,
+	.ehu-oferta-masteres-titulos-propios{	
+		&__filtros{
+			background-color: $color-white;
+			margin-bottom: 30px;
+			padding: 20px 16px 10px 16px;
+
+	    	&__search{
+	    		border-bottom: solid 1px $neutral-color-medium;
+
+				button{
+				    border: none;
+				    display: inline-block;
+				    background-color: transparent;
+				    font-size: 20px;
+				    color: $neutral-color-medium;
+				    padding: 5px;
+
+					&:before{
+		    			font-family: FontAwesome;
+					    display: inline-block;
+					    float: right;
+					    content: "\f002";
+					}
+				}
+				input::-webkit-input-placeholder {
+					color: $neutral-color-medium !important;
+				}
+
+		    	input[type="search"]{ 
+				    box-sizing: border-box;
+				    border: none;
+				    box-shadow: none;
+				    border-radius: 0;
+				    color: $neutral-color-medium;
+				    display: inline-block;
+				    height: 40px;
+				    width: calc(100% - 40px);
+		    		margin-bottom: 0;
+				}
+			}
+
+	    	.nav.nav-pills{
+	    		margin-bottom: 0;
+
+	    		li{
+	    			margin-right: 17px;
+	    			margin-bottom: 15px;
+
+	    			&:before{
+	    				content: none;
+	    			}
+
+	    			&:last-child{
+	    				margin-bottom: 0;
+	    			}
+
+	    			&.active a{
+					    @extend .c-button;
+						@extend .c-button--primary; 
+	    			}
+
+	    			a{
+					   	@extend .c-button;
+						@extend .c-button--secondary; 
+		    		}
+	    		}
+	    	}
+		}
+
+		&__lists{
+			background-color: $color-white;
+			margin-bottom: 45px;
+
+			ul{
+				list-style: none;
+				margin: 0;
+				padding: 0;
+
+				li{
+					border-bottom: solid 1px $neutral-color-light;
+					color: $footer-background-color;
+					font-size: 16px;
+
+					&:last-child{
+						border-bottom:none;
+					}
+
+					a{
+						color: $footer-background-color;
+						display: block;
+						font-size: 16px;
+						padding: 15px 20px 12px 20px;
+
+						small{
+							font-size: 12px;
+						}
+
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+
+			.elements__list{
+				li:before{
+					content: none;
+				}
+			}
+
+			.panel-body{
+				border-radius: 0;
+				padding: 0;
+			}
+
+			.panel{
+				margin-bottom: -2px;
+
+				.panel-title{
+					margin: 0;
+
+					a{
+						border-bottom: none;
+						cursor: pointer;
+					    display: block;
+					    padding: 15px;
+						width: 100%;
+
+					    &:after {
+					    	content: "\f107";
+					    	display: inline-block;
+					    	font-size: 24px;
+                			line-height: 20px;
+						    font-family: FontAwesome;
+						    float: right;
+						    margin: 4px 0;
+						}
+					}
+
+					a.active{
+
+						&:after {
+						    content: "\f106";
+						}
+					}
+				}
+				.panel-collapse{
+					overflow: hidden;
+					max-height: 0;
+					transition: max-height 0.4s ease-out;
+				}
+			}
+
+			.back-to-top{
+			    display: inline-block;
+				margin: 20px 0 0 0;
+
+				.icon-chevron-up{
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+- En el Dialogo de enlaces
+	Se restringen las opciones de destino del enlace a sin indicar (misma ventana, por defecto) y a nueva ventana
+	Se quita la pesta�a avanzada
+	Se restringen las opciones de protocolo del enlace a http y https
+	Se quita el campo "Ver servidor" para enlazar paginas o documentos (agujero de seguridad al poder acceder a documentos y paginas de sitios web a los que se pertenezca, incluido el general) 
+	Se traslada el campo titulo del enlace desde la pesta�a "Advanced" a la pesta�a "Info"
+- En el Dialogo de tablas
+	La anchura de la tabla no se elimina, se oculta y se pone por defecto a 0
+	La altura de la tabla no se elimina, se oculta
+	El borde no se elimina, se oculta  y se pone por defecto a 0
+	Se quitan los campos de alineacion de las celdas, de cellspacing y de cellspadding 
+	Se quita el campo de resumen de la tabla
+	Se quita la pesta�a "Advanced" del dialogo "Link"
+- En el Dialogo de propiedades de las tablas
+	No se eliminan sino que se ocultan el borde, el ancho y la altura de la tabla
+	Se quitan los campos de alineacion de las celdas, de cellspacing y de cellspadding 
+	Se quita el campo de resumen de la tabla
+	Se quita la pesta�a "Advanced" del dialogo "tableProperties"
+- En el Dialogo de propiedades de las celdas de las tablas
+	Se ocultan los campos de anchura y tipo de anchura, por defecto en pixels 
+	Se eliminan los campos de altura y de tipo de altura, de ajuste al contenido de la celda, de alineacion horizontal y vertical, de color de fondo y su seleccion y de color del borde y su seleccion
+ 

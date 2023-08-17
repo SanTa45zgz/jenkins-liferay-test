@@ -1,0 +1,91 @@
+.header__carousel{
+	height: 380px;
+
+	@include media-breakpoint-down(sm) {
+		height: 164px;
+	}
+
+	.carousel-indicators{
+		background-color: rgba(0,0,0, 0.5);
+		border-radius: 30px;
+		bottom: 30px;
+	    height: 40px;
+	   	margin-bottom: 0!important;
+	   	margin-left: auto;
+    	margin-right: auto;
+	    padding: 0 15px!important;
+	    width: fit-content;
+
+	    @media (max-width: $xxl-1){
+	    	height: 30px;
+	    }
+
+		@include media-breakpoint-down(sm){
+			bottom: 10px;
+			margin-bottom: 0;
+		}
+
+		li {
+			background: transparent;
+    		border: none;
+    		display: flex!important;
+    		height: 40px;
+    		margin: 0 2px!important;
+    		width: 40px;
+
+    		@media (max-width: $xxl-1){
+	    		height: 30px;
+	    		width: 30px;
+	    	}
+
+	    	&:before{
+	    		content: none!important;
+	    	}
+			
+			&:after{
+				background-color: $neutral-color-light;
+				border-radius: 50%;
+			    content: "";
+			    display: flex;
+			    height: 10px;
+			    margin: auto;
+			    opacity: 1;
+			    width: 10px;
+			}
+
+		    &:before{
+		    	content: none;
+		    }
+
+		    &:last-child{
+		    	margin-right:0;
+		    }
+
+		    &:first-child{
+		    	margin-left:0;
+		    }
+		}
+
+		.active{
+			&:after{
+				background-color: $color-white; 
+				opacity: 1;
+			}
+		}
+	}
+
+	.carousel-item{
+		height: 380px;	
+
+		@include media-breakpoint-down(sm) {
+			height: 164px;
+		}
+
+		img{
+			object-fit: cover;
+		    height: 100%;
+		    object-position: top center;
+		    width: 100%;
+		}
+	}
+}

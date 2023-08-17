@@ -1,0 +1,10 @@
+Bundle-Name: ehu-calendar-events
+Bundle-SymbolicName: es.ehu.calendarevents
+Bundle-Version: 1.0.0
+Export-Package: es.ehu.calendarevents.constants
+
+Include-Resource:\
+	@joda-time-2.9.9.jar
+Import-Package: \
+	!org.joda*,\
+	*

@@ -1,0 +1,75 @@
+.image-viewer .image-viewer-content, .image-viewer .image-gallery-content {
+    padding: 0;
+    margin: 0 20%;
+    text-align: center;
+    background-color: black;
+}
+
+.image-viewer .image-viewer-base-image-container {
+    padding: 20px 120px;
+
+    a.image-download-button.glyphicon.glyphicon-download{
+
+    	color: #ffffff;
+    	font-size: 30px;
+    	left: 25px;
+    	position: absolute;
+	    text-decoration: none;
+	   	top: 15px;
+
+	   	&:hover{
+	   		top:25px;
+	   	}
+
+    	&:before{
+    		content: "\f019";
+    		font-family: 'fontawesome-alloy';
+    	}
+    }
+}
+
+.close.image-viewer-base-control.image-viewer-close{
+    color: #ffffff;
+    font-size: 29px;
+    opacity: 1;
+   	right: 21%;
+    top: 15px;
+
+    &:hover{
+    	opacity: 0.5;
+    }
+}
+
+.image-viewer-base, .image-viewer-base-control.carousel-control {
+    z-index: 3000!important;
+}
+
+.aui .carousel-control.right {
+    left: auto;
+    right: 22%;
+}
+
+.aui .carousel-control {
+    position: fixed;
+    top: 50%;
+    left: 22%;
+    width: 42px;
+    height: 42px;
+    line-height: 44px;
+    /*color: white;*/
+    text-align: center;
+    background: $neutral-color-dark;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.aui .carousel-control.right {
+    left: auto!important;
+    right: 22%!important;
+}
+
+
+.yui3-widget-mask.image-viewer-mask {
+    opacity: .9;
+    z-index: 2999!important;
+}

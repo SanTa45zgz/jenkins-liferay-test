@@ -1,0 +1,150 @@
+#wrapper .upv-acordeon:not(.new-upv-acordeon) .accordion-group .accordion-heading {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: transparent;
+    }
+}
+
+.accordion {
+
+    &.nomargin {
+        margin: 0 -20px;
+    }
+
+    .accordion-group {
+        margin: 0!important;
+    }
+
+    .accordion-heading{
+        cursor: pointer;
+
+        h4,
+        h5{
+            margin: 0;
+        }
+
+        h4{
+            font-size: 1.29rem;
+            line-height: 2rem;
+        }
+
+        .accordion-toggle {
+            display: flex;
+            font-family: $primary-font-sans;
+            padding: 15px;
+            width: 100%;
+
+            &::after,
+            &[aria-expanded="true"]::after{
+                content: "\f106";
+                display: inline-block;
+                float: right;
+                font-family: FontAwesome;
+                font-size: 24px;
+                line-height: 20px;
+                margin-left:auto;
+            }
+
+            &.collapsed::after,
+            &[aria-expanded="false"]::after{
+                content: "\f107";
+            }
+
+            span {
+                font-size: 1.29rem;
+                float: left;
+                line-height: 2rem;
+                padding-right: 15px;
+            }
+
+            p {
+                padding: 8px 12px;
+                display: inline-block;
+                margin-bottom:0;
+                padding:14px 12px;
+            }
+
+            h2,
+            h4,
+            h5 {
+                font-size: 1.29rem;
+                line-height: 2rem;
+                margin:0;
+            }
+        }
+    }
+
+    .collapse,
+    .collapsing{
+
+        & > div{
+            font-size: 1.14rem;
+            line-height: 1.71rem;
+            margin: 0;
+            padding: 15px;
+        }
+    }
+
+    .accordion-inner{
+        padding: 0;
+        padding: 9px 15px;
+    }
+        
+    h6.tit-h6-accor{
+    	color:$neutral-color-dark;
+    	font-size: 16px;
+    	line-height: 21px;
+    }
+}
+
+
+#toggler, #myToggler {
+    background-color: $color-white;
+    counter-reset: section;
+    position: relative;
+    
+    h3 {
+
+        &.toggler-header {
+            padding: 15px;
+        }
+    }
+    
+    .toggler-header {
+        cursor: pointer;
+        font-size: 1.29rem;
+        line-height: 2rem;
+        margin: 0;
+        padding: 15px;
+        font-weight: normal;
+    }       
+    
+    .toggler-header-collapsed:after,
+    .toggler-header-expanded:after {
+        display: inline-block;
+        float: right;
+        font-family: FontAwesome;
+        font-size: 24px;
+        line-height: 20px;
+        margin-left:auto;
+        margin-top: 1px;
+    }   
+    .toggler-header-collapsed:after {
+        content: "\f107";
+    }
+    .toggler-header-expanded:after {
+        content: "\f106";
+    }
+
+    .toggler-content-expanded {
+        padding: 15px;
+    }
+}

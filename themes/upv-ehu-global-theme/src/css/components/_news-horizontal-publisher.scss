@@ -1,0 +1,150 @@
+.news-horizontal-publisher{
+	background-color: $color-white;
+	padding: 25px 44px;
+	margin-bottom: 30px;
+	display: flex;
+    flex-direction: column;
+
+	@include media-breakpoint-down(md){
+		padding: 27px 22px 0 22px;		
+	}
+
+	@include media-breakpoint-down(sm){
+		padding: 19px 22px 0 22px;		
+	}
+
+	&__header{
+		align-items: center;
+		display: flex;
+		margin-bottom: 20px;
+		width: 100%;
+
+		@include media-breakpoint-down(sm){
+			margin-bottom: 14px;
+		}
+
+		h2{
+			font-weight: 700;
+			margin-bottom: 0;
+
+			@include media-breakpoint-down(sm){
+				font-size: 1.285rem;
+				line-height: 2rem;
+			}
+		}
+
+		a{
+			margin-left: auto;
+		}
+	}
+
+	&__list{
+		display: flex;
+		flex-wrap: wrap;
+
+		&__item{
+			display: inline-flex;
+		    margin-bottom: 27px;
+		    width: 100%;
+
+		    &:last-child{
+		    	margin-bottom: 0;
+		    }
+
+		    @include media-breakpoint-down(sm){
+		    	flex-direction: column;
+		    }
+			
+			&__title{
+			    font-weight: 700;
+			    font-size: 1.29rem;
+    			line-height: 2rem;
+			    margin-bottom: 0;
+
+			   	@include media-breakpoint-down(sm){
+			    	font-size: 1.14rem;
+			    	line-height: 1.714rem;
+			    	margin-bottom: 1px;
+			    }
+		    }
+
+		    &__description{
+		    	margin-bottom: 0;
+		    	width: 100%;
+
+		    	@include media-breakpoint-down(sm){
+			    	display: block!important;
+				}
+		    }
+
+		    &__date{
+		    	color: $neutral-color-medium;
+		    	margin-bottom: 14px;
+    			font-size: 1rem;
+
+    			@include media-breakpoint-down(sm){
+    				margin-bottom: 7px;
+    			}
+		    }
+
+		    &__image{
+		    	border-radius: 5px;
+		    	margin-right: 22px;
+		    	width: 31.5%;
+
+		    	@media (min-width: 1200px) and (max-width: $xxl-1) {
+		    		width: 40.5%;
+		    	}
+
+		    	@include media-breakpoint-down(sm){
+		    		margin-bottom: 14px;
+		    		margin-right: 0;
+		    		width: 100%;
+		    	}
+
+		    	.aspect-ratio-4-to-3 {
+				    padding-bottom: 80%;
+				}
+
+		    	img{
+					height: 100% !important;
+				    object-fit: cover;
+				    object-position: center top;
+				    border-radius: 5px;
+				    position: absolute;
+				    width: 100%;
+		    	}
+
+		    	& + div{
+					margin-right: 20px;
+				    width: calc(68.5% - 44px);
+				    display: flex;
+				    flex-wrap: wrap;
+				    align-content: flex-start;
+
+				    @media (min-width: 1200px) and (max-width: $xxl-1) {
+			    		width: 59.5%;
+			    	}
+
+				    @include media-breakpoint-down(sm){
+			    		width: 100%;
+			    	}
+
+				    & > a{
+				    	margin-bottom: 6px;
+    					width: 100%;
+
+    					&:hover{
+    						color: $neutral-color-dark;
+    					}
+				    }
+		    	}
+		    }
+		}
+	}
+
+    .hide-accessible{
+    	margin-top: 30px;
+   		margin-left: 0;
+	}
+}

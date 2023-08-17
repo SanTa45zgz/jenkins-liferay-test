@@ -1,0 +1,121 @@
+.content-featured{
+
+	/*  Content Featured - Main  */
+	background-color: $color-white; 
+	padding: 33px 44px 25px 44px;
+	margin-bottom: 30px;
+
+	@include media-breakpoint-down(sm){
+		padding: 27px 20px 25px 20px;		
+	}
+
+	&__title{
+	    font-weight: 700;
+
+	   	@include media-breakpoint-down(sm){
+	    	font-size: 1.29rem;
+	    	line-height: 2rem;
+	    	margin-bottom: 16px;
+	    }
+    }
+
+    &__description{
+    	margin-bottom: 1.2rem;
+
+    	@include media-breakpoint-down(sm){
+	    	display: block!important;
+		}
+    }
+
+    &__link{
+	    font-size: 1.14rem;
+	    line-height: 1.2rem;
+	    margin-bottom: 8px;
+	    display: flex;
+    }
+
+    &__image{
+    	border-radius: 5px;
+    	margin-top: 15px;
+
+    	img{
+    		height: 100%!important;
+    		object-fit: cover;
+    		object-position: center top;	
+			position: absolute;
+		    width: 100%;
+    	}
+    }
+
+    &.content-featured--main-video{
+    	.content-featured__video{
+    		border-radius: 5px;
+    		margin: 15px auto 0 auto;
+    		width: 85%;
+    	}
+    }
+
+    .hide-accessible{
+    	margin-top: 30px;
+   		margin-left: 0;
+	}
+
+	/*  Content Featured - Horizontal  */
+
+	&--horizontal-image,
+	&--horizontal-video{
+		.content-featured__link{
+			display: flex;
+			margin-bottom: 8px;
+		}
+	}
+
+	&--horizontal-image{
+		.content-featured__image{
+			margin-top: 0;
+
+			@include media-breakpoint-down(md){
+			    margin-bottom: 25px;
+			}
+		}
+	}
+
+	&--horizontal-video{
+		.content-featured__video{
+			@include media-breakpoint-down(md){
+			    margin-bottom: 25px;
+			}
+		}
+	}
+}
+
+.portlet-boundary_com_liferay_nested_portlets_web_portlet_NestedPortletsPortlet_{
+	.portlet-column.portlet-column-last{
+		.content-featured--vertical-image,
+		.content-featured--vertical-video,
+		.content-featured--vertical-trama{
+			padding: 25px 44px 25px 22px;
+			margin-left: -15px;
+
+			@include media-breakpoint-down(sm) {
+				padding: 25px 22px 0 22px;
+    			margin-left: 0;
+			}
+		}
+	}
+
+	.portlet-column.portlet-column-first{
+		.content-featured--vertical-image,
+		.content-featured--vertical-video,
+		.content-featured--vertical-trama{
+			padding: 25px 22px 25px 44px;
+			margin-right: -15px;
+
+			@include media-breakpoint-down(sm) {
+				padding: 25px 22px 0 22px;
+    			margin-right: 0;
+    			margin-bottom: 0;
+			}
+		}
+	}
+}

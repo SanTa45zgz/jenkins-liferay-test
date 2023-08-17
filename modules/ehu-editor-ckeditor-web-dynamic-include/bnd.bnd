@@ -1,0 +1,4 @@
+Bundle-Name: ehu-editor-ckeditor-web-dynamic-include
+Bundle-SymbolicName: es.ehu.editor.ckeditor.web.dynamicinclude
+Bundle-Version: 1.0.0
+Export-Package: es.ehu.editor.ckeditor.web.dynamicinclude.constants

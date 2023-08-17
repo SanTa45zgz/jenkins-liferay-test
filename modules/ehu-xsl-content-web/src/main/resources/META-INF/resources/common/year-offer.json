@@ -1,0 +1,22 @@
+{
+  "config":[
+    {
+    	"val":"act",
+    	"label": {
+    		"eu":"Ikasturte honetan",
+    		"es":"Curso actual",
+    		"en":"Current course",
+    		"fr":"Cours actuel"
+    	}
+    },
+    {
+    	"val":"fut",
+    	"label": {
+    		"eu":"Datorren ikasturtea",
+    		"es":"Próximo curso",
+    		"en":"Next course",
+    		"fr":"Prochain cours"
+    	}
+    }
+  ]
+}

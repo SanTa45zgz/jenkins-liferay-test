@@ -1,0 +1,86 @@
+.information-interest{
+    background-color: $color-white;
+	padding: 33px 45px 4px 45px;
+
+	.hide-accessible {
+		left: 0;
+		top: 60px;
+	}
+
+	h2{	
+		color: $neutral-color-dark;
+	    font-family: $primary-font-sans;
+	    font-weight: bold;
+	    font-size: 1.714rem;
+	    line-height: 2.571rem;
+	}
+
+	ul {
+    	padding: 0;
+	    list-style: none!important;
+	    margin-left: -15px!important;
+	    margin-bottom: 0!important;
+	    margin-top: 0!important;
+
+    	& > li:before{
+	    	content: none;
+	    }
+	}
+
+	&__item {
+		margin-bottom: 29px;
+
+		&:before{
+			content: none!important;
+		}
+
+		@include media-breakpoint-only(md){
+			&.col-sm-6 {
+			    flex: 0 0 100%;
+			    max-width: 100%;
+			}
+		}
+
+		a {
+			align-items: center;
+	   		border-top-left-radius: 5px;
+	    	border-top-right-radius: 5px;
+			border:solid 2px $background-color;
+			border-bottom:solid 3px #f0f0f0;
+			display: flex!important;
+			font-family: $primary-font-sans;
+			font-size: 1.142rem;
+		    font-weight: 700;
+		    height: 100%;
+		    line-height: 1.5rem;
+		    padding: 12px 18px;
+			text-align: left;
+
+			.icono-enlace-destacado {
+				background-color: #7e7e7e;
+				background-position: center;
+			    height: 40px;
+			    min-width: 40px;
+    			min-height: 40px;
+			    margin-right: 22px;
+			    -webkit-mask-size: 100% !important;
+			    width: 40px;
+			}
+		}
+	}
+}
+
+// En columna derecha en layout 3-cols
+#column-3 {
+	.information-interest {
+		padding: 29px 15px 0;
+		
+		.row {
+			flex-direction: column;
+			
+			.col-sm-6 {
+				max-width: 100%;
+			}
+		}
+	}
+}

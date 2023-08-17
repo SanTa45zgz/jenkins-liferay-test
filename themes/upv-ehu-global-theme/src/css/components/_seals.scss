@@ -1,0 +1,33 @@
+.aui {
+	#wrapper .menu-lateral-logos {
+		border-top: 1px solid #bababa;
+		margin-top: 1px;
+	    text-align: center;
+	    padding: 30px;
+
+	    .logo {
+		    margin-bottom: 15px;
+		    width: 100%;
+
+		    img {
+		    	max-width: 200px !important;
+			    max-height: 120px;
+			    width: auto;
+		    }
+		}
+	}
+	#column-2 .menu-lateral-logos {
+		display: none;
+	}
+}
+
+@include media-breakpoint-down(sm){
+	.aui {
+		#column-1 .menu-lateral-logos {
+			display: none;
+		}
+		#column-2 .menu-lateral-logos {
+			display: block;
+		}
+	}
+}

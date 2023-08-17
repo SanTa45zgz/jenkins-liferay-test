@@ -1,0 +1,380 @@
+/* Variables -----------------------------------*/
+
+/* Colors */
+
+$color-secondary: #D14900;
+$color-secondary-light: #FF9800;
+$color-secondary-dark: #993600;
+$color-secondary-link: $color-secondary;
+
+/* Utilities -----------------------------------*/
+
+/* Backgrounds */
+
+.u-bg-secondary{
+	background-color: $color-secondary;
+}
+
+.u-bg-secondary-light{
+	background-color: $color-secondary-light;
+}
+
+.u-bg-secondary-dark{
+	background-color: $color-secondary-dark;
+}
+
+/* Components, module, layout -----------------------------------*/
+
+.aui body.orange-color-scheme {
+
+	section.upv-ehu-image-description  div.main .menu-orden-doctorado{
+		
+		a{
+			color: $color-secondary-link;
+
+			&:hover{
+				color: $color-secondary-link;
+			}
+		}
+	}
+
+	/* Buttons -----------------------------------*/
+
+	a.c-button,
+	button.c-button{
+		color: $color-secondary-dark;
+
+		&--primary{
+        	background-color: $color-secondary;
+        	border: 3px solid $color-secondary;
+        	color: $color-white;
+
+        	&:hover{
+	            background-color: $color-secondary-dark;
+	            border: 3px solid $color-secondary-dark;
+	            color: $color-white;
+	        }
+
+	        &:focus{
+	            background-color: $color-secondary;
+	            border: solid 3px $color-secondary-dark;
+	            color: $color-white;
+	        }
+
+	        &.c-button--disabled{
+	            background-color: $color-secondary-light;
+	            border: solid 3px $color-secondary-light;
+	            color: $color-secondary-dark;
+	        }
+		}
+
+    	&--secondary{
+    		border: 1px solid $color-secondary-dark;
+
+    		&:hover{
+	            border: 1px solid $color-secondary-dark;
+	            color: $color-secondary-dark;
+	        }
+
+	        &:focus{
+	            border: solid 3px $color-secondary-dark;
+	            color: $color-secondary-dark;
+	        }
+
+	        &.c-button--disabled{
+	            background-color: $color-white;
+	            border: solid 1px $neutral-color-light;
+	            color: $neutral-color-medium;
+	        }
+    	}
+
+    	&--tertiary{
+
+	        &:hover{
+	            color: $color-secondary;
+	        }
+
+	        &:focus{
+	            border: solid 3px $color-secondary-dark;
+	            color: $color-secondary;
+	        }
+	        
+	        &.c-button--disabled{
+	            background-color: $color-white;
+	            border: solid 1px transparent;
+	            color: $neutral-color-medium;
+	        }
+	    }
+	}
+
+	/* Child pages menu ---------------------------------*/
+
+	#child-pages .row > ul > li:hover > a, 
+	#child-pages .row > ul > li:focus > a,
+	#child-pages .row > ul > li:hover > ul, 
+	#child-pages .row > ul > li:focus > ul {
+		border-bottom: solid 3px $color-secondary;
+	}
+
+	/* Tarjetas/Cards ----------------------------*/
+
+	.c-cards{
+
+	    &:hover,
+		&:focus{
+			border-bottom: solid 3px $color-secondary;
+		}
+	}
+
+	/* Información de interes ----------------------------*/
+
+	.information-interest{
+		&__item{
+			a{
+				color: $neutral-color-dark;
+
+				&:hover{
+			    	border-bottom:solid 3px $color-secondary;
+
+			    	.icono-enlace-destacado{
+			    		background-color: $color-secondary;
+			    	}
+			    }
+			}
+		}
+	}
+
+	/* Images gallery lightbox ---------------------*/
+
+	.carousel-control {
+		color: $color-white;
+
+		&:hover{
+			color: $color-white;			
+		}
+	}
+
+
+	/* Contenido Información ---------------------*/
+
+	.journal-content-article .information-detail{
+		&__body{
+			&__anchors-nav{
+				ul li a span{
+					color: $color-secondary-link;
+				}
+			}
+
+			.backtop{
+				a span{
+					color: $color-secondary-link;
+				}
+			}
+		}
+	}
+
+	/* Headers -----------------------------------*/
+
+	.header{
+		.navbar{
+			.container{
+				background-color: $color-secondary;
+			}
+		}
+
+		&__menu{
+			.nav li:hover:before{
+				background-color: $color-secondary;
+			}
+		}
+
+		.nav{
+			&.nav-pills .nav-link.active,
+		    &.nav-pills > li.active > a{
+		    	color: $color-secondary;
+		    }
+		}
+
+		&.header--featured .navbar .container{
+			background-color: transparent;
+		}
+	}
+
+	/* Side menu -----------------------------------*/
+
+	#side-menu{
+		.level-1 > li > a{
+		    &:hover{
+		    	span{
+		    		border-left: 2px $color-secondary solid;
+		    		color: $color-secondary;
+		    		padding: 4px 55px 4px 34px;
+
+		    		@include media-breakpoint-down(sm){
+		    			border: none;
+		    			color: $color-white;
+		    			padding: 0;
+		    		}
+		    	}
+		    }
+		}
+
+		.level-1 > li.active-page > a{
+	    	span{
+	    		border-left: 2px $color-secondary solid;
+	    		color: $color-secondary;
+	    		font-weight: bold;
+	    		padding: 4px 55px 4px 34px;
+
+	    		@include media-breakpoint-down(sm){
+	    			border: none;
+	    			color: $color-white;
+	    			padding: 0;
+	    		}
+	    	}			
+		}
+
+		.sub-nav.level-2 a:hover{
+			color: $color-secondary;
+		}
+
+		.sub-nav.level-2 .selected a{
+			color: $color-secondary;
+			font-weight: bold;
+		}
+	}
+	
+	/* Footer  -----------------------------------*/
+
+	.footer__menu{
+		li a{
+			color: $color-white;
+		}
+	}
+
+	.footer__rrss{
+		a{
+			color: $color-white;
+		}
+	} 
+	
+	/* News - Publishers -----------------------------------*/
+
+	.news-main-publisher__text > div a{
+		color: $neutral-color-dark;
+	}
+
+	.news-one-column-publisher__list__item__image + div > a,
+	.news-two-column-publisher__list__item__image + div > a,
+	.news-horizontal-publisher__list__item__image + div > a {
+		color: $neutral-color-dark;
+	}
+
+	/* Nueva Oferta - Grados / plew0040-new-offer .xsl */
+	/* Nueva Oferta - Masteres / plew0050-new-offer .xsl */
+	/* Nueva Oferta - Doctorados / plew0060-new-offer .xsl */
+
+	.ehu-oferta-grados,
+	.ehu-oferta-masteres,
+	.ehu-oferta-doctorados,
+	.ehu-oferta-masteres-titulos-propios{
+
+		&__lists{
+			ul li a:hover{
+				color:$color-secondary-dark;
+			}
+
+			.panel{
+
+				&:last-child{
+					.panel-title a{
+						border-bottom: solid 1px $color-secondary-dark;
+					}
+
+					ul li:last-child {
+						border-bottom: solid 1px $color-secondary-dark;
+					}
+				}
+				.panel-title{
+					a{
+					    border-top: solid 1px $color-secondary-dark;
+					    color:  $color-secondary;
+					}
+
+					a.active{
+						border-bottom: solid 1px $color-secondary-dark;
+					}
+				}
+			}
+
+			.back-to-top{
+				color: $color-secondary-dark;
+			}
+		}
+	}
+
+
+	/* Accordion acordeon -----------------------------------*/ 
+	.accordion {
+
+	    .accordion-group{
+
+	        &:last-child{
+	            border-bottom: solid 1px $color-secondary-dark;
+	        }
+	    }
+
+	    .accordion-heading{
+	    	h4 a,
+	    	h5 a{
+	    		color: $color-secondary;
+	    	}
+
+	    	.accordion-toggle {
+	            border-top: solid 1px $color-secondary-dark;
+
+	            &:after{
+                	color: $color-secondary;	            	
+	            }
+	        }
+
+	        h2,
+            h4,
+            h5,
+            span{
+                color: $color-secondary;
+            }
+	    }
+	}
+
+	/* toggler / myToggler -----------------------------------*/ 
+
+	#toggler, #myToggler {
+    	border-bottom: solid 1px $color-secondary-dark;
+
+    	.toggler-header {
+	        border-top: solid 1px $color-secondary-dark;
+	        color: $color-secondary;
+	    }
+
+	    #toggler2{
+	        border-bottom: solid 1px $color-secondary-dark;
+	    }
+    }
+
+	/* Mapa -----------------------------------*/ 
+	.map__result-list__item.active{
+		border-left: solid 3px $color-secondary;
+	}
+
+	/* Asset publisher - summary --------------*/
+
+	.portlet-barebone ul.asset-list.asset-list-summary .asset-summary:hover{
+		border-left: solid 3px $color-secondary;
+	}
+
+	.portlet-decorate ul.asset-list.asset-list-summary .asset-summary:hover{
+		border-bottom: solid 3px $color-secondary;
+	}
+
+}

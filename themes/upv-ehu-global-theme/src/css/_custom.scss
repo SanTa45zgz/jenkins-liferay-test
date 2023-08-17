@@ -1,0 +1,49 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+@import 'liferay-font-awesome/scss/font-awesome';
+@import 'liferay-font-awesome/scss/glyphicons';
+
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+
+/* New scss files added*/
+
+@import "common/common";
+
+@import "custom-layout/custom-layout";
+
+@import 'components/components';
+
+@import "vendor/vendor";
+
+/* --------------   */
+
+
+@import "color_schemes/masters";
+@import "color_schemes/centers2";
+
+
+@import "font-awesome.scss";
+
+.aui {
+    @import "module/featured-article";
+    @import "module/featured-links";
+    @import "module/box-article";
+    @import "module/news";
+    @import "module/summary-data";
+}
+
+/* New scss files added */
+
+@import "color_schemes/gray-color-scheme";
+@import "color_schemes/red-color-scheme";
+@import "color_schemes/green-color-scheme";
+@import "color_schemes/orange-color-scheme";
+@import "color_schemes/blue-color-scheme";
+
+@import "common/custom-fixed"; /*  Reset old migrated css from 6.2 */
+
+

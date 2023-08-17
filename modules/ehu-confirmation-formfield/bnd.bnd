@@ -1,0 +1,4 @@
+Bundle-Name: ehu-confirmation-formfield-new
+Bundle-SymbolicName: es.ehu.confirmation.formfield
+Bundle-Version: 1.0.0
+Web-ContextPath: /dynamic-data-ehu-confirmation-formfield

@@ -1,0 +1,132 @@
+{
+  "config":[
+    {
+    	"val":"1001",
+    	"label": {
+    		"eu":"Aurkezpena",
+    		"es":"Presentación",
+    		"en":"Presentation"
+    	}
+    },
+    {
+    	"val":"1002",
+    	"label": {
+    		"eu":"Sartzeko profila",
+    		"es":"Perfil de acceso",
+    		"en":"Access profile"
+    	}
+    },
+    {
+    	"val":"1003",
+    	"label": {
+    		"eu":"Prestakuntza-programa",
+    		"es":"Programa Formativo",
+    		"en":"Training syllabus"
+    	}
+    },
+    {
+    	"val":"1004",
+    	"label": {
+    		"eu":"Gaia",
+    		"es":"Materia",
+    		"en":"Subject"
+    	}
+    },
+    {
+    	"val":"1005",
+    	"label": {
+    		"eu":"Metodologia eta ebaluazioa",
+    		"es":"Metodología y Evaluación",
+    		"en":"Methodology and assessment"
+    	}
+    },
+    {
+    	"val":"1006",
+    	"label": {
+    		"eu":"Master-amaierako lana",
+    		"es":"Trabajo Fin de Máster",
+    		"en":"Final Master's Dissertation"
+    	}
+    },
+    {
+    	"val":"1007",
+    	"label": {
+    		"eu":"Irakasleak",
+    		"es":"Profesorado",
+    		"en":"Teaching staff"
+    	}
+    },
+    {
+    	"val":"1008",
+    	"label": {
+    		"eu":"MALeko irakasleak",
+    		"es":"Profesorado de TFM",
+    		"en":"Master's Final Project  teachers"
+    	}
+    },
+    {
+    	"val":"1009",
+    	"label": {
+    		"eu":"Erakunde laguntzaileak",
+    		"es":"Entidades colaboradoras",
+    		"en":"Collaborating entities"
+    	}
+    },
+    {
+    	"val":"1010",
+    	"label": {
+    		"eu":"Masterraren arduraduna",
+    		"es":"Responsable del Máster",
+    		"en":"Person in charge of the Master"
+    	}
+    },
+    {
+    	"val":"1011",
+    	"label": {
+    		"eu":"Egutegia eta ordutegia",
+    		"es":"Calendario y Horario",
+    		"en":"Calendar and schedule"
+    	}
+    },
+    {
+    	"val":"1012",
+    	"label": {
+    		"eu":"Akreditazioa",
+    		"es":"Acreditación",
+    		"en":"Certification"
+    	}
+    },
+    {
+    	"val":"1013",
+    	"label": {
+    		"eu":"Orri-oina",
+    		"es":"Pie de página",
+    		"en":"Footer"
+    	}
+    },
+    {
+    	"val":"1014",
+    	"label": {
+    		"eu":"Gaitasunak",
+    		"es":"Competencias",
+    		"en":"Competencies"
+    	}
+    },
+    {
+    	"val":"1015",
+    	"label": {
+    		"eu":"Ikerketa-ildoak",
+    		"es":"Líneas de investigación",
+    		"en":"Research topics"
+    	}
+    },
+    {
+    	"val":"1016",
+    	"label": {
+    		"eu":"MFPS Aurkezpena",
+    		"es":"Presentación de MFPS",
+    		"en":"MFPS Presentation"
+    	}
+    }
+  ]
+}

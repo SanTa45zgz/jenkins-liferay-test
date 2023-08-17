@@ -1,0 +1,4 @@
+Bundle-Name: ehu-macros
+Bundle-SymbolicName: es.ehu.macros
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.portal.template.freemarker;bundle-version="7.0.35"

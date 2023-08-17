@@ -1,0 +1,313 @@
+
+/* Texts Colors*/
+
+.u-text-white{
+	color: $color-white;
+}
+
+.u-primary-text{
+	color: $primary-text;
+}
+
+.u-secondary-text{
+	color: $secondary-text;
+}
+
+/* Backgrounds -----------------------------------*/
+
+/* Interaction Colors */
+
+.u-bg-primary{
+	background-color: $color-primary;
+}
+
+.u-bg-primary-light{
+	background-color: $color-primary-light;
+}
+
+.u-bg-primary-dark{
+	background-color: $color-primary-dark;
+}
+
+/* Thematic Colors */
+
+.u-bg-upv-base{
+	background-color: $color-upv-base;
+}
+
+.u-bg-upv-light{
+	background-color: $color-upv-light;
+}
+
+.u-bg-upv-dark{
+	background-color: $color-upv-dark;
+}
+
+.u-bg-estudiar-base{
+	background-color: $color-estudiar-base;
+}
+
+.u-bg-estudiar-light{
+	background-color: $color-estudiar-light;
+}
+
+.u-bg-estudiar-dark{
+	background-color: $color-estudiar-dark;
+}
+
+.u-bg-investigar-base{
+	background-color: $color-investigar-base;
+}
+
+.u-bg-investigar-light{
+	background-color: $color-investigar-light;
+}
+
+.u-bg-investigar-dark{
+	background-color: $color-investigar-dark;
+}
+
+.u-bg-colaborar-base{
+	background-color: $color-colaborar-base;
+}
+
+.u-bg-colaborar-light{
+	background-color: $color-colaborar-light;
+}
+
+.u-bg-colaborar-dark{
+	background-color: $color-colaborar-dark;
+}
+
+.u-bg-vivir-base{
+	background-color: $color-vivir-base;
+}
+
+.u-bg-vivir-light{
+	background-color: $color-vivir-light;
+}
+
+.u-bg-vivir-dark{
+	background-color: $color-vivir-dark;
+}
+
+
+
+/*  Neutral Colors */
+
+.u-bg-white{
+	background-color: $color-white;
+}
+
+.u-bg-box{
+	background-color: $background-color;
+}
+
+.u-bg{
+	background-color: $background-color-light;
+}
+
+.u-bg-neutral-color-medium{
+	background-color: $neutral-color-medium;
+}
+
+/* Support Colors */
+
+.u-bg-danger{
+	background-color: $danger;
+}
+
+.u-bg-danger-light{
+	background-color: $danger-light;
+}
+
+.u-bg-danger-dark{
+	background-color: $danger-dark;
+}
+
+.u-bg-warning{
+	background-color: $warning;
+}
+
+.u-bg-warning-light{
+	background-color: $warning-light;
+}
+
+.u-bg-warning-dark{
+	background-color: $warning-dark;
+}
+
+.u-bg-success{
+	background-color: $success;
+}
+
+.u-bg-success-light{
+	background-color: $success-light;
+}
+
+.u-bg-success-dark{
+	background-color: $success-dark;
+}
+
+
+/*  Borders */
+
+.u-border-s{
+	border: solid 1px $neutral-color-light;
+}
+.u-border-s-top{
+	border-top: solid 1px $neutral-color-light;
+}
+.u-border-s-bottom{
+	border-bottom: solid 1px $neutral-color-light;
+}
+.u-border-s-left{
+	border-left: solid 1px $neutral-color-light;
+}
+.u-border-s-right{
+	border-right: solid 1px $neutral-color-light;
+}
+
+.u-border-m{
+	border: solid 2px $neutral-color-light;
+}
+.u-border-m-top{
+	border-top: solid 2px $neutral-color-light;
+}
+.u-border-m-bottom{
+	border-bottom: solid 2px $neutral-color-light;
+}
+.u-border-m-left{
+	border-left: solid 2px $neutral-color-light;
+}
+.u-border-m-right{
+	border-right: solid 2px $neutral-color-light;
+}
+
+.u-border-l{
+	border: solid 5px $neutral-color-light;
+}
+
+.u-border-l-top{
+	border-top: solid 5px $neutral-color-light;
+}
+.u-border-l-bottom{
+	border-bottom: solid 5px $neutral-color-light;
+}
+.u-border-l-left{
+	border-left: solid 5px $neutral-color-light;
+}
+.u-border-l-right{
+	border-right: solid 5px $neutral-color-light;
+}
+
+
+/* Font siz/line height */
+
+.u-text-14-24{
+	font-size: 1rem;
+	line-height: 1.71rem;
+}
+
+.u-text-16-24{
+	font-size: 1.14rem;
+	line-height: 1.71rem;
+}
+
+.u-text-18-28{
+	font-size: 1.29rem;
+	line-height: 2rem;
+}
+
+.u-text-24-36{
+	font-size: 1.71rem;
+	line-height: 2.57rem;
+}
+
+.u-text-36-46{
+	font-size: 2.57rem;
+	line-height: 3.25rem;
+}
+
+
+/* Text truncate  -----------------------------------*/
+
+.u-text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.u-text-truncate--2 {
+	display: -webkit-box !important;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+}
+
+.u-text-truncate--3 {
+	display: -webkit-box !important;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+}
+
+.u-text-truncate--4 {
+	display: -webkit-box !important;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+}
+
+.u-text-truncate--5 {
+	display: -webkit-box !important;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+}
+.u-text-truncate--6 {
+	display: -webkit-box !important;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+}
+.u-text-truncate--7 {
+	display: -webkit-box !important;
+	-webkit-line-clamp: 7;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+}
+
+
+/* Ajustar altura al 100% en el modulo aplicaciones anidadas ----------*/
+
+.u-height-100 .portlet-layout.row > div {
+	display: flex;
+	width: 100%;
+
+	> div {
+		display: flex;
+		width: 100%;
+
+		> div {
+			display: flex;
+			width: 100%;
+
+			.portlet {
+				width: 100%;
+			}
+		}
+	}
+	
+	.portlet-journal-content {
+		.journal-content-article {
+			height: 100%;
+		}
+	}
+	div[data-fragments-editor-item-type="fragments-editor-mapped-item"],
+	.portlet-body,
+	.portlet-content-container,
+	.portlet-content {
+		height: 100%;
+	}
+} 

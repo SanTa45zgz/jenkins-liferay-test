@@ -1,0 +1,692 @@
+/* Variables -----------------------------------*/
+
+/* Colors */
+
+$color-secondary: #D83C3C;
+$color-secondary-light: #EF5350;
+$color-secondary-dark: #931E1E;
+$color-secondary-link: $color-secondary;
+
+/* Utilities -----------------------------------*/
+
+/* Backgrounds */
+
+.u-bg-secondary{
+	background-color: $color-secondary;
+}
+
+.u-bg-secondary-light{
+	background-color: $color-secondary-light;
+}
+
+.u-bg-secondary-dark{
+	background-color: $color-secondary-dark;
+}
+
+/* Components, module, layout -----------------------------------*/
+
+.aui body.red-color-scheme{
+
+	section.upv-ehu-image-description  div.main .menu-orden-doctorado{
+		
+		a{
+			color: $color-secondary-link;
+
+			&:hover{
+				color: $color-secondary-link;
+			}
+		}
+	}
+
+	/* Buttons -----------------------------------*/
+
+	a.c-button,
+	button.c-button{
+		color: $color-secondary-dark;
+
+		&--primary{
+        	background-color: $color-secondary;
+        	border: 3px solid $color-secondary;
+        	color: $color-white;
+
+        	&:hover{
+	            background-color: $color-secondary-dark;
+	            border: 3px solid $color-secondary-dark;
+	            color: $color-white;
+	        }
+
+	        &:focus{
+	            background-color: $color-secondary;
+	            border: solid 3px $color-secondary-dark;
+	            color: $color-white;
+	        }
+
+	        &.c-button--disabled{
+	            background-color: $color-secondary-light;
+	            border: solid 3px $color-secondary-light;
+	            color: $color-secondary-dark;
+	        }
+		}
+
+    	&--secondary{
+    		border: 1px solid $color-secondary-dark;
+
+    		&:hover{
+	            border: 1px solid $color-secondary-dark;
+	            color: $color-secondary-dark;
+	        }
+
+	        &:focus{
+	            border: solid 3px $color-secondary-dark;
+	            color: $color-secondary-dark;
+	        }
+
+	        &.c-button--disabled{
+	            background-color: $color-white;
+	            border: solid 1px $neutral-color-light;
+	            color: $neutral-color-medium;
+	        }
+    	}
+
+    	&--tertiary{
+
+	        &:hover{
+	            color: $color-secondary;
+	        }
+
+	        &:focus{
+	            border: solid 3px $color-secondary-dark;
+	            color: $color-secondary;
+	        }
+
+	        &.c-button--disabled{
+	            background-color: $color-white;
+	            border: solid 1px transparent;
+	            color: $neutral-color-medium;
+	        }
+	    }
+	}
+
+	/* Child pages menu ---------------------------------*/
+
+	#child-pages .row > ul > li:hover > a, 
+	#child-pages .row > ul > li:focus > a,
+	#child-pages .row > ul > li:hover > ul, 
+	#child-pages .row > ul > li:focus > ul {
+		border-bottom: solid 3px $color-secondary;
+	}
+
+	/* Tarjetas/Cards ----------------------------*/
+
+	.c-cards{
+
+	    &:hover,
+		&:focus{
+			border-bottom: solid 3px $color-secondary;
+		}
+	}
+
+	/* Información de interes ---------------------*/
+
+	.information-interest{
+		&__item{
+			a{
+				color: $neutral-color-dark;
+
+				&:hover{
+			    	border-bottom:solid 3px $color-secondary;
+
+			    	.icono-enlace-destacado{
+			    		background-color: $color-secondary;
+			    	}
+			    }
+			}
+		}
+	}
+
+	/* Contenido Información ---------------------*/
+
+	.journal-content-article .information-detail{
+		&__body{
+			&__anchors-nav{
+				ul li a span{
+					color: $color-secondary-link;
+				}
+			}
+
+			.backtop{
+				a span{
+					color: $color-secondary-link;
+				}
+			}
+		}
+	}
+
+	/* Images gallery lightbox ---------------------*/
+
+	.carousel-control {
+		color: $color-white;
+
+		&:hover{
+			color: $color-white;			
+		}
+	}
+
+
+	/* Headers -----------------------------------*/
+
+	.header{
+		.navbar{
+			.container{
+				background-color: $color-secondary;
+			}
+		}
+
+		&__menu{
+			.nav li:hover:before{
+				background-color: $color-secondary;
+			}
+		}
+
+		.nav{
+			&.nav-pills .nav-link.active,
+		    &.nav-pills > li.active > a{
+		    	color: $color-secondary;
+		    }
+		}
+
+		&.header--featured .navbar .container{
+			background-color: transparent;
+		}
+	}
+
+	/* Side menu -----------------------------------*/
+
+	#side-menu{
+		.level-1 > li > a{
+		    &:hover{
+		    	span{
+		    		border-left: 2px $color-secondary solid;
+		    		color: $color-secondary;
+		    		padding: 4px 55px 4px 34px;
+
+		    		@include media-breakpoint-down(sm){
+		    			border: none;
+		    			color: $color-white;
+		    			padding: 0;
+		    		}
+		    	}
+		    }
+		}
+
+		.level-1 > li.active-page > a{
+	    	span{
+	    		border-left: 2px $color-secondary solid;
+	    		color: $color-secondary;
+	    		font-weight: bold;
+	    		padding: 4px 55px 4px 34px;
+
+	    		@include media-breakpoint-down(sm){
+	    			border: none;
+	    			color: $color-white;
+	    			padding: 0;
+	    		}
+	    	}			
+		}
+
+		.sub-nav.level-2 a:hover{
+			color: $color-secondary;
+		}
+
+		.sub-nav.level-2 .selected a{
+			color: $color-secondary;
+			font-weight: bold;
+		}
+	}
+
+
+	/* Footer  -----------------------------------*/
+
+	.footer__menu{
+		li a{
+			color: $color-white;
+		}
+	}
+
+	.footer__rrss{
+		a{
+			color: $color-white;
+		}
+	}
+	
+	/* News - Publishers -----------------------------------*/
+
+	.news-main-publisher__text > div a{
+		color: $neutral-color-dark;
+	}
+
+	.news-one-column-publisher__list__item__image + div > a,
+	.news-two-column-publisher__list__item__image + div > a,
+	.news-horizontal-publisher__list__item__image + div > a {
+		color: $neutral-color-dark;
+	}
+
+	/* Show more content */
+
+	.showMoreContent {
+		max-height:60px;
+		overflow: hidden;
+		transition: max-height 0.5s ease-in-out;
+	}
+
+	/* Nueva Oferta - Grados / plew0040-new-offer .xsl */
+	/* Nueva Oferta - Masteres / plew0050-new-offer .xsl */
+	/* Nueva Oferta - Doctorados / plew0060-new-offer .xsl */
+
+	.ehu-oferta-grados,
+	.ehu-oferta-masteres,
+	.ehu-oferta-doctorados,
+	.ehu-oferta-masteres-titulos-propios{
+
+		&__lists{
+			ul li a:hover{
+				color:$color-secondary-dark;
+			}
+
+			.panel{
+
+				&:last-child{
+					.panel-title a{
+						border-bottom: solid 1px $color-secondary-dark;
+					}
+
+					ul li:last-child {
+						border-bottom: solid 1px $color-secondary-dark;
+					}
+				}
+				.panel-title{
+					a{
+					    border-top: solid 1px $color-secondary-dark;
+					    color:  $color-secondary;
+					}
+
+					a.active{
+						border-bottom: solid 1px $color-secondary-dark;
+					}
+				}
+			}
+
+			.back-to-top{
+				color: $color-secondary-dark;
+			}
+		}
+	}
+
+
+	/* Accordion acordeon -----------------------------------*/ 
+	.accordion {
+
+	    .accordion-group{
+
+	        &:last-child{
+	            border-bottom: solid 1px $color-secondary-dark;
+	        }
+	    }
+
+	    .accordion-heading{
+	    	h4 a,
+	    	h5 a{
+	    		color: $color-secondary;
+	    	}
+
+	    	.accordion-toggle {
+	            border-top: solid 1px $color-secondary-dark;
+
+	            &:after{
+                	color: $color-secondary;	            	
+	            }
+	        }
+
+	        h2,
+            h4,
+            h5,
+            span{
+                color: $color-secondary;
+            }
+	    }
+	}
+
+	div.barra-busqueda input[type="search"]:focus {
+		border-bottom:3px solid $color-secondary-dark;
+	}
+
+
+	/* toggler / myToggler -----------------------------------*/ 
+
+	#toggler, #myToggler {
+    	border-bottom: solid 1px $color-secondary-dark;
+
+    	.toggler-header {
+	        border-top: solid 1px $color-secondary-dark;
+	        color: $color-secondary;
+	    }
+
+	    #toggler2{
+	        border-bottom: solid 1px $color-secondary-dark;
+	    }
+    }
+
+
+	/* Clases heredaras del color scheme study*/
+
+	.subrayado-grey {  
+		border-bottom: 1px solid #cccccc; 
+		padding-bottom: 10px;
+	}
+
+	.bg-dark .entidades ul.unstyled {
+		-webkit-column-count: 3;
+		/* Chrome, Safari, Opera */
+		-moz-column-count: 3;
+		/* Firefox */
+		column-count: 3;
+		padding-left: 5px;
+		
+		li {
+			display: block;
+			margin-bottom: 15px;
+			font-size: 16px;
+			width: 100%;
+			
+			&:before {
+				content: none !important;
+				width: 0 !important;
+			}
+		}
+		
+		@media ( max-width : 979px) {
+			-webkit-column-count: 2;
+			/* Chrome, Safari, Opera */
+			-moz-column-count: 2;
+			/* Firefox */
+			column-count: 2;
+		}
+		
+		@media ( max-width : 767px) {
+			-webkit-column-count: 1;
+			/* Chrome, Safari, Opera */
+			-moz-column-count: 1;
+			/* Firefox */
+			column-count: 1;
+		}
+		
+		/*IE9*/
+		@media all and (min-width: 0 \0) and (min-resolution: 0.001dpcm) {
+			overflow: hidden;
+			
+			li {
+				float: left;
+				width: 31%;
+				margin-right: 2%;
+			}
+		}
+	}
+
+	ul.unstyled li { 
+		margin-bottom: 10px; 
+		padding-left: 0 !important;
+	}
+
+	/* Contenido tipo información customizado para estudiar -----------------------------------*/
+
+	.fnd-primary {
+		background-color:$color-secondary-dark;
+		color:$color-white;
+		display: flex;
+    	flex-wrap: wrap;
+
+		.span8{
+			flex: 0 0 66.66667%;
+    		max-width: 66.66667%;
+
+    		@include media-breakpoint-down(sm){
+				flex: 0 0 100%;
+	    		max-width: 100%;
+    		}	
+		}
+
+		.span4{
+			display: flex;
+			justify-content: center;
+    		flex: 0 0 33.33333%;
+    		max-width: 33.33333%;
+
+		    @include media-breakpoint-down(sm){
+				flex: 0 0 100%;
+	    		max-width: 100%;
+	    		justify-content: flex-start;
+			}		
+		}
+
+		.btn.btn-upv{
+			margin:auto;
+		}
+	}
+
+	.fnd-secondary {
+		background-color:$color-secondary;
+		color:$color-white;
+	}
+	.color-primary {
+		color:$color-secondary-dark;
+	}
+	.color-secondary {
+		color:$color-secondary;
+	}
+
+	.caja-presentacion .journal-content-article{
+		.information-detail{
+			background-color: transparent;
+    		padding: 0!important;
+
+	        .video-container + p {
+	            margin-bottom:0;
+	        }
+
+    		&__body{
+
+    			&__section{
+	    			background-color: $color-white;
+	    			padding: 20px;
+
+	    			&__title{
+						@include media-breakpoint-down(md){
+	    					font-size: 1.71rem;
+    						line-height: 2.42rem;
+    						margin-bottom: 1.71rem;
+    						width: calc(100% + 40px);
+	    				}
+	    			}
+
+	    			&__entry{
+	    				@include media-breakpoint-down(sm){
+	    					width: 100%;
+	    				}
+
+	    				ul{ 
+	    					margin: 0 0 20px 0;
+						    padding-left: 5px;
+						    list-style-type: none;
+						    width: 100%;
+						    margin-top: 0;
+						    margin-block-start: 0;
+						    margin-block-end: 0;
+						    margin-inline-start: 0;
+						    margin-inline-end: 0;
+
+						    li{
+						    	margin-top: 12px;
+							    margin-bottom: 0;
+							    line-height: 20px;
+
+							    &:before{
+							    	background-color: transparent;
+								    border: none;
+								    border-radius: initial;
+								    height: 26px;
+								    left: 0;
+								    padding-top: 11px;
+								    position: relative;
+								    top: 0;
+								    line-height: 0px;
+								    color: #555;
+								    content: "\f00c";
+								    font-family: FontAwesome;
+								    margin-left: 0;
+								    width: 26px;
+								    float: left;
+							    }
+						    }
+						}
+					}
+
+					&__main-image{
+						margin: -20px -20px 0 -20px;
+
+						@include media-breakpoint-down(md){
+							margin: -20px -20px 20px -20px!important;
+							float: none;
+							width: calc(100% + 40px);
+						}
+
+	    				&.left {
+						    margin-right: 20px;
+						    margin-left: -20px;
+						    margin-bottom: 20px;
+
+						    figure{
+						    	margin-bottom: 0;
+						    }
+						}
+
+						&.right {
+						    margin-left: 20px;
+						    margin-right: -20px;
+						    margin-bottom: -20px;
+
+						    figure{
+						    	margin-bottom: 0;
+						    }
+						}
+	    			}
+    			}
+    		}
+
+    		.informacion-adicional__title{
+    			display: none;
+    		}
+		}
+	}
+
+	.caja-sin-fondo,
+	.caja-presentacion.caja-sin-fondo{
+        .information-detail__body__section{
+            background-color: transparent;
+        }
+        a.btn.btn-upv {
+            margin:20px 0;
+        }
+    }
+    .caja-sin-padding .information-detail__body__section,
+    .caja-presentacion.caja-sin-padding .information-detail__body__section{
+        padding:0;
+    }
+
+
+    .fnd-destacado {
+
+    	section.information-detail__body__section {
+			background-color: $color-secondary-dark!important;
+
+		}
+
+        .information-detail__body{
+            background-color: rgba(0,0,0,0.7);
+            color:$color-white;
+            
+            p {
+            	color:$color-white;
+            }
+
+            h2 {
+                background-color: $color-secondary;
+				color: $color-white;
+			    margin-top: -24px;
+			    margin-left: -20px;
+			    padding: 20px;
+       			width: calc(100% + 40px);
+            }
+        }
+	}
+
+	.caja-destacado {
+		background-color:$color-secondary;
+
+		.span4,.col-md-4 {
+			background-color:$color-secondary-dark;
+		}
+	}
+
+	.caja-destacada {
+		background-color:$color-secondary;
+
+		.information-detail{
+			padding: 0!important;
+		}
+
+		.lead {
+		    font-size: 21px;
+		    font-weight: 200;
+		    line-height: 30px;
+		    color: $color-white;
+		    margin-bottom: 10px;
+		    margin-top: 10px;
+		}
+	}
+
+	.fnd-destacado.caja-presentacion .journal-content-article .information-detail__body__section__entry ul li:before{
+		color: $color-white;
+	}
+
+
+	#doctorate-order-buttons{
+		li{
+			&.additional-active{
+				a{
+					@extend .c-button;
+					@extend .c-button--secondary;
+				}
+			}
+
+			a{
+				@extend .c-button;
+				@extend .c-button--primary;
+			}
+		}
+	}
+
+	/* Mapa -----------------------------------*/ 
+	.map__result-list__item.active{
+		border-left: solid 3px $color-secondary;
+	}
+
+	/* Asset publisher - summary --------------*/
+
+	.portlet-barebone ul.asset-list.asset-list-summary .asset-summary:hover{
+		border-left: solid 3px $color-secondary;
+	}
+	
+	.portlet-decorate ul.asset-list.asset-list-summary .asset-summary:hover{
+		border-bottom: solid 3px $color-secondary;
+	}
+}

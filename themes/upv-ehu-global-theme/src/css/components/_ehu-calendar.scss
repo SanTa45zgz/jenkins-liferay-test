@@ -1,0 +1,668 @@
+//-- Calendario de eventos --//
+
+#portlet_es_ehu_calendarevents_EhuCalendarEventsPortlet .portlet-title-text {
+	margin-bottom: 30px;
+	margin-left: 0;
+}
+
+.aui #ehu-calendar {
+	margin-bottom: 25px;
+
+	.hidden {
+		display: none;
+	}
+	
+	.col-4{
+		.yui3-calendar-pane{
+			table {
+				display: table;
+			}
+		}
+
+		.filterCal{
+			padding: 0 20px;
+		}
+	}
+
+	.container-fluid{
+		padding: 0;
+	}
+
+	.yui3-calendar-pane {
+		background: white;
+		padding: 12px;
+		
+		table {
+			display: table;
+			margin-bottom: 0;
+
+			@include media-breakpoint-up(md){
+				display: block;
+			}
+
+			@include media-breakpoint-up(xl){
+				display: table;
+			}
+
+			@media (max-width: 340px){
+				display: block;
+			}
+			
+			td {
+				text-align: center !important;
+				
+				a {
+					color: #FFFFFF;
+					
+					&:hover,
+					&:focus {
+			    		text-decoration: none;
+	
+				    	.color {
+				    		opacity: 0.8;
+				    	}
+			    	}
+				}
+			}
+		}
+
+		table thead tr th {
+		    color: #212f96;
+		    font-size: 12px;
+		    border: 0;
+		    padding: 5px 15px !important;
+		    text-align: center;
+		    font-weight: bold;
+		    height: 20px;
+		}
+
+		table tbody tr td.vacio {
+			border: none !important;
+		}
+
+		table tbody tr td.pasado {
+		    border: none !important;
+		    background: #f4f4f4 !important;
+		    transition: 0.35s;
+		}
+
+		table tbody tr td:hover {
+			background: white !important;
+			color: #5f5f5f !important;
+		}
+
+		table tbody tr td.eventoHoy,
+		table tbody tr td.evento {
+		    padding: 0;
+		    border: 0;
+
+		    a {
+		    	color: white;
+		    	display: grid;
+
+		    	&:hover {
+		    		text-decoration: none;
+
+			    	.color {
+			    		opacity: 0.8;
+			    	}
+		    	}
+
+		    	&:focus {
+		    		text-decoration: none;
+
+		    		.color {
+		    			border-radius: 5px;
+		    		}
+		    	}
+
+		    	.color {
+		    		border-bottom: 5px solid;
+				    border-top: 5px solid;
+				    border-left: 6px solid;
+				    border-right: 6px solid;
+				    border-radius: 0px;
+		    	}
+		    }
+		}
+		
+		.yui3-calendar-day {
+
+				.color.academico {
+		    		border-color: #dd6b0e !important;
+	    			background: #dd6b0e;
+		    	}
+	
+		    	.color.general {
+		    		border-color: #212f96 !important;
+	    			background: #212f96;
+		    	}
+	
+		    	.color.ambos {
+		    		border-color: #212f96 !important;
+	    			background: #dd6b0e;
+		    	}
+			
+			&:hover {
+				background: #FFFFFF;
+			}
+			
+			.color {
+		    	transition: 0.35s;
+		    }
+		}	
+	
+		.yui3-calendar-day:not(:empty) {
+		    background-color: #f4f4f4 !important;
+		}
+
+	    .yui3-calendar-day.selected {
+	    	background-color: #ddd !important;
+
+	    	.color.academico {
+	    		border-color: #a14901 !important;
+    			background: #a14901;
+	    	}
+
+	    	.color.general {
+	    		border-color: #151e63 !important;
+    			background: #151e63;
+	    	}
+
+	    	.color.ambos {
+	    		border-color: #151e63 !important;
+    			background: #a14901;
+	    	}
+	    }
+
+	    .yui3-calendar-day {
+
+	    	.color.academico {
+	    		border-color: #dd6b0e !important;
+    			background: #dd6b0e;
+	    	}
+
+	    	.color.general {
+	    		border-color: #212f96 !important;
+    			background: #212f96;
+	    	}
+
+	    	.color.ambos {
+	    		border-color: #212f96 !important;
+    			background: #dd6b0e;
+	    	}
+	    }
+
+	    .calendar-header a:focus {
+	    	/*outline: none;*/
+	    }
+
+	    .yui3-calendar-grid:focus {
+	    	/*outline: none;*/
+	    }
+	}
+	
+	.filterCal .form-check {
+	
+		.form-check-label input[type="checkbox"] {
+			-moz-appearance: none;
+			width: 13px;
+			margin-top: -2px;
+    		margin-right: 5px;
+    		position: relative;
+		}
+
+		.form-check-label input.evento-academico[type="checkbox"] {
+
+			&::before {
+    			content: "";
+    			position: absolute;
+    			width: 100%;
+    			height: 100%;
+    			background-color: #dd6b0e;
+    			border: 1px solid #dd6b0e;
+    			border-radius: 2px; 
+    		}
+
+    		&:hover::before {
+    			border: 1px solid #dd6b0e;
+    			background-color: #dd6b0e;
+    		}
+
+    		&:focus::before {
+    			border: 2px solid #dd6b0e;
+    			background-color: #dd6b0e;
+    		}
+
+    		&:checked::before {
+    			content: "";
+    			position: absolute;
+    			width: 100%;
+    			height: 100%;
+    			background-color: #dd6b0e;
+    			border: 1px solid #dd6b0e;
+    			border-radius: 2px;
+    		}
+
+    		&:checked:focus::before {
+    			background-color: #dd6b0e;
+    			border: 1px solid #dd6b0e;
+    		}
+
+    		&:hover:checked::before {
+    			background-color: #dd6b0e;
+    			border: 1px solid #dd6b0e;
+    		}
+
+    		&:checked::after {
+			    content: "";
+			    position: absolute;
+			    width: 4px;
+			    left: 4px;
+			    top: 2px;
+			    transform: rotate(45deg);
+			    height: 9px;
+			    border-bottom: 2px solid #FFFFFF;
+			    border-right: 2px solid #FFFFFF;
+			}
+		}
+
+		.form-check-label input.evento[type="checkbox"] {
+
+			&::before {
+    			content: "";
+    			position: absolute;
+    			width: 100%;
+    			height: 100%;
+    			background-color: #212f96;
+    			border: 1px solid #212f96;
+    			border-radius: 2px; 
+    		}
+
+    		&:hover::before {
+    			border: 1px solid #212f96;
+    			background-color: #212f96;
+    		}
+
+    		&:focus::before {
+    			border: 2px solid #212f96;
+    			background-color: #212f96;
+    		}
+
+    		&:checked::before {
+    			content: "";
+    			position: absolute;
+    			width: 100%;
+    			height: 100%;
+    			background-color: #212f96;
+    			border: 1px solid #212f96;
+    			border-radius: 2px;
+    		}
+
+    		&:checked:focus::before {
+    			background-color: #212f96;
+    			border: 1px solid #212f96;
+    		}
+
+    		&:hover:checked::before {
+    			background-color: #212f96;
+    			border: 1px solid #212f96;
+    		}
+
+    		&:checked::after {
+			    content: "";
+			    position: absolute;
+			    width: 4px;
+			    left: 4px;
+			    top: 2px;
+			    transform: rotate(45deg);
+			    height: 9px;
+			    border-bottom: 2px solid #FFFFFF;
+			    border-right: 2px solid #FFFFFF;
+			}
+		}
+
+		.btn-more {
+		    border: 2px solid #000;
+			border-radius: 0;
+		    color: #000;
+		    background: white;
+		    z-index: 0;
+		    margin-top: 1.5rem;
+			margin-bottom: 1.5rem;
+
+			i {
+		    	color: #5c5c5c !important;
+		    }
+
+		    &:hover,
+		    &:focus {
+		    	background-color: #000;
+    			color: $color-white;
+    			border: 2px solid #000;
+		    }
+		}
+	}
+	
+	.listadoCal {
+		overflow-y: auto;
+		max-height: 510px;
+		margin-bottom: 15px;
+		scrollbar-color:  $neutral-color-light #d5deea;  /* Firefox custom colors*/
+        scrollbar-width: auto; /* Firefox custom width */
+
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: $background-color;
+            border-radius: 100px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: $neutral-color-light;
+            border-radius: 100px;
+            border: 2px solid transparent;
+        }
+
+        h2{
+			font-size: 1.71rem;
+		    line-height: 2.42rem;
+		    margin-bottom: 0.5rem;
+		}
+
+		h4 {
+			margin: 0px;
+			margin-top: 12px;
+		    padding: 5px;
+		    background: white;
+		    font-family:  $primary-font-sans;
+		    text-transform: uppercase;
+		    font-size: 14px;
+		    font-weight: bold;
+		    color: #42748c;
+
+		    &:first-child {
+		    	margin-top: 0px;
+		    }
+		}
+
+		ul.list-group li {
+
+			a {
+				color: rgba(0,0,0,0.87);
+			    padding: 5px 0px;
+			    font-size: 16px;
+
+			    &:hover {
+			    	color: rgba(0,0,0,0.87);
+			    }
+			}
+
+			p {
+				margin: 0 0 5px;
+				font-size: 13px;
+
+				&:first-child {
+					font-size: 16px;
+				}
+			}
+		}
+
+		.list-group {
+
+			.list-group-item {
+
+				&.evento-academico::before {
+					content: "";
+				    position: absolute;
+				    width: 5px;
+				    height: calc(100% - 4px);
+				    top: 2px;
+				    left: 2px;
+				    background-color: #dd6b0e;
+				}
+
+				&.evento-general::before {
+					content: "";
+				    position: absolute;
+				    width: 5px;
+				    height: calc(100% - 4px);
+				    top: 2px;
+				    left: 2px;
+				    background-color: #212f96;
+				}
+			}
+		}
+	}
+	
+	.listadoCal,
+	.modal-dialog {
+	
+		 h2 {
+		 	font-size: $extra-font-size;
+		 	margin-bottom: 0.5em;
+		 	
+		 	&:nth-child(3) {
+		 		margin-top: $extra-font-size;
+		 	}
+		 }
+		 
+		 .list-group {
+	
+			.list-group-item {
+				font-size: $basic-font-size;
+				
+				a {
+					color: #000000;
+				}
+				
+				p {
+					font-size: $small-font-size;
+				}
+
+				&.evento-academico::before {
+					content: "";
+				    position: absolute;
+				    width: 5px;
+				    height: calc(100% - 4px);
+				    top: 2px;
+				    left: 2px;
+				    background-color: #dd6b0e;
+				}
+
+				&.evento-general::before {
+					content: "";
+				    position: absolute;
+				    width: 5px;
+				    height: calc(100% - 4px);
+				    top: 2px;
+				    left: 2px;
+				    background-color: #212f96;
+				}
+			}
+		}
+	}
+	
+	@media (max-width: 1600px) and (min-width: 1200px){
+    	.col-4 {
+    		flex: 0 0 41.66667%;
+			max-width: 41.66667%;
+    	}
+    	.col-8 {
+    		flex: 0 0 58.33333%;
+			max-width: 58.33333%;
+    	}
+    }
+    
+    @media (max-width: 1199px) and (min-width: 992px){
+    	.col-4 {
+    		flex: 0 0 50%;
+			max-width: 50%;
+    	}
+    	.col-8 {
+    		flex: 0 0 50%;
+			max-width: 50%;
+    	}
+    }
+    
+    @media (max-width: 991px){
+    	.col-4{
+			/*flex: unset;
+			max-width: 100%;
+			padding: 0;
+			margin-bottom: 35px;*/
+
+			width: 100%;
+		    flex: 0 0 100%;
+		    max-width: 100%;
+    	}
+
+    	.col-8 {
+    		margin-right: 15px;
+		    margin-left: 15px;
+		    width: calc(100% - 30px);
+		    flex: 0 0 calc(100% - 30px);
+		    max-width: 100%;
+    	}
+    	
+    	.yui3-calendar-pane,
+    	.filterCal {
+    		/*width: 290px;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;*/
+    	}
+    }
+    
+    .calendar-popup {
+    	overflow: auto;
+    	
+    	.yui3-calendar-pane {
+    		.yui3-skin-sam .yui3-calendar-header{
+    			margin-left: 0;
+    		}
+    		/*width: 289px;*/
+    	}
+    }
+    	
+    #modalEvents {
+    	
+    	.yui3-widget-mask {
+    		z-index: 99 !important;
+    	}
+    	
+    	.modal-dialog {
+    		z-index: 100 !important;
+
+			@include media-breakpoint-down(sm){
+				max-width: calc(100% - 40px);
+				margin: 0 55px;
+			}
+
+    		.modal-header {
+    			padding: 9px 15px;
+				border-bottom: 2px solid #bababa;
+				height: auto;
+    			
+    			h2 {
+    				margin-bottom: 0;
+
+					@include media-breakpoint-down(xs){
+						font-size: 20px;
+					    line-height: 20px;
+					    margin-bottom: 10px;
+					}
+    			}
+    			
+				.close {
+					color: black;
+					opacity: .75;
+				}
+
+    			button {
+    				position: relative;
+				    width: 30px;
+				    height: 30px;
+				    border: none;
+				    background: transparent;
+				    box-shadow: none;
+    				@extend .c-button;
+		    		@extend .c-button--tertiary;
+		    		text-decoration: none;
+
+	    			&::before {
+	    				font-family: 'fontawesome-alloy';
+				    	content: "";
+					    position: absolute;
+					    top: calc(50% - 0px);
+					    left: calc(50% - 7px);
+					    width: 14px;
+					    height: 0;
+					    border-bottom: 2px solid black;
+					    transform: rotate(135deg);
+				    }
+
+				    &::after {
+				    	content: "";
+					    position: absolute;
+					    top: calc(50% - 1px);
+					    left: calc(50% - 7px);
+					    width: 14px;
+					    height: 0;
+					    border-bottom: 2px solid black;
+					    transform: rotate(45deg);
+				    }
+
+			    	.hide-accesible {
+				    	opacity: 0;
+					    visibility: hidden;
+					    position: absolute;
+				    }
+    			}
+    		}
+    		
+    		.modal-body {
+    			padding: 0;
+
+				.list-group {
+
+					.list-group-item {
+						border-bottom: 2px solid #bababa !important;
+						margin-bottom: 1px;
+
+						&.evento-academico::before {
+							content: "";
+						    position: absolute;
+						    width: 5px;
+						    height: calc(100% - 4px);
+						    top: 2px;
+						    left: 2px;
+						    background-color: #dd6b0e;
+						}
+
+						&.evento-general::before {
+							content: "";
+						    position: absolute;
+						    width: 5px;
+						    height: calc(100% - 4px);
+						    top: 2px;
+						    left: 2px;
+						    background-color: #6495ed;
+						}
+
+						a {
+							border-top: 0;
+							font-size: 16px;
+
+							p {
+								margin: 0;
+							}
+						}
+					}
+				}
+    		}
+    	}
+    }
+}

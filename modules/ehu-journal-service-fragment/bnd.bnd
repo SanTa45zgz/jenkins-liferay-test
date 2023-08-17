@@ -1,0 +1,4 @@
+Bundle-Name: ehu-journal-service-fragment
+Bundle-SymbolicName: es.ehu.journal.service.fragment
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.journal.service;bundle-version="7.0.108"

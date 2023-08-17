@@ -1,0 +1,4 @@
+- Solo OMNIADMIN puede acceder a aplicaciones huérfanas (antiguo aplicaciones incrustadas)
+- Solo se muestran las gamas de colores (y la opcion de cambiar la seleccion del mismo) a los roles Administrator y Theme Administra
+- Se limita la posibilidad de modificar (boton Seleccionar) el theme a los roles Administrator y Theme Administrator
+- Solo OMNIADMIN tiene posibilidad de incluir estilos en las paginas o grupos de páginas

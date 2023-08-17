@@ -1,0 +1,58 @@
+{
+  "config":[
+    {
+    	"val":"1",
+    	"label": {
+    		"eu":"Aurkezpena",
+    		"es":"Presentación",
+    		"en":"Presentation",
+    		"fr":"Présentation"
+    	}
+    },
+    {
+    	"val":"2",
+    	"label": {
+    		"eu":"Prestakuntza-programa",
+    		"es":"Programa formativo",
+    		"en":"Training program",
+    		"fr":"Programme de formation"
+    	}
+    },
+    {
+    	"val":"3",
+    	"label": {
+    		"eu":"Antolatzaileak",
+    		"es":"Organización",
+    		"en":"Organization",
+    		"fr":"Organisation"
+    	}
+    },
+    {
+    	"val":"4",
+    	"label": {
+    		"eu":"Sarbidea",
+    		"es":"Acceso",
+    		"en":"Access",
+    		"fr":"Accés"
+    	}
+    },
+    {
+    	"val":"5",
+    	"label": {
+    		"eu":"Eskolak emateko lekua eta datak",
+    		"es":"Lugar y fechas de impartición",
+    		"en":"Place and dates of delivery",
+    		"fr":"Lieu et dates de livraison"
+    	}
+    },
+    {
+    	"val":"6",
+    	"label": {
+    		"eu":"Harremanetarako pertsona",
+    		"es":"Contacto",
+    		"en":"Contact",
+    		"fr":"Contact"
+    	}
+    }
+  ]
+}

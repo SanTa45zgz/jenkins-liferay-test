@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 7.4.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_7_4_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>7.4.0+</version>
+	</compatibility>
+	<theme id="upv-ehu-global-theme" name="UPV/EHU Global Theme">
+		<template-extension>ftl</template-extension>
+		<portlet-decorator id="barebone" name="Barebone">
+			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
+		</portlet-decorator>
+		<portlet-decorator id="borderless" name="Borderless">
+			<default-portlet-decorator>true</default-portlet-decorator>				
+			<portlet-decorator-css-class>portlet-borderless</portlet-decorator-css-class>
+		</portlet-decorator>
+		<portlet-decorator id="decorate" name="Decorate">				
+			<portlet-decorator-css-class>portlet-decorate</portlet-decorator-css-class>
+		</portlet-decorator>
+		<color-scheme id="06" name="masters">
+			<default-cs>false</default-cs>
+            <css-class>masters</css-class>  
+            <color-scheme-images-path>
+				${images-path}/color-schemes/${css-class}
+			</color-scheme-images-path>             
+        </color-scheme>
+        <color-scheme id="08" name="centers">
+        	<default-cs>false</default-cs>
+            <css-class>centers2</css-class>
+            <color-scheme-images-path>
+				${images-path}/color-schemes/${css-class}
+			</color-scheme-images-path>              
+        </color-scheme>
+        <color-scheme id="001" name="Gris - UPV/EHU">
+         	<default-cs>true</default-cs>
+            <css-class>gray-color-scheme</css-class>
+			<color-scheme-images-path>
+				${images-path}/color-schemes/${css-class}
+			</color-scheme-images-path>             
+        </color-scheme>
+        <color-scheme id="002" name="Rojo - Estudiar">
+         	<default-cs>false</default-cs>
+            <css-class>red-color-scheme</css-class>
+			<color-scheme-images-path>
+				${images-path}/color-schemes/${css-class}
+			</color-scheme-images-path>             
+        </color-scheme>
+        <color-scheme id="003" name="Verde - Investigar">
+         	<default-cs>false</default-cs>
+            <css-class>green-color-scheme</css-class>
+			<color-scheme-images-path>
+				${images-path}/color-schemes/${css-class}
+			</color-scheme-images-path>             
+        </color-scheme>
+        <color-scheme id="004" name="Naranja - Colaborar">
+         	<default-cs>false</default-cs>
+            <css-class>orange-color-scheme</css-class>
+			<color-scheme-images-path>
+				${images-path}/color-schemes/${css-class}
+			</color-scheme-images-path>             
+        </color-scheme>
+        <color-scheme id="005" name="Azul - Vivir">
+         	<default-cs>false</default-cs>
+            <css-class>blue-color-scheme</css-class>
+			<color-scheme-images-path>
+				${images-path}/color-schemes/${css-class}
+			</color-scheme-images-path>             
+        </color-scheme>
+        <settings>
+        	<setting configurable="true" key="show-featured-header" type="checkbox" value="false"/>
+			<setting configurable="true" key="carousel-web-content-article-id" type="text" value=""/>
+			<setting configurable="true" key="header-menu-root-page-friendly-url" type="text" value=""/>
+			<setting configurable="true" key="specific-menu-root-page-friendly-url" type="text" value=""/>
+			<setting configurable="true" key="show-central-navigation" type="checkbox" value="false"/>
+			<setting configurable="true" key="portlet-setup-show-borders-default" type="checkbox" value="false"/>
+			<setting configurable="true" key="show-menu-childs-unfolded" type="checkbox" value=""/>
+		</settings>  
+	</theme>
+</look-and-feel>

@@ -1,0 +1,5 @@
+- Se reorganizan por completo las barras de herramientas para mantener el orde y funcionalidad existente antes de la migración
+- Todos los plugins son OOTB del CKEditor excepto dos, 'Langswitch' y 'HelpBtn', que son custom y se añaden mediante el módulo "ehu-editor-ckeditor-web-fragment"
+
+- Evita que usuarios sin el permiso ADVANCED_EDITION puedan editar contenidos viendo el código HTML en el CKEditor.
+  Este permiso es nuevo y se añade mediante el componente "ehu-journal-service-fragment"

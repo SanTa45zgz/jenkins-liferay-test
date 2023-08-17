@@ -1,0 +1,76 @@
+{
+  "config":[
+    {
+    	"val":"10",
+    	"label": {
+    		"eu":"Laburpena",
+    		"es":"Resumen",
+    		"en":"Summary",
+    		"fr":"Résumé"
+    	}
+    },
+    {
+    	"val":"20",
+    	"label": {
+    		"eu":"Prezioak",
+    		"es":"Precios",
+    		"en":"Prices",
+    		"fr":"Les Prix"
+    	}
+    },
+    {
+    	"val":"30",
+    	"label": {
+    		"eu":"Aipamenak",
+    		"es":"Menciones",
+    		"en":"Mentions",
+    		"fr":"Mentionne"
+    	}
+    },
+    {
+    	"val":"40",
+    	"label": {
+    		"eu":"Kurtsoak",
+    		"es":"Cursos",
+    		"en":"Courses",
+    		"fr":"Des cours"
+    	}
+    },
+    {
+    	"val":"50",
+    	"label": {
+    		"eu":"Irakasleak",
+    		"es":"Profesorado",
+    		"en":"Faculty",
+    		"fr":"Faculté"
+    	}
+    },
+    {
+    	"val":"60",
+    	"label": {
+    		"eu":"Gaitasunak",
+    		"es":"Competencias",
+    		"en":"Skills",
+    		"fr":"Compétences"
+    	}
+    },
+    {
+    	"val":"70",
+    	"label": {
+    		"eu":"Baliabideak",
+    		"es":"Recursos",
+    		"en":"Resources",
+    		"fr":"Ressources"
+    	}	
+    },
+    {
+    	"val":"80",
+    	"label": {
+    		"eu":"Betebeharrak",
+    		"es":"Requisitos",
+    		"en":"Requirements",
+    		"fr":"Exigences"
+    	}	
+    }
+  ]
+}

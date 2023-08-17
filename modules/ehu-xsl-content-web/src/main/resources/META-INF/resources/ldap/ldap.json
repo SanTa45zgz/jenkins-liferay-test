@@ -1,0 +1,40 @@
+{
+  "config":[
+  	{
+    	"val":"0",
+    	"label": {
+    		"eu":"Aukeratu mota bat",
+    		"es":"Seleccione un tipo",
+    		"en":"Select a type",
+    		"fr":"Choisir un type"
+    	}
+    },
+    {
+    	"val":"centro",
+    	"label": {
+    		"eu":"Zentrua",
+    		"es":"Centro",
+    		"en":"Headquarter",
+    		"fr":"Centre"
+    	}
+    },
+    {
+    	"val":"dpto",
+    	"label": {
+    		"eu":"Saila",
+    		"es":"Departamento",
+    		"en":"Departament",
+    		"fr":"Département"
+    	}
+    },
+    {
+    	"val":"otro",
+    	"label": {
+    		"eu":"Beste bat",
+    		"es":"Otro",
+    		"en":"Another one",
+    		"fr":"Autre"
+    	}
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+/* Variables -----------------------------------*/
+
+/* Breakpoints ----------*/
+
+$xxl-container: 1440px;
+$xxl: 1600px;
+$xxl-1: 1599.98px;
+$xl-container: 1230px;
+
+/* Fonts ----------*/
+
+$primary-font-sans: 'ehuSans', sans-serif;
+$primary-font-serif: 'ehuSerif', sans-serif;
+$secondary-font: Arial, sans-serif;
+
+
+$smaller-font-size: 0.857rem;
+$small-font-size: 1rem;
+$basic-font-size: 1.14rem;
+$highlight-font-size: 1.187rem; //para que cumpla contraste min en bold
+$extra-font-size: 1.71rem;
+
+
+/* Colors ----------*/
+
+$color-primary: #0066B3;
+$color-primary-light: #97B8DB;
+$color-primary-dark: #004980;
+$color-primary-link: $color-primary;
+
+
+/* Neutral Colors */
+
+$color-white: #ffffff;
+
+$neutral-color-dark: #000000;
+$neutral-color-medium: #5C5C5C;
+$neutral-color-light: #949494;
+
+$background-color: #E9E9E9;
+$background-color-light: #F9F9F9;
+
+
+/* Thematic Colors */
+
+$color-upv-base: #424242;
+$color-upv-light: #BDBDBD;
+$color-upv-dark: #212121;
+
+$color-estudiar-base: #D83C3C;
+$color-estudiar-light: #EF5350;
+$color-estudiar-dark: #931E1E;
+
+$color-investigar-base: #2E7D32;
+$color-investigar-light: #66BB6A;
+$color-investigar-dark: #1A360F;
+
+$color-colaborar-base: #D14900;
+$color-colaborar-light: #FF9800;
+$color-colaborar-dark: #993600;
+
+$color-vivir-base: #1565C0;
+$color-vivir-light: #42A5F5;
+$color-vivir-dark: #0F4A8D;
+
+/* Support Colors */
+
+$danger: #FF0000;
+$danger-light: #FF7A7A;
+$danger-dark: #CC0000;
+
+$warning: #FF6D00;
+$warning-light: #FFAB6B;
+$warning-dark: #CC5700;
+
+$success: #00B84D;
+$success-light: #70E6A1;
+$success-dark: #00963F;
+
+
+/* Texts Colors */
+
+$primary-text: $neutral-color-dark;
+$secondary-text: $neutral-color-medium;
+
+
+$background-color-dark: rgba(0,0,0,0.7);
+$footer-background-color: rgba(0,0,0,0.87);
+
+/* Breakpoint */
+
+$mobile:    48rem; // 768px
+$tablet:    62rem; // 992px
+$desktop:   75rem; // 1200px
+
+
+/* Heredadas UPV-EHU-THEME */
+
+$bodyBackgroundColor: #f4f4f4;
+
+$schemeColorMain: rgba(0,0,0,0.54);
+
+/*$schemeColorUniversity: #5f7c8a;*/
+$schemeColorStudy: #f34235;
+/*$schemeColorResearch: #009587;
+$schemeColorCollaborate: #ee6b00;
+$schemeColorLive: #2095f2;*/
+
+/*$schemeColorUniversityDark: #37474f;
+$schemeColorStudyDark: #c62828;*/
+/*$schemeColorResearchDark: #00695c;
+$schemeColorCollaborateDark: #c93400;
+$schemeColorLiveDark: #0471a8;*/

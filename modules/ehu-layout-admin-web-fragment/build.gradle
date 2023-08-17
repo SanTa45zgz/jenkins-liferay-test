@@ -1,0 +1,10 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+
+	cssBuilder group: "com.liferay", name: "com.liferay.css.builder", version: "3.1.0"
+	
+	compile group: 'org.apache.tomcat', name: 'tomcat-jsp-api', version: '7.0.85'	
+	compile group: 'com.liferay', name: 'com.liferay.layout.admin.web', version: '5.0.127'
+
+	
+}

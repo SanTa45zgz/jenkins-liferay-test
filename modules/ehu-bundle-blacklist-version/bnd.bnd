@@ -1,0 +1,4 @@
+Bundle-Name: ehu-bundle-blacklist-version
+Bundle-SymbolicName: es.ehu.bundle.blacklist.version
+Bundle-Version: 1.0.0
+Export-Package: ehu.bundle.blacklist.version.constants

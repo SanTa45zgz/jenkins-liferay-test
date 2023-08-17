@@ -1,0 +1,40 @@
+{
+  "config":[
+    {
+    	"val":"301",
+    	"label": {
+    		"eu":"Aurkezpena",
+    		"es":"Presentación",
+    		"en":"Presentation"
+    	}
+    },{
+    	"val":"302",
+    	"label": {
+    		"eu":"Prestakuntza-programa",
+    		"es":"Programa Formativo",
+    		"en":"Training syllabus"
+    	}
+    },{
+    	"val":"304",
+    	"label": {
+    		"eu":"Matrikula",
+    		"es":"Matricula",
+    		"en":"Registration"
+    	}
+    },{
+    	"val":"305",
+    	"label": {
+    		"eu":"Orri-oina",
+    		"es":"Pie de página",
+    		"en":"Footer"
+    	}
+    },{
+    	"val":"306",
+    	"label": {
+    		"eu":"Gaia",
+    		"es":"Materia",
+    		"en":"Subject"
+    	}
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Bundle-Name: ehu-xsl-web-content
+Bundle-SymbolicName: es.ehu.xsl.content.web
+Bundle-Version: 1.0.0
+Web-ContextPath: /ehu-xsl-content-web
+
+Import-Package: \
+	!com.liferay.xsl.content.web.configuration.*,\
+	!com.liferay.xsl.content.web.internal.*,\
+	*

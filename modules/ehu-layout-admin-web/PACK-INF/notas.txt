@@ -1,0 +1,14 @@
+- Para Layout: mediante configuración de sistema (com.liferay.portal.component.blacklist.internal.ComponentBlacklistConfiguration.config) se deshabilitan los componentes:
+  "com.liferay.layout.admin.web.internal.frontend.taglib.form.navigator.LayoutCustomFieldsFormNavigatorEntry"
+  "com.liferay.layout.admin.web.internal.frontend.taglib.form.navigator.LayoutCustomizationSettingsFormNavigatorEntry"
+  "com.liferay.layout.admin.web.internal.frontend.taglib.form.navigator.LayoutJavaScriptFormNavigatorEntry"
+ 
+
+
+- Para LayoutSet: mediante configuración de sistema (com.liferay.portal.component.blacklist.internal.ComponentBlacklistConfiguration.config) se deshabilitan los componentes:
+  "com.liferay.layout.admin.web.internal.frontend.taglib.form.navigator.LayoutSetLogoFormNavigatorEntry"
+  "com.liferay.layout.admin.web.internal.frontend.taglib.form.navigator.LayoutSetJavaScriptFormNavigatorEntry"
+  "com.liferay.layout.admin.web.internal.frontend.taglib.form.navigator.LayoutSetAdvancedFormNavigatorEntry"
+
+- Se crean componentes equivalentes modificando el método "isVisible" para filtrar el acceso a las secciones en la edición de una página:
+	- javascript, advanced, logo  --> solo a omniadmin

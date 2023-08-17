@@ -1,0 +1,211 @@
+/* Buttons ----------*/
+
+.aui a.c-button,
+.aui button.c-button{
+    align-items: center;
+    background-color: $color-white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 1.14rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    min-height: 44px;
+    padding: 5px 21px;
+    text-align: center;
+    text-decoration: none;
+
+    &--primary{
+
+        &:hover{
+            color: $color-white;
+            text-decoration: none;
+        }
+
+        &:focus{
+            color: $color-white;
+            text-decoration: none;
+        }
+
+        &.c-button--disabled{
+            cursor: initial;
+        }
+    }
+
+    &--secondary{
+
+        &:hover{
+            background-color: $background-color;
+            text-decoration: none;
+        }
+
+        &:focus{
+            background-color: $color-white;
+            text-decoration: none;
+        }
+
+        &.c-button--disabled{
+            cursor: initial;
+        }
+    }
+
+    &--tertiary{
+        background-color: transparent;
+        text-decoration: underline;
+
+        i{
+            text-decoration: none;
+        }
+
+        &:hover{
+            background-color: $background-color;
+            border: 1px solid transparent;
+            
+            i{
+                text-decoration: none;
+            }
+        }
+
+        &:focus{
+            background-color: $color-white;
+        }
+
+        &.c-button--disabled{
+            cursor: initial;
+        }
+    }
+
+    &--alert{
+        background-color: $danger;
+        border: 3px solid $danger;
+        color: $neutral-color-dark!important;
+
+        &:hover{
+            background-color: $danger-dark;
+            border: 3px solid $danger-dark;
+            color: $color-white;
+            text-decoration: none;
+        }
+
+        &:focus{
+            background-color: $danger;
+            border: solid 3px $danger-dark;
+            color: $neutral-color-dark;
+            text-decoration: none;
+        }
+
+        &.c-button--disabled{
+            background-color: $danger-light;
+            border: solid 3px $danger-light;
+            color: rgba(0, 0, 0, 0.7)!important;
+            cursor: initial;
+
+            &:hover,
+            &:focus{
+                color: rgba(0, 0, 0, 0.7)!important;
+            }
+        }
+    }
+
+    &--icon-right,
+    &--icon-left{
+        i{
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+
+    &--icon-left{
+        i{
+            margin-right: 10px;
+        }
+    }
+
+    &--icon-right{
+        i{
+            margin-left: 10px; 
+        }
+    }
+
+    &--only-icon{
+        align-items: center;
+        height: 44px;
+        justify-content: center;
+        min-height: 44px;
+        min-width: 44px;
+        padding: 0;
+        width: 44px;
+
+        i{
+            font-size: 24px;
+            line-height: 0;
+        }
+    }
+}
+
+/* Heredado del theme upv-ehu-theme */
+    .btn.btn-upv {
+        color:#000;
+        border-color:#000;
+        background:transparent;
+        background-image:none;
+        filter:none;
+        text-shadow:none;
+        box-shadow:none;
+        border-radius:2px;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        font-family: $primary-font-sans;
+        font-size:$basic-font-size;
+        @extend .c-button;
+        @extend .c-button--secondary;
+
+        .icon-chevron-left{
+            margin-right: 10px;
+        }
+
+        .icon-print{
+            margin-left: 10px;
+        }
+
+        &.btn-inverse {
+            color:#fff;
+            border-color:#fff;
+
+            &:visited {
+                color:#fff;
+                border-color:#fff;
+            }
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #fff;
+                color:#000;
+            }
+        }
+
+        &.documento::after {
+            content: "\f0f6";
+            font-family: FontAwesome;
+            margin-left: 8px;
+            vertical-align: top;
+            display:inline-block;
+        }
+
+    }
+
+    .btn.btn-vermas {
+        text-align:left;
+
+        &::after {
+            content: "\f054";
+            font-family: FontAwesome;
+            margin-left: 10px;
+            font-size:22px;
+            vertical-align: middle;
+        }
+    }

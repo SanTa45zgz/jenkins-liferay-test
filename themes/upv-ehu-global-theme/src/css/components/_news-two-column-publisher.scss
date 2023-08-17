@@ -1,0 +1,154 @@
+.news-two-column-publisher{
+	background-color: $color-white;
+	padding: 25px 44px;
+	margin-bottom: 30px;
+	display: flex;
+    flex-direction: column;
+
+	@include media-breakpoint-down(md){
+		padding: 27px 22px 27px 22px;		
+	}
+
+	@include media-breakpoint-down(sm){
+		padding: 19px 22px 19px 22px;		
+	}
+
+	&__header{
+		align-items: center;
+		display: flex;
+		margin-bottom: 20px;
+		width: 100%;
+
+		@include media-breakpoint-down(sm){
+			margin-bottom: 14px;
+		}
+
+		h2{
+			font-weight: 700;
+			margin-bottom: 0;
+
+			@include media-breakpoint-down(sm){
+				font-size: 1.285rem;
+				line-height: 2rem;
+			}
+		}
+
+		a{
+			margin-left: auto;
+		}
+	}
+
+	&__list{
+		display: flex;
+		flex-wrap: wrap;
+
+		.col:first-child{
+			padding-right: 52px;
+
+			@include media-breakpoint-down(sm){
+				padding-right: 15px;
+			}
+		}
+
+		.col:last-child{
+			padding-left: 52px;
+
+			@include media-breakpoint-down(sm){
+				padding-left: 15px;
+			}
+		}
+
+		&__item{
+			display: inline-flex;
+		    margin-bottom: 22px;
+		    width: 100%;
+
+		    &:last-child{
+		    	margin-bottom: 0;
+		    }
+
+		    @include media-breakpoint-down(sm){
+		    	flex-direction: column;
+		    	margin-bottom: 7px;
+		    }
+			
+			&__title{
+			    font-weight: 700;
+			    font-size: 1.29rem;
+    			line-height: 1.8rem;
+			    margin-bottom: 0;
+
+			    @include media-breakpoint-only(lg){
+	    			font-size: 1.14rem;
+				    line-height: 1.714rem;
+				    margin-bottom: 1px;
+	    		}
+
+			   	@include media-breakpoint-down(sm){
+			    	font-size: 1.14rem;
+			    	line-height: 1.714rem;
+			    	margin-bottom: 1px;
+			    }
+		    }
+
+		    &__image{
+		    	border-radius: 5px;
+		    	margin-right: 22px;
+		    	width: 28.5%;
+
+		    	@media (min-width: 768px) and (max-width: $xxl-1) {
+		    		width: 35.5%;
+		    	}
+
+		    	@include media-breakpoint-down(sm){
+		    		margin-bottom: 14px;
+		    		margin-right: 0;
+		    		width: 100%;
+		    	}
+
+		    	.aspect-ratio-4-to-3 {
+				    padding-bottom: 80%;
+				}
+
+		    	img{
+					height: 100% !important;
+				    object-fit: cover;
+				    object-position: center top;
+				    border-radius: 5px;
+				    position: absolute;
+				    width: 100%;
+		    	}
+
+		    	& + div{
+					margin-right: 20px;
+				    width: calc(71.5% - 44px);
+				    display: flex;
+				    flex-wrap: wrap;
+				    align-content: flex-start;
+
+				    @media (min-width: 768px) and (max-width: $xxl-1) {
+			    		width: calc(64.5% - 44px);
+			    	}
+
+				    @include media-breakpoint-down(sm){
+			    		width: 100%;
+			    	}
+
+				    & > a{
+				    	color: $neutral-color-dark;
+    					width: 100%;
+
+    					&:hover{
+    						color: $neutral-color-dark;
+    					}
+				    }
+		    	}
+		    }
+		}
+	}
+
+    .hide-accessible{
+    	margin-top: 30px;
+   		margin-left: 0;
+	}
+}

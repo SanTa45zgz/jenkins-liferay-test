@@ -1,0 +1,39 @@
+/* GRADOS HOME - Caja gris con los datos de los grados */
+.grado-datos{
+	font-family: $primary-font-sans;
+	font-size: 1.14rem;
+
+	h5 {
+		margin-top: 20px; 
+		margin-bottom: 5px;
+	}
+	h2 {
+		display:none;
+	}
+
+	h3, p {
+		margin-bottom: 0;
+		
+		strong {
+			margin-top:20px; 
+			color: $neutral-color-medium;
+			font-size: 1rem;
+			line-height: 21px;
+			text-transform: uppercase;
+			display:block;
+		}
+		
+		span { font-weight: bold; }
+		
+		&:first-child strong {
+			margin-top:5px;
+		}
+		a[href^="mailto"] {
+			word-wrap: break-word;
+		}
+	}
+
+	p.m-b-20 {
+	    margin-bottom: 20px;
+	}
+}

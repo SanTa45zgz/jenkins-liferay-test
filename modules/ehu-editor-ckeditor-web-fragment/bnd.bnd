@@ -1,0 +1,5 @@
+Bundle-Name: ehu-editor-ckeditor-web-fragment
+Bundle-SymbolicName: es.ehu.editor.ckeditor.web.fragment
+Bundle-Version: 1.0.0
+Export-Package: ehu.editor.ckeditor.web.fragment.constants
+Fragment-Host: com.liferay.frontend.editor.ckeditor.web;bundle-version="5.0.72"

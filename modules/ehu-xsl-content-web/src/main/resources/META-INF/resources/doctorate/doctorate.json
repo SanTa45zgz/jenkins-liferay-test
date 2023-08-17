@@ -1,0 +1,84 @@
+{
+  "config":[
+    {
+    	"val":"600",
+    	"label": {
+    		"eu":"Aurkezpena",
+    		"es":"Presentación",
+    		"en":"Presentation"
+    	}
+    },
+    {
+    	"val":"601",
+    	"label": {
+    		"eu":"Investigación",
+    		"es":"Investigación",
+    		"en":"Investigación"
+    	}
+    },
+    {
+    	"val":"602",
+    	"label": {
+    		"eu":"Organizacion",
+    		"es":"Organizacion",
+    		"en":"Organizacion"
+    	}
+    },
+    {
+    	"val":"603",
+    	"label": {
+    		"eu":"Competencias",
+    		"es":"Competencias",
+    		"en":"Competencias"
+    	}
+    },
+    {
+    	"val":"604",
+    	"label": {
+    		"eu":"Actividades",
+    		"es":"Actividades",
+    		"en":"Actividades"
+    	}
+    }, 
+    {
+    	"val":"605",
+    	"label": {
+    		"eu":"Irakasleak",
+    		"es":"Profesorado",
+    		"en":"Teaching staff"
+    	}
+    },
+    {
+    	"val":"606",
+    	"label": {
+    		"eu":"Matricula Perfil Acceso",
+    		"es":"Matricula Perfil Acceso",
+    		"en":"Matricula Perfil Acceso"
+    	}
+    },
+    {
+    	"val":"607",
+    	"label": {
+    		"eu":"Matricula Procedimiento",
+    		"es":"Matricula Procedimiento",
+    		"en":"Matricula Procedimiento"
+    	}
+    },
+    {
+    	"val":"608",
+    	"label": {
+    		"eu":"Tesis Defendida",
+    		"es":"Tesis Defendida",
+    		"en":"Tesis Defendida"
+    	}
+    },
+    {
+    	"val":"609",
+    	"label": {
+    		"eu":"Calidad",
+    		"es":"Calidad",
+    		"en":"Calidad"
+    	}
+    }
+  ]
+}

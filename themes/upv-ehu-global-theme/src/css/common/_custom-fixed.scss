@@ -1,0 +1,111 @@
+/* Layouts  and grids */
+
+.aui .upv-ehu-2-cols #column-2.span9, 
+.aui .upv-ehu-2-cols #column-2.col-md-8 {
+    /*margin:0;*/
+}
+
+
+section#content.section-padded #main-content {
+    width: 100%;
+}
+
+div#main-content.upv-ehu-2-cols > .portlet-layout.row {
+    margin: 0;
+}
+
+#column-1, 
+#column-2,
+#column-3 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#column-1 {
+    background-color: $color-white;
+    margin: 0;
+
+    @include media-breakpoint-down(sm) {
+        padding-bottom: 0;
+    }
+}
+
+.columns-1 #column-1 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.aui #column-1.span3, 
+.aui #column-1.col-md-4 {
+    flex: 0 0 25%;
+    max-width: 25%;
+   	width: 25%;
+
+    @include media-breakpoint-down(sm){
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.aui #column-2.span9, 
+.aui #column-2.col-md-8 {
+	flex: 0 0 75%;
+    padding-right: 0;
+    padding-left: 50px;
+    max-width: 75%;
+    width: 75%;
+
+    @include media-breakpoint-down(sm){
+        flex: 0 0 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    & > h1{
+        @include media-breakpoint-down(sm){
+            margin-top:2rem;
+        }
+    }
+}
+
+.upv-ehu-3-cols.columns-3{
+    .portlet-column.span3{
+        flex: 0 0 25%;
+        max-width: 25%;
+        width: 25%;
+
+        @include media-breakpoint-down(sm){
+            flex: 0 0 100%;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    .portlet-column.span6{
+        flex: 0 0 50%;
+        padding-right: 50px;
+        padding-left: 50px;
+        max-width: 50%;
+        width: 50%;
+
+        @include media-breakpoint-down(md){
+            padding-right: 20px;
+            padding-left: 20px;   
+        }
+
+        @include media-breakpoint-down(sm){
+            flex: 0 0 100%;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}
+
+@include media-breakpoint-up(xl){
+	.aui .span12 {
+	    width: 100%;
+	}
+}
+

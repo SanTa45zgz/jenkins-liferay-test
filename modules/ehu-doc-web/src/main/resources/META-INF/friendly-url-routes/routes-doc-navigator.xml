@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE routes PUBLIC "-//Liferay//DTD Friendly URL Routes 7.2.0//EN" "http://www.liferay.com/dtd/liferay-friendly-url-routes_7.2.0.dtd">
+
+
+<routes>
+
+    <route>
+        <pattern>/{instanceId}/folder/{%folderId:.*}</pattern>
+	    <implicit-parameter name="view">folderView</implicit-parameter>
+    </route>
+    <route>
+        <pattern>/{instanceId}/document/{%documentId:.*}</pattern>
+	    <implicit-parameter name="p_p_lifecycle">2</implicit-parameter>
+		<!-- el valor de p_p_cacheability no se exactamente que hace, pero es el 
+		valor por defecto que mete asi que lo pongo aqui para que lo oculte de la 
+		url -->
+	    <implicit-parameter name="p_p_cacheability">cacheLevelPage</implicit-parameter>
+    </route>
+    
+    <!-- Otra posibilidad para alfresco, es ocultar el store. Problemas: 1- 
+		El store estaria hardcode. 2- Las friendly urls solo funcionarian con alfresco. -->
+    <!--  
+	<route>
+        <pattern>/{instanceId}/folder/{folderUuid}</pattern>
+        <generated-parameter name="folderId">workspace://SpacesStore/{folderUuid:.*}</generated-parameter>
+	    <implicit-parameter name="view">folderView</implicit-parameter>
+    </route>
+    <route>
+        <pattern>/{instanceId}/document/{documentUuid}</pattern>
+        <generated-parameter name="documentId">workspace://SpacesStore/{documentUuid}</generated-parameter>
+	    <implicit-parameter name="p_p_lifecycle">2</implicit-parameter>
+	    <implicit-parameter name="p_p_cacheability">cacheLevelPage</implicit-parameter>
+    </route>
+     -->
+    
+</routes>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE routes PUBLIC "-//Liferay//DTD Friendly URL Routes 7.2.0//EN" "http://www.liferay.com/dtd/liferay-friendly-url-routes_7.2.0.dtd">
+
+ <routes>
+     <route>
+         <pattern>/{instanceId}/document/{%documentId:.*}</pattern>
+         <!-- el valor de p_p_cacheability no se exactamente que hace, pero es el 
+		valor por defecto que mete asi que lo pongo aqui para que lo oculte de la 
+		url -->
+	    <implicit-parameter name="p_p_cacheability">cacheLevelPage</implicit-parameter>         
+     </route>        
+ </routes>
