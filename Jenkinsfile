@@ -22,16 +22,16 @@ pipeline {
         sh 'cd modules && gradle build' 
       }
     }
-   # stage('Deploy ML') {
-   #   when {
-   #     expression {params.PRE == true}
-   #   }
-   #   steps {
-   #     sh 'ssh -o StrictHostKeyChecking=no hiberus@10.50.210.6 "rm -rf /var/www/mobile/backend/ml"'
-   #     sh 'ssh -o StrictHostKeyChecking=no hiberus@10.50.210.6 "cp -R /var/www/mobile/package /var/www/mobile/backend/ml"'
-   #     sh 'ssh -o StrictHostKeyChecking=no -t "hiberus@10.50.210.6" \'bash -i -c "pm2 restart ml_api"\''
-   #   }
-   # }
+   // stage('Deploy ML') {
+   //  when {
+   //     expression {params.PRE == true}
+   //   }
+   //   steps {
+   //     sh 'ssh -o StrictHostKeyChecking=no hiberus@10.50.210.6 "rm -rf /var/www/mobile/backend/ml"'
+   //     sh 'ssh -o StrictHostKeyChecking=no hiberus@10.50.210.6 "cp -R /var/www/mobile/package /var/www/mobile/backend/ml"'
+   //    sh 'ssh -o StrictHostKeyChecking=no -t "hiberus@10.50.210.6" \'bash -i -c "pm2 restart ml_api"\''
+   //   }
+   // }
     
     stage('Clean workspace') {
       steps {
