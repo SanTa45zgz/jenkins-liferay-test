@@ -24,7 +24,7 @@ pipeline {
     }
     stage('Deploy DES') {
      when {
-        expression {params.PRE == true}
+        expression {params.DES == true}
       }
       steps {
         sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no modules/*/build/libs/*.jar liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
