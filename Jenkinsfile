@@ -24,14 +24,14 @@ pipeline {
             returnStdout: true
           ).trim()
           // Dividir los commits y agregarlos a la lista de opciones
-          params.COMMIT = commits.split('\n')
+          params.COMMIT = commits
         }
       }
     }
     stage('Build') {
       steps {
         script {
-          def selectedCommit = params.COMMIT[0]
+          def selectedCommit = params.COMMIT
 	  selectedCommit = selectedCommit.split(' ')[0]
           sh "git checkout $selectedCommit"
           sh 'dos2unix gradlew && gradle deploy'
