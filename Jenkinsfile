@@ -1,6 +1,6 @@
 node {
 	COMMITS = sh(
-            script: 'git log --oneline -n 5 --pretty=format:"%h %s"',
+            script: 'git log --oneline -n 5 --pretty=format:"\'%h %s\'"',
             returnStdout: true
           ).trim().split('\n')
 }
