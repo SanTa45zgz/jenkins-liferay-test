@@ -8,14 +8,14 @@ pipeline {
     )
   }
   stages {
-     stage('checkout scm') {
+     stage('Cargando los ultimos 5 commits') {
         steps {
                 script {
                     env.COMMITS = sh (script: 'git log --oneline -n 5 --pretty=format:"%h %s"', returnStdout: true).trim()
                 }
             }
         }
-      stage('get build Params User Input') {
+      stage('Seleccion de commit a desplegar') {
             steps{
                 script{
                     echo "Por favor elige el commit a buildear"
@@ -24,7 +24,7 @@ pipeline {
                 }
             }
         } 
-        stage("checkout the commit") {
+        stage("checkout commit") {
             steps {
 		script {
 		   echo "${env.COMMIT_SCOPE}"
@@ -42,6 +42,17 @@ pipeline {
         }
       }
     }
+
+    stage('Selecciona tema/modulo a desplegar'){
+	steps {
+                script {
+                    env.MODULES = sh (script: 'find ./ -type f \( -iname \*.war -o -iname \*.jar \)', returnStdout: true).trim()
+                    
+                }
+            }
+        }
+
+    }
     
     stage ('Deploy ENV') {
       when {
@@ -52,7 +63,7 @@ pipeline {
 	  if (params.DEPLOY_ENV == 'DES') {
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no modules/*/build/libs/*.jar liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no themes/*/dist/*.war liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
-            sh 'cat fichero.txt'
+            sh 'echo "${env.MODULES}"'
 	  }
           // Agrega lógica similar para los otros entornos (PRE y PRO) si es necesario
 	}
