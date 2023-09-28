@@ -15,24 +15,11 @@ pipeline {
     )
     choice(
       name: 'COMMIT',
-      choices: ${COMMITS},
+      choices: '${COMMITS}',
       description: 'Select one of the last 5 commits'
     )
   }
   stages {
-
-    stage('Get Commits') {
-      steps {
-        script {
-          def commits = sh(
-            script: 'git log --oneline -n 5 --pretty=format:"%h %s"',
-            returnStdout: true
-          ).trim().split('\n')
-          
-          params.COMMIT = commits
-        }
-      }
-    }
 
     stage('Build') {
       steps {
