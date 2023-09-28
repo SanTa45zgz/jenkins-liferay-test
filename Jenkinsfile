@@ -11,7 +11,7 @@ pipeline {
      stage('checkout scm') {
         steps {
                 script {
-                    def COMMITS = sh 'git log --oneline -n 5 --pretty=format:"%h %s"'
+                    env.COMMITS = sh (script: 'git log --oneline -n 5 --pretty=format:"%h %s"', returnStdout: true).trim()
                 }
             }
         }
@@ -20,7 +20,7 @@ pipeline {
                 script{
                     echo "Por favor elige el commit a buildear"
                     env.COMMIT_SCOPE = input message: 'Por favor elige el commit a buildear', ok: 'Validate!',
-                            parameters: [choice(name: 'COMMIT_HASH', choices: "${COMMITS}", description: 'Commit to build?')]
+                            parameters: [choice(name: 'COMMIT_HASH', choices: "${env.COMMITS}", description: 'Commit to build?')]
                 }
             }
         } 
