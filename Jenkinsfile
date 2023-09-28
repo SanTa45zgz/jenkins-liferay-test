@@ -46,7 +46,7 @@ pipeline {
     stage('Selecciona tema/modulo a desplegar'){
 	steps {
                 script {
-                    env.MODULES = sh (script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'', returnStdout: true).trim()
+                    env.MODULES = sh (script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'', returnStdout: true).trim()
                     
                 }
             
