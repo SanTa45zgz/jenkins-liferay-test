@@ -49,7 +49,7 @@ pipeline {
                     env.MODULES = sh (script: 'find ./ -type f -iname *.war -o -type f -iname *.jar ', returnStdout: true).trim()
                     
                 }
-            }
+            
         }
 
     }
