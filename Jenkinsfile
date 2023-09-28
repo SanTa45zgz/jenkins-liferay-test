@@ -19,7 +19,7 @@ pipeline {
         def commits = sh(script: 'git log --oneline -n 5 --pretty=format:"%h %s"', returnStdout: true).trim().split("\\n")
         def choices = [:]
         commits.eachWithIndex { commit, index ->
-          choices["$index"] = commit
+          choices["$commit"] = "$commit"
         }
         return choices
       """
