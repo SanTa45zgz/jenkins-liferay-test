@@ -1,41 +1,64 @@
 pipeline {
   agent any
   parameters {
-    booleanParam(name: 'DES', defaultValue: false)
-    booleanParam(name: 'PRE', defaultValue: false)
-    booleanParam(name: 'PRO', defaultValue: false)
+    extendedChoice(
+      name: 'DEPLOY_ENV',
+      defaultValue: 'DES',
+      description: 'Select deployment environment',
+      type: 'PT_SINGLE_SELECT',
+      groovyScript: """
+        return ['DES', 'PRE', 'PRO'].join('\\n')
+      """
+    )
+    extendedChoice(
+      name: 'COMMIT',
+      defaultValue: 'HEAD',
+      description: 'Select one of the last 5 commits',
+      type: 'PT_SINGLE_SELECT',
+      groovyScript: """
+        def commits = sh(script: 'git log --oneline -n 5 --pretty=format:"%h %s"', returnStdout: true).trim().split("\\n")
+        def choices = []
+        commits.each { commit ->
+          choices.add(commit)
+        }
+        return choices.join('\\n')
+      """
+    )
   }
+  
   stages {
-    stage('build themas DES') {
-      when {
-        expression {params.DES == true}
-      }
+    stage('Build') {
       steps {
-        sh 'dos2unix gradlew && gradle deploy'
+        script {
+          def selectedCommit = params.COMMIT
+          sh "git checkout $selectedCommit"
+          sh 'dos2unix gradlew && gradle deploy'
+	  sh 'cd modules && gradle build'
+        }
       }
     }
-    stage('build DES') {
+    
+    stage ('Deploy ENV') {
       when {
-        expression {params.DES == true}
+        expression { params.DEPLOY_ENV != 'NONE' }
       }
-      steps {
-        sh 'cd modules && gradle build' 
+      steps{
+	script {
+	  if (params.DEPLOY_ENV == 'DES') {
+            sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no modules/*/build/libs/*.jar liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
+            sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no themes/*/dist/*.war liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
+          }
+          // Agrega lógica similar para los otros entornos (PRE y PRO) si es necesario
+	}
       }
-    }
-    stage('Deploy DES') {
-     when {
-        expression {params.DES == true}
-      }
-      steps {
-        sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no modules/*/build/libs/*.jar liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
-        sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no themes/*/dist/*.war liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
-      }
+
     }
     
     stage('Clean workspace') {
       steps {
-          cleanWs()
+        cleanWs()
       }
     }
   }
 }
+
