@@ -6,34 +6,35 @@ pipeline {
       choices: ['DES', 'PRE', 'PRO'],
       description: 'Select deployment environment'
     )
-    choice(
-      name: 'COMMIT',
-      choices: 'Selecciona un commit en la siguiente ejecución',
-      description: 'Select one of the last 5 commits'
-    )
   }
   stages {
-  stage('Get Commits') {
-      when {
-        expression { params.COMMIT == 'Selecciona un commit en la siguiente ejecución' }
-      }
-      steps {
-        script {
-          def commits = sh(
-            script: 'git log --oneline -n 5 --pretty=format:"%h %s"',
-            returnStdout: true
-          ).trim()
-          // Dividir los commits y agregarlos a la lista de opciones
-          params.COMMIT = commits
+     stage('checkout scm') {
+        steps {
+                script {
+                    def COMMITS = sh 'git log --oneline -n 5 --pretty=format:"%h %s"'
+                }
+            }
         }
-      }
-    }
+      stage('get build Params User Input') {
+            steps{
+                script{
+                    echo "Por favor elige el commit a buildear"
+                    env.COMMIT_SCOPE = input message: 'Por favor elige el commit a buildear', ok: 'Validate!',
+                            parameters: [choice(name: 'COMMIT_HASH', choices: "${COMMITS}", description: 'Commit to build?')]
+                }
+            }
+        } 
+        stage("checkout the commit") {
+            steps {
+                echo "${env.COMMIT_SCOPE}"
+		def selectedCommit = env.COMMIT_SCOPE.split(' ')[0]
+                sh "git checkout $selectedCommit"
+            }
+        }
+    
     stage('Build') {
       steps {
         script {
-          def selectedCommit = params.COMMIT
-	  selectedCommit = selectedCommit.split(' ')[0]
-          sh "git checkout $selectedCommit"
           sh 'dos2unix gradlew && gradle deploy'
 	  sh 'cd modules && gradle build'
         }
@@ -64,4 +65,3 @@ pipeline {
     }
   }
 }
-
