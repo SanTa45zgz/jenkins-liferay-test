@@ -63,7 +63,7 @@ pipeline {
 	  if (params.DEPLOY_ENV == 'DES') {
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no modules/*/build/libs/*.jar liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no themes/*/dist/*.war liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
-            sh 'echo "${env.MODULES}"'
+            echo "${env.MODULES}"
 	  }
           // Agrega lógica similar para los otros entornos (PRE y PRO) si es necesario
 	}
