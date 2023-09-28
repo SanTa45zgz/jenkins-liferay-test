@@ -15,7 +15,7 @@ pipeline {
     )
     choice(
       name: 'COMMIT',
-      choices: '${COMMITS}',
+      choices: "${COMMITS}",
       description: 'Select one of the last 5 commits'
     )
   }
