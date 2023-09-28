@@ -1,6 +1,6 @@
 node {
 	COMMITS = sh(
-            script: 'git log --oneline -n 5 --pretty=format:"\'%h %s\'"',
+            script: 'git log --oneline -n 5 --pretty=format:"%h %s"',
             returnStdout: true
           ).trim()
 }
@@ -25,6 +25,7 @@ pipeline {
       steps {
         script {
           def selectedCommit = params.COMMIT
+	  selectedCommit = selectedCommit.split(' ')[0]
           sh "git checkout $selectedCommit"
           sh 'dos2unix gradlew && gradle deploy'
 	  sh 'cd modules && gradle build'
