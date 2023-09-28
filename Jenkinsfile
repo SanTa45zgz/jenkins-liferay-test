@@ -17,7 +17,10 @@ pipeline {
       type: 'PT_SINGLE_SELECT',
       groovyScript: """
         def commits = sh(script: 'git log --oneline -n 5 --pretty=format:"%h %s"', returnStdout: true).trim().split("\\n")
-        def choices = commits.collect { it.trim() }
+        def choices = [:]
+        commits.eachWithIndex { commit, index ->
+          choices["$index"] = commit
+        }
         return choices
       """
     )
