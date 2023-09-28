@@ -1,31 +1,38 @@
 pipeline {
   agent any
   parameters {
-    extendedChoice(
+    activeChoice(
       name: 'DEPLOY_ENV',
       defaultValue: 'DES',
       description: 'Select deployment environment',
-      type: 'PT_SINGLE_SELECT',
-      groovyScript: """
-         return ['DES', 'PRE', 'PRO']
-      """
+      script: [
+        $class: 'GroovyScript',
+        script: [
+          classpath: [],
+          sandbox: true,
+          script: """
+            return ['DES', 'PRE', 'PRO']
+          """
+        ]
+      ]
     )
-    extendedChoice(
+    activeChoice(
       name: 'COMMIT',
       defaultValue: 'HEAD',
       description: 'Select one of the last 5 commits',
-      type: 'PT_SINGLE_SELECT',
-      groovyScript: """
-        def commits = sh(script: 'git log --oneline -n 5 --pretty=format:"%h %s"', returnStdout: true).trim().split("\\n")
-        def choices = [:]
-        commits.eachWithIndex { commit, index ->
-          choices["$commit"] = "$commit"
-        }
-        return choices
-      """
+      script: [
+        $class: 'GroovyScript',
+        script: [
+          classpath: [],
+          sandbox: true,
+          script: """
+            def commits = "git log --oneline -n 5 --pretty=format:'%h %s'".execute().text
+            return commits.split('\\n').collect { it.trim() }
+          """
+        ]
+      ]
     )
-  }
-  
+  }  
   stages {
     stage('Build') {
       steps {
