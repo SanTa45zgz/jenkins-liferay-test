@@ -1,3 +1,10 @@
+node {
+	COMMITS = sh(
+            script: 'git log --oneline -n 5 --pretty=format:"%h %s"',
+            returnStdout: true
+          ).trim().split('\n')
+}
+
 pipeline {
   agent any
   parameters {
@@ -8,7 +15,7 @@ pipeline {
     )
     choice(
       name: 'COMMIT',
-      choices: ['', ''],
+      choices: "${COMMITS}",
       description: 'Select one of the last 5 commits'
     )
   }
