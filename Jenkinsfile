@@ -7,7 +7,7 @@ pipeline {
       description: 'Select deployment environment',
       type: 'PT_SINGLE_SELECT',
       groovyScript: """
-        return ['DES', 'PRE', 'PRO'].join('\\n')
+         return ['DES', 'PRE', 'PRO']
       """
     )
     extendedChoice(
