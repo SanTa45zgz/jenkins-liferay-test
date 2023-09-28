@@ -1,10 +1,3 @@
-node {
-	COMMITS = sh(
-            script: 'git log --oneline -n 5 --pretty=format:"%h %s"',
-            returnStdout: true
-          ).trim()
-}
-
 pipeline {
   agent any
   parameters {
@@ -15,16 +8,30 @@ pipeline {
     )
     choice(
       name: 'COMMIT',
-      choices: "${COMMITS}",
+      choices: 'Selecciona un commit en la siguiente ejecución',
       description: 'Select one of the last 5 commits'
     )
   }
   stages {
-
+  stage('Get Commits') {
+      when {
+        expression { params.COMMIT == 'Selecciona un commit en la siguiente ejecución' }
+      }
+      steps {
+        script {
+          def commits = sh(
+            script: 'git log --oneline -n 5 --pretty=format:"%h %s"',
+            returnStdout: true
+          ).trim()
+          // Dividir los commits y agregarlos a la lista de opciones
+          params.COMMIT = commits.split('\n')
+        }
+      }
+    }
     stage('Build') {
       steps {
         script {
-          def selectedCommit = params.COMMIT
+          def selectedCommit = params.COMMIT[0]
 	  selectedCommit = selectedCommit.split(' ')[0]
           sh "git checkout $selectedCommit"
           sh 'dos2unix gradlew && gradle deploy'
