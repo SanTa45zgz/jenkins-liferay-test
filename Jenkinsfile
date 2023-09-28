@@ -26,9 +26,11 @@ pipeline {
         } 
         stage("checkout the commit") {
             steps {
-                echo "${env.COMMIT_SCOPE}"
-		def selectedCommit = env.COMMIT_SCOPE.split(' ')[0]
-                sh "git checkout $selectedCommit"
+		script {
+		   echo "${env.COMMIT_SCOPE}"
+		   def selectedCommit = env.COMMIT_SCOPE.split(' ')[0]
+                   sh "git checkout $selectedCommit"
+		}
             }
         }
     
