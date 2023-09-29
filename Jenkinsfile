@@ -71,7 +71,7 @@ pipeline {
             defaultValue: '',
             description: 'Modulos o temas a desplegar',
             quoteValue: false,
-	    multiSelectDelimiter: '\n',
+	    multiSelectDelimiter: './',
             saveJSONParameterToFile: false,
             value: modules, // Aquí definimos las opciones
             visibleItemCount: 5
