@@ -49,7 +49,7 @@ pipeline {
                     env.MODULES = sh (script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'', returnStdout: true).trim()
                     env.MODULES_SELECTED = input message: 'Por favor elige el modulo o tema a desplegar', ok: 'Validate!',
                             parameters: [extendedChoice(defaultValue: '', description: 'Modulo a desplegar', descriptionPropertyValue: '', multiSelectDelimiter: ',', name: 'MODULOS', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_MULTI_SELECT', value: "${env.MODULES}", visibleItemCount: 5)]
-                
+                }
             
         }
 
