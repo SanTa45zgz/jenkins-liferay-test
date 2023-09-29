@@ -99,7 +99,9 @@ pipeline {
 	    if (!params.FULL_DEPLOY)
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no modules/*/build/libs/*.jar liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no themes/*/dist/*.war liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
-            def modulesselected = env.MODULES_SELECTED
+	    echo "${env.MODULES_SELECTED}
+            def modulesSelected = env.MODULES_SELECTED
+	    echo "Modules Selected: $modulesSelected"
 	    sh 'scp -i "~/.ssh/ansible_user_v2" -o StrictHostKeyChecking=no $modulesSelected ansible@10.50.210.6:/tmp'
 	  }
           // Agrega lógica similar para los otros entornos (PRE y PRO) si es necesario
