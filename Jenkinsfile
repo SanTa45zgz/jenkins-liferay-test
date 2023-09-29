@@ -60,7 +60,7 @@ pipeline {
           def modules = sh(
             script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'',
             returnStdout: true
-          ).trim().split('\n')
+          ) 
 
       def selectedModules = input(
         message: 'Por favor elige el modulo o tema a desplegar',
@@ -73,7 +73,7 @@ pipeline {
             quoteValue: false,
 	    multiSelectDelimiter: './',
             saveJSONParameterToFile: false,
-            value: modules.join('\n'), // Aquí definimos las opciones
+            value: modules, // Aquí definimos las opciones
             visibleItemCount: 5
           )
         ]
