@@ -102,7 +102,7 @@ pipeline {
 	       echo "${env.MODULES_SELECTED}"
                def modulesSelected = env.MODULES_SELECTED
 	       echo "Modules Selected: $modulesSelected"
-	       sh 'scp -i "~/.ssh/ansible_user_v2" -o StrictHostKeyChecking=no "$modulesSelected" ansible@10.50.210.6:/tmp'
+	       sh "scp -i "~/.ssh/ansible_user_v2" -o StrictHostKeyChecking=no $modulesSelected ansible@10.50.210.6:/tmp"
 	    }
 	  }
           // Agrega lógica similar para los otros entornos (PRE y PRO) si es necesario
