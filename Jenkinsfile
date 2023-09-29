@@ -42,19 +42,47 @@ pipeline {
         }
       }
     }
+  //  stage('Selecciona tema/modulo a desplegar'){
+  //      steps {
+  //              script {
+  //                  env.MODULES = sh (script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'', returnStdout: true).trim()
+  //                  env.MODULES_SELECTED = input message: 'Por favor elige el modulo o tema a desplegar', ok: 'Validate!',
+  //                          parameters: [extendedChoice(defaultValue: '', description: 'Modulo a desplegar', descriptionPropertyValue: '', name: 'MODULOS', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_MULTI_SELECT', value: "${env.MODULES}", visibleItemCount: 5)]
+  //              }
+  //          
+  //      }
 
-    stage('Selecciona tema/modulo a desplegar'){
-	steps {
-                script {
-                    env.MODULES = sh (script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'', returnStdout: true).trim()
-                    env.MODULES_SELECTED = input message: 'Por favor elige el modulo o tema a desplegar', ok: 'Validate!',
-                            parameters: [extendedChoice(defaultValue: '', description: 'Modulo a desplegar', descriptionPropertyValue: '', name: 'MODULOS', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_MULTI_SELECT', value: "${env.MODULES}", visibleItemCount: 5)]
-                }
-            
-        }
-
-    }
+  //  }
     
+    stage('Choose Module or Theme') {
+      steps {
+        script {
+          def modules = sh(
+            script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'',
+            returnStdout: true
+          ).trim().split('\n')
+
+      def selectedModules = input(
+        message: 'Por favor elige el modulo o tema a desplegar',
+        parameters: [
+          extendedChoice(
+            name: 'MODULOS',
+            type: 'PT_MULTI_SELECT',
+            defaultValue: '',
+            description: 'Modulos o temas a desplegar',
+            quoteValue: false,
+            saveJSONParameterToFile: false,
+            value: modules.join('\n'), // Aquí definimos las opciones
+            visibleItemCount: 5
+          )
+        ]
+      )
+      
+      env.MODULES_SELECTED = selectedModules
+    }
+  }
+}
+
     stage ('Deploy ENV') {
       when {
         expression { params.DEPLOY_ENV != 'NONE' }
