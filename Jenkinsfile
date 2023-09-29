@@ -73,7 +73,7 @@ pipeline {
             quoteValue: false,
 	    multiSelectDelimiter: './',
             saveJSONParameterToFile: false,
-            value: modules, // Aquí definimos las opciones
+            value: modules.join('\n'), // Aquí definimos las opciones
             visibleItemCount: 5
           )
         ]
