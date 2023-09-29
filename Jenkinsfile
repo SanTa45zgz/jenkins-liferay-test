@@ -6,6 +6,11 @@ pipeline {
       choices: ['DES', 'PRE', 'PRO'],
       description: 'Select deployment environment'
     )
+    booleanParam(
+      defaultValue: true,
+      description: 'Selecciona si deseas un despliegue completo',
+      name: 'FULL_DEPLOY'
+    )
   }
   stages {
      stage('Cargando los ultimos 5 commits') {
@@ -91,9 +96,11 @@ pipeline {
       steps{
 	script {
 	  if (params.DEPLOY_ENV == 'DES') {
+	    if (!params.FULL_DEPLOY)
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no modules/*/build/libs/*.jar liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no themes/*/dist/*.war liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
             echo "${env.MODULES_SELECTED}"
+	    sh 'scp -i "~/.ssh/ansible_user_v2" -o StrictHostKeyChecking=no "${env.MODULES}" ansible@10.50.210.6:/tmp'
 	  }
           // Agrega lógica similar para los otros entornos (PRE y PRO) si es necesario
 	}
