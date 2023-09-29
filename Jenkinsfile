@@ -60,7 +60,7 @@ pipeline {
           def modules = sh(
             script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'',
             returnStdout: true
-          ).trim()
+          ).trim().split('\n')
 
       def selectedModules = input(
         message: 'Por favor elige el modulo o tema a desplegar',
