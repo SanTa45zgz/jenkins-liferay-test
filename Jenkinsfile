@@ -72,7 +72,7 @@ pipeline {
             description: 'Modulos o temas a desplegar',
             quoteValue: false,
             saveJSONParameterToFile: false,
-            value: modules.join('\n'), // Aquí definimos las opciones
+            value: modules, // Aquí definimos las opciones
             visibleItemCount: 5
           )
         ]
