@@ -47,7 +47,8 @@ pipeline {
 	steps {
                 script {
                     env.MODULES = sh (script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'', returnStdout: true).trim()
-                    
+                    env.MODULES_SELECTED = input message: 'Por favor elige el modulo o tema a desplegar', ok: 'Validate!',
+                            parameters: [extendedChoice defaultValue: '', description: 'Modulo a desplegar', descriptionPropertyValue: '', multiSelectDelimiter: ',', name: 'MODULOS', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_MULTI_SELECT', value: '"${env.MODULES}"', visibleItemCount: 5]
                 }
             
         }
@@ -63,7 +64,7 @@ pipeline {
 	  if (params.DEPLOY_ENV == 'DES') {
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no modules/*/build/libs/*.jar liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
             //sh 'scp -r -i "~/.ssh/liferaytest.lgp.ehu.es" -o StrictHostKeyChecking=no themes/*/dist/*.war liferay@liferaytest.lgp.ehu.es:/opt/liferay/deploy'
-            echo "${env.MODULES}"
+            echo "${env.MODULES_SELECTED}"
 	  }
           // Agrega lógica similar para los otros entornos (PRE y PRO) si es necesario
 	}
