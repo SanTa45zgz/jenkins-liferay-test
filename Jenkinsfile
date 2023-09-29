@@ -59,7 +59,7 @@ pipeline {
 
   //  }
     
-    stage('Choose Module or Theme') {
+    stage('Elegir Modulo/s o Tema/s') {
       when {
         expression { !params.FULL_DEPLOY }
       }
@@ -89,7 +89,7 @@ pipeline {
       }
     }
 
-    stage ('Deploy ENV') {
+    stage ('Desplegar ENV') {
       when {
         expression { params.DEPLOY_ENV != 'NONE' }
       }
