@@ -58,7 +58,7 @@ pipeline {
       steps {
         script {
           def modules = sh(
-            script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\'',
+            script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\' | sed \'s/$/,/\' ',
             returnStdout: true
           ) 
 
