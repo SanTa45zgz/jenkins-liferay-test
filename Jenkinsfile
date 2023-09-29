@@ -60,14 +60,14 @@ pipeline {
           def modules = sh(
             script: 'find ./ -type f -iname *.war -o -type f -iname *.jar | grep -E \'./modules/.*/build/libs/.*.jar|themes/.*/dist/.*.war\' | sed \'s/$/,/\' ',
             returnStdout: true
-          ) 
+          ).trim()
 
       def selectedModules = input(
         message: 'Por favor elige el modulo o tema a desplegar',
         parameters: [
           extendedChoice(
             name: 'MODULOS',
-            type: 'PT_MULTI_SELECT',
+            type: 'PT_CHECKBOX',
             defaultValue: '',
             description: 'Modulos o temas a desplegar',
             quoteValue: false,
