@@ -46,17 +46,19 @@ pipeline {
         }
       }
     }
-    
+
     stage('Renombrar archivos') {
       steps {
         script {
-          sh '''
-            for file in $(find modules/*/build/libs/*.jar themes/*/dist/*.war); do
-              base_name=$(basename $file)
-              no_version_name=$(echo $base_name | sed -E 's/-[0-9]+\\.[0-9]+\\.[0-9]+//')
-              mv -f $file $(dirname $file)/$no_version_name
-            done
-          '''
+          catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+            sh '''
+              for file in $(find modules/*/build/libs/*.jar themes/*/dist/*.war); do
+                base_name=$(basename $file)
+                no_version_name=$(echo $base_name | sed -E 's/-[0-9]+\\.[0-9]+\\.[0-9]+//')
+                rsync -avzh --remove-source-files $file $(dirname $file)/$no_version_name
+              done
+            '''
+          }+
         }
       }
     }
