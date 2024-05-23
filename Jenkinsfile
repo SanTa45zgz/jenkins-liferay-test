@@ -46,6 +46,21 @@ pipeline {
         }
       }
     }
+    
+    stage('Renombrar archivos') {
+      steps {
+        script {
+          sh '''
+            for file in $(find modules/*/build/libs/*.jar themes/*/dist/*.war); do
+              base_name=$(basename $file)
+              no_version_name=$(echo $base_name | sed -E 's/-[0-9]+\\.[0-9]+\\.[0-9]+//')
+              mv -f $file $(dirname $file)/$no_version_name
+            done
+          '''
+        }
+      }
+    }
+
     stage('Elegir Modulo/s o Tema/s') {
       when {
         expression { !params.FULL_DEPLOY }
@@ -76,19 +91,7 @@ pipeline {
         }
       }
     }
-    stage('Renombrar archivos') {
-      steps {
-        script {
-          sh '''
-            for file in $(find modules/*/build/libs/*.jar themes/*/dist/*.war); do
-              base_name=$(basename $file)
-              no_version_name=$(echo $base_name | sed -E 's/-[0-9]+\\.[0-9]+\\.[0-9]+//')
-              mv -f $file $(dirname $file)/$no_version_name
-            done
-          '''
-        }
-      }
-    }
+    
     stage ('Desplegar ENV') {
       when {
         expression { params.DEPLOY_ENV != 'NONE' }
