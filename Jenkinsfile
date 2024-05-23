@@ -82,7 +82,7 @@ pipeline {
           sh '''
             for file in $(find modules/*/build/libs/*.jar themes/*/dist/*.war); do
               base_name=$(basename $file)
-              no_version_name=$(echo $base_name | sed -E 's/-[0-9]+\.[0-9]+\.[0-9]+//')
+              no_version_name=$(echo $base_name | sed -E 's/-[0-9]+\\.[0-9]+\\.[0-9]+//')
               mv $file $(dirname $file)/$no_version_name
             done
           '''
