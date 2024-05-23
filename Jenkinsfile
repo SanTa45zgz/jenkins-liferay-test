@@ -58,7 +58,7 @@ pipeline {
                 rsync -avzh --remove-source-files $file $(dirname $file)/$no_version_name
               done
             '''
-          }+
+          }
         }
       }
     }
